@@ -1,5 +1,6 @@
 from pathlib import Path
 import json,re
+from enrich_blog import enrich
 ROOT=Path(__file__).parent
 A=ROOT/'run-v1/analysis'
 m=json.loads((A/'metrics.json').read_text())
@@ -14,5 +15,6 @@ html='''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="v
 html=html.replace('__ROWS__',rows).replace('__GATES__',gates).replace('__SVG__',svg)
 html=html.replace('<section id="results">', (ROOT/'process-walkthrough.html').read_text()+'<section id="results">',1)
 html=html.replace('<section id="limits">', (ROOT/'methods-walkthrough.html').read_text()+'<section id="limits">',1)
+html=enrich(html,ROOT)
 out=ROOT/'run-v1/analysis/blog-preview.html';out.write_text(html)
 print('Blog preview bytes',out.stat().st_size)

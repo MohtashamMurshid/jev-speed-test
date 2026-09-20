@@ -23,6 +23,19 @@ Cutoffs were chosen on 200 separate messages, before test inference. Jev's nativ
 
 Jev's native confidence is distinct from its chosen-label probability. LLM probabilities are verbalized estimates. Confidence statistics use valid responses only; service failures are always deferred. No calibration model was fitted.
 
+## Images and graphs
+
+[Seven blog visuals in PNG, SVG, and PDF](blog-study/run-v1/analysis/blog-assets): cover, test workflow, accuracy with intervals, median/p95 latency, cost, frozen-rule acceptance, and confidence error ranking. All numerical charts are generated from the frozen metrics, with denominators and limitations in their captions.
+
+Rebuild using the analysis environment:
+
+```bash
+python blog-study/blog_visuals.py
+python blog-study/build_blog_preview.py
+```
+
+The second command writes a self-contained HTML article preview to `blog-study/run-v1/analysis/blog-preview.html`. It makes no model calls. The original v0.1.0 release remains the immutable source/data snapshot; subsequent editorial figures are tracked on main.
+
 ## Data and evidence
 
 - [All 3,200 recorded responses, compressed JSONL](data/responses.jsonl.gz): includes every phase and failures, plus original API response bodies.

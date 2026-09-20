@@ -12,12 +12,12 @@ for model in ['jev','gpt-oss','mercury','gemini']:
 files=[]
 for name in ['blog-study.ts','blog-study.test.ts','package.json','package-lock.json','tsconfig.json']:
  files.append((PROJECT/name,Path('source')/name))
-for name in ['README.md','analysis-requirements.txt','PROTOCOL.md','ANALYSIS-AUDIT.md','analyze-before-presentation-audit.py','data-manifest.json','build_blog_preview.py','process-walkthrough.html','methods-walkthrough.html','test_analysis.py','splits.json','categories.json','train.csv','test.csv','LICENSE','analyze.py','package_evidence.py']:
+for name in ['README.md','analysis-requirements.txt','PROTOCOL.md','ANALYSIS-AUDIT.md','analyze-before-presentation-audit.py','data-manifest.json','build_blog_preview.py','enrich_blog.py','blog_visuals.py','process-walkthrough.html','methods-walkthrough.html','test_analysis.py','splits.json','categories.json','train.csv','test.csv','LICENSE','analyze.py','package_evidence.py']:
  files.append((ROOT/name,Path('study')/name))
 for p in RUN.glob('*.json'):files.append((p,Path('run')/p.name))
 for p in (RUN/'calls').glob('*.json'):files.append((p,Path('run/calls')/p.name))
-for p in OUT.iterdir():
- if p.suffix in ['.json','.md','.png','.pdf','.svg','.csv']:files.append((p,Path('analysis')/p.name))
+for p in OUT.rglob("*"):
+ if p.suffix in ['.json','.md','.png','.pdf','.svg','.csv']:files.append((p,Path('analysis')/p.relative_to(OUT)))
 manifest={}
 with zipfile.ZipFile(OUT/'banking77-fast-model-evidence.zip','w',zipfile.ZIP_DEFLATED) as z:
  for path,dest in files:
