@@ -1,0 +1,67 @@
+{
+  "key": "test__mercury__test-1054",
+  "phase": "test",
+  "caseId": "test-1054",
+  "system": "mercury",
+  "expected": "balance_not_updated_after_cheque_or_cash_deposit",
+  "model": "inception/mercury-2.5",
+  "endpoint": "inception",
+  "timestamp": "2026-09-20T17:09:38.652Z",
+  "latencyMs": 828.4535269999178,
+  "status": "ok",
+  "correct": true,
+  "reservedUsd": 0.00036664,
+  "inputTokens": 1511,
+  "outputTokens": 119,
+  "reasoningTokens": 0,
+  "finishReason": "stop",
+  "predicted": "balance_not_updated_after_cheque_or_cash_deposit",
+  "probability": 0.85,
+  "response": {
+    "id": "gen-1789924178-0gT48lbX6NSv5nDKHaRz",
+    "object": "chat.completion",
+    "created": 1789924178,
+    "model": "inception/mercury-2.5",
+    "provider": "Inception",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"intent\": \"I26\",\n  \"probability\": 0.85\n}",
+          "refusal": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1511,
+      "completion_tokens": 119,
+      "total_tokens": 1630,
+      "cost": 0.00007829,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00007829,
+        "upstream_inference_prompt_cost": 0.00006044,
+        "upstream_inference_completions_cost": 0.00001785
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "billedCostUsd": 0.00007829,
+  "estimatedCostUsd": 0.00007829000000000001
+}

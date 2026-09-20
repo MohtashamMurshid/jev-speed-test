@@ -1,0 +1,25 @@
+{
+  "key": "test__mercury__test-2690",
+  "phase": "test",
+  "caseId": "test-2690",
+  "system": "mercury",
+  "expected": "balance_not_updated_after_bank_transfer",
+  "model": "inception/mercury-2.5",
+  "endpoint": "inception",
+  "timestamp": "2026-09-20T16:58:11.853Z",
+  "latencyMs": 314.04244499999913,
+  "status": "error",
+  "correct": false,
+  "reservedUsd": 0.00036711999999999997,
+  "error": "Upstream error from Inception: The server had an error while processing your request.",
+  "response": {
+    "id": "gen-1789923491-cR6XV2FymF1hQrMwUZLD",
+    "error": {
+      "message": "Upstream error from Inception: The server had an error while processing your request.",
+      "code": 502,
+      "metadata": {
+        "error_type": "provider_unavailable"
+      }
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "key": "test__gemini__test-2439",
+  "phase": "test",
+  "caseId": "test-2439",
+  "system": "gemini",
+  "expected": "getting_spare_card",
+  "model": "google/gemini-3.8-flash",
+  "endpoint": "google-ai-studio",
+  "timestamp": "2026-09-20T16:56:45.940Z",
+  "latencyMs": 6165.070042000007,
+  "status": "ok",
+  "correct": false,
+  "reservedUsd": 0.00782625,
+  "inputTokens": 727,
+  "outputTokens": 278,
+  "reasoningTokens": 255,
+  "finishReason": "stop",
+  "predicted": "age_limit",
+  "probability": 0.85,
+  "response": {
+    "id": "gen-1789923405-CC9qJkla6AXzstjKxe6a",
+    "object": "chat.completion",
+    "created": 1789923405,
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"intent\": \"I12\",\n  \"probability\": 0.85\n}",
+          "refusal": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "signature": "Er4JCrsJAWkUfROSajVLUmzy7T4feD9vNDvzEJXqKdaGYMhBbqwMgBJnWgnM9aKQL3iBOm+3csXP4PXt4adJVwBvBMTCN46lFD42FN5iAe5r1cc5Q7nk7TzyFsRGmJoYDacU9MDLVjzU7vVBzo1OkSQ3eunVCcejtbtqo5mVqGggFVXUc5ZKOT1ahIwwa/jgm0xD5Op3tGogEc40CcqTQSus8dQKNLHc2g2bUVVjWiA/isyV6l8vNln2zypAnhMyM0KeNAZZXcsl7esGEHMKS/jjcUseI361y7pTXGlUZsEaD4fAlRhlrS8WVl7Bm7ZV+f5AadLptfvLftffVgN5tGDKVKkpNLMokX3JXJ7BppiptU+df3bux/exU8aM+7l26d8F6tvrIDnUMHKTHk68YPwDQlgLBrswgBctinvHwaTyM3UsLe1hl55IfFwFfXKMEx2sflpFu5FDa0n/9XDkZyaTPV87Qxc/a3jTIfiNXEHG7amlyY8fohWQT8QKNE7oJ2VfHPLNcAdEeKQjtV8fKpnFj9GgQ2A2i4nQGnbkHcnrYzWEw2WIVlmgJluECVqm7Zp8Y9DvCTIIrYYcdFgYjIMLybQWZStDq6bnLGQhr+AqqLsG5dmefsvxep1LsXai0qtHNsMJRYmZXhjoMs82DDQcXNOKQjlj1ozO9+JUHQr5xgoNZbV/tts8DVCy+SH+WFJ7kcedkJ/KhOAw9GezieCywGpwh8ZIjEa4GpOVljNJjaJDMU4nE19IlgLRy8Dsr7YPJXw/lRNC4j8Ry8AFdihqP550xGOKK93MvqlIWvmG+IkmypZKy/kBpAG00xZ4RrlOzPDFzEMhU+3GjdC40EkAc2e3QI0aehDlco2/I1uLmVrnFIT/tSbmrNSEX2Lw9aB6f3qfoinbpXWtezFNgDgWVrLFPT0tt+gFV4YsqOelMWFdXd29hym57XeB3J2S87EbgtmGtWGTx2A8RnYlEW9O3ktjAYkhgTGp1krODx3cx+dxXnWu8zgrmc/7zxqHJKC7PWbvaslZobdlQNrdCZi2/vcArsag+9u4DG4RgdrgtnVAYPxDBlVHGpxIF+JVx9+7yTnVHD0ATMFoxlVRIpPYLVPKyIfApaAXcn3c1YCo12FcEtDLcu2IPqzRBnyFOPag2HVDj8x/1Ra6/owP0ZAGvXfySL9U/Jlo6Isy/c4cSlJzbxGdPWTdntvVltVdlpOCgL1xXFudui+KvgaW6MY3d9dxz9peEpqA6z5Fly7RqYxlblbJYih9qx+nBWzxvOWMRoxuOIxrdggo3RmNKs7EVYgeJbcWUKEeDjMQyoj7iTwueCSnNUazSYXMOXHJIVB7LENaH5+TYAv1NaUcRpw7AH1l0BFNtDXp1GRKCqlb9/c5JPeW53CeoXG8c2ldfmrD+0H39BVADskzii7BTgkjhuT0mnzvk11WOcttIubIsoewOk5o6Upe0+TpC0hpijs61szFiYJcgKbSKW+xhBj/6yGMCfNjn8GbsWM4JIIL3LgzNwo/Wu/pSbCnCnHDV0F1LByDW9OPOb+Eogs6Hn/4Npya3BNacqxCmiG32YUm2SA6xoF6tKbqUGTuLoGBa9b5SXzkxyVcN8O8EVtZzyI=",
+              "format": "google-gemini-v1",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 727,
+      "completion_tokens": 278,
+      "total_tokens": 1005,
+      "cost": 0.00158775,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00158775,
+        "upstream_inference_prompt_cost": 0.00054525,
+        "upstream_inference_completions_cost": 0.0010425
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 255,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "billedCostUsd": 0.00158775,
+  "estimatedCostUsd": 0.0015877500000000002
+}

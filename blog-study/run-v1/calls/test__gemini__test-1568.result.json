@@ -1,0 +1,75 @@
+{
+  "key": "test__gemini__test-1568",
+  "phase": "test",
+  "caseId": "test-1568",
+  "system": "gemini",
+  "expected": "declined_cash_withdrawal",
+  "model": "google/gemini-3.8-flash",
+  "endpoint": "google-ai-studio",
+  "timestamp": "2026-09-20T17:02:20.868Z",
+  "latencyMs": 3306.2975840000436,
+  "status": "ok",
+  "correct": true,
+  "reservedUsd": 0.00783675,
+  "inputTokens": 728,
+  "outputTokens": 99,
+  "reasoningTokens": 83,
+  "finishReason": "stop",
+  "predicted": "declined_cash_withdrawal",
+  "probability": 0.85,
+  "response": {
+    "id": "gen-1789923740-RbOca6cbYsP3EQCynwUG",
+    "object": "chat.completion",
+    "created": 1789923740,
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "{\"intent\": \"I39\", \"probability\": 0.85}",
+          "refusal": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "signature": "Eu4DCusDAWkUfROnv3UN6hchX7snoCCCuWq6SrNFp9msPKjFvCMhHRR5x/QSnchFEq06oX9SDwYpJvUbbQyL1RYdWxE4iyCUpgMe9q8PEniwW41GkNyXLhYmPxkhWsN2tanhFf8jGUk4Bnpn53n9/o6PszMLCzMHd9gURn/ek6WkROIZ46Cg4FM0RgUNAmgnA3GvWDabB97GUrXm/HGCINtY3xGBHi+wRNe0lkw3r7UQydn7Wi54DZzLq461AzKQfPSwcpyIaeD1yR+NV5i2eaSPs2wNFmbUiI4HPq/Naf+3Oc4sK6E1NerAJVKYGTS+9M0Ov7Pl7H+Bg5B6me9eohDPbZFUSj0LpzxdVqwryYjCO30szGlI6UtKHFrM5jkpvJy+BCDt9eyZm5gvXXvfYiIfkMxqVBmtBaJ8KATHsVTE70e2716kOiX8Sn7teKwkKCzXPfoFfpOLV/BDsTeSwZRZaE3QTljwfsniXsDTm1LzzUnuBA9/JOVCSNtV6LqkiwTBDKSNb28RYQYKX6b1fMhljI6v2OrzsWrwg2ijI/Z5BrCgq5pgMGptZ3sM2OzE17uDEdyGbtOBRfMWIIJEDnhN/HSJU6G44hRvVlIL1lOyM9niJ+CZ+DALRvd53VGxAMg0Rc8slYLz8d5baj8G14M=",
+              "format": "google-gemini-v1",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 728,
+      "completion_tokens": 99,
+      "total_tokens": 827,
+      "cost": 0.00091725,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00091725,
+        "upstream_inference_prompt_cost": 0.000546,
+        "upstream_inference_completions_cost": 0.00037125
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 83,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "billedCostUsd": 0.00091725,
+  "estimatedCostUsd": 0.0009172500000000001
+}

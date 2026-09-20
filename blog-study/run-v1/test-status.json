@@ -1,0 +1,9 @@
+{
+  "phase": "test",
+  "requestedCount": 500,
+  "complete": true,
+  "accountedUsd": 0.9661751199999993,
+  "calls": 3000,
+  "contractHash": "85b2a317a80fb8747afa4e4510c6a1f1498e2abec10f4ab860993af85fb230b3",
+  "timestamp": "2026-09-20T17:09:59.371Z"
+}

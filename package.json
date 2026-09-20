@@ -1,0 +1,24 @@
+{
+  "name": "jev-speed-test",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --import tsx --test blog-study.test.ts",
+    "typecheck": "tsc --noEmit",
+    "study": "tsx blog-study.ts"
+  },
+  "dependencies": {
+    "@openrouter/ai-sdk-provider": "3.1.0",
+    "ai": "7.0.107",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "24.5.2",
+    "tsx": "4.23.15",
+    "typescript": "7.0.2"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

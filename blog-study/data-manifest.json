@@ -1,0 +1,22 @@
+{
+  "dataset": "BANKING77",
+  "repository": "https://github.com/PolyAI-LDN/task-specific-datasets",
+  "source_commit": "57ec275d8078af65b7731c2a98be812d844a6d6b",
+  "license": "CC-BY-4.0",
+  "source_sha256": {
+    "banking_data/train.csv": "b06e26ac675513959a63135f11b94ea7786ed02da65db93a5650d8838cbc664b",
+    "banking_data/test.csv": "d12d6e3bc4c3103966ae786dc435913c0c563dfa328f5a3646d0e62cfeeb474d",
+    "banking_data/categories.json": "53261da888122daf2d120d925458631d9619e15d82e56052e7a42e535ce32b63",
+    "LICENSE": "7e7170e3cebf88a9f60c7b8421418323c09304da1af4d5e90f4da1dc1c8a2661"
+  },
+  "seed": 60421,
+  "counts": {
+    "development": 50,
+    "calibration": 200,
+    "test": 500,
+    "repeat": 50
+  },
+  "test_intents": 77,
+  "split_sha256": "8a1cda60a17307137f04c4c2742dcb15e08557c373617dd843a01c31283176b8",
+  "deduplication": "Casefold and whitespace exact duplicate removal; all train text overlapping official test removed before sampling. No semantic duplicate guarantee."
+}

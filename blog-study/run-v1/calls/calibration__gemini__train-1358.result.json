@@ -1,0 +1,75 @@
+{
+  "key": "calibration__gemini__train-1358",
+  "phase": "calibration",
+  "caseId": "train-1358",
+  "system": "gemini",
+  "expected": "exchange_via_app",
+  "model": "google/gemini-3.8-flash",
+  "endpoint": "google-ai-studio",
+  "timestamp": "2026-09-20T16:50:22.358Z",
+  "latencyMs": 1643.9029329999903,
+  "status": "ok",
+  "correct": true,
+  "reservedUsd": 0.00786525,
+  "inputTokens": 736,
+  "outputTokens": 101,
+  "reasoningTokens": 84,
+  "finishReason": "stop",
+  "predicted": "exchange_via_app",
+  "probability": 0.95,
+  "response": {
+    "id": "gen-1789923022-laj0sQoSYQNtDycjMMhC",
+    "object": "chat.completion",
+    "created": 1789923022,
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "{\"intent\": \"I10\", \"probability\": 0.95}",
+          "refusal": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "signature": "Eo8ECowEAWkUfROSnAZ5dISnjm/fACRjm6ntgPaLdnyo32oLV5Z4x8qjqwn+fxiQYC7fWE3K5YxmA+qSWp/a0cOMpv47trABrO08tmc1bKpODPzlb1nyKlcb6dSOsFWZoe/tKMnNdv3R0VLQQJ3J4wFvGjVL6awy0Sam11x3BZAynGd95v9H+J95CWzLhPq4zdbBOLMqH8g1/35oqZmlFqLoPjmdEOPAyRpamPyBSvDjRek7cyw/u8at5CJ/F+i0/tanML3IklXktAvz6YgLJAwPTxUr2N51Lia1eg1NPRDdDTdZ9B1EMurVuM3aUeIE9Ncw4xR0FhJXurrTlAJiR+kCBGluRKPWljGA8LxTy8OiA1i13CQoxXo3VBdAkNPQ+TeBE7Z68Ikz2rqIyEq0Digp7wFSJPlcYJwo5G5CoCz/I0jTfWLy5NaJJv1O7uXp8+hoSfOoCEp4NXXVmynn6stEajwSwgzj0WpXFCCt49nKay2OYwYpvdXqaLRVL5FkcsGBFTq7m4HYVQ/5R3NNC/IfhMA9TTliNXNKK3Gs33T/qUcIPNv8ZNdW38TgcSgUpSo8QOWZrTH5NJG4qlswN3cdAQnbjXLFfkq/ZgA57p2pMxMKfliS9AJEnKVnoX7vOqKmBehiDQKScWWTRwX/ZFR1z+cuC8L1Dq0fqkPRg5hp+YW6sJExytNxxwQvNA8Gi4c=",
+              "format": "google-gemini-v1",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 736,
+      "completion_tokens": 101,
+      "total_tokens": 837,
+      "cost": 0.00093075,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00093075,
+        "upstream_inference_prompt_cost": 0.000552,
+        "upstream_inference_completions_cost": 0.00037875
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 84,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "billedCostUsd": 0.00093075,
+  "estimatedCostUsd": 0.0009307499999999999
+}

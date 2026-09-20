@@ -1,0 +1,75 @@
+{
+  "key": "test__gemini__test-2484",
+  "phase": "test",
+  "caseId": "test-2484",
+  "system": "gemini",
+  "expected": "order_physical_card",
+  "model": "google/gemini-3.8-flash",
+  "endpoint": "google-ai-studio",
+  "timestamp": "2026-09-20T17:09:35.982Z",
+  "latencyMs": 1255.9231530000689,
+  "status": "ok",
+  "correct": true,
+  "reservedUsd": 0.0078105,
+  "inputTokens": 719,
+  "outputTokens": 16,
+  "reasoningTokens": 0,
+  "finishReason": "stop",
+  "predicted": "order_physical_card",
+  "probability": 0.9,
+  "response": {
+    "id": "gen-1789924175-Gv2vrwRQ9NznuPUZqWox",
+    "object": "chat.completion",
+    "created": 1789924175,
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "{\"intent\": \"I62\", \"probability\": 0.9}",
+          "refusal": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "signature": "EmcKZQFpFH0T6otip2OyjTNOrrVOWQlYjWyqjbYpalG/9YWCZ2Z23XANfEoBwQc2r75f8n1em9pA/daivU3zZcBoeAxnzB6gMzmlLU38S02VDJoydZDg0O7HIEM8XNdwf1RJgWpa3JCi",
+              "format": "google-gemini-v1",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 719,
+      "completion_tokens": 16,
+      "total_tokens": 735,
+      "cost": 0.00059925,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00059925,
+        "upstream_inference_prompt_cost": 0.00053925,
+        "upstream_inference_completions_cost": 0.00006
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "billedCostUsd": 0.00059925,
+  "estimatedCostUsd": 0.0005992500000000001
+}

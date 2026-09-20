@@ -1,0 +1,50 @@
+{
+  "contractHash": "85b2a317a80fb8747afa4e4510c6a1f1498e2abec10f4ab860993af85fb230b3",
+  "createdAt": "2026-09-20T16:54:59.830Z",
+  "targetEmpiricalError": 0.05,
+  "minAcceptedCalibration": 30,
+  "rule": "Maximize acceptance on calibration at empirical error <=5%; grid 0,.05,...,1. No finite-sample risk guarantee.",
+  "thresholds": {
+    "jev": {
+      "probability": {
+        "threshold": 1,
+        "accepted": 81,
+        "errors": 1
+      },
+      "native": {
+        "threshold": 1,
+        "accepted": 66,
+        "errors": 1
+      },
+      "validCount": 200,
+      "attempted": 200
+    },
+    "gpt-oss": {
+      "probability": {
+        "threshold": null,
+        "accepted": 0,
+        "errors": 0
+      },
+      "validCount": 200,
+      "attempted": 200
+    },
+    "mercury": {
+      "probability": {
+        "threshold": null,
+        "accepted": 0,
+        "errors": 0
+      },
+      "validCount": 186,
+      "attempted": 200
+    },
+    "gemini": {
+      "probability": {
+        "threshold": 0.95,
+        "accepted": 143,
+        "errors": 6
+      },
+      "validCount": 200,
+      "attempted": 200
+    }
+  }
+}

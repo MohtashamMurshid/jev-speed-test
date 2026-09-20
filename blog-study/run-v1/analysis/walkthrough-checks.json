@@ -1,0 +1,41 @@
+{
+  "note": "Post-run descriptive checks added for the full-process blog walkthrough. No new inference or threshold tuning.",
+  "repeat_label_agreement": {
+    "jev": {
+      "valid_pairs": 50,
+      "matching_labels": 49
+    },
+    "gpt-oss": {
+      "valid_pairs": 50,
+      "matching_labels": 50
+    },
+    "mercury": {
+      "valid_pairs": 45,
+      "matching_labels": 41
+    },
+    "gemini": {
+      "valid_pairs": 50,
+      "matching_labels": 49
+    }
+  },
+  "phase_accounting": {
+    "development": {
+      "calls": 200,
+      "accounted_usd": 0.062043940000000006
+    },
+    "calibration": {
+      "calls": 800,
+      "accounted_usd": 0.26022934000000036
+    },
+    "test": {
+      "calls": 2000,
+      "accounted_usd": 0.6439018399999994
+    },
+    "repeat": {
+      "calls": 200,
+      "accounted_usd": 0.06253368599999999
+    }
+  },
+  "reported_billing_usd": 1.0073079459999978,
+  "missing_bill_calls": 38
+}

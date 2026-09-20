@@ -1,0 +1,75 @@
+{
+  "key": "test__gemini__test-1678",
+  "phase": "test",
+  "caseId": "test-1678",
+  "system": "gemini",
+  "expected": "lost_or_stolen_phone",
+  "model": "google/gemini-3.8-flash",
+  "endpoint": "google-ai-studio",
+  "timestamp": "2026-09-20T17:09:33.277Z",
+  "latencyMs": 1559.3502020000014,
+  "status": "ok",
+  "correct": true,
+  "reservedUsd": 0.00782775,
+  "inputTokens": 728,
+  "outputTokens": 117,
+  "reasoningTokens": 100,
+  "finishReason": "stop",
+  "predicted": "lost_or_stolen_phone",
+  "probability": 0.95,
+  "response": {
+    "id": "gen-1789924173-TyqqkP9FYjr31KaT0CN0",
+    "object": "chat.completion",
+    "created": 1789924173,
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "{\"intent\": \"I41\", \"probability\": 0.95}",
+          "refusal": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "signature": "EpIECo8EAWkUfRML9d1SJHxEalM++9WkqJulUhlH19msCVIhmXO4VTRuaR6sNIFOCSY0SpnHC9RnP7qDgzLc+kHvGlmKx2PwzertUZ9a9zQD0VqouUp0vWU1cPyFnkb60CxPbG57K+ZjdB9Ht6ygINLuVaqZ/y/ccBg47BoQf3WRkvfCPm7IMm4CsupXeMvTBETOuUvxyCr72fMuwFPuWCzA7s7tR/2AsaxfwLNPBkFvQLZLjMskOeXLcsh0b8Q7U1bx8PHuUIzdl97RBckDTxzfs1F49JBzTK2mVucs6YP3oAp4NgGidy6cyR2aIGEbYrbaFV6mt4UxXSKTburXh3EjG7r/1EbYNUrvkKyj+AYihRuYb/tg5clraFll2rK9i/hffZiLWusZe1zdb4MYXHbmdQtd2kc5GcvgUR6wwPXrMb4w+gNAPaumOMSlBLFH9FHLSOOMqVFCjYFE0KEpo4BG4F8ak95xgQxOAXlv/OeB5h5yHACLESfehZX7ALJ1UK2YjSj1sreImWTXGR2u7bhQd2icoOSVMvdbItn0KgOQ/bfXTdfrMn9JgZO+/sDKmCKBvakNDeXaqdF6fNma72QGV/geEgArSSA3nF7+zEBBZKZr2MS2Y7pgP5jTAxec4XawKdAeZAvPUf6RCUVZ/tA0yHCytQ4rD172dzNOIZXuBp3b11PsHV0QwkXuk1B3THwG25o=",
+              "format": "google-gemini-v1",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 728,
+      "completion_tokens": 117,
+      "total_tokens": 845,
+      "cost": 0.00098475,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00098475,
+        "upstream_inference_prompt_cost": 0.000546,
+        "upstream_inference_completions_cost": 0.00043875
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 100,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "billedCostUsd": 0.00098475,
+  "estimatedCostUsd": 0.00098475
+}

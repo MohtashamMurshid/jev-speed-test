@@ -1,0 +1,25 @@
+{
+  "key": "calibration__mercury__train-4894",
+  "phase": "calibration",
+  "caseId": "train-4894",
+  "system": "mercury",
+  "expected": "passcode_forgotten",
+  "model": "inception/mercury-2.5",
+  "endpoint": "inception",
+  "timestamp": "2026-09-20T16:49:51.454Z",
+  "latencyMs": 270.2669989999995,
+  "status": "error",
+  "correct": false,
+  "reservedUsd": 0.0003662,
+  "error": "Upstream error from Inception: The server had an error while processing your request.",
+  "response": {
+    "id": "gen-1789922991-vEsAkR1W3ECO5yS8xq2O",
+    "error": {
+      "message": "Upstream error from Inception: The server had an error while processing your request.",
+      "code": 502,
+      "metadata": {
+        "error_type": "provider_unavailable"
+      }
+    }
+  }
+}

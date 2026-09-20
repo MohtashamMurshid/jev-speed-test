@@ -1,0 +1,75 @@
+{
+  "key": "test__gemini__test-2017",
+  "phase": "test",
+  "caseId": "test-2017",
+  "system": "gemini",
+  "expected": "verify_source_of_funds",
+  "model": "google/gemini-3.8-flash",
+  "endpoint": "google-ai-studio",
+  "timestamp": "2026-09-20T17:08:33.950Z",
+  "latencyMs": 3069.6160510000773,
+  "status": "ok",
+  "correct": true,
+  "reservedUsd": 0.007824,
+  "inputTokens": 724,
+  "outputTokens": 381,
+  "reasoningTokens": 358,
+  "finishReason": "stop",
+  "predicted": "verify_source_of_funds",
+  "probability": 0.85,
+  "response": {
+    "id": "gen-1789924113-i5mWZYpg1TkZH5k6s0Jq",
+    "object": "chat.completion",
+    "created": 1789924113,
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"intent\": \"I50\",\n  \"probability\": 0.85\n}",
+          "refusal": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "signature": "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",
+              "format": "google-gemini-v1",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 724,
+      "completion_tokens": 381,
+      "total_tokens": 1105,
+      "cost": 0.00197175,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00197175,
+        "upstream_inference_prompt_cost": 0.000543,
+        "upstream_inference_completions_cost": 0.00142875
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 358,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "billedCostUsd": 0.00197175,
+  "estimatedCostUsd": 0.00197175
+}

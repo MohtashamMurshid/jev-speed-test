@@ -1,0 +1,75 @@
+{
+  "key": "test__gemini__test-2123",
+  "phase": "test",
+  "caseId": "test-2123",
+  "system": "gemini",
+  "expected": "change_pin",
+  "model": "google/gemini-3.8-flash",
+  "endpoint": "google-ai-studio",
+  "timestamp": "2026-09-20T17:07:38.762Z",
+  "latencyMs": 1430.5926200000104,
+  "status": "ok",
+  "correct": true,
+  "reservedUsd": 0.00782475,
+  "inputTokens": 727,
+  "outputTokens": 67,
+  "reasoningTokens": 50,
+  "finishReason": "stop",
+  "predicted": "change_pin",
+  "probability": 0.98,
+  "response": {
+    "id": "gen-1789924058-05bmRk8j0AIq2BOF8F7c",
+    "object": "chat.completion",
+    "created": 1789924058,
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "{\"intent\": \"I53\", \"probability\": 0.98}",
+          "refusal": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "signature": "EtACCs0CAWkUfRPa/4X7HLwapToMWGxoC58IE3DBWYmIaHfPdH5lCO+4rib9Gmtuk9hJ+3VYB2WUsovowhC/HKB7vAQ4RLRZNduu0iG1twIh0BZw+4iLpcmcEcXfcj2D3kAwQcmHc822K16ESaBWvztrQBg2jsdqYEyxIuAkqACgsuH80vVXLzeIzhRT/+BLmryEcA5hW1tPjPkZJIzUuEu0gdZzo32hNyIOAIR0YNXfcODNTh9Bb50vtvTT0bdP70y/L/5ZKf/QBXbw2b4ECNsaHRufrZkouIZXJb+6w36uUDHuezWitO5tku11BDsxZZ7+6xUw63zYxnYoNw3PyK2DrPIU0HRGtNKFxEafnBFzadCBEmfVM4Y5EGl/m0FNWinlZ1CZoGQPmtdlooPeFzeExyGqAtf/oDXrZzCCxjNmKD3hJ343WkDOzS2IUmB+Dztp",
+              "format": "google-gemini-v1",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 727,
+      "completion_tokens": 67,
+      "total_tokens": 794,
+      "cost": 0.0007965,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0007965,
+        "upstream_inference_prompt_cost": 0.00054525,
+        "upstream_inference_completions_cost": 0.00025125
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 50,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "billedCostUsd": 0.0007965,
+  "estimatedCostUsd": 0.0007965000000000001
+}

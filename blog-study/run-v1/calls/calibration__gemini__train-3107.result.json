@@ -1,0 +1,75 @@
+{
+  "key": "calibration__gemini__train-3107",
+  "phase": "calibration",
+  "caseId": "train-3107",
+  "system": "gemini",
+  "expected": "card_acceptance",
+  "model": "google/gemini-3.8-flash",
+  "endpoint": "google-ai-studio",
+  "timestamp": "2026-09-20T16:49:02.520Z",
+  "latencyMs": 4708.251075999997,
+  "status": "ok",
+  "correct": false,
+  "reservedUsd": 0.007815,
+  "inputTokens": 723,
+  "outputTokens": 778,
+  "reasoningTokens": 755,
+  "finishReason": "stop",
+  "predicted": "cash_withdrawal_charge",
+  "probability": 0.65,
+  "response": {
+    "id": "gen-1789922942-xiOLS0NvVgli7EcmxY1x",
+    "object": "chat.completion",
+    "created": 1789922942,
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"intent\": \"I72\",\n  \"probability\": 0.65\n}",
+          "refusal": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "signature": "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",
+              "format": "google-gemini-v1",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 723,
+      "completion_tokens": 778,
+      "total_tokens": 1501,
+      "cost": 0.00345975,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00345975,
+        "upstream_inference_prompt_cost": 0.00054225,
+        "upstream_inference_completions_cost": 0.0029175
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 755,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "billedCostUsd": 0.00345975,
+  "estimatedCostUsd": 0.00345975
+}

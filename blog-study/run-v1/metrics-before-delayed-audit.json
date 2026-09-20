@@ -1,0 +1,514 @@
+{
+  "run": "BANKING77 blog follow-up v1",
+  "stats": {
+    "jev": {
+      "name": "Jev 1.13",
+      "test_n": 500,
+      "correct": 405,
+      "accuracy": 0.81,
+      "accuracy_ci95": [
+        0.782,
+        0.836
+      ],
+      "paired_accuracy_difference_vs_jev": 0.0,
+      "paired_difference_ci95": [
+        0.0,
+        0.0
+      ],
+      "macro_f1": 0.8063095235082689,
+      "failures": 0,
+      "median_ms": 346.831252999953,
+      "p95_ms": 458.14843499998096,
+      "cost_per_1000_usd": 0.06754608000000006,
+      "cost_per_correct_decision_usd": 8.33902222222223e-05,
+      "cost_basis": "provider billed",
+      "all_phase_accounted_usd": 0.05405475600000003,
+      "all_phase_calls": 800,
+      "all_phase_billed_usd": 0.05405475600000003,
+      "brier": 0.1300058,
+      "probability_error_detection": {
+        "auroc": 0.8021702404158545,
+        "average_precision": 0.4996898403575782,
+        "error_prevalence": 0.19,
+        "auroc_ci95": [
+          0.7531094089460357,
+          0.8476909558575174
+        ]
+      },
+      "timing_repeat_median_ms": 334.1852949999957,
+      "timing_repeat_p95_ms": 469.9539439999935,
+      "native_error_detection": {
+        "auroc": 0.814333983105913,
+        "average_precision": 0.5042970250600209,
+        "error_prevalence": 0.19,
+        "auroc_ci95": [
+          0.7696365851392521,
+          0.8559806071682404
+        ]
+      }
+    },
+    "gpt-oss": {
+      "name": "GPT-OSS / Cerebras",
+      "test_n": 500,
+      "correct": 414,
+      "accuracy": 0.828,
+      "accuracy_ci95": [
+        0.802,
+        0.854
+      ],
+      "paired_accuracy_difference_vs_jev": 0.018,
+      "paired_difference_ci95": [
+        -0.004,
+        0.04
+      ],
+      "macro_f1": 0.8236632351605613,
+      "failures": 0,
+      "median_ms": 404.0630779999992,
+      "p95_ms": 717.5222839999478,
+      "cost_per_1000_usd": 0.4516156999999998,
+      "cost_per_correct_decision_usd": 0.0005454295893719804,
+      "cost_basis": "provider billed",
+      "all_phase_accounted_usd": 0.3620549500000001,
+      "all_phase_calls": 800,
+      "all_phase_billed_usd": 0.3620549500000001,
+      "brier": 0.1387988,
+      "probability_error_detection": {
+        "auroc": 0.8082378384451185,
+        "average_precision": 0.5417665474687492,
+        "error_prevalence": 0.172,
+        "auroc_ci95": [
+          0.7598206327753193,
+          0.8538077525000396
+        ]
+      },
+      "timing_repeat_median_ms": 396.1062099999999,
+      "timing_repeat_p95_ms": 578.0993860000017
+    },
+    "mercury": {
+      "name": "Mercury 2.5",
+      "test_n": 500,
+      "correct": 366,
+      "accuracy": 0.732,
+      "accuracy_ci95": [
+        0.69995,
+        0.762
+      ],
+      "paired_accuracy_difference_vs_jev": -0.078,
+      "paired_difference_ci95": [
+        -0.106,
+        -0.052
+      ],
+      "macro_f1": 0.7431452674494158,
+      "failures": 28,
+      "median_ms": 674.0239880000008,
+      "p95_ms": 1092.7610250000143,
+      "cost_per_1000_usd": 0.08398340000000003,
+      "cost_per_correct_decision_usd": 0.00011473142076502736,
+      "cost_basis": "billed where available, otherwise usage estimate/reservation",
+      "all_phase_accounted_usd": 0.06818759999999993,
+      "all_phase_calls": 800,
+      "all_phase_billed_usd": null,
+      "brier": 0.19090084745762712,
+      "probability_error_detection": {
+        "auroc": 0.7525260336117126,
+        "average_precision": 0.4214797131547775,
+        "error_prevalence": 0.2245762711864407,
+        "auroc_ci95": [
+          0.7105368270762785,
+          0.790998859562174
+        ]
+      },
+      "timing_repeat_median_ms": 675.8727769999969,
+      "timing_repeat_p95_ms": 1096.7658760000004
+    },
+    "gemini": {
+      "name": "Gemini 3.8 Flash",
+      "test_n": 500,
+      "correct": 427,
+      "accuracy": 0.854,
+      "accuracy_ci95": [
+        0.83,
+        0.88
+      ],
+      "paired_accuracy_difference_vs_jev": 0.044,
+      "paired_difference_ci95": [
+        0.022,
+        0.06604999999999973
+      ],
+      "macro_f1": 0.8500279959409064,
+      "failures": 1,
+      "median_ms": 1488.6543450000172,
+      "p95_ms": 3238.8522599999997,
+      "cost_per_1000_usd": 0.6846585000000004,
+      "cost_per_correct_decision_usd": 0.0008017078454332558,
+      "cost_basis": "billed where available, otherwise usage estimate/reservation",
+      "all_phase_accounted_usd": 0.5444115000000006,
+      "all_phase_calls": 800,
+      "all_phase_billed_usd": null,
+      "brier": 0.10993807615230461,
+      "probability_error_detection": {
+        "auroc": 0.8426034348165495,
+        "average_precision": 0.43054751378610145,
+        "error_prevalence": 0.14428857715430862,
+        "auroc_ci95": [
+          0.7970747640146743,
+          0.8825973327900708
+        ]
+      },
+      "timing_repeat_median_ms": 1508.2128359999988,
+      "timing_repeat_p95_ms": 2760.605919999998
+    }
+  },
+  "selective": {
+    "jev": {
+      "probability": {
+        "threshold": 1,
+        "calibration": {
+          "threshold": 1,
+          "accepted": 81,
+          "errors": 1
+        },
+        "accepted": 198,
+        "coverage": 0.396,
+        "errors": 10,
+        "accepted_error": 0.050505050505050504,
+        "accepted_error_ci95": [
+          0.027661556517076857,
+          0.09045817448364726
+        ],
+        "accept_all_error": 0.18999999999999995,
+        "random_deferral_expected_error": 0.19
+      },
+      "native": {
+        "threshold": 1,
+        "calibration": {
+          "threshold": 1,
+          "accepted": 66,
+          "errors": 1
+        },
+        "accepted": 168,
+        "coverage": 0.336,
+        "errors": 5,
+        "accepted_error": 0.02976190476190476,
+        "accepted_error_ci95": [
+          0.01277812377684728,
+          0.06776971907600482
+        ],
+        "accept_all_error": 0.18999999999999995,
+        "random_deferral_expected_error": 0.19
+      }
+    },
+    "gpt-oss": {
+      "probability": {
+        "threshold": null,
+        "calibration": {
+          "threshold": null,
+          "accepted": 0,
+          "errors": 0
+        },
+        "accepted": 0,
+        "coverage": 0.0,
+        "errors": 0,
+        "accepted_error": null,
+        "accepted_error_ci95": [
+          null,
+          null
+        ],
+        "accept_all_error": 0.17200000000000004,
+        "random_deferral_expected_error": 0.172
+      }
+    },
+    "mercury": {
+      "probability": {
+        "threshold": null,
+        "calibration": {
+          "threshold": null,
+          "accepted": 0,
+          "errors": 0
+        },
+        "accepted": 0,
+        "coverage": 0.0,
+        "errors": 0,
+        "accepted_error": null,
+        "accepted_error_ci95": [
+          null,
+          null
+        ],
+        "accept_all_error": 0.268,
+        "random_deferral_expected_error": 0.2245762711864407
+      }
+    },
+    "gemini": {
+      "probability": {
+        "threshold": 0.95,
+        "calibration": {
+          "threshold": 0.95,
+          "accepted": 143,
+          "errors": 6
+        },
+        "accepted": 365,
+        "coverage": 0.73,
+        "errors": 15,
+        "accepted_error": 0.0410958904109589,
+        "accepted_error_ci95": [
+          0.025060336182750352,
+          0.06669035510042656
+        ],
+        "accept_all_error": 0.14600000000000002,
+        "random_deferral_expected_error": 0.14428857715430862
+      }
+    }
+  },
+  "reliability": {
+    "jev": [
+      {
+        "low": 0.0,
+        "high": 0.2,
+        "n": 0,
+        "mean_probability": null,
+        "accuracy": null,
+        "ci95": [
+          null,
+          null
+        ],
+        "sparse": true
+      },
+      {
+        "low": 0.2,
+        "high": 0.4,
+        "n": 6,
+        "mean_probability": 0.3066666666666667,
+        "accuracy": 0.16666666666666666,
+        "ci95": [
+          0.030053369748306635,
+          0.5635028221864702
+        ],
+        "sparse": true
+      },
+      {
+        "low": 0.4,
+        "high": 0.6000000000000001,
+        "n": 40,
+        "mean_probability": 0.514,
+        "accuracy": 0.525,
+        "ci95": [
+          0.3749736210669248,
+          0.670645298873211
+        ],
+        "sparse": false
+      },
+      {
+        "low": 0.6000000000000001,
+        "high": 0.8,
+        "n": 57,
+        "mean_probability": 0.7064912280701754,
+        "accuracy": 0.5263157894736842,
+        "ci95": [
+          0.3991801621874118,
+          0.6501283201887471
+        ],
+        "sparse": false
+      },
+      {
+        "low": 0.8,
+        "high": 1.0,
+        "n": 397,
+        "mean_probability": 0.9696725440806047,
+        "accuracy": 0.889168765743073,
+        "ci95": [
+          0.8544821020907678,
+          0.9163962419535367
+        ],
+        "sparse": false
+      }
+    ],
+    "gpt-oss": [
+      {
+        "low": 0.0,
+        "high": 0.2,
+        "n": 0,
+        "mean_probability": null,
+        "accuracy": null,
+        "ci95": [
+          null,
+          null
+        ],
+        "sparse": true
+      },
+      {
+        "low": 0.2,
+        "high": 0.4,
+        "n": 0,
+        "mean_probability": null,
+        "accuracy": null,
+        "ci95": [
+          null,
+          null
+        ],
+        "sparse": true
+      },
+      {
+        "low": 0.4,
+        "high": 0.6000000000000001,
+        "n": 5,
+        "mean_probability": 0.54,
+        "accuracy": 0.2,
+        "ci95": [
+          0.03622410863243014,
+          0.6244653702374747
+        ],
+        "sparse": true
+      },
+      {
+        "low": 0.6000000000000001,
+        "high": 0.8,
+        "n": 17,
+        "mean_probability": 0.7417647058823529,
+        "accuracy": 0.17647058823529413,
+        "ci95": [
+          0.06191126637620997,
+          0.41029458568834126
+        ],
+        "sparse": true
+      },
+      {
+        "low": 0.8,
+        "high": 1.0,
+        "n": 478,
+        "mean_probability": 0.9662970711297071,
+        "accuracy": 0.8577405857740585,
+        "ci95": [
+          0.8235684504520039,
+          0.8862085804349692
+        ],
+        "sparse": false
+      }
+    ],
+    "mercury": [
+      {
+        "low": 0.0,
+        "high": 0.2,
+        "n": 0,
+        "mean_probability": null,
+        "accuracy": null,
+        "ci95": [
+          null,
+          null
+        ],
+        "sparse": true
+      },
+      {
+        "low": 0.2,
+        "high": 0.4,
+        "n": 0,
+        "mean_probability": null,
+        "accuracy": null,
+        "ci95": [
+          null,
+          null
+        ],
+        "sparse": true
+      },
+      {
+        "low": 0.4,
+        "high": 0.6000000000000001,
+        "n": 1,
+        "mean_probability": 0.6,
+        "accuracy": 1.0,
+        "ci95": [
+          0.20654931437723745,
+          1
+        ],
+        "sparse": true
+      },
+      {
+        "low": 0.6000000000000001,
+        "high": 0.8,
+        "n": 5,
+        "mean_probability": 0.71,
+        "accuracy": 0.0,
+        "ci95": [
+          0,
+          0.43448246478317476
+        ],
+        "sparse": true
+      },
+      {
+        "low": 0.8,
+        "high": 1.0,
+        "n": 466,
+        "mean_probability": 0.9459442060085835,
+        "accuracy": 0.7832618025751072,
+        "ci95": [
+          0.7436181403469712,
+          0.8182735255410117
+        ],
+        "sparse": false
+      }
+    ],
+    "gemini": [
+      {
+        "low": 0.0,
+        "high": 0.2,
+        "n": 0,
+        "mean_probability": null,
+        "accuracy": null,
+        "ci95": [
+          null,
+          null
+        ],
+        "sparse": true
+      },
+      {
+        "low": 0.2,
+        "high": 0.4,
+        "n": 0,
+        "mean_probability": null,
+        "accuracy": null,
+        "ci95": [
+          null,
+          null
+        ],
+        "sparse": true
+      },
+      {
+        "low": 0.4,
+        "high": 0.6000000000000001,
+        "n": 7,
+        "mean_probability": 0.5328571428571428,
+        "accuracy": 0.2857142857142857,
+        "ci95": [
+          0.08221892400405678,
+          0.6410655481673808
+        ],
+        "sparse": true
+      },
+      {
+        "low": 0.6000000000000001,
+        "high": 0.8,
+        "n": 12,
+        "mean_probability": 0.6708333333333334,
+        "accuracy": 0.5833333333333334,
+        "ci95": [
+          0.31951131254954973,
+          0.8067396863412435
+        ],
+        "sparse": true
+      },
+      {
+        "low": 0.8,
+        "high": 1.0,
+        "n": 480,
+        "mean_probability": 0.9489374999999999,
+        "accuracy": 0.8708333333333333,
+        "ci95": [
+          0.8378603777660092,
+          0.8979178270775932
+        ],
+        "sparse": false
+      }
+    ]
+  },
+  "total_accounted_usd": 1.0287088060000007,
+  "bootstrap": "2000 paired stratified-by-intent replicates, seed 20260920. Exploratory comparisons; no multiplicity-adjusted significance claims."
+}

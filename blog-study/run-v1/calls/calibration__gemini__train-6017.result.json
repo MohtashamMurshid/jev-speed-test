@@ -1,0 +1,75 @@
+{
+  "key": "calibration__gemini__train-6017",
+  "phase": "calibration",
+  "caseId": "train-6017",
+  "system": "gemini",
+  "expected": "pending_transfer",
+  "model": "google/gemini-3.8-flash",
+  "endpoint": "google-ai-studio",
+  "timestamp": "2026-09-20T16:54:40.791Z",
+  "latencyMs": 1582.1160960000125,
+  "status": "ok",
+  "correct": false,
+  "reservedUsd": 0.0079215,
+  "inputTokens": 750,
+  "outputTokens": 23,
+  "reasoningTokens": 0,
+  "finishReason": "stop",
+  "predicted": "transfer_timing",
+  "probability": 0.85,
+  "response": {
+    "id": "gen-1789923280-tTD2h8rIZi1G5zx7Yc2i",
+    "object": "chat.completion",
+    "created": 1789923280,
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"intent\": \"I51\",\n  \"probability\": 0.85\n}",
+          "refusal": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "signature": "EmcKZQFpFH0TyOQf9sfUNZ6XrAuBF7aK882Wu7x7s/acOrTU+KZ+h3sbqcNCCNOw9+bg2e5xOOU2CjdGzH8B+siiUTG3cWc6G2I4I9Tb9dW0Y0g+9xsZsksNK9zfYg+81+YFbhw3Fvef",
+              "format": "google-gemini-v1",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 750,
+      "completion_tokens": 23,
+      "total_tokens": 773,
+      "cost": 0.00064875,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00064875,
+        "upstream_inference_prompt_cost": 0.0005625,
+        "upstream_inference_completions_cost": 0.00008625
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "billedCostUsd": 0.00064875,
+  "estimatedCostUsd": 0.00064875
+}

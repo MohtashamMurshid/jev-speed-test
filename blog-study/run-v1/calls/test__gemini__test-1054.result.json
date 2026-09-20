@@ -1,0 +1,75 @@
+{
+  "key": "test__gemini__test-1054",
+  "phase": "test",
+  "caseId": "test-1054",
+  "system": "gemini",
+  "expected": "balance_not_updated_after_cheque_or_cash_deposit",
+  "model": "google/gemini-3.8-flash",
+  "endpoint": "google-ai-studio",
+  "timestamp": "2026-09-20T17:09:38.653Z",
+  "latencyMs": 1650.3665040000342,
+  "status": "ok",
+  "correct": false,
+  "reservedUsd": 0.0078345,
+  "inputTokens": 729,
+  "outputTokens": 23,
+  "reasoningTokens": 0,
+  "finishReason": "stop",
+  "predicted": "balance_not_updated_after_bank_transfer",
+  "probability": 0.55,
+  "response": {
+    "id": "gen-1789924178-Va2TrAcu9qPMlcZh99aD",
+    "object": "chat.completion",
+    "created": 1789924178,
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"intent\": \"I67\",\n  \"probability\": 0.55\n}",
+          "refusal": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "signature": "EmcKZQFpFH0TAMm1pTWt8XOHp/Sn6Sz3yGtctUxoaEmCUR7v7OWl68VUYMhBR1/NzkJ/KznG/t3vmA4LCSPG+Q8PoSH6Ad4RgA7iy+UjpyqzOzW5avbCs8Q2R7SK79fRQmD3GYH878/e",
+              "format": "google-gemini-v1",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 729,
+      "completion_tokens": 23,
+      "total_tokens": 752,
+      "cost": 0.000633,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.000633,
+        "upstream_inference_prompt_cost": 0.00054675,
+        "upstream_inference_completions_cost": 0.00008625
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "billedCostUsd": 0.000633,
+  "estimatedCostUsd": 0.000633
+}

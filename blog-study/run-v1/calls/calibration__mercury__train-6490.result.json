@@ -1,0 +1,64 @@
+{
+  "key": "calibration__mercury__train-6490",
+  "phase": "calibration",
+  "caseId": "train-6490",
+  "system": "mercury",
+  "expected": "verify_source_of_funds",
+  "model": "inception/mercury-2.5",
+  "endpoint": "inception",
+  "timestamp": "2026-09-20T16:53:10.283Z",
+  "latencyMs": 667.2849360000109,
+  "status": "error",
+  "correct": false,
+  "reservedUsd": 0.00036587999999999996,
+  "error": "No object generated: could not parse the response.",
+  "response": {
+    "id": "gen-1789923190-ZYu0u7ssuxJGb11pJiiM",
+    "object": "chat.completion",
+    "created": 1789923190,
+    "model": "inception/mercury-2.5",
+    "provider": "Inception",
+    "system_fingerprint": null,
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"intent\": \"I50\",\n  \"probability\": 0.95\n}\n```",
+          "refusal": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1518,
+      "completion_tokens": 58,
+      "total_tokens": 1576,
+      "cost": 0.00006942,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00006942,
+        "upstream_inference_prompt_cost": 0.00006072,
+        "upstream_inference_completions_cost": 0.0000087
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "billedCostUsd": 0.00006942,
+  "inputTokens": 1518,
+  "outputTokens": 58,
+  "estimatedCostUsd": 0.00006942
+}

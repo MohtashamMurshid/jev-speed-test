@@ -1,0 +1,67 @@
+{
+  "key": "test__gpt-oss__test-2076",
+  "phase": "test",
+  "caseId": "test-2076",
+  "system": "gpt-oss",
+  "expected": "transfer_timing",
+  "model": "openai/gpt-oss-120b",
+  "endpoint": "cerebras/fp16",
+  "timestamp": "2026-09-20T17:03:04.710Z",
+  "latencyMs": 342.5082939999993,
+  "status": "ok",
+  "correct": true,
+  "reservedUsd": 0.0026314,
+  "inputTokens": 1185,
+  "outputTokens": 32,
+  "reasoningTokens": 9,
+  "finishReason": "stop",
+  "predicted": "transfer_timing",
+  "probability": 0.97,
+  "response": {
+    "id": "gen-1789923784-b072RdyI4qZoe9qErJ4v",
+    "object": "chat.completion",
+    "created": 1789923784,
+    "model": "openai/gpt-oss-120b",
+    "provider": "Cerebras",
+    "system_fingerprint": "fp_752b9cb17e04d95d05c3",
+    "service_tier": null,
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "stop",
+        "message": {
+          "role": "assistant",
+          "content": "{\"intent\":\"I51\",\"probability\":0.97}",
+          "refusal": null
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 1185,
+      "completion_tokens": 32,
+      "total_tokens": 1217,
+      "cost": 0.00043875,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 1152,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00043875,
+        "upstream_inference_prompt_cost": 0.00041475,
+        "upstream_inference_completions_cost": 0.000024
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 9,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "billedCostUsd": 0.00043875,
+  "estimatedCostUsd": 0.00043874999999999996
+}

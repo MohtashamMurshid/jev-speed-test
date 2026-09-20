@@ -1,0 +1,25 @@
+{
+  "key": "development__mercury__train-672",
+  "phase": "development",
+  "caseId": "train-672",
+  "system": "mercury",
+  "expected": "extra_charge_on_statement",
+  "model": "inception/mercury-2.5",
+  "endpoint": "inception",
+  "timestamp": "2026-09-20T16:44:49.993Z",
+  "latencyMs": 243.20224100000632,
+  "status": "error",
+  "correct": false,
+  "reservedUsd": 0.0003704,
+  "error": "Upstream error from Inception: The server had an error while processing your request.",
+  "response": {
+    "id": "gen-1789922690-9yeyJPrNtdoOKs7NBq7w",
+    "error": {
+      "message": "Upstream error from Inception: The server had an error while processing your request.",
+      "code": 502,
+      "metadata": {
+        "error_type": "provider_unavailable"
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "key": "repeat__mercury__test-1232",
+  "phase": "repeat",
+  "caseId": "test-1232",
+  "system": "mercury",
+  "expected": "unable_to_verify_identity",
+  "model": "inception/mercury-2.5",
+  "endpoint": "inception",
+  "timestamp": "2026-09-20T17:11:08.320Z",
+  "latencyMs": 303.9060860000027,
+  "status": "error",
+  "correct": false,
+  "reservedUsd": 0.00036596,
+  "error": "Upstream error from Inception: The server had an error while processing your request.",
+  "response": {
+    "id": "gen-1789924268-hBi86LWWvsBVS3QL0GHc",
+    "error": {
+      "message": "Upstream error from Inception: The server had an error while processing your request.",
+      "code": 502,
+      "metadata": {
+        "error_type": "provider_unavailable"
+      }
+    }
+  }
+}

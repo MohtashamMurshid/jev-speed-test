@@ -1,0 +1,75 @@
+{
+  "key": "calibration__gemini__train-3994",
+  "phase": "calibration",
+  "caseId": "train-3994",
+  "system": "gemini",
+  "expected": "get_physical_card",
+  "model": "google/gemini-3.8-flash",
+  "endpoint": "google-ai-studio",
+  "timestamp": "2026-09-20T16:53:14.892Z",
+  "latencyMs": 3299.1250620000064,
+  "status": "ok",
+  "correct": false,
+  "reservedUsd": 0.007845,
+  "inputTokens": 736,
+  "outputTokens": 22,
+  "reasoningTokens": 0,
+  "finishReason": "stop",
+  "predicted": "change_pin",
+  "probability": 0.8,
+  "response": {
+    "id": "gen-1789923194-tP1BlqXUVLMmfa2IpHMx",
+    "object": "chat.completion",
+    "created": 1789923194,
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "system_fingerprint": null,
+    "service_tier": "default",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"intent\": \"I53\",\n  \"probability\": 0.8\n}",
+          "refusal": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "signature": "EmcKZQFpFH0TCIMuYI81Z3K28k7yTWiYosqfhSXEDdPS5Pjh6okny7/wTwrp7As5RvPcLvTilX9K/saAzff6GXbsm29vT/tBsZ1deBcV9XMFp3ivVZMLuQR+srwChW8zktMo8MxtEf+D",
+              "format": "google-gemini-v1",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 736,
+      "completion_tokens": 22,
+      "total_tokens": 758,
+      "cost": 0.0006345,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0006345,
+        "upstream_inference_prompt_cost": 0.000552,
+        "upstream_inference_completions_cost": 0.0000825
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    }
+  },
+  "billedCostUsd": 0.0006345,
+  "estimatedCostUsd": 0.0006345
+}
