@@ -1,0 +1,47 @@
+{
+  "cover": "AI-generated conceptual paper-and-pencil illustration; not a plot or measured result.",
+  "figures": {
+    "03-latency.webp": {
+      "source": "blog-assets/03-latency.png",
+      "source_sha256": "4db412b33d94d00ebea166ce653f76dd2f49316cbc79d1c687301c3d3a0b9400",
+      "geometry": "unchanged",
+      "treatment": "background-only seeded paper grain; no synthetic data marks"
+    },
+    "05-acceptance.webp": {
+      "source": "blog-assets/05-acceptance.png",
+      "source_sha256": "2874a142ba0d18e75c1e3597a0e9c7254b12f040696bd1d6bd57180068208172",
+      "geometry": "unchanged",
+      "treatment": "background-only seeded paper grain; no synthetic data marks"
+    },
+    "02-accuracy.webp": {
+      "source": "blog-assets/02-accuracy.png",
+      "source_sha256": "65ee66b93419ba94d7d34e017e8743230f1552875f247e50dce802999b969031",
+      "geometry": "unchanged",
+      "treatment": "background-only seeded paper grain; no synthetic data marks"
+    },
+    "04-cost.webp": {
+      "source": "blog-assets/04-cost.png",
+      "source_sha256": "5f5c320be121016d1715093b78f215f7f8ef67f12d468e6af9e6dd71150dc345",
+      "geometry": "unchanged",
+      "treatment": "background-only seeded paper grain; no synthetic data marks"
+    },
+    "01-workflow.webp": {
+      "source": "blog-assets/01-workflow.png",
+      "source_sha256": "a9c8da3501ba7a107f11647656646e6b1ef17b553d327392937549fd5f9fd0d5",
+      "geometry": "unchanged",
+      "treatment": "background-only seeded paper grain; no synthetic data marks"
+    },
+    "06-confidence-ranking.webp": {
+      "source": "blog-assets/06-confidence-ranking.png",
+      "source_sha256": "82a54b3e7fde94da4723d098393505532b84534f505c8521c8c95fcd45325ab9",
+      "geometry": "unchanged",
+      "treatment": "background-only seeded paper grain; no synthetic data marks"
+    },
+    "03-jev-confidence.webp": {
+      "source": "03-jev-confidence.png",
+      "source_sha256": "5b358d5922e5aeb0bc22755c6c4bf72519bda74867a80c4c1798cd82548689ad",
+      "geometry": "unchanged",
+      "treatment": "background-only seeded paper grain; no synthetic data marks"
+    }
+  }
+}

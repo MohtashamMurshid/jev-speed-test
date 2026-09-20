@@ -2,7 +2,7 @@
 
 A small, reproducible English-only comparison of **Jev 1.13, GPT-OSS-120B/Cerebras, Mercury 2.5, and Gemini 3.8 Flash**. Includes the data, exact model responses, frozen confidence thresholds, failures, and analysis—not just a leaderboard.
 
-[Read the full process and blog draft](https://postplan.oikina.com/d/ssfry3bhpmpq) · [Results](blog-study/run-v1/analysis/summary.md) · [Protocol](blog-study/PROTOCOL.md) · [Audit corrections](blog-study/ANALYSIS-AUDIT.md)
+[Read the published article](https://www.mohtasham.dev/blog/jev-vs-a-fast-llm) · [Earlier reading preview](https://postplan.oikina.com/d/ssfry3bhpmpq) · [Results](blog-study/run-v1/analysis/summary.md) · [Protocol](blog-study/PROTOCOL.md) · [Audit corrections](blog-study/ANALYSIS-AUDIT.md)
 
 ## What was tested
 
@@ -22,6 +22,10 @@ Accuracy includes failed calls as incorrect. Latency above is conditional on a v
 Cutoffs were chosen on 200 separate messages, before test inference. Jev's native-confidence rule accepted **168/500**, with **5 mistakes (3.0%)**. Gemini's verbalized-probability rule accepted **365/500**, with **15 mistakes (4.1%)**. Both accepted-error intervals extend above the 5% target; neither establishes a production risk bound.
 
 Jev's native confidence is distinct from its chosen-label probability. LLM probabilities are verbalized estimates. Confidence statistics use valid responses only; service failures are always deferred. No calibration model was fitted.
+
+## Portfolio publication
+
+The article is live at **https://www.mohtasham.dev/blog/jev-vs-a-fast-llm**. The [portfolio image variants](blog-study/run-v1/analysis/portfolio-assets) match its existing paper-and-pencil style. The cover is a generated conceptual illustration, not data. Numerical figures retain their original geometry and receive background-only paper texture; hashes and provenance accompany the images. [Styling script](blog-study/style_portfolio_assets.py).
 
 ## Images and graphs
 
