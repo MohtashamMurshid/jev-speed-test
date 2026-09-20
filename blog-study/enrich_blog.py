@@ -2,13 +2,13 @@
 from pathlib import Path
 import re
 REPO='https://github.com/MohtashamMurshid/jev-speed-test'
-ASSETS=REPO+'/blob/main/blog-study/run-v1/analysis/blog-assets/'
+ASSETS='https://raw.githubusercontent.com/MohtashamMurshid/jev-speed-test/main/blog-study/run-v1/analysis/blog-assets/'
 def enrich(html,root):
     def figure(name,caption):
         svg=(root/'run-v1/analysis/blog-assets'/f'{name}.svg').read_text();svg=svg[svg.index('<svg'):]
         svg=re.sub(r'<!--.*?-->','',svg,flags=re.S)
         svg=svg.replace('<svg ',f'<svg role="img" aria-label="{caption}" ',1)
-        return f'<figure class="publication-figure"><p class="swipe">Swipe to inspect the full figure, or open the PNG below.</p><div class="figure">{svg}</div><figcaption>{caption} <a href="{ASSETS}{name}.png">Full-size PNG</a> · <a href="{ASSETS}{name}.svg">Editable SVG</a> · <a href="{REPO}/blob/main/blog-study/blog_visuals.py">Plotting code</a></figcaption></figure>'
+        return f'<figure class="publication-figure"><p class="swipe">Open the full-size PNG below to zoom into labels.</p><div class="figure">{svg}</div><figcaption>{caption} <a href="{ASSETS}{name}.png">Full-size PNG</a> · <a href="{ASSETS}{name}.svg">Editable SVG</a> · <a href="{REPO}/blob/main/blog-study/blog_visuals.py">Plotting code</a></figcaption></figure>'
     insertions=[
       ('</header>','</header>'+figure('00-cover','Editorial cover: the accept-or-review question. This diagram is not a quantitative result.')),
       ('<h3>1. Keep the first experiment',figure('01-workflow','The actual study sequence. Timing repeats do not create additional independent test messages.')+'<h3>1. Keep the first experiment'),
@@ -35,4 +35,5 @@ def enrich(html,root):
 <li><strong>Uncertainty references:</strong> <a href="https://docs.typesafe.ai/confidence">TypeSafe's confidence semantics</a>, <a href="https://scikit-learn.org/stable/modules/generated/sklearn.metrics.roc_auc_score.html">ROC-AUC</a>, <a href="https://scikit-learn.org/stable/modules/generated/sklearn.metrics.brier_score_loss.html">Brier score</a>, and <a href="https://www.statsmodels.org/stable/generated/statsmodels.stats.proportion.proportion_confint.html">a Wilson-interval reference</a>. The last link is explanatory documentation; statsmodels was not a runtime dependency.</li>
 <li><strong>Reproducibility:</strong> <a href="https://github.com/MohtashamMurshid/jev-speed-test/blob/main/data/test-results.csv">2,000 held-out results as CSV</a>, <a href="https://raw.githubusercontent.com/MohtashamMurshid/jev-speed-test/main/data/responses.jsonl.gz">all 3,200 response records</a>, <a href="https://github.com/MohtashamMurshid/jev-speed-test/blob/main/blog-study/ANALYSIS-AUDIT.md">the audit trail</a>, and the <a href="https://github.com/MohtashamMurshid/jev-speed-test/releases/tag/v0.1.0">original versioned source-and-data release</a>. The new editorial figures are committed separately in the repository; they do not alter the underlying study.</li></ul></section>'''
     html=html.replace('</article>',refs+'</article>',1)
+    html=html.replace("</style>", ".publication-figure .figure svg{min-width:0}</style>",1)
     return html
