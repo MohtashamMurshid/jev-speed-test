@@ -1,0 +1,123 @@
+{
+  "design": "Post-hoc existing-data replay; no new inference, cutoff fitting, or independent validation.",
+  "threshold": 1,
+  "test_messages": 500,
+  "source_records_sha256": "0dcb010c71c06e84c80b46c72da243f311db27cd13543270c71ed6a338ab4519",
+  "threshold_file_sha256": "e4f23d486d374f8c2f7eb078b8a7853f13453ee1799082b171bc0373f64790a8",
+  "systems": {
+    "jev": {
+      "correct": 405,
+      "accuracy": 0.81,
+      "accuracy_ci95": [
+        0.782,
+        0.836
+      ],
+      "failures": 0,
+      "accounted_usd": 0.03377304000000003,
+      "usd_per_1000": 0.06754608000000006,
+      "valid_response_median_ms": 346.831252999953,
+      "valid_response_p95_ms": 458.14843499998096,
+      "all_outcomes_median_ms": 346.831252999953,
+      "all_outcomes_p95_ms": 458.14843499998096
+    },
+    "gemini": {
+      "correct": 427,
+      "accuracy": 0.854,
+      "accuracy_ci95": [
+        0.828,
+        0.88
+      ],
+      "failures": 1,
+      "accounted_usd": 0.3423292500000002,
+      "usd_per_1000": 0.6846585000000004,
+      "valid_response_median_ms": 1488.6543450000172,
+      "valid_response_p95_ms": 3238.8522599999997,
+      "all_outcomes_median_ms": 1487.9766460000537,
+      "all_outcomes_p95_ms": 3131.2090699999826
+    },
+    "cascade": {
+      "correct": 429,
+      "accuracy": 0.858,
+      "accuracy_ci95": [
+        0.832,
+        0.882
+      ],
+      "failures": 0,
+      "accounted_usd": 0.2630900400000001,
+      "usd_per_1000": 0.5261800800000002,
+      "valid_response_median_ms": 1723.0318259999913,
+      "valid_response_p95_ms": 3063.491861999966,
+      "all_outcomes_median_ms": 1723.0318259999913,
+      "all_outcomes_p95_ms": 3063.491861999966
+    }
+  },
+  "paired_comparisons": {
+    "jev": {
+      "accuracy_difference_pp": 4.8,
+      "accuracy_difference_ci95_pp": [
+        2.7950000000000004,
+        7.000000000000001
+      ],
+      "gains": 34,
+      "losses": 10,
+      "accounted_cost_savings_usd": -0.22931700000000005,
+      "accounted_cost_savings_percent": -678.9942510357369
+    },
+    "gemini": {
+      "accuracy_difference_pp": 0.4,
+      "accuracy_difference_ci95_pp": [
+        0.0,
+        1.0
+      ],
+      "gains": 2,
+      "losses": 0,
+      "accounted_cost_savings_usd": 0.07923921000000012,
+      "accounted_cost_savings_percent": 23.14707551282868
+    }
+  },
+  "routing": {
+    "jev": {
+      "count": 168,
+      "fraction": 0.336,
+      "correct": 163,
+      "wrong_or_failed": 5,
+      "failures": 0,
+      "gemini_correct_on_same_cases": 161,
+      "jev_correct_on_same_cases": 163
+    },
+    "gemini": {
+      "count": 332,
+      "fraction": 0.664,
+      "correct": 266,
+      "wrong_or_failed": 66,
+      "failures": 0,
+      "gemini_correct_on_same_cases": 266,
+      "jev_correct_on_same_cases": 242
+    }
+  },
+  "cost_basis_counts": {
+    "jev": {
+      "billedCostUsd": 500,
+      "estimatedCostUsd": 0,
+      "reservedUsd": 0
+    },
+    "gemini": {
+      "billedCostUsd": 499,
+      "estimatedCostUsd": 0,
+      "reservedUsd": 1
+    }
+  },
+  "gemini_comparison_details": {
+    "gain_cases": 2,
+    "gain_cases_with_gemini_api_failure": 1,
+    "gain_cases_with_valid_wrong_gemini_answer": 1,
+    "cost_savings_percent_if_unbilled_gemini_failure_were_free": 21.350561530717744
+  },
+  "assumptions": [
+    "Sequential cascade: always call Jev; call Gemini only after a nonaccepted/failed Jev result. No third-stage human-review gate.",
+    "Reuse observed isolated-call responses, prices and durations. Omit orchestration overhead; routing may change caching, load and responses.",
+    "Simulated latency percentiles are computed per message from sums, not by adding medians or p95s. Failures excluded from valid-response timings and counted wrong for accuracy.",
+    "Sampling intervals are exploratory, paired and intent-stratified. They are not a new independent evaluation or a test of noninferiority.",
+    "Reported costs are counterfactual accounting, not actual cascade invoices. Source reservations cover unknown bills. Original raw study remains unchanged."
+  ]
+}
