@@ -1,0 +1,58 @@
+{
+  "commit": "48880db51588e49ecb5bb5967ebc2b5a287645fc",
+  "anonymous": true,
+  "verified": [
+    {
+      "path": "README.md",
+      "url": "https://raw.githubusercontent.com/MohtashamMurshid/jev-speed-test/48880db51588e49ecb5bb5967ebc2b5a287645fc/blog-study/fresh-followup/README.md",
+      "httpStatus": 200,
+      "sha256": "3926973917bc33854709295e4dfb3f1a8ecdc3cb1b3c56ce34f6c45e7f048011",
+      "bytes": 14194
+    },
+    {
+      "path": "data/responses.jsonl.gz",
+      "url": "https://raw.githubusercontent.com/MohtashamMurshid/jev-speed-test/48880db51588e49ecb5bb5967ebc2b5a287645fc/blog-study/fresh-followup/data/responses.jsonl.gz",
+      "httpStatus": 200,
+      "sha256": "bb7e5708c7369a7eacb2607079eb43b06710150356877dc8e3f9ecd1a6fbce32",
+      "bytes": 518620,
+      "rows": 1630
+    },
+    {
+      "path": "data/banking-results.csv",
+      "url": "https://raw.githubusercontent.com/MohtashamMurshid/jev-speed-test/48880db51588e49ecb5bb5967ebc2b5a287645fc/blog-study/fresh-followup/data/banking-results.csv",
+      "httpStatus": 200,
+      "sha256": "8804cbf1804d1ba6841b2dfdb073386b183be0c1855462fdf21b9b0de8d82ffd",
+      "bytes": 222941,
+      "rows": 500
+    },
+    {
+      "path": "data/oos-results.csv",
+      "url": "https://raw.githubusercontent.com/MohtashamMurshid/jev-speed-test/48880db51588e49ecb5bb5967ebc2b5a287645fc/blog-study/fresh-followup/data/oos-results.csv",
+      "httpStatus": 200,
+      "sha256": "2b6450e0834753b4c25d66776c6e93f2001457c96e65137099552873eaff7eff",
+      "bytes": 39466,
+      "rows": 100
+    },
+    {
+      "path": "analysis/accuracy.png",
+      "url": "https://raw.githubusercontent.com/MohtashamMurshid/jev-speed-test/48880db51588e49ecb5bb5967ebc2b5a287645fc/blog-study/fresh-followup/analysis/accuracy.png",
+      "httpStatus": 200,
+      "sha256": "dbb9738a9268cf2aa5a9b9c80e73b437195f46f744cad05dc73f74fd219b667c",
+      "bytes": 42898
+    },
+    {
+      "path": "supplement/cost.png",
+      "url": "https://raw.githubusercontent.com/MohtashamMurshid/jev-speed-test/48880db51588e49ecb5bb5967ebc2b5a287645fc/blog-study/fresh-followup/supplement/cost.png",
+      "httpStatus": 200,
+      "sha256": "91fb49618ee9821951bab1af1963c54f373cfe994adfe1d7f188b3cb9c662954",
+      "bytes": 79519
+    },
+    {
+      "path": "offline-reproduction.json",
+      "url": "https://raw.githubusercontent.com/MohtashamMurshid/jev-speed-test/48880db51588e49ecb5bb5967ebc2b5a287645fc/blog-study/fresh-followup/offline-reproduction.json",
+      "httpStatus": 200,
+      "sha256": "e893f22f10300b1fd4c1addc1bcc10558a87989d319c587faf4140948f810625",
+      "bytes": 1937
+    }
+  ]
+}
