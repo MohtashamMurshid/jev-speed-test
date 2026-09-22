@@ -1,0 +1,18 @@
+{
+  "paper_status": "Draft technical report, not peer reviewed or accepted by IEEE",
+  "pages": 5,
+  "independent_csv_counts": {
+    "jev": 399,
+    "gemini": 425,
+    "cascade": 424,
+    "local": 425
+  },
+  "banking_rows": 500,
+  "oos_rows": 100,
+  "reported_charge_saving_zero_unknown_bill_percent": "23.27402576968128865889263798",
+  "references": 9,
+  "undefined_references": 0,
+  "overfull_boxes": 0,
+  "input_hashes_verified": true,
+  "pdf_sha256": "7ebe2fe636f657f207e53c73f5b375d2e9948951ccfbd2d66165321aec1e72c0"
+}

@@ -1,0 +1,18 @@
+{
+  "evidence_revision": "08138146e4a7ae0e73487e411e25765839a3d523",
+  "inputs": {
+    "blog-study/fresh-followup/analysis/summary.json": "377312b1353b28d64998db74e79ab5e5b9d7e52cbeb7292b123e1c404b46f3d0",
+    "blog-study/fresh-followup/supplement/uncertainty.json": "cc1fe7428c0ecd4ee0a4f7805b48a38c6e242aff062952edb001c0afca85f90f",
+    "blog-study/fresh-followup/supplement/cost-sensitivity.json": "40860b36df9f8c44045939b7ca86a40d5b0db5d245bbdbe4bf390bea88e2879e",
+    "blog-study/run-v1/analysis/metrics.json": "25909f072a703c9591ccefceca3a3b8f0eb14aaf6707ec33bbdd6ced7d25b315"
+  },
+  "fresh_correct_counts": [
+    399,
+    425,
+    424,
+    425
+  ],
+  "fresh_calls": 1630,
+  "saving_zero_unknown_bill_percent": 23.274025769681202,
+  "combined_accounted_usd": 2.0764720260000002
+}

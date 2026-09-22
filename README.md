@@ -12,6 +12,12 @@ On 500 previously unused cases, the real Jev to Gemini cascade scored **424/500*
 
 The new report includes actual sequential timing, three component failures, licensed OOS data, frozen gates, a cost sensitivity analysis and byte-identical offline replay. The original study and immutable release remain unchanged. The tables and limitations below describe that original study, not this follow-up.
 
+## Draft technical report
+
+[Download the IEEE-style PDF](paper/jev-confidence-study.pdf) · [LaTeX source and build instructions](paper/README.md) · [Paper validation](paper/validation.json)
+
+The five-page report separates the preliminary experiment, post-hoc replay, and prospective fresh-data validation. It includes methods, measured results, uncertainty, failure/billing accounting, limitations, and references. **This is a draft technical report, not an IEEE publication or a peer-reviewed paper.** The website integration is prepared separately for review; the paper does not imply that the live article has been updated.
+
 ## What was tested
 
 500 held-out English BANKING77 messages covering 77 intents, plus 50 development messages, 200 separate threshold-selection messages, and 50 timing repeats per model. **3,200 API attempts total.** Repeats do not increase the independent accuracy sample size. No Sol in this comparison.
