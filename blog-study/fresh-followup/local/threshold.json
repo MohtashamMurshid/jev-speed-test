@@ -1,0 +1,8 @@
+{
+  "threshold": 0.25,
+  "accepted": 127,
+  "errors": 5,
+  "calibration_n": 200,
+  "rule": "Maximize calibration acceptance with >=30 accepted and <=5% empirical error; tie choose lowest cutoff. Null means defer all. No finite-sample risk guarantee.",
+  "protocol_sha256": "9d7c352dac0ca1c79d77d8c0cba0e5544ca06a24a64cb18957327fd421dc8b81"
+}

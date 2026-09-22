@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "clinc-test-3951",
+    "text": "play music by ludacris",
+    "expected": null,
+    "sourceCategory": "play_music",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "4d4efea671c047b466c7032332f4a1cab5222e42949106c3a63df528fda2d794",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-4335",
+    "text": "show me ideas for hamburger",
+    "expected": null,
+    "sourceCategory": "recipe",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "ccd3bd346a08f75b2ae4de3a2509f45c71d282353c97be62ab7d7d1f90b99cf5",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-4167",
+    "text": "let's hear a joke from you please",
+    "expected": null,
+    "sourceCategory": "tell_joke",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "ba65ba8519179ac9cd2514e901906d7c864ed88741ab790fe4229fe2cb8d53d9",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-4166",
+    "text": "i want to hear something funny about politicsi",
+    "expected": null,
+    "sourceCategory": "tell_joke",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "4ca7ed9068b0bd1ab4889d775258f1c6469b632e07ebadb17c2538862bf7aa0e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-3940",
+    "text": "the song that goes, \"starships were meant to fly\", play it",
+    "expected": null,
+    "sourceCategory": "play_music",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "6804ebac19dff111118ab9d36b71192527655cd50f975d1377c37ecba9eb0dfa",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-4345",
+    "text": "i need a pasta recipe",
+    "expected": null,
+    "sourceCategory": "recipe",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "66a5f65e59afc4d0ebff48b3e6cc2ce414a962e4c0fc404f73cf15d15b9cd4e4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-2950",
+    "text": "what is the title of the song we're listening to right now",
+    "expected": null,
+    "sourceCategory": "what_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "ab16a307a66c76371a2f33a901ac9cf849b29bda902c60b88fa2dba14d2ac386",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-3251",
+    "text": "what are the weather conditions like in seattle",
+    "expected": null,
+    "sourceCategory": "weather",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "ff74377c49ac8c7006e0d429d2a68bd8f86d928f15dcc4da694f950c4eaab64f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-3941",
+    "text": "please play that song that goes, \"starships were meant to fly",
+    "expected": null,
+    "sourceCategory": "play_music",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "3d00124924b327979cca656e810747dfb0203d5ba74213f8fb675fc9f3904026",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-3159",
+    "text": "the tv turn it on",
+    "expected": null,
+    "sourceCategory": "smart_home",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "93e8c65ac6a38c7dc08108258fe552cc10a5bdbad8a5dc719aa1d1fac5984feb",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-4140",
+    "text": "i would like to hear something funny",
+    "expected": null,
+    "sourceCategory": "tell_joke",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "be9314675bb0953042e65c385e583c7370507e9e0a546b2baccd55b1c2f30fb1",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-2159",
+    "text": "can i get peppers instead of onions",
+    "expected": null,
+    "sourceCategory": "ingredient_substitution",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "35f93108c71507e4fd499cc57699dcc702b4f06483b00838f2b80aa0e3017ee7",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-3959",
+    "text": "do play the music by linkin park",
+    "expected": null,
+    "sourceCategory": "play_music",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "0ee32bcb9ee62ee8dffa2205d8c4f8ff3e2cf7d45baf180b1b5d3e7865a16d96",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-2061",
+    "text": "how long should i bake a cake",
+    "expected": null,
+    "sourceCategory": "cook_time",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "20ea8be77df1c252d289a50e6e6d2f6b9faff0484b77b2619b176fc7e1260e0d",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-2050",
+    "text": "what's the average cooking time for cooking wings",
+    "expected": null,
+    "sourceCategory": "cook_time",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "e010ec8de9f4bc77f9dd1b8af73b7c3414af1a86b504983351416531695a28fe",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-4346",
+    "text": "i want a recipe for roasted veggies",
+    "expected": null,
+    "sourceCategory": "recipe",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "b33d921575d892979bf723f6f7c6ab23c200c0da97e9052860916b2b971ff129",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-3269",
+    "text": "las vegas weather today",
+    "expected": null,
+    "sourceCategory": "weather",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "8122064104c6b2799ffa2304548be205f8c1ab136c8a0f3ba465fd16222dae48",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-4336",
+    "text": "can you get me recipes for eggs please",
+    "expected": null,
+    "sourceCategory": "recipe",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "8fe5c343efc35346ceb0a82dae549112f984ebb0c95132a9d6dd010ecbda7248",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-2063",
+    "text": "how long does it take to bake a cake",
+    "expected": null,
+    "sourceCategory": "cook_time",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "91502f8bcba51cdea2c39995df0231043e632658fa162dad5f0c642eae70a81d",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-999",
+    "text": "skip to next track",
+    "expected": null,
+    "sourceCategory": "next_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "e62b35a173eaa25a2877f601b16d2d9191bf3078e3c6ce45ba1b8d91d0172487",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-2146",
+    "text": "is it okay to use butter instead of margarine",
+    "expected": null,
+    "sourceCategory": "ingredient_substitution",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "a2542318b2c8839ee187588e8e0e086ef710a9877335ed1fb70998ff354e8c12",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-4157",
+    "text": "let's hear a joke!",
+    "expected": null,
+    "sourceCategory": "tell_joke",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "4e54484cc6d786b944b892108172914192947ddc6562c4174377101866dddb27",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-2940",
+    "text": "i'd like to know what song this is",
+    "expected": null,
+    "sourceCategory": "what_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "978e48fae77a69130edb233daf62401fb4b244c89f9ed3ff9a06e86698b46ce4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-4338",
+    "text": "recipes for garlic bread please",
+    "expected": null,
+    "sourceCategory": "recipe",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "d25e4d4089c1f221dbb1e757c43f55912dcbadab462d6974f63cc704e21b64fb",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-2963",
+    "text": "on the speaker do you know what song is on",
+    "expected": null,
+    "sourceCategory": "what_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "e19c1f79e1b6e03eb0240622b15f90ebbe64626d6a964dd9f793ddcf1ef56e72",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-1652",
+    "text": "tell me nutritional info for fish",
+    "expected": null,
+    "sourceCategory": "nutrition_info",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "80d95ff07491029209494c4d66cfd9ebde8b6832b053bc1bedc3a40b3fa20db0",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-1006",
+    "text": "let's go to the next song please",
+    "expected": null,
+    "sourceCategory": "next_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "018e4c37fccae640ae281642980ffa88646fc247e975f36e7381c1bd9b9e638d",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-4340",
+    "text": "can you find me a pork recipe",
+    "expected": null,
+    "sourceCategory": "recipe",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "56a0dd6e77d338f3cfa2047b51996baecc5b2515208a566ca2538472f6e54557",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-3930",
+    "text": "play the song called baby shark",
+    "expected": null,
+    "sourceCategory": "play_music",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "8f53907e077a8c755ab53a79d1bfdeba676e3fdd09ffb59cb289ef78173b7db8",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-4164",
+    "text": "i want to hear something funny about history",
+    "expected": null,
+    "sourceCategory": "tell_joke",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "27f6bee90173c831b51b6ce99c8413f8fc6a508196126e6dd524a3db5209d2a9",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-2064",
+    "text": "how long should i cook the cookie dough",
+    "expected": null,
+    "sourceCategory": "cook_time",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "e19628306144700f3b2540b72f1d25fe1893b4cbd1abcf1aded7ac52922026f4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-1009",
+    "text": "please can we go to the next song",
+    "expected": null,
+    "sourceCategory": "next_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "8c9657c5f6e942278086309876f96d063f02a8987447a7496d76b8d19d4a0fdc",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-3173",
+    "text": "i want the light less bright please",
+    "expected": null,
+    "sourceCategory": "smart_home",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "1a2b461650993a7dc332f91bb5cdf3b06a07bd45cb922b746009ffa50d2fcfd1",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-3179",
+    "text": "turn up the oven temperature to 350",
+    "expected": null,
+    "sourceCategory": "smart_home",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "86b611fd763c00e14ef41353175ef04681273a4ce63f19f6357933cd23de2138",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-3955",
+    "text": "turn on metallicas greatest hits",
+    "expected": null,
+    "sourceCategory": "play_music",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "c2eaf8e6aa29406fad2f57fa24fb24d468990c5e0d01d0d41b2297f899d3973e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-1671",
+    "text": "what's the nutrition info for a pound of chicken",
+    "expected": null,
+    "sourceCategory": "nutrition_info",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "4d8a48657f756b5d2bcddf2991214a66bd8b148c64b6697fdcc7747cdd351604",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-4148",
+    "text": "do you know any dad jokes",
+    "expected": null,
+    "sourceCategory": "tell_joke",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "a93b0c507dbbf656338614fd284b1c84d330dfea561e4bd6c6cba29e2d80967d",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-3168",
+    "text": "turn on the tv",
+    "expected": null,
+    "sourceCategory": "smart_home",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "d51649b7084e64bb14e10dbcfcb2c703f5c7facde60f227bfdae62af34fc153b",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-1662",
+    "text": "find the nutrition info for ketchup for me",
+    "expected": null,
+    "sourceCategory": "nutrition_info",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "76d13ebc5eb72b11e3a51afb91dd964b602d89a1e63718702fbfcf9e33b82556",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-2958",
+    "text": "what is the title of this song",
+    "expected": null,
+    "sourceCategory": "what_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "5340162a0c242c80684538d347d8d877a4be7f13f10146854b2bae5f4732e685",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-1670",
+    "text": "please give me the nutritional information for an egg",
+    "expected": null,
+    "sourceCategory": "nutrition_info",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "41631a9e1723075140df85f6d77fcc268ac940dfe3937dd17226875dd8ced17c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-2965",
+    "text": "do you know what song is playing on the speaker",
+    "expected": null,
+    "sourceCategory": "what_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "f78eabe64d5f504a5610fdc5eb8686e0ed74cd95502363f3ebba6435fbcf5b07",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-4347",
+    "text": "what is in a burrito recipe",
+    "expected": null,
+    "sourceCategory": "recipe",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "94bf1485a7044cf7350a75a80a311a86b7daca39072cb6170c133ed58e3aade3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-1657",
+    "text": "how healthy is mcdonalds",
+    "expected": null,
+    "sourceCategory": "nutrition_info",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "138f8cbce380ef3af57a971d607cdd8e99e2fd69a79bae5f9f35282e15e24edb",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-4163",
+    "text": "tell me something funny about horses",
+    "expected": null,
+    "sourceCategory": "tell_joke",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "f477f8b9af26b0537637f04d9d7edb833f89fcdef2927e14a7a974b9aed4e346",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-2150",
+    "text": "if i use applesauce instead of oil, will that mess it up",
+    "expected": null,
+    "sourceCategory": "ingredient_substitution",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "65029f5f2e8d58308b375fff048423339c9709d50cb474434a0ba232d28821c7",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-2956",
+    "text": "can you identify this song playing through the speaker right now",
+    "expected": null,
+    "sourceCategory": "what_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "344d7968455b32cc846dfb43828d40f2ea6733c65c5cca9559c6a882c230a08d",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-4142",
+    "text": "know any dad jokes",
+    "expected": null,
+    "sourceCategory": "tell_joke",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "fd818f2d1c22ecee82a8520516a8c2966772000889030c764da87a7af157f5d4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-3249",
+    "text": "what is the state of the weather in seattle",
+    "expected": null,
+    "sourceCategory": "weather",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "a4eeff5f84e780a1035d1f8612dff096663843f011ef72ccbc42e286a5cfc7cf",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-1018",
+    "text": "play the next song please if you would",
+    "expected": null,
+    "sourceCategory": "next_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "631923c495cb78fe3f3ce3484d1221f4b20703089a4bc3a1b8661e9841902a6b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-994",
+    "text": "next song, please!",
+    "expected": null,
+    "sourceCategory": "next_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "94e8baf68354ad49d801a87c8b5d726e46ffba84e1d2ce1577940ea7c744a1b1",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-1668",
+    "text": "find the nutrition info for cucumbers for me",
+    "expected": null,
+    "sourceCategory": "nutrition_info",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "6853ed04963fed66a456e3166d137dc0cedc7126ebf79cb5b9555335fb64fd88",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-1011",
+    "text": "next track",
+    "expected": null,
+    "sourceCategory": "next_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "c081cfe2152f2579e3456ac0598f8c97e451b6a6dabeb23a2c21983b0bc8a10d",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-3150",
+    "text": "i would like it if you would turn the bedroom lights on low until i'm finished reading",
+    "expected": null,
+    "sourceCategory": "smart_home",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "71a9d1d12fbe3f414ce52843c2ea73a040724d6ffd358432cef98d6679ec9eec",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-1655",
+    "text": "how healthy is blueberrys",
+    "expected": null,
+    "sourceCategory": "nutrition_info",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "0428eee67a774ed77dc26ae7c742f04ce605adbbc6183c7f9d67ac193a8aa5d3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-3156",
+    "text": "on the tv, turn on",
+    "expected": null,
+    "sourceCategory": "smart_home",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "e55bd34b8beaf26a382d77396410397d58de12d7bb5d25fa40216aa6e3d5f5ad",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-3253",
+    "text": "what kind of weather can i expect now",
+    "expected": null,
+    "sourceCategory": "weather",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "5f52d370feb7c4094786e0c37c48e70cbc5973bdb32eb10390da58906e641bb7",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-2044",
+    "text": "how many minutes are involved in the preparation of curry",
+    "expected": null,
+    "sourceCategory": "cook_time",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "5ab1df66bdf210df6ffc0193c492f20965aafe22b90118ec0dd1d5bef75f9f51",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-3932",
+    "text": "play the song called i want it that way",
+    "expected": null,
+    "sourceCategory": "play_music",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "37cc8b1f959dc6d733082114d8467ecb04391cdfbb953b300f41f1e9155c5101",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-3937",
+    "text": "pull up the songs under slow",
+    "expected": null,
+    "sourceCategory": "play_music",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "3759dd360006a7c8e2fef251ee839b802ae05439dfdde513f41e98cd1e3762c9",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-2132",
+    "text": "can i use apples instead of oranges in this recipe",
+    "expected": null,
+    "sourceCategory": "ingredient_substitution",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "46274ddbf579ac168d20a7874156fdff8aa6e8ef6ccb0452ac17017e899ee6ef",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-998",
+    "text": "play the next one",
+    "expected": null,
+    "sourceCategory": "next_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "97746ea8c648886edd48a889e212342296b1f2a21f27dc4f60c2b992048bdede",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-1003",
+    "text": "i dont want to listen to this song",
+    "expected": null,
+    "sourceCategory": "next_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "600a7f9734298d155970568f925c6822b7c991f49e909221304ae0fa5a81d09b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-3246",
+    "text": "let's take a look at the weather",
+    "expected": null,
+    "sourceCategory": "weather",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "b59028ceb782d05286cd01903900a7f9918568962ff35d00024246fdc4789210",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-4349",
+    "text": "find a recipe for baked ziti",
+    "expected": null,
+    "sourceCategory": "recipe",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "dedd58bdd8b28c2d825ee641705927eda118b9e96fda7e19b69ab0f2b63b9fbb",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-2137",
+    "text": "is it possible to use baking soda instead of flour",
+    "expected": null,
+    "sourceCategory": "ingredient_substitution",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "5b97be058780f8f4144a8706dc1ac829ba42a3e04272075f826519f845635ea8",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-4150",
+    "text": "tell me a joke about the subject of sailing",
+    "expected": null,
+    "sourceCategory": "tell_joke",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "541383d799eeee6b89a6e1aa665c4a0bdd7ea25ebb9cecc3bee7675c8569f9c8",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-2147",
+    "text": "will it be ok to sub turkey for beef",
+    "expected": null,
+    "sourceCategory": "ingredient_substitution",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "c3693e0771e38c85610ca793c638b0b6eca30892faebc668f246d112ceefa0a2",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-1013",
+    "text": "skip this track",
+    "expected": null,
+    "sourceCategory": "next_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "11391b3e69c4ce14d9a37a2000bdc98b24771d55d3b089501b1e50255b37c28f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-3175",
+    "text": "please set the oven to 350 f",
+    "expected": null,
+    "sourceCategory": "smart_home",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "a5633ba09ab70803bc65e116c9237e10a128386a732be46a842a5105487d2cc6",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-3947",
+    "text": "turn on my tunes",
+    "expected": null,
+    "sourceCategory": "play_music",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "c26e85a5543bfedd5678f302fa64b5973ae43cc2bc1e89545967c6be5d802163",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-3178",
+    "text": "i need the temperature set at 70 f",
+    "expected": null,
+    "sourceCategory": "smart_home",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "08a255b2278257311de30188b871aa78fa1c2174d0e28c1e823411475edd16a3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-2045",
+    "text": "what's the preparation time for this dish",
+    "expected": null,
+    "sourceCategory": "cook_time",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "f1588939a48b02c07e4cf5785d22eb7dfe33499191b716dee32667fb4e7f71b0",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-3931",
+    "text": "play the song called wreckless love",
+    "expected": null,
+    "sourceCategory": "play_music",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "04907429f5c64684f5114cbadcf47cd283de18b84a76b49860b92dd518399d2b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-2946",
+    "text": "look up the name of this song",
+    "expected": null,
+    "sourceCategory": "what_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "c3a9a482ee2b3dfc91f27f4fedbe789f9ad2e93ea7cfa58dce0b336bd2af4b4a",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-3170",
+    "text": "to 350, set the oven",
+    "expected": null,
+    "sourceCategory": "smart_home",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "a688ae2bb4cb285f4689960ee86ede32772831634b33550d89e0c9d5c5e3b9e1",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-2065",
+    "text": "how long should i cook my turkey",
+    "expected": null,
+    "sourceCategory": "cook_time",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "681d98439b9fac94eb26644aac476549c8d483dac1f290e8ddfbbf5ad68389a2",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-993",
+    "text": "can you swipe to the next song",
+    "expected": null,
+    "sourceCategory": "next_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "0620a1e702c37271875ec7b7479b2f42df0c2262cb7dbeaa329aca62560856a8",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-1676",
+    "text": "tell me the nutrition facts for shepherd's pie",
+    "expected": null,
+    "sourceCategory": "nutrition_info",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "30ae947f52fc8e237bd5d9747e3598fbd75bc0904374f74adb1ad58ac028b1b5",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-2060",
+    "text": "how long should i boil eggs",
+    "expected": null,
+    "sourceCategory": "cook_time",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "a20344d22a12295ec0d747eba5269b3c94ae6a093000c0d2b504691fbdea56c7",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-3265",
+    "text": "give weather update now",
+    "expected": null,
+    "sourceCategory": "weather",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "b0c66bb73fc58485d2e7626f13ddaf72b31012ea5da75384d3adbe9b20239661",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-2952",
+    "text": "can you identify this song that's playing",
+    "expected": null,
+    "sourceCategory": "what_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "18fbe2e1de04cdc8926ddfcb4f89c59e1f94f8d9e96cae57628731229e396c17",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-2960",
+    "text": "what song is currently playing",
+    "expected": null,
+    "sourceCategory": "what_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "b44acc945a872ff6a5b10a9d71912f4e7db7535b64beb9593d9b7dbecf262040",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-4326",
+    "text": "how do you prepare omelet",
+    "expected": null,
+    "sourceCategory": "recipe",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "f21a0e9fc32b0133caa488078488837b53e7679eff79735efe829f304e8fc35b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-3247",
+    "text": "how is the weather looking in seattle",
+    "expected": null,
+    "sourceCategory": "weather",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "c7b3ff2e068ecef869aa9c404375d41b8168725bd540f328f75713f4cb588ead",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-2136",
+    "text": "will peas work instead of carrots",
+    "expected": null,
+    "sourceCategory": "ingredient_substitution",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "b63133adba793db887fe2e258ce4bc134eea287eb9959a07eb2ef2557739df9c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-3240",
+    "text": "what is the weather",
+    "expected": null,
+    "sourceCategory": "weather",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "b328f82700746434f2681ec65fff9f60e327ccfdbb4f3ff8f9c107fa03cd986c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-2143",
+    "text": "can i use pasta sauce instead of tomato paste",
+    "expected": null,
+    "sourceCategory": "ingredient_substitution",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "cc40c14b61998404b856d0ce22c6197d608b155c67500288143a1297fb8cfd93",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-3268",
+    "text": "what is the current weather like",
+    "expected": null,
+    "sourceCategory": "weather",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "4f08b14a50b29be22f4d5b8024b9a84e3057155aaecbd3883649b96e8c005095",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-2149",
+    "text": "is it okay to use applesauce instead of oil",
+    "expected": null,
+    "sourceCategory": "ingredient_substitution",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "4bdc49ce600715768e529e1f0671c8e578957f82a064c9a528d2f7985609d330",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-1658",
+    "text": "how healthy is a cheeseburger",
+    "expected": null,
+    "sourceCategory": "nutrition_info",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "8cd62a012ccc902aed5d4e30a7e2a6543664f2ad709574ce44db41f43e7d9cb9",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-4321",
+    "text": "how do i go about cooking a 10lb turkey",
+    "expected": null,
+    "sourceCategory": "recipe",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "1a0fb5002f6428a41da49a5470edada478f9cdbbd426fdae3ea01a99d055880e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-2048",
+    "text": "look up recipe time for this",
+    "expected": null,
+    "sourceCategory": "cook_time",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "0a0690ce51262a240a73b4594eec47c8d5c394d6acba3860c3c80219c77fdf9c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-1669",
+    "text": "what are the nutrition facts for carrots",
+    "expected": null,
+    "sourceCategory": "nutrition_info",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "ee30275c6655a6bfabcee1a338b5b00513887839750bf871c118b32ff0843915",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-2041",
+    "text": "how long does pizza take",
+    "expected": null,
+    "sourceCategory": "cook_time",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "723cfcf5cae1722a172482028b708be4a391554c3539e10dad4b093dc3f61d59",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-2957",
+    "text": "tell me what this song is called that's playing",
+    "expected": null,
+    "sourceCategory": "what_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "3c5d79155261c09b6f861d030d1426126296227e73fd5d4dfbc8fddc8efa1dcf",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "clinc-test-4154",
+    "text": "tell me a joke about the topic of mice",
+    "expected": null,
+    "sourceCategory": "tell_joke",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "da70f181bcbd140c02f2ac03d6f7182879f142988be471c6129fe0df4983f1c4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-3166",
+    "text": "at ac, what's the temperature like",
+    "expected": null,
+    "sourceCategory": "smart_home",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "074691b7aa2c1cad254cc904d55dc9fe64d9a62a60db83b02409c9d64cbd0765",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-3255",
+    "text": "how is the weather",
+    "expected": null,
+    "sourceCategory": "weather",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "aebeae65eb20573d593ca997a82057b8d5e90c1944df9d3f346a815172da40ce",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "clinc-test-2144",
+    "text": "can i use regular olive oil instead of virgin",
+    "expected": null,
+    "sourceCategory": "ingredient_substitution",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "41cf6b93a85bea2e448caae5ee89abf0c0fc9b0af3912b8a757cff5cb9fe9f1d",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  }
+]

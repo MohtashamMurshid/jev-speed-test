@@ -1,0 +1,17 @@
+{
+  "createdAt": "2026-09-22T05:38:55.145690+00:00",
+  "new_inference_calls": 0,
+  "new_inference_accounted_usd": 0,
+  "contractHash": "17d9c8d9089f06deb0e3744418decc607d66428ed7e020f9a35269ef45ddd3a8",
+  "sha256": {
+    "runner.ts": "36f62d82bf5030be35782f726cc18e099c9d49e4a77edf0929cd8a4ab5ebab59",
+    "protocol.json": "9d7c352dac0ca1c79d77d8c0cba0e5544ca06a24a64cb18957327fd421dc8b81",
+    "cases.json": "598382eab3637c6fba19bfd0be6a24aa31ac5f22dc1cfd862932ca06a28d36d5",
+    "oos.json": "118bf26a0274461161445a1932c1cb3fe2705e2a012fdf65ce7d5b5178dbce84",
+    "manifest.json": "3d007cf89230dedc2ed8b30a4645c9ae127a4816a92a567a69e78428f99a104a",
+    "local_classifier.py": "93e234d7158a2b66720935d47a22faf2076a851a292ed75622f855425c7e01db",
+    "local/threshold.json": "33f177319a0cefe261849b23ad5343a742314050c8345d2bf9bffebcb5991c34",
+    "INTERPRETATION.md": "014454c62630007fd6f9eb8a387d3556af8cd33cd764e6cd1df37a48a04c3b4a"
+  },
+  "note": "All hosted paths remain unexecuted. Local fixed baseline was fitted under the earlier frozen data/classifier protocol. Runner integration now follows existing null OOS gold, frozen case/path order, and three-failure abort without changing samples, predictions or cutoffs."
+}

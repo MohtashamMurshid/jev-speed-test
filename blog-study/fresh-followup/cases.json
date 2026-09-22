@@ -1,0 +1,5502 @@
+[
+  {
+    "id": "test-172",
+    "text": "When will the $1 transaction be credited to me?",
+    "expected": "extra_charge_on_statement",
+    "dataset": "banking77",
+    "normalizedSha256": "9230129ef7b10c41969ded89b1652ae32468fad6235363335bb1a6477d424bd4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1093",
+    "text": "Why would there be a payment on my account I don't recognize?",
+    "expected": "card_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "55887ac19856448460a52ddb0693bc5ddda04dfd7c9c41b6f1f3a8d46435fa2d",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-3067",
+    "text": "What countries will my card be supported in?",
+    "expected": "country_support",
+    "dataset": "banking77",
+    "normalizedSha256": "f874449982da753f44a4468a117ae41f32785a3b3857854a8d30b4aa8081a87f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-97",
+    "text": "Will I get a curreng foreign exchange rate?",
+    "expected": "exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "9c1b4feda4951188f7e39c152e0ef85610d6a1437451bc8d682ef96e18713f2b",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-391",
+    "text": "My card isn't working",
+    "expected": "card_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "afff390fd58c72e375dbffddfad0ad61f5d18cadf5dab95826af53b4654fb4bd",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2856",
+    "text": "how to activate card?",
+    "expected": "activate_my_card",
+    "dataset": "banking77",
+    "normalizedSha256": "7c45768b448e515a1c29fd9cd2f8b991711c87c48540923bb73559cd4fa32320",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2788",
+    "text": "How much will I pay to exchange foreign currency?",
+    "expected": "exchange_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "5a2a95eebed108f65d1caaff3ca612f23de54de5b53d83ad43e21bf16fb9ff4f",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2133",
+    "text": "I'd like to make a new PIN selection.",
+    "expected": "change_pin",
+    "dataset": "banking77",
+    "normalizedSha256": "c8882841df72b8664317bd7a63ed8d0af43cc2d8ea910108afd455b50d2ba65c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2503",
+    "text": "can I have a non virtual card?",
+    "expected": "order_physical_card",
+    "dataset": "banking77",
+    "normalizedSha256": "bc4da223d0f23fc90d5b9255c4c5a031ff18742a6f1d6be9080d912f9a7e15ed",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1402",
+    "text": "Someone I don't know has used my card without permission.",
+    "expected": "compromised_card",
+    "dataset": "banking77",
+    "normalizedSha256": "d74062102732450bb973c611e95cc02e031fe1fce080ae1d5a098bc5dcf45d18",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-55",
+    "text": "Hello, I found the card I misplaced and I need to reactive it, how do I do that?",
+    "expected": "card_linking",
+    "dataset": "banking77",
+    "normalizedSha256": "7f8b4e638f0d5a99b0b0854d9ab3d93a66c278f0f27a58e3dec84041710ce00f",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2703",
+    "text": "Why don't I have my transfer?",
+    "expected": "balance_not_updated_after_bank_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "fa1d809930daa99369fb9ddcd21ee50f22c3487cb5251569044b4d4a2d35ec1c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-202",
+    "text": "My transaction is still showing that is pending from my cash withdrawal.",
+    "expected": "pending_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "d77f7b1fb22922984a001c3c8e1c44d5525993026ac91150305d190bada152f8",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2284",
+    "text": "Tell me why my transfer failed!",
+    "expected": "failed_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "fc149e25f1e66fc0f5b15d43befeaa239dd6dc4c6b6122c13cfa6d9638560e26",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1073",
+    "text": "Has the check I deposited cleared to I can get the cash?",
+    "expected": "balance_not_updated_after_cheque_or_cash_deposit",
+    "dataset": "banking77",
+    "normalizedSha256": "0b097f1cc38eb023b2e6248b16848f5acfa60dfc3befc024d33481f5aeacdfe6",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2592",
+    "text": "The see the rate applied to my transaction was wrong at the atm.",
+    "expected": "wrong_exchange_rate_for_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "9c8ab11f8446c8d5bdc13276c8a37b3dbcb8048f4a6e1f63e1ca13f33638e437",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2782",
+    "text": "Would I be charged for exchanging currencies?",
+    "expected": "exchange_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "93bb197ab475d4ba83e73e41abcf68a22f20ffd1d2ff42b07cbf198247b0c65f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-788",
+    "text": "The ATM gave me less cash than I requested",
+    "expected": "wrong_amount_of_cash_received",
+    "dataset": "banking77",
+    "normalizedSha256": "42ecb1bc2b845c69c8647583710c3f555e15ce18a932a1177aaf8207a4f4936a",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2831",
+    "text": "Are there any fees for top ups?",
+    "expected": "top_up_by_card_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "ac408e7db0d33caffd3e1062d3a3a7e777c642d0e14ac4f3700abd53aaa6d764",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-297",
+    "text": "When should I expect my card?",
+    "expected": "card_delivery_estimate",
+    "dataset": "banking77",
+    "normalizedSha256": "6002af02e14dc7969e13612d7832b5174c46331044302f371ed23bb71859c6a3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-821",
+    "text": "Can I check somewhere if there will be a fee on my payment or not? Seems you are charging in some cases, what's the pattern there?",
+    "expected": "card_payment_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "306033243b2376b13f8e9d52f0e111b70b68f72925bab46e31bde2bb8447e662",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1667",
+    "text": "I was mugged yesterday and they took everything.  I can't access my app.  What are my next steps?",
+    "expected": "lost_or_stolen_phone",
+    "dataset": "banking77",
+    "normalizedSha256": "0167272ab7136629a9d0aa809d664a263943159723a6628ad71473bb426c7895",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2685",
+    "text": "How long does it take for an international transfer into my account?",
+    "expected": "balance_not_updated_after_bank_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "2a3bd50952e33c24e857362ea2c05442fbd7f9032577e5f2b1b9397b1212dc45",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-60",
+    "text": "How do I link to my credit card with you?",
+    "expected": "card_linking",
+    "dataset": "banking77",
+    "normalizedSha256": "497d20530d914afb65d294bf6c14b2059c6d98c015945fd611441dcfdf0638e6",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-78",
+    "text": "How do I link my replacement card?",
+    "expected": "card_linking",
+    "dataset": "banking77",
+    "normalizedSha256": "3c6f302a0276cfd20186ae9d050f218b3cd7c5ce1832714524aebe6ea2fb78f3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1393",
+    "text": "How many times can I use a disposable card?",
+    "expected": "disposable_card_limits",
+    "dataset": "banking77",
+    "normalizedSha256": "0b4bbf388576375fa3ac3c89fd4999680c30cf0ea3b7cfec0a5d802aeee1a990",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2732",
+    "text": "I checked the app and saw an extra cash withdrawal that I didn't authorize",
+    "expected": "cash_withdrawal_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "f0b1ac5838a697ac07b31a99643c123e9059fcfac01f35e6434ce50bc910a931",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1556",
+    "text": "I need a new passcode.",
+    "expected": "passcode_forgotten",
+    "dataset": "banking77",
+    "normalizedSha256": "c7459159ec37d7d3c93e02ea5236bfdf0e4534a8366187d8860989c5037b79cd",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-853",
+    "text": "I just finished sending money, but it's not logging on the recipient side.",
+    "expected": "transfer_not_received_by_recipient",
+    "dataset": "banking77",
+    "normalizedSha256": "aa218cd69d9bdd87ebca2da95f108761648fa288b8d44a396d26c35129b851f4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1532",
+    "text": "I don't remember my code to get into the app.",
+    "expected": "passcode_forgotten",
+    "dataset": "banking77",
+    "normalizedSha256": "ec60f88d5c81f90bab483707b8ee432b70e3eb1c1bd23b02e1cbcbf77b1cf8ca",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-504",
+    "text": "Can my children have their own account?",
+    "expected": "age_limit",
+    "dataset": "banking77",
+    "normalizedSha256": "c459325f35e4e8d86887eb0419b178e085356fa40f645422080d49f6b8d279b3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1952",
+    "text": "My card has been swallowed by an ATM",
+    "expected": "card_swallowed",
+    "dataset": "banking77",
+    "normalizedSha256": "454b2da73950ad7352d3967c371df7fdac70a392e4427e52be0b3ab4fc495c9d",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1680",
+    "text": "Hello- It is urgent I get a refund on this product. The merchant has not been helpful, what can I do now to get this resolved ASAP?",
+    "expected": "request_refund",
+    "dataset": "banking77",
+    "normalizedSha256": "c1b8bc6e348e5475f7842dadff43ce26cf7057994d69fb3232f961036396ae2e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-776",
+    "text": "Why did I only get $20 when I tried to get $100",
+    "expected": "wrong_amount_of_cash_received",
+    "dataset": "banking77",
+    "normalizedSha256": "3afb4477b02e10e58a2f85c0f8fc2d713144c7a6fbe8a68958e00e103a7c703b",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1030",
+    "text": "Do you know if my top-up has been cancelled?",
+    "expected": "top_up_reverted",
+    "dataset": "banking77",
+    "normalizedSha256": "89af8c2b1435606266e9a6698aba034b952b0b4acc05a5aa0a4087da528e962e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-460",
+    "text": "I think my card was stolen.",
+    "expected": "lost_or_stolen_card",
+    "dataset": "banking77",
+    "normalizedSha256": "ff46f5a3cd77650dc59ab71b18133a0ba16a15b73582292e0097abf013e11aec",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-637",
+    "text": "Do I get charged if i am getting money?",
+    "expected": "top_up_by_bank_transfer_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "dd187f6ef559e12c54e88d3234d4fdd45f7e6b80529492cc33cb4e1848a514dc",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1666",
+    "text": "Can I still use the app if I switched phones?",
+    "expected": "lost_or_stolen_phone",
+    "dataset": "banking77",
+    "normalizedSha256": "3a142e7f3962c84006a21e029885b7e43b311eee954320793a1599876a6076b9",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2878",
+    "text": "I got my new card. How do I activate it?",
+    "expected": "activate_my_card",
+    "dataset": "banking77",
+    "normalizedSha256": "3dc50058dc37ef114c1cf3a89d12a799edc1fd29a0f273aef4a5709e19f1f371",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-528",
+    "text": "When I put the wrong pin too much, I got blocked, so can you help me unblock my pin",
+    "expected": "pin_blocked",
+    "dataset": "banking77",
+    "normalizedSha256": "0ec73ccc71e5bb2a26b8e69dfd36197bb03baff8f89ad523f0f4c000023d2073",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-467",
+    "text": "My card was taken from me",
+    "expected": "lost_or_stolen_card",
+    "dataset": "banking77",
+    "normalizedSha256": "67b44bd8f82682d6536132c0ab357c081ce58e0e4040d6c0661de554ea33f900",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1272",
+    "text": "Help me find my card pin!",
+    "expected": "get_physical_card",
+    "dataset": "banking77",
+    "normalizedSha256": "e3b0af5861599fab81f649a6bf194e639d5a7f8974e4e42475fec037cbe20696",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-432",
+    "text": "Can I exchange between GBP and USD on the app?",
+    "expected": "exchange_via_app",
+    "dataset": "banking77",
+    "normalizedSha256": "2fa3f429a2264838ae0d09e6a7274cd6b62c379f0b4e1fb2d56aa943bca6de76",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-409",
+    "text": "How do I interconvert between AUD and GBP?",
+    "expected": "exchange_via_app",
+    "dataset": "banking77",
+    "normalizedSha256": "97277b4934e64c86cac51e9c48eef1cfc6827eaa138d4ac9a3f7a85ada7f25fd",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2375",
+    "text": "Why does top-up need verifying?",
+    "expected": "verify_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "4ef90dccf3b38ee8a7c01eb004cd8fd8101d0d1fa6ce8b885362353aefd1ea40",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1835",
+    "text": "My card didn't work in one of the shops.",
+    "expected": "declined_card_payment",
+    "dataset": "banking77",
+    "normalizedSha256": "f11b8f242cb59bd2538bef2839288d6b4cf79f6d8e7c6690838ebf6ff28067d1",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1436",
+    "text": "I think someone copied the numbers on my card and is using them.",
+    "expected": "compromised_card",
+    "dataset": "banking77",
+    "normalizedSha256": "4ef29de4dee0b94a1539016004bb38eea0d5bcac5409863482e74a1bb6567623",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1457",
+    "text": "Which ATM's will accept my card?",
+    "expected": "atm_support",
+    "dataset": "banking77",
+    "normalizedSha256": "25b0e85c956c96fd5890ce564aae863bae14f786a6c46d31e3879b5e14d14044",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2865",
+    "text": "When will my card be activated?",
+    "expected": "activate_my_card",
+    "dataset": "banking77",
+    "normalizedSha256": "6ce94163a34db1ac55183fbe47c0166c5d9287c05e82fa2dc47a0a2e4a798d82",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2069",
+    "text": "How long does a funds transfer take from one back to another?",
+    "expected": "transfer_timing",
+    "dataset": "banking77",
+    "normalizedSha256": "6f54d3157750e22b96491fc9ca48469adeac41c773e82bcb1574affed408a531",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1617",
+    "text": "I would like to know why my purchases from this morning are still pending.",
+    "expected": "pending_card_payment",
+    "dataset": "banking77",
+    "normalizedSha256": "0dac6eeace221a4694df7421ca3136bf3e67d58117e1ecf34e27f6ef5f636178",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-499",
+    "text": "If my kids wanted to use your service how old would they have to be?",
+    "expected": "age_limit",
+    "dataset": "banking77",
+    "normalizedSha256": "39f9184816ef3a7a5853fc945633bffeb064191618709aadd652cff505f4352a",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1117",
+    "text": "There is a fraudulent charge on my statement.",
+    "expected": "card_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "ec0035b190833511a168384e44a7c864d6dd1379127a9346e93d35312f1d5b4d",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2059",
+    "text": "How many days does a transfer from the US take?",
+    "expected": "transfer_timing",
+    "dataset": "banking77",
+    "normalizedSha256": "6c08f29d6bb55e4727142ff29f679f17ad4534d6f97db56099c14235592b78b2",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1778",
+    "text": "Where can I see the refund in my account",
+    "expected": "Refund_not_showing_up",
+    "dataset": "banking77",
+    "normalizedSha256": "4bf7b2418b877df55b8494fb5cf85712f70ef432283e5887a597223ddea5e0d4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-613",
+    "text": "Will there be any charges for money received?",
+    "expected": "top_up_by_bank_transfer_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "5ac412023f392aff931faf552ea741636cdfc573ff2b89d4d12000b45d80cfaf",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-15",
+    "text": "I have been waiting longer than expected for my bank card, could you provide information on when it will arrive?",
+    "expected": "card_arrival",
+    "dataset": "banking77",
+    "normalizedSha256": "e888cbaeb7f2ad83790e04797b4f2b4ed22ded2b5c5e417a54475ed449cfb040",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-752",
+    "text": "Is there a limit to how high I can top-up?",
+    "expected": "top_up_limits",
+    "dataset": "banking77",
+    "normalizedSha256": "998ce6366fa9b1a049c2d279ad3b93081d04e402e2d56599d27da71d1bb8428f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-295",
+    "text": "May I choose when it's delivered?",
+    "expected": "card_delivery_estimate",
+    "dataset": "banking77",
+    "normalizedSha256": "ab528124760440a0f0ed9a8692c30769da39b3997686c805b4ce98ac1969208d",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-330",
+    "text": "Where can I find the \"auto-top\" feature?",
+    "expected": "automatic_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "20f711b85e9da80eb966d286111b8f66a1d910ab88a25b9a72cd46f66ffe313c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1932",
+    "text": "The ATM machine stole my card.",
+    "expected": "card_swallowed",
+    "dataset": "banking77",
+    "normalizedSha256": "bc0ac0e63fcf4d8d1b9f7f58c214a4042825980a1d641a797e7906a5c58c344c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-587",
+    "text": "The contactless I have won't work.",
+    "expected": "contactless_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "2de26e126c29e8c7237692a06e23bc946177f4e79e6e76428701d0b2dc5298cd",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1732",
+    "text": "Why did I get a transfer declined?",
+    "expected": "declined_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "1a298cfef7c82bdce89ecbef96c7f07eb1313887cdb9e7b069a24c9c567a3638",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2452",
+    "text": "Can I add to my account balance with a cheque?",
+    "expected": "top_up_by_cash_or_cheque",
+    "dataset": "banking77",
+    "normalizedSha256": "c4ffacc630d4bf72b8d1fad1342b3c01e0b32f52cac245c7be0b90f75bb07357",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2569",
+    "text": "A wrong exchange rate was applied to a transaction made abroad.",
+    "expected": "wrong_exchange_rate_for_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "0b55516eae3fcaf797f368296e7e680fa4f56b39a448fa127e9093a452292dfc",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1258",
+    "text": "Why can't I see my PIN?",
+    "expected": "get_physical_card",
+    "dataset": "banking77",
+    "normalizedSha256": "649b11cb8729cfc9e10e8bb827d47d797bcd7a65dcf92561cc43e0e1e283d938",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2698",
+    "text": "I can't see my latest bank transfer",
+    "expected": "balance_not_updated_after_bank_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "a4b45fd0222bc32dafdff9adff9f50491eba36fc9a472eff24791c4f1b990a88",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2613",
+    "text": "how secure is a disposable virtual card",
+    "expected": "get_disposable_virtual_card",
+    "dataset": "banking77",
+    "normalizedSha256": "34c9b55715c67027d57c6c6713a3c17f30d02f83890e4d97264d4f4478d05651",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-484",
+    "text": "How old do we have to be?",
+    "expected": "age_limit",
+    "dataset": "banking77",
+    "normalizedSha256": "ae2a4d34832f5c9fd6694cb0858e6b4eb5692181a85224c6f3b16152c93763d3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2085",
+    "text": "I made a payment but the app reverted the payment.",
+    "expected": "reverted_card_payment?",
+    "dataset": "banking77",
+    "normalizedSha256": "090740f5b1ca00e2daedcfaaf4c55487f28df47e311adac0e5b3a7ad0909a4b9",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1777",
+    "text": "Why isn't a recent refund on my statement?",
+    "expected": "Refund_not_showing_up",
+    "dataset": "banking77",
+    "normalizedSha256": "7adeb22cb07b51d46756701a25217fc9cc98c625c1af9f6940a8a713f69f4093",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1138",
+    "text": "I need to update my info.",
+    "expected": "edit_personal_details",
+    "dataset": "banking77",
+    "normalizedSha256": "bc7c0a667cd66c9d804c7275168c515b3f5a14280fc0ef7d6602c6f448fe04f0",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-686",
+    "text": "I need to cancel my recent transfer immediately, I made a mistake there, please help quickly before it goes through",
+    "expected": "cancel_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "3b2d64e0b1b19257eec6e44c47586d1c54c6d36031db5e60f01f5ee3c14d263d",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2654",
+    "text": "Why caused my top up to not work?",
+    "expected": "top_up_failed",
+    "dataset": "banking77",
+    "normalizedSha256": "7dabbe10cec2c84a75eb25c9577869dc3a75173f4e749f6b824013ab55112c98",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-157",
+    "text": "Your exchange rate is totally wrong for my card payment",
+    "expected": "card_payment_wrong_exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "cf16eabc2ff3059ebdf869b49eea608af11fde8026a851a50886b60d28f65dfd",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2477",
+    "text": "How can I top-up my card?",
+    "expected": "top_up_by_cash_or_cheque",
+    "dataset": "banking77",
+    "normalizedSha256": "f2e65f682d62bbfe9fb9c3b0cba87f7de4ed381545bf7ad6264864aa19181c63",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-457",
+    "text": "Help!  I can't find my card.",
+    "expected": "lost_or_stolen_card",
+    "dataset": "banking77",
+    "normalizedSha256": "0cf9c06002654f47b937eccabaf34f0d4bc3f499c1e76481dc82f2398fbc6b85",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2926",
+    "text": "My card is about to expire. What do I need to do?",
+    "expected": "card_about_to_expire",
+    "dataset": "banking77",
+    "normalizedSha256": "7fbc620f2b39279eec7bb0b1dc83ca9e7e779f8d77ea85aa9074539ea27d0911",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2239",
+    "text": "Can you explain the transfer fee to me?",
+    "expected": "transfer_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "90913c55340bbf07687b348e11a65889844b4ac1a1bb8254ad086e7e77ed3c7a",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2545",
+    "text": "My disposable card seems not to be working am I doing something wrong?",
+    "expected": "virtual_card_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "dea72e028d2cad625be3b35f7da91bac7e4a65ee792c5be819bcd06640f8a975",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-453",
+    "text": "Is a copy of the police report necessary for completing the report process?",
+    "expected": "lost_or_stolen_card",
+    "dataset": "banking77",
+    "normalizedSha256": "e45d2d74f091665a1a3aaa9da46d465bb10fb0f95bff8c638b6e52d2f520a5d6",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2094",
+    "text": "why did the app refuse to make an approved payment",
+    "expected": "reverted_card_payment?",
+    "dataset": "banking77",
+    "normalizedSha256": "7362072acaeec320202080f457e1caedd14849403e60792bc43433921aef5afe",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1546",
+    "text": "I forgot my code to get into the app.",
+    "expected": "passcode_forgotten",
+    "dataset": "banking77",
+    "normalizedSha256": "f083b09aaa9f1759a808619027aec3b461f6fa2bf93be0248e16d27e06c5c150",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2847",
+    "text": "I received my new card, how is it activated?",
+    "expected": "activate_my_card",
+    "dataset": "banking77",
+    "normalizedSha256": "dca3436eda075b31e6ffcf9f7c3eb34ed4c7fb4878e659f521db0831329f95e2",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1379",
+    "text": "I have to have several disposable cards per day.",
+    "expected": "disposable_card_limits",
+    "dataset": "banking77",
+    "normalizedSha256": "52f74da6d59e4c0b577606f61e4a62eadd5048ffee030d108d6956851b4a48a9",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1591",
+    "text": "The ATM isn't giving out any money.",
+    "expected": "declined_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "6b1d342b4177cb3044a5768a9d87b5be7e53181984058114b3928be327394255",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2736",
+    "text": "I am seeing in the App a some cash withdrawal that its not mine",
+    "expected": "cash_withdrawal_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "c5677fbd01cdc89c0d4604c4739f800bc2491d13ae5ccf9f9b07731b149c259d",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1560",
+    "text": "Can you tell me why you won't let me get my own money out of the money machine? I know I used the right PIN.",
+    "expected": "declined_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "a516a818fb76caaa7aac617f23424ace925be5236edff2fce34ba47f08aed15e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2051",
+    "text": "When will a transfer reach my account?",
+    "expected": "transfer_timing",
+    "dataset": "banking77",
+    "normalizedSha256": "9b0e05e2ce992a6344922633b5a2df8d1644047959276b65ccde96a0a016e10b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-955",
+    "text": "When should I receive my virtual card?",
+    "expected": "getting_virtual_card",
+    "dataset": "banking77",
+    "normalizedSha256": "0d671b479060b630d37fe5a16f1f5ebab58ea676d3b307132e2446d6fca0a1e1",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-634",
+    "text": "Will I be charged a fee if I receive a SEPA transfer",
+    "expected": "top_up_by_bank_transfer_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "071b6fb79577873db729975120299a5226a3295a4cc13b0e3a5a06b0d598a14e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2168",
+    "text": "Hey I want to buy some crypto but the app doesn't allow me to! What's the issue, I really want to exchange this",
+    "expected": "beneficiary_not_allowed",
+    "dataset": "banking77",
+    "normalizedSha256": "51f3a1f1fc6ab8a7fe0996c4e7dda1bcbadadb08b28285de0cb754a653132c76",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-949",
+    "text": "I thought I was going to get a virtual card but I haven't received it yet, how can we resolve this?",
+    "expected": "getting_virtual_card",
+    "dataset": "banking77",
+    "normalizedSha256": "fb28d8e4853410df66fa364ee0176b651557446a36c85d8131e6ccb7163c5f47",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-463",
+    "text": "How can I freeze a stolen card?",
+    "expected": "lost_or_stolen_card",
+    "dataset": "banking77",
+    "normalizedSha256": "cdfe9e9ac712035f5dbf5601683a31b2d6a97b029e14a601849169c85822aefe",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2946",
+    "text": "I need to order a  new card, mine is about to expire and I need to know how much it will cost and how long until I receive it.",
+    "expected": "card_about_to_expire",
+    "dataset": "banking77",
+    "normalizedSha256": "931e203443b18fbc21c295da636ee02052206c02ac22d234ac73773ebce26e1e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1933",
+    "text": "The ATM at Metro bank on High St. Kensington swallowed my card. How do I get it back?",
+    "expected": "card_swallowed",
+    "dataset": "banking77",
+    "normalizedSha256": "b77f7466e0ad158c61a3b0cf66f0fcf3f488e420604b02ef1131e3eded0f5ab1",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1221",
+    "text": "The app doesn't recognize me.",
+    "expected": "unable_to_verify_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "2ee63f39d1a34d2b35eb95f3b51f5842e5784ed556af1ce73c004e9f40162a60",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-185",
+    "text": "Where did the extra fee on my statement come from?",
+    "expected": "extra_charge_on_statement",
+    "dataset": "banking77",
+    "normalizedSha256": "b0ec80ea5032d910076fab24d072db9d30a212c4abc286d2962dc1f7e8a93209",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2811",
+    "text": "How much does it cost to top up by card?",
+    "expected": "top_up_by_card_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "1ede5d40a0cb6d19a50e34e7043f199cce10b069d853cda99c6037a40478ac78",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2212",
+    "text": "Do charge fees for transfers?",
+    "expected": "transfer_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "497c0ba8d6c4f51e51be3e01c591ec8da9140b8c14bb5fbd77e19e4d23441814",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-273",
+    "text": "Can I hold money in multiple currencies?",
+    "expected": "fiat_currency_support",
+    "dataset": "banking77",
+    "normalizedSha256": "28cf084683945ab8d68fb565d106a9062f72044aa4c488d91677ce05c974e591",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-557",
+    "text": "Since my pin is blocked, would you help me unblock it?",
+    "expected": "pin_blocked",
+    "dataset": "banking77",
+    "normalizedSha256": "b1e29ffe88cd0032cf08a6a038710d044e47827ce16911bb4bc812a2a510bd2f",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-382",
+    "text": "I broke my card",
+    "expected": "card_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "b84f7e516e46058eea5d60643ad9cbdf067530213c2add1c2e6e23ac7fc79cd7",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1703",
+    "text": "I would appreciate it if I could get an item refunded",
+    "expected": "request_refund",
+    "dataset": "banking77",
+    "normalizedSha256": "dfa1ab612c7f938dc1bdb4faca3bc80f3a66efb18f7e42a59a1a9a2709ff9a68",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-867",
+    "text": "I made a transaction and it is taking a very long time to go through.",
+    "expected": "transfer_not_received_by_recipient",
+    "dataset": "banking77",
+    "normalizedSha256": "939184caae4636f6ff0947f89060fa0ae6db2566ab22851fe2d71d275733372b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-158",
+    "text": "The wrong rate was applied to an item I bought in a currency different from mine. Can this be changed?",
+    "expected": "card_payment_wrong_exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "eb82fce9fd7478e6dd4486ddb63edc8c5e45c12fd473069bfa8c805b96fc6eae",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2369",
+    "text": "Why do you need code verification for my top up?",
+    "expected": "verify_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "44576e17bf1b61c3bd58508396ed15112a13f0ff92604cdb616ed9d6d605ce81",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-561",
+    "text": "My contanctless has stopped working",
+    "expected": "contactless_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "3a7eae261f573f0c49c5a1661a724297ed17e0a8ee2abe9e00ce996d21a2d068",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1866",
+    "text": "I would like to know why my payment is still pending, can you help?",
+    "expected": "pending_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "b4a3c4777990d764a42572511dc65a7876aa27239626cdc7cd97f1f07bc3c5cb",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2291",
+    "text": "how come my transfer didn't work",
+    "expected": "failed_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "a30be81aa578977b3db821744e9208ee00564a8944fedcf0f6281cf800bd625d",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2908",
+    "text": "Is there a limit on how much I can withdraw from my account without being charged?",
+    "expected": "cash_withdrawal_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "4be3b7c3f55a218b0b990cc589975aa22c442347bf0588cd74af2f5885b2f1d7",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-94",
+    "text": "What is the exchange rate like on this app?",
+    "expected": "exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "cf6e4ced6d480c3de4368c2bace1f1272ed188232704988fabaab7c6d35b5058",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2208",
+    "text": "I am being charged a transfer fee aren't they free?",
+    "expected": "transfer_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "5f080b70bd67bb6f612432282588e698055b74ddcb8111c0c1ff6d24b3416540",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1994",
+    "text": "I have a transaction that shows several times",
+    "expected": "transaction_charged_twice",
+    "dataset": "banking77",
+    "normalizedSha256": "5da85214d2811adf2361ee5fa707988015227328d60dc1c4ed881151cb2371b4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-3050",
+    "text": "Can I get a card despite the fact I'm not in the UK?",
+    "expected": "country_support",
+    "dataset": "banking77",
+    "normalizedSha256": "02b680dc9e573eee9df66febbefa4de0d92402618db9c979f16e5576de77e91a",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-714",
+    "text": "Cancel my last transfer",
+    "expected": "cancel_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "21eb0cddb4aae48341a16e6d772308b2e5a3202841f798f1d8ce72fda09333eb",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1576",
+    "text": "I was declined when I tried to get cash.",
+    "expected": "declined_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "a430afe6e6ec065dd3057962fe44febcfee171b58ea8c7745268d46539b22b95",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-678",
+    "text": "The top-up has a definite problem! I regularly use your service and haven't had a problem before, but now the top-up just shows pending. Please tell my why it continues to show pending.",
+    "expected": "pending_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "fd854be470e478efa04c55f96dd1c0561a14e9a3a5bb8c9ef1916223abbc1cec",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1600",
+    "text": "My card payment is still on hold, why is it so?",
+    "expected": "pending_card_payment",
+    "dataset": "banking77",
+    "normalizedSha256": "60cd0a6ffa15c6c9882c015768c0cf269b18f61846d2edcd1d4bbb13a4410d0a",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-350",
+    "text": "how do I top up my money automatically",
+    "expected": "automatic_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "b772f7ccfdcd36a9cb64c54cfda8a46ba829750141d1ddce99291d2ccceaa749",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2756",
+    "text": "There is a problem with my card. Somebody has removed money from my account in a town I haven't been to. Can you please freeze my account immediately?",
+    "expected": "cash_withdrawal_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "a5d8d52fbd3cbb17c498a8217cc2674b303692a51e4f6ac6292035b6e15dba26",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1167",
+    "text": "Can I use my account without verifying my identity?",
+    "expected": "why_verify_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "944df50acbe2a6c898eb3efc5b5c0e76461b2c8799599214111a8a1201d8ba4e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-979",
+    "text": "I am traveling to Germany, Will I be able to use my card there?",
+    "expected": "card_acceptance",
+    "dataset": "banking77",
+    "normalizedSha256": "b54b3babd56eadbac7c87f56539dd9b493fab4a68fa74dcbdd29e612bb6e1aa8",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-604",
+    "text": "Can I also transfer with SWIFT?",
+    "expected": "top_up_by_bank_transfer_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "15fd25838ae4403082cb8784ec8263f92259d8c62ae188772abddb7e47910c7f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-728",
+    "text": "I need to find out what is the limit for top-ups.",
+    "expected": "top_up_limits",
+    "dataset": "banking77",
+    "normalizedSha256": "d18ac7287c350cf990477f2d90463ac412bea1f528eb96fd5b985bc50b798855",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1734",
+    "text": "How do I contact customer support about a transfer?",
+    "expected": "declined_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "fc149bc91e0c6c5f9d1bf1a013ea8248b3c0c971874309ae3851082e6b2190ca",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1773",
+    "text": "I requested a refund and it is missing.",
+    "expected": "Refund_not_showing_up",
+    "dataset": "banking77",
+    "normalizedSha256": "17d4eac5983bed5cac3a1658db7be32dfa488cc2acd271a14ccc6b25e6dce320",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-242",
+    "text": "Do you support all fiat currencies?",
+    "expected": "fiat_currency_support",
+    "dataset": "banking77",
+    "normalizedSha256": "4fb9c85fd40dadf7f3b8d5e27659c8ac1bdfe590a33c96b820110cbc7d54dff4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2361",
+    "text": "It wants me to verify the top up. Why?",
+    "expected": "verify_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "859a1d8fb8378513f57e0b44ea42bd215e7da490d2e465c258adc1044d416f06",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-420",
+    "text": "What is the best way to exchange currency?",
+    "expected": "exchange_via_app",
+    "dataset": "banking77",
+    "normalizedSha256": "4680db281c3f429d85bd9d972d83c9ddb80a1bedb08d35c5933d47a3fbbf250e",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2888",
+    "text": "Why is there an extra charge for money that was withdrawn?",
+    "expected": "cash_withdrawal_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "32858a226314ee8ed4414a7b6655aec95a0d50dd10ba1a2e49bc169ba6a4699e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1174",
+    "text": "What is the purpose for the identity check",
+    "expected": "why_verify_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "a8664df75b897a81d4995f554e2160ec4bb5c6c30f082dcf5a51c70470a7cedc",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-719",
+    "text": "Please help me!  I need to cancel a transaction.",
+    "expected": "cancel_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "a01975ffc5f25fd957328fa9cc2849cc84e9e60b6e1138c7ec3ab3e922f5cefe",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1585",
+    "text": "Why was my cash withdrawal declined?",
+    "expected": "declined_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "d5ed826262d0a4b27515afd677b640e742a8b1f01387e844011f0809e3be51ea",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1860",
+    "text": "Please explain why the transfers shows up as pending?",
+    "expected": "pending_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "ae286ce02da11516eb3cef90f48e5e31c5b3cc8f3595099ab3a664deac2245b2",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-879",
+    "text": "I transferred some money but the recipient is having trouble withdrawing.",
+    "expected": "transfer_not_received_by_recipient",
+    "dataset": "banking77",
+    "normalizedSha256": "c32f5a17912ed19651b53f575c45b3b905bf9be8f6e70d33620125485197bdf3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2161",
+    "text": "I've transferred money before without issue but now I am encountering an error stating that it isn't possible. Why is that?",
+    "expected": "beneficiary_not_allowed",
+    "dataset": "banking77",
+    "normalizedSha256": "6e483132034e10d8102bef46015ec1830322632cfeef0ea64c2cd097699293d4",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2132",
+    "text": "In what ATM can I change my pin?",
+    "expected": "change_pin",
+    "dataset": "banking77",
+    "normalizedSha256": "77ea6c3256c02f029d0c7a17606d283224fe6158b5c0585745b7a8fa80b430ad",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-153",
+    "text": "The incorrect rate was used in my foreign purchase",
+    "expected": "card_payment_wrong_exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "914ddd3aaf6763565414fca6f5af9fc5f21e90457f18a36408021841b9228169",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2491",
+    "text": "Do you ship cards to where I live?",
+    "expected": "order_physical_card",
+    "dataset": "banking77",
+    "normalizedSha256": "223bbe76305b52b2bcff20cb5935323ed3d40ff9678622309db9097e08550b1c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-3016",
+    "text": "What kind of documents do I need for the identity check?",
+    "expected": "verify_my_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "616a54d402f723edbfa66ab0c19c91a4a20c27c266f092ca4fe12580229a7fd6",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-107",
+    "text": "What is the exchange rate like?",
+    "expected": "exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "5525c1ee39d3d4180addd273a90d96450c51182c67e08c940902d2e78af19ab3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-598",
+    "text": "How can I find out where my contactless works?",
+    "expected": "contactless_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "a243f0893ffeb7052f41eef9e41289339a0b2eab0acdef7b95b4c1063f698fcf",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1894",
+    "text": "This company is bad, please delete my account.",
+    "expected": "terminate_account",
+    "dataset": "banking77",
+    "normalizedSha256": "aa383671deecbaf91a66c29aeef5223cc012bbd09fb9bb562f1adc27e8b32b75",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-258",
+    "text": "Will you handle EUR?",
+    "expected": "fiat_currency_support",
+    "dataset": "banking77",
+    "normalizedSha256": "15f400c98874277404bf015093dd3d11085beecc9c1741c2ee06fbb6ca3e26a5",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2637",
+    "text": "how many transactions can i make with a disposable card",
+    "expected": "get_disposable_virtual_card",
+    "dataset": "banking77",
+    "normalizedSha256": "bec1ed7a45f43204b92d54d63b7a4729e747cc5364335ccbfdf6a1a8951941f5",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-123",
+    "text": "The exchange rate was wrong when I bought something outside the country.",
+    "expected": "card_payment_wrong_exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "43140f213c9cdd80173fc7be88bad8d01b6a6992b9492284dab20b6a05433fed",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2407",
+    "text": "Can I have a card after my first one?",
+    "expected": "getting_spare_card",
+    "dataset": "banking77",
+    "normalizedSha256": "45eb4ed6caa986b229fa71cf0a83ed5503feab5689267fe674f00164e6f04dc4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-832",
+    "text": "What fees apply when using a card?",
+    "expected": "card_payment_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "4d725c540e0a274e58a8127bab74f884d63f205e03f9255f082fb3ba96b45ea0",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2606",
+    "text": "I would like a temporary virtual card",
+    "expected": "get_disposable_virtual_card",
+    "dataset": "banking77",
+    "normalizedSha256": "c7001a067f8b5abfd715dbbf9049cf0910726389b61698ebc3ed93e45bf9ff02",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2341",
+    "text": "What methods can I use to add money to my account?",
+    "expected": "transfer_into_account",
+    "dataset": "banking77",
+    "normalizedSha256": "3f7f41afa40ec001e660d4d567226d6129d044613ce746c1f9e8f556180f14c9",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1607",
+    "text": "I recently made a payment, and it is showing up in my account as \"pending\". What does that mean?",
+    "expected": "pending_card_payment",
+    "dataset": "banking77",
+    "normalizedSha256": "e3f37bf78b27fd391a64bc2079cf854a8bfaf36d6d6101bc1809dc4b585a7075",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-690",
+    "text": "Is there any way to cancel a transfer?",
+    "expected": "cancel_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "92233dd65449dd65c0a1da4e2b95f7674d49ccd1651529d823a5586739245797",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1057",
+    "text": "I deposited a check but my balance is still the same.",
+    "expected": "balance_not_updated_after_cheque_or_cash_deposit",
+    "dataset": "banking77",
+    "normalizedSha256": "5f2ee2863d25e76c1d29ab678d4e99cf2c41668651567f606c96dbb289ae1b33",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1980",
+    "text": "Hello. I checked my transactions and saw I was double charged on my card for a restaurant visit. I would like to get my money back.",
+    "expected": "transaction_charged_twice",
+    "dataset": "banking77",
+    "normalizedSha256": "bab78c07433c4ea4febd57f29adb1d06f42058c23e46878d2e0025de0f3ecd9c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2783",
+    "text": "What is the exchange fee?",
+    "expected": "exchange_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "51725d5bbb1f3ceb94f09dee03d7ccf0334f9427c05cfc76bbc9c9ab92da89df",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2921",
+    "text": "Will you be able to send the new card to China?",
+    "expected": "card_about_to_expire",
+    "dataset": "banking77",
+    "normalizedSha256": "eab230ffe1422f5629fd5e36d6d8ca34a580ce39dfba108385ad1bfa7ec81a10",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-440",
+    "text": "My entire gym bag, including my wallet, was stolen out of my locker today. Everything in my wallet is gone - how do I block the card to make it can't be used?",
+    "expected": "lost_or_stolen_card",
+    "dataset": "banking77",
+    "normalizedSha256": "bec6b2240d9a38363205eeaaf55aca72f7d7af8f2e39033ac6ed5d098bc467fd",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1987",
+    "text": "My card has been charged two separate times for a single transaction.",
+    "expected": "transaction_charged_twice",
+    "dataset": "banking77",
+    "normalizedSha256": "635c7c7452b6ca3f3c920af32af0e1822b71dfa7822da6adaaeb36362a997d7f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1246",
+    "text": "How do I find my card PIN?",
+    "expected": "get_physical_card",
+    "dataset": "banking77",
+    "normalizedSha256": "721f259744319121a1d23ccb878348d6a9b9eaa6432d925bd9c014529832b51b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2303",
+    "text": "Why couldn't I complete a transfer?",
+    "expected": "failed_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "be3717c31a1b343af2a1a039e6ae53c429a15175c94a3ee061e9bf35a4a3d308",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1018",
+    "text": "I topped up but the app reverted it",
+    "expected": "top_up_reverted",
+    "dataset": "banking77",
+    "normalizedSha256": "082bb91d341012f1a0a3c2a8d20544b059061a56484aec94d50b81845e441fef",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-201",
+    "text": "My card was denied at an ATM earlier today but the transaction is pending. Please cancel it as I did not receive my money.",
+    "expected": "pending_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "6129d708a021903b3497ddfae9627c423294631d19ee4e890bb55e75b9547574",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2967",
+    "text": "Is it possible to top up with Apple Pay?",
+    "expected": "apple_pay_or_google_pay",
+    "dataset": "banking77",
+    "normalizedSha256": "a2232c26e23a5c4519ec1cc33b4902d309101a2bb867c11d7396aab629c79879",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1676",
+    "text": "I can't find my phone but it has all my credit card information.",
+    "expected": "lost_or_stolen_phone",
+    "dataset": "banking77",
+    "normalizedSha256": "9b9acb4151d55cf587ce2d4013cf2ca514455652fd4b1531db566f4063aeb8af",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-35",
+    "text": "I ordered a card and I still haven't received it. It's been two weeks. What can I do?",
+    "expected": "card_arrival",
+    "dataset": "banking77",
+    "normalizedSha256": "c9b0e4d6abf2a4f55d37fe60dea1608175a807f0d12af5d0fbbdfd61108bcd2a",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-747",
+    "text": "What's the top up limit?",
+    "expected": "top_up_limits",
+    "dataset": "banking77",
+    "normalizedSha256": "e262faa4b9fcd3866ee9112e88f564ee7da8e36e71eb62d5a024bcb7f2338e78",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-933",
+    "text": "Can you tell me where I can order a virtual card?",
+    "expected": "getting_virtual_card",
+    "dataset": "banking77",
+    "normalizedSha256": "10184b59977175a21dbd3832a9b416d62dc144076897bf268ef032b3106f8e5b",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1212",
+    "text": "I can't prove my identity.",
+    "expected": "unable_to_verify_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "7f33c0ef9ebaceab1e158dc7d84b14369d95aa8bd4debe156fd72d04d0770490",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1785",
+    "text": "I still haven't seen a refund on my account",
+    "expected": "Refund_not_showing_up",
+    "dataset": "banking77",
+    "normalizedSha256": "cefef8b3eb220f189211ba7c13ca7b64f884bb254ac6bbafa2286a567cefd767",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-662",
+    "text": "So I just put my top-up into the card and it hasn't changed.",
+    "expected": "pending_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "9b6a8545e2928d4fc640b89bad2740ef1332d66a69f3c75f21322dfc24a0a0c2",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2552",
+    "text": "Payments from my disposable virtual card don't work",
+    "expected": "virtual_card_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "39fc79aaa9dadf6deff5cd757980486c6618cc13fb32e095325f0b67e112e9ac",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1756",
+    "text": "My card is being declined online. Could you tell me what might be broken or wrong with the account?",
+    "expected": "declined_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "15e747c8552f6cd1340cfb9b7bffb510322426f99d5fdb50aeb84cec3332674e",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1795",
+    "text": "I keep checking my bank statements but I don't see a refund that I've requested from a seller. Can you ensure that I receive the refund from the seller?",
+    "expected": "Refund_not_showing_up",
+    "dataset": "banking77",
+    "normalizedSha256": "73c9d00cd4be0fc81d7b15f454f069fe7dc0d0d289ec94f64289c82fab7b83ca",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-0",
+    "text": "How do I locate my card?",
+    "expected": "card_arrival",
+    "dataset": "banking77",
+    "normalizedSha256": "1f21633d90fe7165bfc51235c625a23967e82a25dbb0eb89cc158c5ca0df7929",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2402",
+    "text": "I want to order another crad",
+    "expected": "getting_spare_card",
+    "dataset": "banking77",
+    "normalizedSha256": "5cccc3aaf639747c29657a59e2690474098128c0571f6116629e1235e28bd842",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2092",
+    "text": "My card is being declined for a purchase. I bought items before and the card worked. Do you know what the problem is?",
+    "expected": "reverted_card_payment?",
+    "dataset": "banking77",
+    "normalizedSha256": "cad56eb3ed5228aa51d37243449687a375e862489a79294c8193dcfd7f72c7f5",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1749",
+    "text": "For what reason was my transfer declined?",
+    "expected": "declined_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "afdefd4017635d0d4e2f0d10b5b99c5fb137864cc6200e9c11d41c8632041f1d",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-826",
+    "text": "Is there a fee when you pay with your card?",
+    "expected": "card_payment_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "f2ae4337cc068595123d6b6a48dbc9d9cb48648b3ae565ef2bff947c210847a3",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1288",
+    "text": "How to decide if I get a Visa or Mastercard?",
+    "expected": "visa_or_mastercard",
+    "dataset": "banking77",
+    "normalizedSha256": "882034e3c06e7d66fc39629730923be114a8eaa54203d8f157c05c791893a12a",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2372",
+    "text": "Is it possible to verify a top up?",
+    "expected": "verify_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "9581b2c321ee4bb2b9695521138061543533ffd3013e9645864af756c8967813",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1597",
+    "text": "Is there a reason that the ATM declined my transaction?",
+    "expected": "declined_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "48418322b587df4b29c702c079ab7f2fe5cde66967c01478164dfb2bafb5609c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1346",
+    "text": "How can someone add money to my account?",
+    "expected": "topping_up_by_card",
+    "dataset": "banking77",
+    "normalizedSha256": "57516920cea8b4a73afab459d5bd48c5ce8e2dcf5e355ad1a42419a0d32162a0",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2263",
+    "text": "I received my salary in GBP. How do I change this to my currency?",
+    "expected": "receiving_money",
+    "dataset": "banking77",
+    "normalizedSha256": "9d959106914e5b87ee074fdcd17609f86f4709118aa5d1789bc166e2ffd74046",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1358",
+    "text": "Why can't I see the top-up amount I just added to my account?",
+    "expected": "topping_up_by_card",
+    "dataset": "banking77",
+    "normalizedSha256": "e06ba2344baf6593fa950cae9a0f0fd1472256044fbac1e8fb536bb793c23a67",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1512",
+    "text": "I am concerned about the security in my account and would like to make a dispute.",
+    "expected": "direct_debit_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "ff5affc54dc65e635579f393977eec83c18ac1ec66dea86ab18457dffccedb1e",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1318",
+    "text": "Do you use Mastercard or Visa?",
+    "expected": "visa_or_mastercard",
+    "dataset": "banking77",
+    "normalizedSha256": "f342f22d6bbbd2ffd0e1963b455a98afa823bc24d160f514fe8d9689c8daf1cf",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1706",
+    "text": "Hello I changed my mind and really need a refund on one of things I bought recently. Can you please cancel the transaction and get my money back. Please it's urgent.",
+    "expected": "request_refund",
+    "dataset": "banking77",
+    "normalizedSha256": "2bc34cd659785667350c999b3ed85a339da79fbde5c007a5e25ddd9eef78925b",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2660",
+    "text": "The app denied my top-up",
+    "expected": "top_up_failed",
+    "dataset": "banking77",
+    "normalizedSha256": "e31e4849ccff30d713c532d341681c6e387c16a2ec9bec5cded718164938d3a4",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-623",
+    "text": "How much is the fee for a SEPA transfer?",
+    "expected": "top_up_by_bank_transfer_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "1da18c7dd6f24e82e2249a87919509b76a290458ad81c4e9ec33f89e8b032f0c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2805",
+    "text": "Are there charges for topping up US cards?",
+    "expected": "top_up_by_card_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "491fb1ec2062bfc9471c4253b6ab0551292270eabf81fe71efbef1f64e1b289c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2034",
+    "text": "Where do my funds come from?",
+    "expected": "verify_source_of_funds",
+    "dataset": "banking77",
+    "normalizedSha256": "1a3173cbfbc85da20a35c651acba1e8e4271fea8fffb3eb0b2653f777fd22ef7",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1728",
+    "text": "My transfers are being declined. IT has always worked for me but now it's declining my card. I've tried several times.",
+    "expected": "declined_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "df9b08e4398ea480d347291a107dec94215777e5c01f42bb3dc8b9dbee92fa7c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-3061",
+    "text": "I would like to receive and use the card in Europe, is that possible?",
+    "expected": "country_support",
+    "dataset": "banking77",
+    "normalizedSha256": "ed29629c43bf4d85ec9a3626e58e5cbb5be88c206b90ff7e1b3600db465975f5",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1387",
+    "text": "How many disposable virtual cards can I have?",
+    "expected": "disposable_card_limits",
+    "dataset": "banking77",
+    "normalizedSha256": "3f331ed562c51e47e241a51b87acc34756638f18d3c67627eb658d111b6ee9d0",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1754",
+    "text": "I tried to buy something online yesterday but it kept saying declined. Tried again today but same thing happened. What's broken?",
+    "expected": "declined_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "45b96cb78dfb2a2e350fee3e6350cc45aeb6a8a7220b0c219f89428972472fa0",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2258",
+    "text": "What do I need to do to transfer my paycheck to my account?",
+    "expected": "receiving_money",
+    "dataset": "banking77",
+    "normalizedSha256": "f86af2c4fc667752f21efab6d369cb385d9a077e6f5b756c3255957cf38cae78",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-698",
+    "text": "I'd like to cancel a transfer",
+    "expected": "cancel_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "eb757e8c9a0a9bea8fd421d30b6b6aa843fbb63d08aae211c954eebcb3b72396",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-731",
+    "text": "How can I tell what the limit is to top-ups?",
+    "expected": "top_up_limits",
+    "dataset": "banking77",
+    "normalizedSha256": "2ccf179e4f7e52f044a9755c1b3463fa6660f329741613b6f78c65cca5391deb",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2364",
+    "text": "Can you give me information about verification code?",
+    "expected": "verify_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "397eec8d0efd68d5334a9f3e2e35211bb607ea1e9eea484faaf7f34dda44e5da",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-824",
+    "text": "So what items  actually come  with  extra  fees",
+    "expected": "card_payment_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "ee4f6709c17e33fce4931b6180a2aa69ac77c08f25c8da0508e2d5d946ff7a2c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2184",
+    "text": "Explain why I can't do a transfer to a beneficiary.",
+    "expected": "beneficiary_not_allowed",
+    "dataset": "banking77",
+    "normalizedSha256": "c01618b753fb9d50f3542363fbce42c5d9d7f9545aeb0cdb60be8de3a217a90b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2825",
+    "text": "Does topping up my card have a fee?",
+    "expected": "top_up_by_card_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "308b1fa702a26e705a10ca3748f04311fff514525fe8baf71544b8bec46de07b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2458",
+    "text": "What locations can I top up with cash?",
+    "expected": "top_up_by_cash_or_cheque",
+    "dataset": "banking77",
+    "normalizedSha256": "3d4c26886f0fb355c202c2b0c71c835c5081def3653cb1879b17dd49c11c966c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1392",
+    "text": "What is the limit to disposable cards you can have?",
+    "expected": "disposable_card_limits",
+    "dataset": "banking77",
+    "normalizedSha256": "4c72843c807e35193d7271667045beba55e16be65f7b3975abd9727eef036e47",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2944",
+    "text": "Since my card is about to expire, I need a new one.",
+    "expected": "card_about_to_expire",
+    "dataset": "banking77",
+    "normalizedSha256": "8b177a55aeaa773d340e191ca149f0a6e8980a0d24b27880e2f82836cdd13c52",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-83",
+    "text": "Where do you guys acquire your exchange rate?",
+    "expected": "exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "db30c23ecbc5819ab6330347ca9136215ea46dfca64d92a06fa3f65cf48fd587",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-547",
+    "text": "My pins seems to be blocked, can you unblock it please",
+    "expected": "pin_blocked",
+    "dataset": "banking77",
+    "normalizedSha256": "c175e1186f0451e11e39add6fc4834e640990dcfb6192acd7833a505899c000c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1047",
+    "text": "When will I see the cash I deposited this morning as available?",
+    "expected": "balance_not_updated_after_cheque_or_cash_deposit",
+    "dataset": "banking77",
+    "normalizedSha256": "329d673da8c6954b48f98ebe535f2f2d1a644343db9b57d88bee370eefcd65b8",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1640",
+    "text": "My phone was stolen",
+    "expected": "lost_or_stolen_phone",
+    "dataset": "banking77",
+    "normalizedSha256": "26528778e526191a90d85ab36262aeaaccfb46433c9992e8145ad46b4c837ecd",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-890",
+    "text": "Can I use American Express to add money into my account?",
+    "expected": "supported_cards_and_currencies",
+    "dataset": "banking77",
+    "normalizedSha256": "d377ae60cde8efd0f1a60c33ffb6bc5ed3ad76b4bc87cba28f50398948b70031",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-836",
+    "text": "Why do you charge fees on card payments?",
+    "expected": "card_payment_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "d1ee31845c410867623a09c85a97f1dae0528026f4b43a60fabc06821bc38518",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1953",
+    "text": "I was taking out funds and was unable to regain my card.",
+    "expected": "card_swallowed",
+    "dataset": "banking77",
+    "normalizedSha256": "ab40da9f87a8b8a4bc0feb5a1ac481ab8e262a283e40a45236d168d065587329",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2485",
+    "text": "Please, how do I order a card?",
+    "expected": "order_physical_card",
+    "dataset": "banking77",
+    "normalizedSha256": "151cc2bb66597048f19fc29317a7924a5531fa5e8be32ae4ac7e6fca8f6fc382",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-441",
+    "text": "I can't find my card and think it may have been stolen.",
+    "expected": "lost_or_stolen_card",
+    "dataset": "banking77",
+    "normalizedSha256": "6655cce7f80feded7a37d479abeff315f0572b15eb4e3c795f156ad9fd9ae80e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2987",
+    "text": "I got my American Express in Apple Pay, why is top up not working?",
+    "expected": "apple_pay_or_google_pay",
+    "dataset": "banking77",
+    "normalizedSha256": "19a0ff1fee74a7e0220e36d674ff98ee460ffa96da0a79f79c90d093c422c69c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2371",
+    "text": "How do I get my top-up verification code?",
+    "expected": "verify_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "cc1b9b791474f944599d8db846db443d10c39a5efc120ac62ea6193dc7afd668",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2269",
+    "text": "How do I get my salary through this account?",
+    "expected": "receiving_money",
+    "dataset": "banking77",
+    "normalizedSha256": "597980cf6531fd1dd168de79c337899ec11c4058a406fcef9469912a0b0591cb",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-3009",
+    "text": "Are there any documents needed for the identity check?",
+    "expected": "verify_my_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "7408a540ca181b3653a15ff0779da910e5197cf7b0933780b31fd526c5eaab71",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1965",
+    "text": "Why was I chaged twice for the same thing?",
+    "expected": "transaction_charged_twice",
+    "dataset": "banking77",
+    "normalizedSha256": "02e6edf4a474ba4b6cd9e8f509422f4db01b939538e6f77f986cb31232e49299",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2081",
+    "text": "My card payment was reverted.  Why?",
+    "expected": "reverted_card_payment?",
+    "dataset": "banking77",
+    "normalizedSha256": "11afe8afb67249330bc69ed38a36c0d2cd468a2a98d5e454e4a2399384bafb8e",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1040",
+    "text": "I tried making an update to my balance using cheque just yesterday but it doesn't appear to have worked. Should this not be a faster process? I need you to please check over my account because something has went wrong.",
+    "expected": "balance_not_updated_after_cheque_or_cash_deposit",
+    "dataset": "banking77",
+    "normalizedSha256": "c497a6bc6b194c1c40f5b33e28e11b7653b3b9f9910aadd6d460476c1261f49d",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-850",
+    "text": "I transferred some money and it didint arrive",
+    "expected": "transfer_not_received_by_recipient",
+    "dataset": "banking77",
+    "normalizedSha256": "da783038016bb2fc56ce99ba920026a3778ec0adff21ae3a125c2949ce092e38",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-50",
+    "text": "How do I link a new card?",
+    "expected": "card_linking",
+    "dataset": "banking77",
+    "normalizedSha256": "2243c5dc596293ab2e7e55806247b22e8d807b0d2ce687efd5155a70046730de",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1354",
+    "text": "Who can top up my accounts?",
+    "expected": "topping_up_by_card",
+    "dataset": "banking77",
+    "normalizedSha256": "08c268dd3873c050d1a188973370b468c5afdfed224d2d3cd038f0b914e24af1",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-390",
+    "text": "The card I've got seems to be broken.",
+    "expected": "card_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "370f560fd82791edf7610e6b8c9b42d733bde401169dd9f1a871b252ed4c5abb",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-962",
+    "text": "Can I use my card for payment all over the world?",
+    "expected": "card_acceptance",
+    "dataset": "banking77",
+    "normalizedSha256": "c49b59de9c5fc703864a38c1cd67a39f081070b23cbfdecf4f9840fc6fecfe0c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2492",
+    "text": "For physical cards, do you charge?",
+    "expected": "order_physical_card",
+    "dataset": "banking77",
+    "normalizedSha256": "e513b0ce2e1d1b108849f6a0649f179bf0e4bb12843e7f6907b14437891f9b1b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-543",
+    "text": "Why did I get blocked?",
+    "expected": "pin_blocked",
+    "dataset": "banking77",
+    "normalizedSha256": "00836eee0cf98d5db145c4ac3bb2c674dff596a707a8e7c91ef4abeda6fc2fda",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1121",
+    "text": "How to change my address.",
+    "expected": "edit_personal_details",
+    "dataset": "banking77",
+    "normalizedSha256": "8f3e056c491be741d6dd8b48daf6d5e8c81ee6d8b58577ae081587588669c296",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1663",
+    "text": "I was mugged and everything taken.  What do I do to protect my account?",
+    "expected": "lost_or_stolen_phone",
+    "dataset": "banking77",
+    "normalizedSha256": "21b1bc6eb290f332d3581ee08f66ac37c94347df0796e3e9355b867f552ad958",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1210",
+    "text": "The app failed to verify my identity.",
+    "expected": "unable_to_verify_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "087955a38fc07bf566543fb1feb03b376a20e058973664e3c80d8c038b0d782a",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-911",
+    "text": "What cards to do you support to top up.",
+    "expected": "supported_cards_and_currencies",
+    "dataset": "banking77",
+    "normalizedSha256": "ef5d009e7cdca4e48fb5fd0cc0de3768a99716a357a12870d8aea42bcfdff0d4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1408",
+    "text": "Someone is using my account to do online shopping! Please freeze it asap",
+    "expected": "compromised_card",
+    "dataset": "banking77",
+    "normalizedSha256": "3a07bbbee5f59073f2c7d169a640700346fd6cb09b30c7bd494c2192dc9d53d6",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-303",
+    "text": "Whats the delivery time to the United States?",
+    "expected": "card_delivery_estimate",
+    "dataset": "banking77",
+    "normalizedSha256": "ccd04926b859aa30edf1763a6720b75cbae979577c440d5cfa10cb849102a9ac",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1740",
+    "text": "I could not do a transfer because it was declined",
+    "expected": "declined_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "114183eeafce853a37ae3d98c6664b8d4bad2877ed325c4dff4e7b71628dd3ea",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-251",
+    "text": "Is it permissible to hold money in multiple currencies?",
+    "expected": "fiat_currency_support",
+    "dataset": "banking77",
+    "normalizedSha256": "b261d887a07af799d6f8acc18131666ec4c842d31199b46abdf13d1aa0c64d84",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2048",
+    "text": "how long dies it take for transfers to reflect on my balance",
+    "expected": "transfer_timing",
+    "dataset": "banking77",
+    "normalizedSha256": "55cb16f311f6ea8868d6ab72afee38ce8e066a589e11acb5bb767584109ce90b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-991",
+    "text": "Can I make online purchases with my card?",
+    "expected": "card_acceptance",
+    "dataset": "banking77",
+    "normalizedSha256": "04458f4eda1f8bf1d8b9214b2ad3402dcaeff87d487552c0ae334dad2b76a3c7",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1819",
+    "text": "Why are you declining my payment? Everything was fine.",
+    "expected": "declined_card_payment",
+    "dataset": "banking77",
+    "normalizedSha256": "f0d11627126b7c841004652b57744ec99c84d4b1f66623d3608801f3afe8933b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-377",
+    "text": "My card was declined today when eating and I need to know what's wrong.",
+    "expected": "card_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "8b67769f1b73b491cffbbcb0fa3c5e7174d2d0f0923e603fd1eef6dc7988ffbe",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-220",
+    "text": "Why do I have a pending cash withdrawal?",
+    "expected": "pending_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "fcb0c6a4830ef06c690c1b1fbb5d4ef4cf75758eaebcb16d3c13c3af68b5f240",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1928",
+    "text": "The ATM didn't give me the card back!",
+    "expected": "card_swallowed",
+    "dataset": "banking77",
+    "normalizedSha256": "81ac6ffbda53f12d8e66d062599cc0a55f9d1bcecda62272eb59ad3566563f97",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1335",
+    "text": "How do I transfer money using a credit card?",
+    "expected": "topping_up_by_card",
+    "dataset": "banking77",
+    "normalizedSha256": "20eda24d45a377a33c22ea914379fa5b28f95d4d2edf9000a6de735320e3e435",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1917",
+    "text": "I want to delete my account. I'm unhappy with the service you're providing.",
+    "expected": "terminate_account",
+    "dataset": "banking77",
+    "normalizedSha256": "c977cfae612a08f2da40be44c2d1de6dbead172f557b31413abd52e4081a0642",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-416",
+    "text": "How would I use my money in a different country?",
+    "expected": "exchange_via_app",
+    "dataset": "banking77",
+    "normalizedSha256": "aec429e1ac0fa16216adb5899bba725b33293fdaee3a62a8b37b727a89382362",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-855",
+    "text": "The receipient doesn't see my money transfer.",
+    "expected": "transfer_not_received_by_recipient",
+    "dataset": "banking77",
+    "normalizedSha256": "6ccad07e7de7d16dcb45dd811d0f4b80eceef7a8161de2530d8e468484f83e7c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-141",
+    "text": "When I made a purchase last Saturday, I was charged extra. Did I receive the right exchange rate?",
+    "expected": "card_payment_wrong_exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "c0c9be052cff3575d24cfcde4e71392cb0f4f57dac23aa701e930598442983b6",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1681",
+    "text": "Can I receive a refund for my item?",
+    "expected": "request_refund",
+    "dataset": "banking77",
+    "normalizedSha256": "b1695e44a8e0387c58e158ace5c26c28928b2e893518bace93876cd20f4a9b64",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2378",
+    "text": "Where's the verification code for the top-up card?",
+    "expected": "verify_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "10864475185d25c9cb76b7131015fa6feeb0f1f4ed503d5fad316a98e1a04ce0",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1368",
+    "text": "How many disposable cards can I have?",
+    "expected": "disposable_card_limits",
+    "dataset": "banking77",
+    "normalizedSha256": "bbd78a4e2e26a8e6cf2f88559d67a627a0ccec9ed0f570388d78f4ff5838c7ea",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1144",
+    "text": "how can i change my details",
+    "expected": "edit_personal_details",
+    "dataset": "banking77",
+    "normalizedSha256": "a9ae596a17cf28ee1c790c99a71f629a50c7fca981be2e971d1630284331881b",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1972",
+    "text": "It appears that I am being double charged for some items that I have purchased this past week.  Please review and correct.",
+    "expected": "transaction_charged_twice",
+    "dataset": "banking77",
+    "normalizedSha256": "9d9ffec42d258abc30e751e07cafaa7b61ad27ce7e6c599c616c412279136d53",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-329",
+    "text": "I'm going to be away for awhile, can I have it add money automatically in certain intervals?",
+    "expected": "automatic_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "af8de3810a2a15f60622cd739990c0811468f5daa3cfc63783108fd2a8096a5d",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1317",
+    "text": "Can you let me know if Visa is among the card scheme assignments?",
+    "expected": "visa_or_mastercard",
+    "dataset": "banking77",
+    "normalizedSha256": "48a2c8ccffa70d3bec67890f3485b0c71083e2ad870a159624636210ed715c7e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1459",
+    "text": "Can I use my card at any ATMs?",
+    "expected": "atm_support",
+    "dataset": "banking77",
+    "normalizedSha256": "1937f3850de6462157580775bc59450df89c21e09cb09c8dadaafedaf05b5a11",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2794",
+    "text": "What is the cost for an exchange fee?",
+    "expected": "exchange_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "7f2b115b1cc096c446ae5b841ea887d497c1881d7c5c71dd640cc25acfcaa667",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2171",
+    "text": "I am having problems transferring to a beneficiary.",
+    "expected": "beneficiary_not_allowed",
+    "dataset": "banking77",
+    "normalizedSha256": "85312d3cec130dd818450d2696af7688763314b2ebb4216d130f9b2e6bc52e16",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-541",
+    "text": "Help! I forgot my PIN and have been locked out of using my card.",
+    "expected": "pin_blocked",
+    "dataset": "banking77",
+    "normalizedSha256": "d88174d5d864d521d406dbdc87b14ade3f4454fba2adddf7d2a9490faf31f00b",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2555",
+    "text": "Tell me why my virtual disposable card won't work.",
+    "expected": "virtual_card_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "c963761c619366706cbe3609e76ad617ea3e09eb33c9f23c8550ceee87c6260e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2713",
+    "text": "Where is my transfer from [country]?",
+    "expected": "balance_not_updated_after_bank_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "194674595777e61f86624a6c0c4810dc8ca13f8c54bce58af5dee6a83edd83a2",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2253",
+    "text": "Do I need to establish I am paid in GBP before a transfer?",
+    "expected": "receiving_money",
+    "dataset": "banking77",
+    "normalizedSha256": "80126ca0dba3478c316ce67deee6e9057949e448eca08f2a4359c0cd0fa70501",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2207",
+    "text": "im not paying this transfer fee",
+    "expected": "transfer_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "0e41007a157978ee69d9642045219c628df6ded6ca056ab88337c78fc7396e5b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2797",
+    "text": "Does it cost anything for exchanges?",
+    "expected": "exchange_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "13f65dc927e6a26cc7d94f8bfe1022741f1e4ba36bb05e192b0e3e51072dbe29",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-349",
+    "text": "I've tried looking for the auto-top up option on your website and I can't seem to find it. Can you help me?",
+    "expected": "automatic_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "9c69b33372aaf842181893ac049dcd3f912c1f52d78b711d557152f66c5ff5ed",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1496",
+    "text": "Unknown direct deposit",
+    "expected": "direct_debit_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "e4b679e5b25d36b17a32db3c4b093c93a13b9da29583ed62d4bfc54bf2c8f306",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2650",
+    "text": "How can I check to see if my top-up worked?",
+    "expected": "top_up_failed",
+    "dataset": "banking77",
+    "normalizedSha256": "b91b194d35d4d3ff92aa93a4c4eeba4053e81d26ef294fb5b2d2355df0c58f32",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1504",
+    "text": "Can I dispute a payment even if I notice it several weeks after it was made?",
+    "expected": "direct_debit_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "4a7243bc77d2055ca388615fed16463b109719bd880e8021bded4a9b42591483",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1670",
+    "text": "I am not able to use the app since I forgot my phone at the hotel I was staying at.",
+    "expected": "lost_or_stolen_phone",
+    "dataset": "banking77",
+    "normalizedSha256": "4f089b1e19e7ac1449f463801435e347d478125f6c4da118ad5073940e18dcd1",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1307",
+    "text": "I'd like more information about choosing a Visa or Mastercard.",
+    "expected": "visa_or_mastercard",
+    "dataset": "banking77",
+    "normalizedSha256": "112613867f13f3bb0b1a171f4f01980889beb14e4525d65df792e8a7a8076697",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-915",
+    "text": "What cards and currencies will suffice?",
+    "expected": "supported_cards_and_currencies",
+    "dataset": "banking77",
+    "normalizedSha256": "09c7bc734295caeaaa4822d2af78a38a9664d8dbecbc0ccbcd87b62318f9ca3d",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1201",
+    "text": "I do not have what is required to prove my identity",
+    "expected": "unable_to_verify_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "1d3d69983e4ddc016c790293307cd8ddd4117b6c5299b5078c37000660f78929",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1525",
+    "text": "My password isn't being accepted and I need to reset it.",
+    "expected": "passcode_forgotten",
+    "dataset": "banking77",
+    "normalizedSha256": "ece78c5c0fa784a080c7696eaaef5c49d68af176ef5a84ca4843e69c41d694e6",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1453",
+    "text": "What kind of ATM's can I use?",
+    "expected": "atm_support",
+    "dataset": "banking77",
+    "normalizedSha256": "072bddc970db7e732c3f469056be6f505d496bf8ebf2fad820332f8664fcde99",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2553",
+    "text": "My disposable virtual card was rejected by the merchant, please help?",
+    "expected": "virtual_card_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "e1bfb5228a703db4194c55ac4002361c2841c075c61acb357f3f7d382dfc39d2",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2914",
+    "text": "I took cash and got charged a fee",
+    "expected": "cash_withdrawal_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "66a5f70f227a822ab30ed6aac7864f66e56196b0309da48710689bde888028d3",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1451",
+    "text": "What ATMs is the card okay to use at?",
+    "expected": "atm_support",
+    "dataset": "banking77",
+    "normalizedSha256": "1f2d51e100871fb122c8a33b76cb790576c838fe43bd0f7a2954d9af48cdaf7b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-568",
+    "text": "My contactless payments have not been completed successfully.",
+    "expected": "contactless_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "f4d4ace6e70c81fa67e23ef36bfa323dcdc96caa8b156c33e4f0851b36ec000d",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2431",
+    "text": "How can I get a second card for my daughter?",
+    "expected": "getting_spare_card",
+    "dataset": "banking77",
+    "normalizedSha256": "5a41148d2a09c80dd94e6fbba54fc6fd3951fd189db0b77eecf4b816366d47b1",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1448",
+    "text": "Where are the locations of ATMs that accept this card?",
+    "expected": "atm_support",
+    "dataset": "banking77",
+    "normalizedSha256": "7018da4d8ce59ad90f631b1372e386964be204f7ef5d0071b34fedc857978048",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1384",
+    "text": "Is there a limit to how many transactions I can make on one disposable card?",
+    "expected": "disposable_card_limits",
+    "dataset": "banking77",
+    "normalizedSha256": "c8892589fb18d2411ecac25032073306d2465cea48734e64585fae8469fca8ae",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1431",
+    "text": "If I feel someone has my card information, can I get a new card?",
+    "expected": "compromised_card",
+    "dataset": "banking77",
+    "normalizedSha256": "0adcf76f1d3b5367fdd05245e07402f8f4b001c8c34a7fe9ba3d661cef51200c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1077",
+    "text": "Balance hasn't been updated following a cheque or cash deposit",
+    "expected": "balance_not_updated_after_cheque_or_cash_deposit",
+    "dataset": "banking77",
+    "normalizedSha256": "2c34d36d4bb27064d5e3c171c02c438dd4a5f1f765cc798bf5336a30d02ba0de",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-787",
+    "text": "I didn't receive the right amount of cash back",
+    "expected": "wrong_amount_of_cash_received",
+    "dataset": "banking77",
+    "normalizedSha256": "d0ae3a9fbc78c5d1330fdac9fbebd87af9185569fed23ddbe976026c0c4a27db",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1645",
+    "text": "I can't find my phone.",
+    "expected": "lost_or_stolen_phone",
+    "dataset": "banking77",
+    "normalizedSha256": "f84131667cb1a8c11ae9d732ed7e0aeea95a4c5c436757d7e81e38eb04e2f264",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2586",
+    "text": "My cash withdrawal charged me the wrong exchange rate",
+    "expected": "wrong_exchange_rate_for_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "07bb06d2c8af5bfe6b82d89e7e1e2b6de1352f82a9a45d5d819782e41df6788e",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2405",
+    "text": "I need some spare physical cards.",
+    "expected": "getting_spare_card",
+    "dataset": "banking77",
+    "normalizedSha256": "a5caf7e3dd10d0724104dc11db6ceb4fd581150c56bf7218e0f2ca0a87e8a478",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1092",
+    "text": "There are some strange charges on my card that I didn't make from a few days ago.  Is my card stolen and if so should I cancel it?  Will I get refunded the charges?",
+    "expected": "card_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "a7a56dd902e1b44d6af2ed2db321c9fd09b1df3dc46011d5ff149c1b74ea6292",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2498",
+    "text": "What is the charge for a physical card?",
+    "expected": "order_physical_card",
+    "dataset": "banking77",
+    "normalizedSha256": "6756fa39063535d5b3c147b6893b76613010a75e7223f700fdcf5d8ed097ef1c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-313",
+    "text": "I need my card as soon as possible.",
+    "expected": "card_delivery_estimate",
+    "dataset": "banking77",
+    "normalizedSha256": "24bd395d8cb3d19cb7c2449c48ccfc200e762987ec805dbee61cefbdc5ceeb6e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1502",
+    "text": "This Direct Debit payment may not be right.",
+    "expected": "direct_debit_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "9db062dfddd149eb90f077ddd7d7cd89b65351c0ba4f6b3d6af07775a15f2a9b",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-33",
+    "text": "I'm still waiting on my card to be delivered.",
+    "expected": "card_arrival",
+    "dataset": "banking77",
+    "normalizedSha256": "081721203f3aacea23abb80bac64e777eb206a2d8847c2eb5bbddaac9fb8ca50",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2266",
+    "text": "How do I deposit my paycheck to this account?",
+    "expected": "receiving_money",
+    "dataset": "banking77",
+    "normalizedSha256": "908e92f975e18a947b3931e84cb948e0b48090bee6d3df8bbf28931950288568",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2479",
+    "text": "Do you accept checks?",
+    "expected": "top_up_by_cash_or_cheque",
+    "dataset": "banking77",
+    "normalizedSha256": "a5eeac59de506128b29b58c4d78ec7836d70d0823e252489cda614174a48edee",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-433",
+    "text": "Is there currency exchange on this app?",
+    "expected": "exchange_via_app",
+    "dataset": "banking77",
+    "normalizedSha256": "fbe9c5cd969e96d8d382b6ac3de45d82c5c17c9ef2066ea8532cdf72d03f379a",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1267",
+    "text": "So what about the card PIN?",
+    "expected": "get_physical_card",
+    "dataset": "banking77",
+    "normalizedSha256": "9162fcef14ba0c4275ba4468fc3494c869cf0679bd0e4a78c69fdba3539b62e0",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2922",
+    "text": "When my card expires what happens to my account?",
+    "expected": "card_about_to_expire",
+    "dataset": "banking77",
+    "normalizedSha256": "f7859793f4da2faa19cb2ad7cf3122d8bc709193b8b599563fb4af7154272899",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2423",
+    "text": "I was looking to buy another card today.",
+    "expected": "getting_spare_card",
+    "dataset": "banking77",
+    "normalizedSha256": "3a6b7221196419510a4095129a58d5ca510268925a73049ba7babd64ce321a25",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1338",
+    "text": "i know i entered the right info, but my top up isn't in my balance",
+    "expected": "topping_up_by_card",
+    "dataset": "banking77",
+    "normalizedSha256": "d2137e7c3aa6957cdc16fc6fb37cc1460a84e30e27a0f62c4ded62c9dfecc0cb",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1772",
+    "text": "Still waiting on a refund.",
+    "expected": "Refund_not_showing_up",
+    "dataset": "banking77",
+    "normalizedSha256": "046f8824a74c17ce657fd5c96b17f1998f8f05248db076b0d5db02513c7f5220",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-3000",
+    "text": "What can I use to verify my identify?",
+    "expected": "verify_my_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "dcb91860cf768a369f4bc41ae6f783d52455774803b7a745c5366aa2bd29c69b",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2998",
+    "text": "How do I use the top up app with my apple watch?",
+    "expected": "apple_pay_or_google_pay",
+    "dataset": "banking77",
+    "normalizedSha256": "c04dc44ca4a72816450d00f473b6f7edb5b644d65baa72376ae19f77fc2b56c3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1813",
+    "text": "I know I have enough funds in my account but my card payment hasn't worked for some reason. What do I do?",
+    "expected": "declined_card_payment",
+    "dataset": "banking77",
+    "normalizedSha256": "c41f6eb9864f68f44f49347ef96afd8e4618a80e8cbcc098215613114679924f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-563",
+    "text": "I don't know what's wrong, my contactless stopped working. Tried it in a few different places today and it didn't work in any of them.",
+    "expected": "contactless_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "0ab1635aed247fc38a6f61879c057c6b107224bb7e9a4d3d3533366518b9c03f",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2992",
+    "text": "How can I top-ff my account using my Apple Watch?",
+    "expected": "apple_pay_or_google_pay",
+    "dataset": "banking77",
+    "normalizedSha256": "2b91a4276d045e181bbc75b46b1bf053b5d0d6a7d2dd3369eeb3ce694778a1b0",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1900",
+    "text": "This company isn't good, I would like to delete my account.",
+    "expected": "terminate_account",
+    "dataset": "banking77",
+    "normalizedSha256": "ae2705daaa8baa8a8f482caeac91ccc0e1b5b561f34d1d5bc50fdc3f579c83ed",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2694",
+    "text": "I made an out of country transfer and it hasn't went through yet.",
+    "expected": "balance_not_updated_after_bank_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "44f068527c86766624b48a20231b0c1e5a0435cca40e5be4b3ac03e3e49a6bda",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2348",
+    "text": "How do I do an international transfer?",
+    "expected": "transfer_into_account",
+    "dataset": "banking77",
+    "normalizedSha256": "4979ef7f665fed52a1095c5b638feaab4280e30b8167976d0694ed7f9d6c5a84",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-967",
+    "text": "What stores can I sue my card?",
+    "expected": "card_acceptance",
+    "dataset": "banking77",
+    "normalizedSha256": "22a08792724b3547e0b6c4e898e37685ab665e08c840469c882f768e54e3de03",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2719",
+    "text": "When will I see my new balance after making my bank transfer?",
+    "expected": "balance_not_updated_after_bank_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "033d2c0f5efd6e6f661096b0212b965a05272439fb8fee310002b6efdfa51763",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-333",
+    "text": "where is theft-top option?",
+    "expected": "automatic_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "fbdb6a110352a75ad61c68a2527e19099833432866989916e9d6e523b8e5bd5e",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1547",
+    "text": "I have forgotten my password.",
+    "expected": "passcode_forgotten",
+    "dataset": "banking77",
+    "normalizedSha256": "a95c0624033749fcb441dfb6ce2e72db21087e45066f7681ffab8683a3166328",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2210",
+    "text": "I got 2 transfer fees and I thought transfers were free.",
+    "expected": "transfer_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "7aa3c382f5e4cbe0648fb44e41cbc529f9ffd1cdc5122f74e2c3ce59475c4abc",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2531",
+    "text": "Can I make multiple online transactions with my virtual card?",
+    "expected": "virtual_card_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "4c7c13d41b83c4103f72bdc4156fc7e963e62c480b6a0284fcb1054b8024ab04",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-99",
+    "text": "Where do you get your exchange rates from?",
+    "expected": "exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "001c71f32de9ce843c361b3a8c34807c4de7950f6642ca6f440f906a1e35102c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2536",
+    "text": "I cannot make transactions with my virtual card.",
+    "expected": "virtual_card_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "47f56a18d1a4a9011a8079893bb11e6c6891b14a645af9b551a2a7cd25dc6db4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-570",
+    "text": "For some reason my contactless has stopped working. I don't know what the problem is. What can I do?",
+    "expected": "contactless_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "0a2d2a4be6e43383022c4f6302b5ffb78edfb8c65f21c27a789278064effa65b",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2748",
+    "text": "Can anyone help me, I lost my wallet and they've started withdrawing from my account.",
+    "expected": "cash_withdrawal_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "d529ef9987ef0ea5648ecc09b2ebd52dc6d2265ca9ed580313b75e4866a3ff2c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2464",
+    "text": "Will you accept a cheque to top up my account?",
+    "expected": "top_up_by_cash_or_cheque",
+    "dataset": "banking77",
+    "normalizedSha256": "2584ef17e4fcf239e87ec0028683df05beee01bbfa04a2a313b26eb0c67587ec",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1851",
+    "text": "How long can an EU transfer take?",
+    "expected": "pending_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "c1cbb25e0642e91a8d359b55c751a7e5d416a39e356e91a643f273b4709ba8b3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-496",
+    "text": "Can I open a bank account for my newborn baby?",
+    "expected": "age_limit",
+    "dataset": "banking77",
+    "normalizedSha256": "cb0a3992d76a3974fd2d70ec55a4b76a6d340f4207aa7ee04a7ac888c93150c0",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2818",
+    "text": "Will there be any extra fees for European bank card for top up?",
+    "expected": "top_up_by_card_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "ddd6c5d77dddfb7a415e66b9093375583d5ec659b912ef71ff70164094a92915",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-26",
+    "text": "I think something went wrong with my card delivery as I haven't received it yet.",
+    "expected": "card_arrival",
+    "dataset": "banking77",
+    "normalizedSha256": "3b2d2c35297ebbcb24a83da141508eff20a7bd546deb854f04b6a19817271313",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-878",
+    "text": "I am still awaiting the completion of the transaction.",
+    "expected": "transfer_not_received_by_recipient",
+    "dataset": "banking77",
+    "normalizedSha256": "d2a6ecae0d924723ac1f5644ef1194c71e5c475e6a725e0b89e72e6fa0d7b0ac",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-702",
+    "text": "I need to cancel an incorrect transaction.",
+    "expected": "cancel_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "d2d0dd9b8e1b225f8c3b22314f491631e08bcac92110173e0436da10139bb389",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1109",
+    "text": "I don't know where this transaction came from?",
+    "expected": "card_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "ed394b110fcea0c0944000c7d4e6ed93f5eacb97d6f18ef4030bf7ca12fb1f2c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-205",
+    "text": "Why is it taking so long for my cash withdrawal to no longer show as pending?",
+    "expected": "pending_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "d19c532c955e6d2beb4b21a2e235a1effe451a9a2efcfcf4d92ad35bed3eff4e",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1713",
+    "text": "I bought this item and was charged the wrong amount can I get a refund?",
+    "expected": "request_refund",
+    "dataset": "banking77",
+    "normalizedSha256": "cbf8af6a4fb4e0effb92e8fe80fed0f7e87263c4ca4d71bde54580447f057cd6",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-486",
+    "text": "Is there an age minimum?",
+    "expected": "age_limit",
+    "dataset": "banking77",
+    "normalizedSha256": "b592524c8cca68a5e6c77d1a6a620e8a79ac63305d8747f152da7910eb1506e3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2090",
+    "text": "What do I do if it says my card payment has been cancelled?",
+    "expected": "reverted_card_payment?",
+    "dataset": "banking77",
+    "normalizedSha256": "52cc985e4eaf89c1a240b5cf4b4a704df6a42e0a48b264c58fac1981e5be8b7c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-310",
+    "text": "I need my card to come as soon as possible.",
+    "expected": "card_delivery_estimate",
+    "dataset": "banking77",
+    "normalizedSha256": "c959c213211ba89c09f682adab744263b22e1fd8a8dbedb3a4d2e7b93485f29b",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1229",
+    "text": "I a having trouble proving my identity",
+    "expected": "unable_to_verify_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "a8152eb6706f5ec27b3f8e10e1591722cfc8019c6316a3693d1e118f050996af",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1330",
+    "text": "I followed the instructions to transfer money using my card, but then the money disappeared and I don't know what happened.",
+    "expected": "topping_up_by_card",
+    "dataset": "banking77",
+    "normalizedSha256": "c4c9d8eaddf88272da997da88308b968c52c02b9fd05c8635770aa91394be49d",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2261",
+    "text": "Can this be used to receive my salary?",
+    "expected": "receiving_money",
+    "dataset": "banking77",
+    "normalizedSha256": "5c3e5534e800491e22261123a37b09e09ec99e027270fcb68bad32f73eace918",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-57",
+    "text": "How do I view the card I received in the app?",
+    "expected": "card_linking",
+    "dataset": "banking77",
+    "normalizedSha256": "8f90f27ddb33c78ba0672b11bbad8a372dd033b6db04d73ecb8822a6bbcec0b2",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1492",
+    "text": "Even though it's late, I wanted to see about disputing a charge. I was just looking through my transactions over the past couple of months and noticed a pretty large amount that was not completed by me. Is this possibly something I can still do.",
+    "expected": "direct_debit_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "ca26216e96c8ad156269a00dafef30de2f86b8118891245034df067a7c63be82",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2083",
+    "text": "My card payment was cancelled.",
+    "expected": "reverted_card_payment?",
+    "dataset": "banking77",
+    "normalizedSha256": "9a527face63c4568c7544b3880d1070ec5b6e688f3b415bad259877df4d32dd5",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2766",
+    "text": "How much more do I have to pay to exchange currencies?",
+    "expected": "exchange_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "1452f962090fb2b37e669cc31bd843ce6a5991e62504ed204f0fc28111c32e60",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-781",
+    "text": "I asked for $100 cash but only got $20?",
+    "expected": "wrong_amount_of_cash_received",
+    "dataset": "banking77",
+    "normalizedSha256": "9be44f8acabfeee58920ea8ae354697041d7fd4bbfb68903e0defa061933f7ce",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-43",
+    "text": "I have received my card, can you help me put it in the app?",
+    "expected": "card_linking",
+    "dataset": "banking77",
+    "normalizedSha256": "ac8c0b05345b0bf2ead1236fb3487505785627bedb607bf031777b034b07e3de",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1009",
+    "text": "My top-up was reverted, why did this happen?",
+    "expected": "top_up_reverted",
+    "dataset": "banking77",
+    "normalizedSha256": "cf2befc17155c1810d06d4f4f9a5ac544403a4cf0d5074261325b268ca38ef1c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1440",
+    "text": "Do all ATMs take this card?",
+    "expected": "atm_support",
+    "dataset": "banking77",
+    "normalizedSha256": "4dfc67b1585d4da6d2ad18ffda37559b341bb8967bbb43ee05abdc47e7a5df16",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-815",
+    "text": "Why did I have to pay more when I do it with my card?",
+    "expected": "card_payment_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "97d22f705fac9d250acc53b45a6cd8ff392064f7f5932ae302f80de69181685b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1615",
+    "text": "How long does an item I bought show as pending?",
+    "expected": "pending_card_payment",
+    "dataset": "banking77",
+    "normalizedSha256": "07fc6e3173482fb1ed62a975814979a5ea75c40dcbae356623e055041c07a5c4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1243",
+    "text": "Are PIN separately?",
+    "expected": "get_physical_card",
+    "dataset": "banking77",
+    "normalizedSha256": "f80bda16f7a7b2f658a190372618964ed05affbad80387715c4fecb4274cb8a3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2913",
+    "text": "Why did you charge me for a cash withdrawal?",
+    "expected": "cash_withdrawal_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "c0e4eb045c89e84680c9e4096893893325fd04a90eec3a37bae71f2ac30173a7",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-909",
+    "text": "I just have one other card from the US. Is that okay?",
+    "expected": "supported_cards_and_currencies",
+    "dataset": "banking77",
+    "normalizedSha256": "d4033205e0f41302a1adfe88eb07ba325fff6a715a8f006c7c40f44895a1c35f",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-978",
+    "text": "Which outlets accept my card?",
+    "expected": "card_acceptance",
+    "dataset": "banking77",
+    "normalizedSha256": "af81b0a2ca6b54f440e2baf3c9325eaae6eed296b47c9580464ea061581f75d0",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1968",
+    "text": "Why would I be charged more than once for the same transaction?",
+    "expected": "transaction_charged_twice",
+    "dataset": "banking77",
+    "normalizedSha256": "182960d0ed3893fd0c11ced8164b61940430b290c5b918d76505b8212bbb4141",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1938",
+    "text": "What do I do if the ATM ate my card?",
+    "expected": "card_swallowed",
+    "dataset": "banking77",
+    "normalizedSha256": "943dbc5b8f49f5605e713bc8147ae3161ab85a6b92fc2d96151ec492f56ebd2d",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-362",
+    "text": "My card appears to be broken how can I fix it?",
+    "expected": "card_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "3e1ddc37c29af58b12230f03d5622b43b561551a32c1caa9bdedccf2fde36c3f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1434",
+    "text": "I think my child used my card while I wasn't home.",
+    "expected": "compromised_card",
+    "dataset": "banking77",
+    "normalizedSha256": "b43d481692de7db10ef9067ccf6e85378f2b6e573e02476d541dd44adbe33866",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2466",
+    "text": "What methods can I use to top up my account?",
+    "expected": "top_up_by_cash_or_cheque",
+    "dataset": "banking77",
+    "normalizedSha256": "4da36a419eadf596f2edf3d51eac4f0408aa68a894f15011e86282ba87fc9463",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2023",
+    "text": "I have to verify the source of my funds",
+    "expected": "verify_source_of_funds",
+    "dataset": "banking77",
+    "normalizedSha256": "cb4991e466c8c368e9cea328d5976dea14af1bbf802f5ca347678d5b0d97d9c3",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1637",
+    "text": "I have paid by my card but payment is still its coming as pending. I think there is some issue please check and let me know when the status will complete.",
+    "expected": "pending_card_payment",
+    "dataset": "banking77",
+    "normalizedSha256": "ae18a1e19a0c5772031dd587092042327300d54ade2158a785db3a410db996bb",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1890",
+    "text": "I am highly unsatisfied with this company and want to delete my account!",
+    "expected": "terminate_account",
+    "dataset": "banking77",
+    "normalizedSha256": "276f7946c0088c763dafeffd00c35bb6d852fcc444446a1ce3467d0d90788b8b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1531",
+    "text": "I do not know my passcode.",
+    "expected": "passcode_forgotten",
+    "dataset": "banking77",
+    "normalizedSha256": "875dc3f12e484ea235fb46bba8d81a69c6fb24c82011e70adc7f9838a96a85c4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1196",
+    "text": "Why is it asking me to verify my identity",
+    "expected": "why_verify_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "1e0c9be09ea444b9f865bcb70ad2441fb3683f6434e19d545ac85b7096d4e0c7",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2016",
+    "text": "I need my funds verified.",
+    "expected": "verify_source_of_funds",
+    "dataset": "banking77",
+    "normalizedSha256": "05de7e6306d57509ee3a5b7d7d052105ef57695afd63d77cea8ddaac4f957d0f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2859",
+    "text": "I just got my card and want to use it, how do I activate my card?",
+    "expected": "activate_my_card",
+    "dataset": "banking77",
+    "normalizedSha256": "1ebd072833a39b1d825267e3ddd378ad0ed20bc26e9d2808f96de8b5d1b28928",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-655",
+    "text": "What's going on with the top-up? All it says is pending, pending, pending! I use your service several times a week and have never had a problem before! What's going on here?",
+    "expected": "pending_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "02b52b8ce581212056a8005d4b8626276d30636219dc9059e7f7eb6f09c21787",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1830",
+    "text": "Why was my Payment declined",
+    "expected": "declined_card_payment",
+    "dataset": "banking77",
+    "normalizedSha256": "64f7c19523f2e6f812993ec1d1156e7ea91e921414d4d83b803e538265271e29",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2315",
+    "text": "can you tell me why my transfer failed?",
+    "expected": "failed_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "852b69607f5fb00d2207f7a85a0775417b6523e03c1f7f75d19ea8ff1c04a3dd",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-288",
+    "text": "When can I expect my card to be delivered to the US?",
+    "expected": "card_delivery_estimate",
+    "dataset": "banking77",
+    "normalizedSha256": "1db1a7f0c6f786146870df6c335f6759dd4c406ff7ce940a31143ee8f3bd6816",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1154",
+    "text": "I want to change my name.",
+    "expected": "edit_personal_details",
+    "dataset": "banking77",
+    "normalizedSha256": "e01409b5e89d443eecf1ef2aa3ab735935426a65cc752825d7f094bfccb3554f",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-81",
+    "text": "What exchange rates do you offer?",
+    "expected": "exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "bdb7926ebaced603f36ca3e47eab33a0835ce7245b524d58937da5281264793f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-517",
+    "text": "How young can someone be in order to open an account?",
+    "expected": "age_limit",
+    "dataset": "banking77",
+    "normalizedSha256": "dae8bf4020ea77c5e89356316faddbc1ca08deea11af5264c01c379474a19916",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1832",
+    "text": "Why has my card payment been declined?",
+    "expected": "declined_card_payment",
+    "dataset": "banking77",
+    "normalizedSha256": "14a74a75c4970f2597fdde9d58751efa0aada01c64a570ba3b4acca5102c4e46",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2902",
+    "text": "An ATM fee was attached to my recent withdrawal.",
+    "expected": "cash_withdrawal_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "8019a4cdcb41e489794a50d2b4905589abe2c72376f1ab1b2323dc949a6b8f79",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2019",
+    "text": "What is the source of my money?",
+    "expected": "verify_source_of_funds",
+    "dataset": "banking77",
+    "normalizedSha256": "2ab548ef396e9cd9ab4951ccba3d7fb09b97ff0ba2a7a47f7d56d2442a105df4",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2955",
+    "text": "What would the price be for an expired card replacement and how long will it take me to get it?",
+    "expected": "card_about_to_expire",
+    "dataset": "banking77",
+    "normalizedSha256": "ba5f53367e6fb9744e94426907e725db7c81cd02c15c2d973e35a77692af68d9",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-3051",
+    "text": "Where do I need to live to get support?",
+    "expected": "country_support",
+    "dataset": "banking77",
+    "normalizedSha256": "75a7687dc3ff3674440059e5c21cdd30c4e49aaf483814a89977802f388c67ce",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1159",
+    "text": "What do I need to do to change the address on my account?",
+    "expected": "edit_personal_details",
+    "dataset": "banking77",
+    "normalizedSha256": "24f6b6375d03573dc8f66d10fe7d26e0767d0a25486004334a3237416ac834fc",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-3042",
+    "text": "Can I use your app if I am from the EU?",
+    "expected": "country_support",
+    "dataset": "banking77",
+    "normalizedSha256": "49844c33907bfd6611eabb2606bebe295fbbb0e5a7c95839f993ce3f6ccd57cf",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2596",
+    "text": "how do you determine your exchange rates because one of yours was off when i got cash",
+    "expected": "wrong_exchange_rate_for_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "92d5007eb96ac627f4cbdee7e77850791e5018122fde94c75c9ba33fffa4c12e",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1195",
+    "text": "Can I use my account if the identity verification is not complete?",
+    "expected": "why_verify_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "d62ee2048d8c2dbcecd866f145637d477a913fb2537333d6dce7738e9b2b9390",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2274",
+    "text": "can I transfer my salary if it's in a different currency?",
+    "expected": "receiving_money",
+    "dataset": "banking77",
+    "normalizedSha256": "eb419b9bb751999d44ec1513164ff9a4a5d6e7fbd2eb4f75117eea9031eed583",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1977",
+    "text": "I see what looks like duplicate charges on account.",
+    "expected": "transaction_charged_twice",
+    "dataset": "banking77",
+    "normalizedSha256": "fcff787b3f95291635f4de4112fca0c20771dc67a253fbcb6e34617ca3cd05a2",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1098",
+    "text": "I don't recognise a card payment",
+    "expected": "card_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "6ca7a3c68cbee1b9a142263b43b54bb04b703cffe91116fe6474b71c6a3a49a5",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2629",
+    "text": "I need a disposable virtual card, how do I get one?",
+    "expected": "get_disposable_virtual_card",
+    "dataset": "banking77",
+    "normalizedSha256": "365a0aab7707464376163a4b07ba9c9f498b025a883cbe45e2d2b1cf59f6707c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-3001",
+    "text": "What do you need to verify my identity?",
+    "expected": "verify_my_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "2dc05b4c82bfde46f8031857c3fcdff89b54119e0ce9984aa1fc121c90464f27",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-3049",
+    "text": "Can I get one of your cards in the EU",
+    "expected": "country_support",
+    "dataset": "banking77",
+    "normalizedSha256": "bed59eb62c5672d9c9cbbaea243a509ce27c1cdb53dfb60a6bdd32f0db06c2d5",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2817",
+    "text": "If I use a European bank card for top up, Do I get charged?",
+    "expected": "top_up_by_card_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "b96356d46f39accf51d8292d889535e8f174d4ba25a1cf6b40b492454a893d5a",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2047",
+    "text": "What is the fastest that I can make a transfer?",
+    "expected": "transfer_timing",
+    "dataset": "banking77",
+    "normalizedSha256": "8b835d2c1908ea56b6af516f70e7389a6d29ca54ae7fbafa6d6b836c1b0a113d",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-519",
+    "text": "How old does one have to be to have an account with the bank?",
+    "expected": "age_limit",
+    "dataset": "banking77",
+    "normalizedSha256": "1ee6ecfa18d229de7398849cc24b9a212db0df8312e51d19ce253f712260eada",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2977",
+    "text": "can i top up with apple pay",
+    "expected": "apple_pay_or_google_pay",
+    "dataset": "banking77",
+    "normalizedSha256": "3be489f1c63e04ba745169a046af7295a837676a75310b9e691079a70e88f95d",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1897",
+    "text": "The service of this company sucks, I need to terminate my account.",
+    "expected": "terminate_account",
+    "dataset": "banking77",
+    "normalizedSha256": "7008ff2c518903d6e8c95303d66c209da34edc830b2339049ab4c4fb8cc7d81e",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-156",
+    "text": "How can I check the exchange rate applied to my transaction?",
+    "expected": "card_payment_wrong_exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "e536fe923786edc7553b0a4bbacda57dbb83fba39cc46df87aa30cbd8beb374e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-796",
+    "text": "Why did I get less money than I asked for?",
+    "expected": "wrong_amount_of_cash_received",
+    "dataset": "banking77",
+    "normalizedSha256": "18e1a16db019f7265221fe97531a5972ce3226d5b5a7a9ff5b5d9add01886534",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2573",
+    "text": "Why was the exchange rate different when I withdrew my cash?",
+    "expected": "wrong_exchange_rate_for_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "57c632f55ce0696e5bcf08f01b2aea61ab61adc12c02b811b1ccb7f953b54b79",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1072",
+    "text": "I sent a cheque  a few days ago and nothing has happened to my account yet. Can you please check on this for me?",
+    "expected": "balance_not_updated_after_cheque_or_cash_deposit",
+    "dataset": "banking77",
+    "normalizedSha256": "8c7caf5b508b0aa3f32d0f1a5043eb7571959463fee82dfa2fabbd2d21a10f9e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-924",
+    "text": "If I don't want a physical card can i get a virtual version?",
+    "expected": "getting_virtual_card",
+    "dataset": "banking77",
+    "normalizedSha256": "cd3b400994c3ab266f360cdc6d40b448ea5132be43b6cb897c2dfe471cedc2af",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1849",
+    "text": "I submitted my transfer but it has been pending for quite a while and I was wondering what takes so long? why hasn't it completed",
+    "expected": "pending_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "4adfd800d7367a2c8cc7a5e0e0ea87d745652a832e08a38766fdaea4b72ffa46",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2741",
+    "text": "Some cash is showing up in my app that I did not get.",
+    "expected": "cash_withdrawal_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "fc6a6e7b93c8a59297f47f31f423a8fa228551bc28c9f8de178b8428f8f142fb",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2030",
+    "text": "How can I see where my money comes from?",
+    "expected": "verify_source_of_funds",
+    "dataset": "banking77",
+    "normalizedSha256": "3fc62f89e9cc2c70dbfd7b7c2c2e223c9cac678394651ae1df29b53493525c75",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2127",
+    "text": "I would like to change my card PIN.",
+    "expected": "change_pin",
+    "dataset": "banking77",
+    "normalizedSha256": "672dc1726549cfb59855edca52ca3bc15a326d8fbfefe4cada52260c15f28b75",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2002",
+    "text": "Where are my funds being sourced from?",
+    "expected": "verify_source_of_funds",
+    "dataset": "banking77",
+    "normalizedSha256": "d700d90de4c49ab0345b08ac3c38695e9dfc55316e4c5be1a2e0221e039d9d4b",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-951",
+    "text": "Can I order a virtual card?",
+    "expected": "getting_virtual_card",
+    "dataset": "banking77",
+    "normalizedSha256": "0fc1d7e4509cc1c7b66cfc9d6dcd7e9523575e6c90316609282182f49f8d3f82",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-901",
+    "text": "Which forms of currency are accepted?",
+    "expected": "supported_cards_and_currencies",
+    "dataset": "banking77",
+    "normalizedSha256": "15bbde1ac11b5e0a1384a324be4992a94c8c78f546c1ef81a1c3eee495207c65",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2178",
+    "text": "Why wasn't I able to transfer to another account?",
+    "expected": "beneficiary_not_allowed",
+    "dataset": "banking77",
+    "normalizedSha256": "6deb3f67a8276627a99689ab043624892068afc9b5f2e24edc831a20fce55a29",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2335",
+    "text": "How can I transfer funds from my bank to my top up account?",
+    "expected": "transfer_into_account",
+    "dataset": "banking77",
+    "normalizedSha256": "55a130b87a266d25ffe9c19400ca38bc8a42971835fa0e8ed8c89009be4a60ff",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2936",
+    "text": "It appears my card expires next month, can I order a new one?",
+    "expected": "card_about_to_expire",
+    "dataset": "banking77",
+    "normalizedSha256": "695e12c813e1acf3e2686d0afec6d262ee75c91b97902c80a6eb5a5252ab0d96",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1578",
+    "text": "What are some reasons that would cause ATM machines to decline my card? It has happened to me multiple times!",
+    "expected": "declined_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "cb4702d74b8df3445669c8371e14811074113ccee6ecc2e2aa5c08fe9b5ead0f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-902",
+    "text": "Are US credit cards accepted?",
+    "expected": "supported_cards_and_currencies",
+    "dataset": "banking77",
+    "normalizedSha256": "1d7d2a7b52605adcc46070ea65d09d44433e6f2c558320c8682e9fba6bf46149",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2720",
+    "text": "Think someone has took money out with my card. What shall I do?",
+    "expected": "cash_withdrawal_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "4757502c2803352bce435feb726bb708433158cf33cf927d0f35dd0754c1a10a",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1265",
+    "text": "Where is my PIN number located?",
+    "expected": "get_physical_card",
+    "dataset": "banking77",
+    "normalizedSha256": "c2733260bbcbb2615ce66b6a4111ce234bae2b5deea3901ea4aec992ad8e46ae",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-940",
+    "text": "Where do I obtain my virtual card?",
+    "expected": "getting_virtual_card",
+    "dataset": "banking77",
+    "normalizedSha256": "bac3daa36b887f20e5cf2660ace71827e0164b39d9eede25cd7b0b06983405ef",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1574",
+    "text": "The ATM is declining my card. I tried at two different ATMs. Can you tell me if there's anything wrong with my account?",
+    "expected": "declined_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "c773a009f12d56cd38cd924cddf68a83424f67685482b0bdf46648a6480387a3",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-232",
+    "text": "I tried to take money from my card, but it didn't work. Later I saw that the transaction is still in progress. What's goign on?",
+    "expected": "pending_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "20c37a744342461f9e49ab165e4549bb4ff5ca6da9f2b39ab9200aae1e7bd1ca",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2668",
+    "text": "What's the deal? My card was just denied for top up. Why is it not going through?",
+    "expected": "top_up_failed",
+    "dataset": "banking77",
+    "normalizedSha256": "eeaabb7d2e141bbb330aeab22ead661651b862e9821e77c9d61d1c2da45f446c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1450",
+    "text": "Help me locate the nearest ATM.",
+    "expected": "atm_support",
+    "dataset": "banking77",
+    "normalizedSha256": "1b8c10e05b904b81af93240be827f921fe4c26264420f70aee28d1e93f5879f3",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-779",
+    "text": "I tried to get $100 but I just got $20",
+    "expected": "wrong_amount_of_cash_received",
+    "dataset": "banking77",
+    "normalizedSha256": "099007c5f5194d68a47e4f32cdba3020de31ce8339381138be6c78b8e842c3c7",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1199",
+    "text": "Why did I need to verfiy my identity?",
+    "expected": "why_verify_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "d95260044e5f90dc0ae1812955847a7fd8ab05b9d676ac41d022c906a042ee60",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2032",
+    "text": "Where can I see the source of my money?",
+    "expected": "verify_source_of_funds",
+    "dataset": "banking77",
+    "normalizedSha256": "9201472b04dcc7a9107d08fed9982766029fadb56bbeb903b0732fa29331fe02",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2515",
+    "text": "Where can cards be delivered?",
+    "expected": "order_physical_card",
+    "dataset": "banking77",
+    "normalizedSha256": "bdadcf1488e9ffe4d9fa5e34213875a45126351beff50861b5ec9c1bc546784c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-332",
+    "text": "Is there an auto top-up option?",
+    "expected": "automatic_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "70b238ed39d9fd603f777d69c162937a8614e01d108ee216b0bb3a1b2a324f1d",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-818",
+    "text": "What is the fee on my card payment?",
+    "expected": "card_payment_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "910d310455b88e512fe06b694da933547791dae424e69ccc3caa2f299f317623",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1145",
+    "text": "I need help changing my last name on my account.",
+    "expected": "edit_personal_details",
+    "dataset": "banking77",
+    "normalizedSha256": "d11284ae94bd02d59c19dd29722df9fcbd3ccdf6d98a82fccda2541cf7cb03ad",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-393",
+    "text": "I have tried to use my card several times and it does not work.",
+    "expected": "card_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "ccbcf388306738e7a3543f99196838caadde83b42fa090d7f83966040569c659",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1170",
+    "text": "I would like to not have to do the identity verification.",
+    "expected": "why_verify_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "d62f54ee8ab2dc534112199c98dbd371855b5520ed8ba4de147c06ccda468d0e",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2909",
+    "text": "I thought cash withdrawals were free? Why have I been charged a fee? Also, how much is this fee?",
+    "expected": "cash_withdrawal_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "4b189c7ef4304035fc639dbb97b0680cb640d3d1257dcd9f82534074d9f5ca8d",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1217",
+    "text": "I cannot prove my own identity.",
+    "expected": "unable_to_verify_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "80d03b7bd384cf17a1c8d54e06acb7eb20af5312bd1c407c2bf28cc453542c6e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2158",
+    "text": "How to change the PIN on my card?",
+    "expected": "change_pin",
+    "dataset": "banking77",
+    "normalizedSha256": "1edcd00cda7b9cd041c976989786d06b7000b4f85ea2bfdfb46bd47272cca3d7",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-3035",
+    "text": "Is there any way to verify who I am?",
+    "expected": "verify_my_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "22294051caf75a17ec67a9a379db420b8039034ab86aaee16284943710b22f4b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-161",
+    "text": "Why is there a fee for an extra pound in my statement?",
+    "expected": "extra_charge_on_statement",
+    "dataset": "banking77",
+    "normalizedSha256": "a933644ccf7847307f84e17c408aa53a21438119d8acf512584b83693fdd1ce5",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1010",
+    "text": "I put money into my account for the minimum balance but the application didn't accept.",
+    "expected": "top_up_reverted",
+    "dataset": "banking77",
+    "normalizedSha256": "4e9256647e2224cfd1add07a2a1c87839630aeb29c141953c063fd5e5b3c7f75",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2349",
+    "text": "Are there ways to transfer money into my account?",
+    "expected": "transfer_into_account",
+    "dataset": "banking77",
+    "normalizedSha256": "1950ba4f9187602d1f4480ab70fbab48cd458a29f5c4e63ecf33d5d7f3a73d2f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-618",
+    "text": "What are the fees for top-ups?",
+    "expected": "top_up_by_bank_transfer_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "eef4a242e4f6f21ca7ee7dbf260a9db5cb9333e849d6d6ead1c48718001a7e5f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-170",
+    "text": "I can see an extra 1£ charge on my app. Why did you charge me extra?",
+    "expected": "extra_charge_on_statement",
+    "dataset": "banking77",
+    "normalizedSha256": "c2d9f1105ab7c30b95657d1c7ad9c8c7b603f317502f38323446ca314edeb619",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2842",
+    "text": "What do I need to do to activate my new card?",
+    "expected": "activate_my_card",
+    "dataset": "banking77",
+    "normalizedSha256": "1fe0751ce8b9f42b021627d7de4c082c0fb512652ba6eb2fb30366821826bcde",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2077",
+    "text": "There is an important thing from China that I need to transfer. Approximately how long will this take?",
+    "expected": "transfer_timing",
+    "dataset": "banking77",
+    "normalizedSha256": "4a394f8e1861c49e9646365cbd5a583c80a961ef8cabe87d02f91f3577a1fd0a",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-567",
+    "text": "Do you know why my contactless won't work?",
+    "expected": "contactless_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "2b34ac3e0801e534668268e8392e5bef107a207df356d465ff48c46439c72e9b",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-438",
+    "text": "Can I exchange currencies with my account?",
+    "expected": "exchange_via_app",
+    "dataset": "banking77",
+    "normalizedSha256": "30b0eecd91cd55adb580a740e426014e262be5dba074c0b3748a6e8cc43d1b4c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1028",
+    "text": "Was my top up reversed?",
+    "expected": "top_up_reverted",
+    "dataset": "banking77",
+    "normalizedSha256": "aef70a3680b3ae5e50517766fa0138d09e3d5c70c54ffcbbe4730f23eff105a5",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-240",
+    "text": "If I request that my funds be held, what currencies do you use?",
+    "expected": "fiat_currency_support",
+    "dataset": "banking77",
+    "normalizedSha256": "722a274aafa500ec4ed489505b84e002d422aabe329ba51bb679fac78ab0f0da",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1498",
+    "text": "There is a transaction from my account that I don't recognize can you trace back the information so I can make sure it's something I did or not?",
+    "expected": "direct_debit_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "5fa4420e706eee9ef241291ec8d3eaa277cf077e4fa6e4452afbe698dd456465",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-727",
+    "text": "what is the top up limit",
+    "expected": "top_up_limits",
+    "dataset": "banking77",
+    "normalizedSha256": "92e59db969375fee47a24398dd2878af802a14da1c6cda2bf12b3eb043f8781a",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1834",
+    "text": "My card payment did not complete.",
+    "expected": "declined_card_payment",
+    "dataset": "banking77",
+    "normalizedSha256": "a6a450af6007eccb95248e03b6a143672039235467a45233a1ca81b2a8473df8",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1828",
+    "text": "Hello, I am facing the issue with my new card as payments are declining again and again. Please help me in this issue.",
+    "expected": "declined_card_payment",
+    "dataset": "banking77",
+    "normalizedSha256": "0e5cce2d558e90f3ad171f454fc658aa9a5b47265b79e900366b54ea2feeb3c5",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1853",
+    "text": "I'm trying to transfer money to another country. It's just pending and not sending. My account details are correct. Please help me.",
+    "expected": "pending_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "a0dfc58372d564d38c0b694150002e5ca87b6682dd14699ea72888509060a129",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1791",
+    "text": "Where is my refund? I have been checking my account all day.",
+    "expected": "Refund_not_showing_up",
+    "dataset": "banking77",
+    "normalizedSha256": "4615e8c98961ed733ac6075bdb093410e643b5981e3386ce22f21f17bf2f5932",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2578",
+    "text": "In receiving cash, the wrong exchange rate was used for my transaction.",
+    "expected": "wrong_exchange_rate_for_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "9e857b854630807f9aeff242ab990a927c721f3530168a8a09e31672b50ca88c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2437",
+    "text": "My daughter needs a card. Can I give her one of mine that's linked to my account?",
+    "expected": "getting_spare_card",
+    "dataset": "banking77",
+    "normalizedSha256": "b7e68e1ea78bdbc1d7b836b9b70bbbc92d99038972b63932fa9c8bfa6c8fdec2",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2330",
+    "text": "I NEED TO KNOW HOW TO TRANSFER MONEY INTO MY BANK ACCOUNT. PLEASE HELP",
+    "expected": "transfer_into_account",
+    "dataset": "banking77",
+    "normalizedSha256": "d4fa7b4cb8fb792f72ddef7b8dae450c36fb4a0f5109884b82481ad6ff7f0435",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2700",
+    "text": "I made a transfer and it doesnt' show up in my account.",
+    "expected": "balance_not_updated_after_bank_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "18e3bfd03b50c0cfae53fa26916470fb186422216e2e5f20752f68af9c3ac8da",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-666",
+    "text": "OMG!  I'm trying to load my card and it wont top up!  I desperately need the money either on my card or in my bank, where is it?",
+    "expected": "pending_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "2275835e98e6951f0d386262824d415616e0b823a0a318c65ffe17c10986942f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-233",
+    "text": "Why does it say pending cash withdrawal on my statement?",
+    "expected": "pending_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "44cf5a76f187c23788453a5612452451cfe7ec83b776d2ac36ba8ad654cef05f",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1149",
+    "text": "I want to change my address.",
+    "expected": "edit_personal_details",
+    "dataset": "banking77",
+    "normalizedSha256": "89243ee1d5893f4b8c0cb27168dcad77002617fd51377993d118cbea370b9d03",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-659",
+    "text": "I topped up by card a while ago and it's still pending, surely it should be done by now?",
+    "expected": "pending_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "87a9c157cc658dffcc6c406a53f1201b7b3ccd36925871415662ff4517276fb2",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-3028",
+    "text": "which kind of documentation do I need for identity check?",
+    "expected": "verify_my_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "efa1ea050464d6c7deb876bb6d51d62024987129621cfc0f30ea11c11778082e",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1893",
+    "text": "This company is terrible! Can you delete my account?",
+    "expected": "terminate_account",
+    "dataset": "banking77",
+    "normalizedSha256": "e19befbeff1ef10b29be7b968fb26120c33007314598463339acde6983c16619",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-3058",
+    "text": "Where can I find your locations?",
+    "expected": "country_support",
+    "dataset": "banking77",
+    "normalizedSha256": "496135bc849fdb0edbb521e536c15b7e1ba548f8cd27f15010c2b8b291fe42ae",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1895",
+    "text": "please delete my account, your services are not up to par.",
+    "expected": "terminate_account",
+    "dataset": "banking77",
+    "normalizedSha256": "4ee06f8db813bea1e5a45fa72354e77a6f80381a70f02a355efa6eb28e951a8c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2307",
+    "text": "My attempted transfer failed.",
+    "expected": "failed_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "ff8036bafb2cabfba65b756c4b09f6601a1f108f755ba99155ea8a7fbb9ddd86",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-912",
+    "text": "Do you accept other currencies besides US Dollars?",
+    "expected": "supported_cards_and_currencies",
+    "dataset": "banking77",
+    "normalizedSha256": "ccd85359a82f349ff761d32c77e385e3c7968a8f9b24cc8d1e06a212539cd872",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-173",
+    "text": "Where did this fee come from?",
+    "expected": "extra_charge_on_statement",
+    "dataset": "banking77",
+    "normalizedSha256": "813f0370f552f8ea148963f728a5a3295a20a2b76cc0b6b4e2f9b4255563d6d4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-46",
+    "text": "How do I re-add a card to the app?",
+    "expected": "card_linking",
+    "dataset": "banking77",
+    "normalizedSha256": "377d996f56157718b7109be7e96ef97ee5acfe7cd87f423239657c82e8a57361",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-733",
+    "text": "Is there any limit to the amount I can add to a card at a time?",
+    "expected": "top_up_limits",
+    "dataset": "banking77",
+    "normalizedSha256": "2409d978e787636eb8aac02b2fc3bc650dca87dd47159f72e2e6b877d6da9ab8",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2518",
+    "text": "How do I get an actual card?",
+    "expected": "order_physical_card",
+    "dataset": "banking77",
+    "normalizedSha256": "14e6d26ab068816a81bec9365936bb22a793bc422f7bf49b7d8f954f1372193b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-537",
+    "text": "I attempted to use my card while I was intoxicated, and I failed to input my PIN, and the machine kept my card. How soon can I have it back?",
+    "expected": "pin_blocked",
+    "dataset": "banking77",
+    "normalizedSha256": "0515e20e3a5508981d4aa6f178a3a5119fa57e557125c5ad06f8b203b496e16f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2206",
+    "text": "Why was I charged extra for transferring money?",
+    "expected": "transfer_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "a86b55c0e93b082f07ac2a0dd711bef6266079f85f25cb0b2879613eb5ea2bce",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-274",
+    "text": "How man currencies can I hold?",
+    "expected": "fiat_currency_support",
+    "dataset": "banking77",
+    "normalizedSha256": "4c3e37718a3c2b9fcebd8970bb132d88c1b51a8b9d9f5363b08049c0ab7b12b3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-133",
+    "text": "Why is the exchange rate wrong when I purchase something abroad?",
+    "expected": "card_payment_wrong_exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "aa23414cc04793ff77e8a74db46d31a49e7b216b936187b7da9b6e9f203466c7",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-701",
+    "text": "I made a mistake when I did a transfer so now what can I do to fix that?",
+    "expected": "cancel_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "3b1222a51df7f71297d4ed073be4196920684e321e05fa186b5f1213d4f755a7",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2072",
+    "text": "How long to I have to wait for a transfer to reach my account?",
+    "expected": "transfer_timing",
+    "dataset": "banking77",
+    "normalizedSha256": "729cf3f16eb2db7dfcbe29687895f0fe49d2ae501fca0e4bc7959987caef630c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1308",
+    "text": "Do you have Visa or Matercard?",
+    "expected": "visa_or_mastercard",
+    "dataset": "banking77",
+    "normalizedSha256": "2d23b727efa1dfe3a5cc84ea3ee4f75300b0b44888513becdae06110905db483",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1484",
+    "text": "what is this charge on my account",
+    "expected": "direct_debit_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "311a2310f66b7b8e843d076427c36ca299594c25b7b2355dd78ac62ead57f708",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2304",
+    "text": "My transfer appeared not to work.",
+    "expected": "failed_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "0f163abbcf2537f5d535c8e56bb6e822b13a8e7bdfff11a27c687c67c62c9d09",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2182",
+    "text": "A transfer to an account was not allowed",
+    "expected": "beneficiary_not_allowed",
+    "dataset": "banking77",
+    "normalizedSha256": "cd22467b13cc9805692581ed90d024b6912ff9485511a772bc1cee4bb0105668",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2893",
+    "text": "Hi, I am calling about a recent transaction that has happened on my account.  I recently went to the ATM, and tried to make a withdrawal on my account.  I just happened to check my transaction slip and noticed a fee for my withdrawal.  How can I resolve this, I didn't know fees were charged for this type of action.",
+    "expected": "cash_withdrawal_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "338224fd7cb462ffd8199ac7afd2955caa2fa183eb0e888aed9ec713515b1b73",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1420",
+    "text": "It seems someone used my card! There are a few transactions from a small town in the middle of nowhere that I definitely have not made! Please prevent them from using it immediately!",
+    "expected": "compromised_card",
+    "dataset": "banking77",
+    "normalizedSha256": "b6fe427c6fae85a29bef57ca17c553be1f5e52c047a54f583eac20d34c62f1d7",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1313",
+    "text": "Please give me both a visa and a master card.",
+    "expected": "visa_or_mastercard",
+    "dataset": "banking77",
+    "normalizedSha256": "6eb342e9021d51c3cf21f762ab100ecc6366b179ecc3d69931f17ced316c2bf8",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1299",
+    "text": "Am I able to choose my card?",
+    "expected": "visa_or_mastercard",
+    "dataset": "banking77",
+    "normalizedSha256": "b76ee3a68e5b16422a295816137cad9211ebaae6619d326dc5c91aebfa88e6cc",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1606",
+    "text": "Please help me to know the status of my card payment as its pending since a while.",
+    "expected": "pending_card_payment",
+    "dataset": "banking77",
+    "normalizedSha256": "082bd4ba04cb36e477eee190125ba2d9acfaa0d3b14490f5b4f80a47e6c5a9b4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2143",
+    "text": "Do cash machines let me change my pin?",
+    "expected": "change_pin",
+    "dataset": "banking77",
+    "normalizedSha256": "9dc27dd194b8a2d5d7acc2088c242a5fe13c1edaee85f1779c0d28bd6006064f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2616",
+    "text": "Can you explain disposable cards?",
+    "expected": "get_disposable_virtual_card",
+    "dataset": "banking77",
+    "normalizedSha256": "66360750f188196c458990ce4cf88e44cb10edd12fc25cce71bb5699759b3533",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1239",
+    "text": "for some reason I am having a problem with verifying my identity.",
+    "expected": "unable_to_verify_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "beaf3c8c518e202d28a2fbb2c8ca128e42e7bd3ad0797142147db029ecc7c715",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2996",
+    "text": "How do I top up with Apple Pay?",
+    "expected": "apple_pay_or_google_pay",
+    "dataset": "banking77",
+    "normalizedSha256": "726eb1644384436d1ebcdf4962f3e8474fdd975e855540c8bf1cafc94244bf37",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1090",
+    "text": "There are some payments with my card that I don't know where they are coming from. Just checked today and it's been since a couple days as well! What to I do? Can I revert this retrospectively? My card needs to be frozen immediately as well!",
+    "expected": "card_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "5eaad06848551d54abbd1c151c45bdb332009fe144100a4c45676197007496ec",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2624",
+    "text": "What does a disposable virtual card do?",
+    "expected": "get_disposable_virtual_card",
+    "dataset": "banking77",
+    "normalizedSha256": "7b6571116f89150129dde752ef57cc5475474dfdf1695b05b4918377e055c9ff",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1190",
+    "text": "Why do I have to verify my identity?",
+    "expected": "why_verify_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "1ee7f102411101f459c2274ad39b07abf2c891798d501976f7883ed015804ebb",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-631",
+    "text": "Is there a fee for transfer top-up?",
+    "expected": "top_up_by_bank_transfer_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "52d06293402652d1770ed493126809341f3a18b3b43ce11acfe9283fe817ab51",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-209",
+    "text": "Are you sure when the withdrawal will show?",
+    "expected": "pending_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "551b5a9f6caf121bdf20f782db5ad978f3374c3848734f2b6a587f81ab79546a",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-181",
+    "text": "I got a extra €1 fee in my statement",
+    "expected": "extra_charge_on_statement",
+    "dataset": "banking77",
+    "normalizedSha256": "46da7d56b5c94ae30ac63ecc0f366b0b15b1f29ea19139fb9750edbc69fc7131",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1545",
+    "text": "I forgot my password",
+    "expected": "passcode_forgotten",
+    "dataset": "banking77",
+    "normalizedSha256": "8325e454094e24f1ffa5719d1f9768b6499b037d6dc0fdac7751a07e1455c5df",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2117",
+    "text": "Someone stopped my payment",
+    "expected": "reverted_card_payment?",
+    "dataset": "banking77",
+    "normalizedSha256": "05686cfbad42aac8295b31d880b7aacd499ff3c2508b081a01f3467791ff1343",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-969",
+    "text": "Is there anywhere my card will not be accepted?",
+    "expected": "card_acceptance",
+    "dataset": "banking77",
+    "normalizedSha256": "47b846219ecbdadb1f4ecbbb44a73807ba5e27af9bd73bbad7f346469e519d9f",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2534",
+    "text": "Why can't I use my virtual card for subscription services?",
+    "expected": "virtual_card_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "5ee1fe058f61a5891ca1514fa490367bc212526c58f13c69c3b02dfc8d03d720",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2329",
+    "text": "How does tranferring money into my account work?",
+    "expected": "transfer_into_account",
+    "dataset": "banking77",
+    "normalizedSha256": "64e0314e3f2f9101374440cc3fac7bffdbce50ad0ca92d7b4176eac1222bc3f3",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-674",
+    "text": "Hi. I'm a new customer to your system and I think something isn't working right - or maybe it is. Maybe you can confirm. I tried to top up today (my first time ever) and it's been stuck at \"pending\" for over an hour now. Is it supposed to do this or is there something wrong in the system?",
+    "expected": "pending_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "0decf23314d2ffbf52bd0e58fa4a7636e4241707bb6329fb8419e4f3433fefab",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2677",
+    "text": "I'm pretty sure my top up failed. How do I fix this?",
+    "expected": "top_up_failed",
+    "dataset": "banking77",
+    "normalizedSha256": "0d0b1ad4b709373ad4a375ce949592e32287dda69d3b1f4fceebcdc26852ec83",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1844",
+    "text": "I am waiting for a pending money transfer to process.",
+    "expected": "pending_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "4d7002210da72dbabc9627e868209c55a5bb12ee712bdeed1ad8b17f3dc9004a",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-1439",
+    "text": "Someone else is using my card, freeze it.",
+    "expected": "compromised_card",
+    "dataset": "banking77",
+    "normalizedSha256": "97cf426c111953d52ba61a9f476e96731e0edc7ebca633343c1c3369558be616",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-2149",
+    "text": "Which cash machines will allow me to change my PIN?",
+    "expected": "change_pin",
+    "dataset": "banking77",
+    "normalizedSha256": "63e218aa0850510d23de271f4314b124f6288a7b5a3fe8caa42d58619edef3af",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  {
+    "id": "test-115",
+    "text": "why do your exchange rates change",
+    "expected": "exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "0c4fa6e76d7db9d8e68f93f6354851b1db864a1794d06e54b3c84e4d753e1d7b",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1689",
+    "text": "I wasn't charged the correct amount for an item I purchased, how can I fix this?",
+    "expected": "request_refund",
+    "dataset": "banking77",
+    "normalizedSha256": "910c13baa249f2a90218de2998b45526e88d2ceabd4560a887e4ba7741b63490",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-861",
+    "text": "The day before yesterday, I performed a transfer which was within this country. It still hasn't gone through. Can you check on that? The account number is definitely correct, as I've checked and double checked.",
+    "expected": "transfer_not_received_by_recipient",
+    "dataset": "banking77",
+    "normalizedSha256": "cec7626c57b3c3ffd8360c75a941e63210d8027df67925063c0863567d3a800f",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-1007",
+    "text": "I topped up my account and even though it was confirmed at first, the money isn't there anymore! why did this happen, and where did my money go?",
+    "expected": "top_up_reverted",
+    "dataset": "banking77",
+    "normalizedSha256": "272183674e01be364be1b388b5fe8d1e629e9eb1a194725222add9ffd7157af2",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-2667",
+    "text": "I tried to top up. Why was it denied?",
+    "expected": "top_up_failed",
+    "dataset": "banking77",
+    "normalizedSha256": "05fa32f3538e1d692d7e5532638e3e7e77f0551f96d1c9de0db6a15d04e0c0b9",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  {
+    "id": "test-24",
+    "text": "My card has not arrived yet, where is it?",
+    "expected": "card_arrival",
+    "dataset": "banking77",
+    "normalizedSha256": "6a77e4c996d0aa3727f9c6fc4e4e9b31d9b0b040ee755808968a8413c0cd5af6",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  }
+]
