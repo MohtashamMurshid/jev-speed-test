@@ -1,0 +1,19 @@
+{
+  "key": "76b2a900e3ec00d7881ffbd131ede73b331c7f2d60d2713a1661d4dd00b35ce4",
+  "caseId": "test-1408",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "compromised_card",
+  "predicted": "compromised_card",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 1825.0469969999976,
+  "timing": "measured-live-sequential",
+  "components": [
+    "76b2a900e3ec00d7881ffbd131ede73b331c7f2d60d2713a1661d4dd00b35ce4__jev",
+    "76b2a900e3ec00d7881ffbd131ede73b331c7f2d60d2713a1661d4dd00b35ce4__gemini"
+  ],
+  "accountedUsd": 0.00070062
+}

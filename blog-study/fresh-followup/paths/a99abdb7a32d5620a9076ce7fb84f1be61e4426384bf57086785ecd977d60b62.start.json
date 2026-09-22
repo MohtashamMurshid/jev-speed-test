@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-541",
+    "text": "Help! I forgot my PIN and have been locked out of using my card.",
+    "expected": "pin_blocked",
+    "dataset": "banking77",
+    "normalizedSha256": "d88174d5d864d521d406dbdc87b14ade3f4454fba2adddf7d2a9490faf31f00b",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "a99abdb7a32d5620a9076ce7fb84f1be61e4426384bf57086785ecd977d60b62",
+  "at": "2026-09-22T05:54:30.910Z"
+}

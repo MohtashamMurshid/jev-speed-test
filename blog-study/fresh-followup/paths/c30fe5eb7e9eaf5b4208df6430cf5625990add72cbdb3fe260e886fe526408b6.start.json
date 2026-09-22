@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-161",
+    "text": "Why is there a fee for an extra pound in my statement?",
+    "expected": "extra_charge_on_statement",
+    "dataset": "banking77",
+    "normalizedSha256": "a933644ccf7847307f84e17c408aa53a21438119d8acf512584b83693fdd1ce5",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "c30fe5eb7e9eaf5b4208df6430cf5625990add72cbdb3fe260e886fe526408b6",
+  "at": "2026-09-22T06:04:19.047Z"
+}

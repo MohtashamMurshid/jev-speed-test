@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-1655",
+    "text": "how healthy is blueberrys",
+    "expected": null,
+    "sourceCategory": "nutrition_info",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "0428eee67a774ed77dc26ae7c742f04ce605adbbc6183c7f9d67ac193a8aa5d3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "adf262ca57f7e3b3c7310dfadfd1eb53e86815d808a016d6cd8525b52ecd6f4b",
+  "at": "2026-09-22T06:13:40.373Z"
+}

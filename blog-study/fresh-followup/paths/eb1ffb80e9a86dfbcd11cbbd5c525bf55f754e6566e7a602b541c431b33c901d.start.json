@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-1671",
+    "text": "what's the nutrition info for a pound of chicken",
+    "expected": null,
+    "sourceCategory": "nutrition_info",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "4d8a48657f756b5d2bcddf2991214a66bd8b148c64b6697fdcc7747cdd351604",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "eb1ffb80e9a86dfbcd11cbbd5c525bf55f754e6566e7a602b541c431b33c901d",
+  "at": "2026-09-22T06:11:58.122Z"
+}

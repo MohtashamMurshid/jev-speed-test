@@ -1,0 +1,88 @@
+{
+  "key": "42af3dd87f9e28db481f03f170eaa6ef77e35932b2550e1dfa7b2169f858bc64__gemini",
+  "sequence": 1411,
+  "caseId": "clinc-test-4340",
+  "cohort": "oos",
+  "path": "baseline",
+  "system": "gemini",
+  "expected": null,
+  "model": "google/gemini-3.8-flash",
+  "endpoint": "google-ai-studio",
+  "status": "ok",
+  "correct": false,
+  "reservedUsd": 0.25434375,
+  "timestamp": "2026-09-22T06:11:24.058Z",
+  "predicted": "card_not_working",
+  "probability": 0.01,
+  "usage": {
+    "inputTokens": 722,
+    "inputTokenDetails": {
+      "noCacheTokens": 722,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0
+    },
+    "outputTokens": 172,
+    "outputTokenDetails": {
+      "textTokens": 17,
+      "reasoningTokens": 155
+    },
+    "totalTokens": 894
+  },
+  "finishReason": "stop",
+  "latencyMs": 2309.1891489999834,
+  "returnedModel": "google/gemini-3.8-flash",
+  "returnedProvider": "Google AI Studio",
+  "response": {
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "{\"intent\": \"I09\", \"probability\": 0.01}",
+          "refusal": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "signature": "EqoGCqcGAWkUfRObCFuaa0a1XPnpiGWLCPgDmtBv7QBgA47faGiaeod2IonhXbY/Z9YMz5mwcKbcVI4PIAH3Ka9cwcOX6OPI7CSu3rZfmbvpy6p0tRdtN1G846io65ffdJCx5ZHawXr7QIyiiP80s/ZOdpmLUNOSnjwqGhdpuGQQT70M6fsnLQ3zxYRyfiQq63f7X+FpKgwqLSjdANuzC2Cnz7av7k7e2S2JJn47bHBKygaCx5OByTtYcqsJHWWfhsKbbkkW1jU7Zc2K+mnBEeli1eEDylCWWxXo3qdkG039vL+wwg8iji2gJ28nTwL89U5PWj8kXivLZJm2VTiTgQuPKmIz/kmmginIVZ7OjBCi0+PKPcC0+/O1d8S0Gqsi3rkC+dTAJx1m37wtaNo5xW4Iwrk9kCQO7y95Ascr5lIvcLMgE0vkVQbRQK/plbm7L0hfyNAUYbCbEAkCBcOvcwNmlvFL6ceZXkKKecZIeD0eKUnwl86V7fRlVt/FvVUPftNxwVbuiYyesLfr3ZYpsdVKMdHooj6XvxDPldhuVUBr2UYK1uKN4Xmhxm5qlvDBxIgAr91mSMQtGVUmy2TCXl8rSdSds1MY2cQYJoY2LzzF+OlGEv7agf65cCZVBPfS4f8RI7pwxO+oSKjxJ8pe5yle6wR6xtubB4nAmCOgc0Pw9EhdzWaTT+Vdvls3P1f6SPq6gMi25KZn05fX7SlDqiEyG2zwMv7DqyyxoAi+lip3wX77+kNky1S2hJUk/NvI+35w8RghM0f6WpqCjQn2SZZPq015r25b34U+gF7QHcySzCj2YmR/lH920BlFFH2Sy1RQxj0KJti726E74xf+4hlI9qL2pHJTMe47dEGySmq4G1oiq0BpG1UrnUukjs1Ptd+GaASuZqFXwjFlAv2m7nb9nnMRq3z++YVLI3gsVDKq8n9wp6AwbphwnZOCjUsfUjh/XjadzenMFIb7fk7PJL8t+xuDPz79QUgWoQvc7cUURuGJ5pKsyd4siSuPPnO/2OU9JhqEoOVEPFvErsGjxCJaSinz+loN73zKOAj3HscgSbSbmFaBsKij11ff",
+              "format": "google-gemini-v1",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 722,
+      "completion_tokens": 172,
+      "total_tokens": 894,
+      "cost": 0.0011865,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0011865,
+        "upstream_inference_prompt_cost": 0.0005415,
+        "upstream_inference_completions_cost": 0.000645
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 155,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "id": "gen-1790057484-gMfdjzvPrfKlfwQOVsoX",
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "billedCostUsd": 0.0011865,
+  "accountedUsd": 0.0011865
+}

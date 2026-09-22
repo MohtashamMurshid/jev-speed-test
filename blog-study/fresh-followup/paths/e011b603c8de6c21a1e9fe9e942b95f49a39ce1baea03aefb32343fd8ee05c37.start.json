@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1713",
+    "text": "I bought this item and was charged the wrong amount can I get a refund?",
+    "expected": "request_refund",
+    "dataset": "banking77",
+    "normalizedSha256": "cbf8af6a4fb4e0effb92e8fe80fed0f7e87263c4ca4d71bde54580447f057cd6",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "e011b603c8de6c21a1e9fe9e942b95f49a39ce1baea03aefb32343fd8ee05c37",
+  "at": "2026-09-22T05:58:42.897Z"
+}

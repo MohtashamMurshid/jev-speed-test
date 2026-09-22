@@ -1,0 +1,27 @@
+{
+  "key": "c77bcecfb7ce72479150e738eda88a3cee42a2a2ed4e58a79270779a602c4715__gemini",
+  "sequence": 1318,
+  "caseId": "test-861",
+  "cohort": "cases",
+  "path": "baseline",
+  "system": "gemini",
+  "expected": "transfer_not_received_by_recipient",
+  "model": "google/gemini-3.8-flash",
+  "endpoint": "google-ai-studio",
+  "status": "error",
+  "correct": false,
+  "reservedUsd": 0.2544795,
+  "timestamp": "2026-09-22T06:08:57.492Z",
+  "error": "Request, contract, or response validation failed",
+  "errorType": "AI_APICallError",
+  "errorKind": "request-or-contract",
+  "httpStatus": 503,
+  "latencyMs": 538.1383790001273,
+  "returnedModel": null,
+  "returnedProvider": null,
+  "response": {
+    "model": null,
+    "provider": null
+  },
+  "accountedUsd": 0.2544795
+}

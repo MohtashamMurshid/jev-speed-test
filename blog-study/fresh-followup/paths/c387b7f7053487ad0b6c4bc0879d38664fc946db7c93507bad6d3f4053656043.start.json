@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-57",
+    "text": "How do I view the card I received in the app?",
+    "expected": "card_linking",
+    "dataset": "banking77",
+    "normalizedSha256": "8f90f27ddb33c78ba0672b11bbad8a372dd033b6db04d73ecb8822a6bbcec0b2",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "c387b7f7053487ad0b6c4bc0879d38664fc946db7c93507bad6d3f4053656043",
+  "at": "2026-09-22T05:59:11.119Z"
+}

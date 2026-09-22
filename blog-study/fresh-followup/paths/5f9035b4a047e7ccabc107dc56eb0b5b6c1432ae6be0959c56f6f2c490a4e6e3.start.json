@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-55",
+    "text": "Hello, I found the card I misplaced and I need to reactive it, how do I do that?",
+    "expected": "card_linking",
+    "dataset": "banking77",
+    "normalizedSha256": "7f8b4e638f0d5a99b0b0854d9ab3d93a66c278f0f27a58e3dec84041710ce00f",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "5f9035b4a047e7ccabc107dc56eb0b5b6c1432ae6be0959c56f6f2c490a4e6e3",
+  "at": "2026-09-22T05:40:11.725Z"
+}

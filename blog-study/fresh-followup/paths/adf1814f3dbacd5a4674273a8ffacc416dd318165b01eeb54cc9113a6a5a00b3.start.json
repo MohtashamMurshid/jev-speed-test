@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3930",
+    "text": "play the song called baby shark",
+    "expected": null,
+    "sourceCategory": "play_music",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "8f53907e077a8c755ab53a79d1bfdeba676e3fdd09ffb59cb289ef78173b7db8",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "adf1814f3dbacd5a4674273a8ffacc416dd318165b01eeb54cc9113a6a5a00b3",
+  "at": "2026-09-22T06:11:29.627Z"
+}

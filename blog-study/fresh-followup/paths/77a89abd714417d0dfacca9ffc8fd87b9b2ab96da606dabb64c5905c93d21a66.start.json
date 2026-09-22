@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2596",
+    "text": "how do you determine your exchange rates because one of yours was off when i got cash",
+    "expected": "wrong_exchange_rate_for_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "92d5007eb96ac627f4cbdee7e77850791e5018122fde94c75c9ba33fffa4c12e",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "77a89abd714417d0dfacca9ffc8fd87b9b2ab96da606dabb64c5905c93d21a66",
+  "at": "2026-09-22T06:01:14.275Z"
+}

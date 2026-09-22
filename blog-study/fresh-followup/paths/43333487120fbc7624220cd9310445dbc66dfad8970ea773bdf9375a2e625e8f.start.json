@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1073",
+    "text": "Has the check I deposited cleared to I can get the cash?",
+    "expected": "balance_not_updated_after_cheque_or_cash_deposit",
+    "dataset": "banking77",
+    "normalizedSha256": "0b097f1cc38eb023b2e6248b16848f5acfa60dfc3befc024d33481f5aeacdfe6",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "43333487120fbc7624220cd9310445dbc66dfad8970ea773bdf9375a2e625e8f",
+  "at": "2026-09-22T05:40:28.364Z"
+}

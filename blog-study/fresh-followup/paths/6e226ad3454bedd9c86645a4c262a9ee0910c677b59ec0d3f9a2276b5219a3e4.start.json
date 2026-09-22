@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3959",
+    "text": "do play the music by linkin park",
+    "expected": null,
+    "sourceCategory": "play_music",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "0ee32bcb9ee62ee8dffa2205d8c4f8ff3e2cf7d45baf180b1b5d3e7865a16d96",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "6e226ad3454bedd9c86645a4c262a9ee0910c677b59ec0d3f9a2276b5219a3e4",
+  "at": "2026-09-22T06:10:11.222Z"
+}

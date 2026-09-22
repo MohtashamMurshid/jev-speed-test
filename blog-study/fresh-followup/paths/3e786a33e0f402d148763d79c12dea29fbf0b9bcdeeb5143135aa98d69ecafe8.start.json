@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1138",
+    "text": "I need to update my info.",
+    "expected": "edit_personal_details",
+    "dataset": "banking77",
+    "normalizedSha256": "bc7c0a667cd66c9d804c7275168c515b3f5a14280fc0ef7d6602c6f448fe04f0",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "3e786a33e0f402d148763d79c12dea29fbf0b9bcdeeb5143135aa98d69ecafe8",
+  "at": "2026-09-22T05:43:36.772Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2253",
+    "text": "Do I need to establish I am paid in GBP before a transfer?",
+    "expected": "receiving_money",
+    "dataset": "banking77",
+    "normalizedSha256": "80126ca0dba3478c316ce67deee6e9057949e448eca08f2a4359c0cd0fa70501",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "3ddbbe9a03113084b778d74fbd2e8d5bc1153defd921f4697ab846ce9b1cb194",
+  "at": "2026-09-22T05:54:38.117Z"
+}

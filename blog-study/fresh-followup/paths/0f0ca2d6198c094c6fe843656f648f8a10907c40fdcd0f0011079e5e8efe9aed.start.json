@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-2132",
+    "text": "can i use apples instead of oranges in this recipe",
+    "expected": null,
+    "sourceCategory": "ingredient_substitution",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "46274ddbf579ac168d20a7874156fdff8aa6e8ef6ccb0452ac17017e899ee6ef",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "0f0ca2d6198c094c6fe843656f648f8a10907c40fdcd0f0011079e5e8efe9aed",
+  "at": "2026-09-22T06:14:09.404Z"
+}

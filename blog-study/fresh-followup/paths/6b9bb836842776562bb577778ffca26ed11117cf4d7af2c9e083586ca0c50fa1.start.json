@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1121",
+    "text": "How to change my address.",
+    "expected": "edit_personal_details",
+    "dataset": "banking77",
+    "normalizedSha256": "8f3e056c491be741d6dd8b48daf6d5e8c81ee6d8b58577ae081587588669c296",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "6b9bb836842776562bb577778ffca26ed11117cf4d7af2c9e083586ca0c50fa1",
+  "at": "2026-09-22T05:52:55.541Z"
+}

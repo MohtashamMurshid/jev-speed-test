@@ -1,0 +1,18 @@
+{
+  "key": "36bd5372beba4acb32ee999e27383b639c30dafe0e6340af17bd9a733e743311",
+  "caseId": "test-519",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "age_limit",
+  "predicted": "age_limit",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": true,
+  "safetyAccepted": true,
+  "latencyMs": 385.03063900000416,
+  "timing": "measured-live-sequential",
+  "components": [
+    "36bd5372beba4acb32ee999e27383b639c30dafe0e6340af17bd9a733e743311__jev"
+  ],
+  "accountedUsd": 0.000067662
+}

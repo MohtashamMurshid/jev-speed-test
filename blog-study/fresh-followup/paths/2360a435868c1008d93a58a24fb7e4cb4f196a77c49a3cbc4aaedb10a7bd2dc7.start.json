@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3269",
+    "text": "las vegas weather today",
+    "expected": null,
+    "sourceCategory": "weather",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "8122064104c6b2799ffa2304548be205f8c1ab136c8a0f3ba465fd16222dae48",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "2360a435868c1008d93a58a24fb7e4cb4f196a77c49a3cbc4aaedb10a7bd2dc7",
+  "at": "2026-09-22T06:10:33.119Z"
+}

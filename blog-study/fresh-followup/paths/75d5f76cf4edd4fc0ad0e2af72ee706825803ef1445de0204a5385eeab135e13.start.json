@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1525",
+    "text": "My password isn't being accepted and I need to reset it.",
+    "expected": "passcode_forgotten",
+    "dataset": "banking77",
+    "normalizedSha256": "ece78c5c0fa784a080c7696eaaef5c49d68af176ef5a84ca4843e69c41d694e6",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "75d5f76cf4edd4fc0ad0e2af72ee706825803ef1445de0204a5385eeab135e13",
+  "at": "2026-09-22T05:55:20.372Z"
+}

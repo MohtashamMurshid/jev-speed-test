@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-2147",
+    "text": "will it be ok to sub turkey for beef",
+    "expected": null,
+    "sourceCategory": "ingredient_substitution",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "c3693e0771e38c85610ca793c638b0b6eca30892faebc668f246d112ceefa0a2",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "0de16b84ccd5aa9aa733354ff8dea9b94d1ae6b0b6bc3c40bbfbe6102ae1d3f9",
+  "at": "2026-09-22T06:14:49.101Z"
+}

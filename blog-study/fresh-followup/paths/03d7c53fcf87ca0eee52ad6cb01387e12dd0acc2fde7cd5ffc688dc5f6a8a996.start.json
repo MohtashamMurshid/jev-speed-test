@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-133",
+    "text": "Why is the exchange rate wrong when I purchase something abroad?",
+    "expected": "card_payment_wrong_exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "aa23414cc04793ff77e8a74db46d31a49e7b216b936187b7da9b6e9f203466c7",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "03d7c53fcf87ca0eee52ad6cb01387e12dd0acc2fde7cd5ffc688dc5f6a8a996",
+  "at": "2026-09-22T06:06:41.508Z"
+}

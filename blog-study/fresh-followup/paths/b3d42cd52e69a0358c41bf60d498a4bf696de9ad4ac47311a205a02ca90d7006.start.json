@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1229",
+    "text": "I a having trouble proving my identity",
+    "expected": "unable_to_verify_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "a8152eb6706f5ec27b3f8e10e1591722cfc8019c6316a3693d1e118f050996af",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "b3d42cd52e69a0358c41bf60d498a4bf696de9ad4ac47311a205a02ca90d7006",
+  "at": "2026-09-22T05:58:55.327Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1318",
+    "text": "Do you use Mastercard or Visa?",
+    "expected": "visa_or_mastercard",
+    "dataset": "banking77",
+    "normalizedSha256": "f342f22d6bbbd2ffd0e1963b455a98afa823bc24d160f514fe8d9689c8daf1cf",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "7cc90fddead2202c86ea560750d75fac90e9e5ae156e0240df7fa2a53a928661",
+  "at": "2026-09-22T05:50:24.778Z"
+}

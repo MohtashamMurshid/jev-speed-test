@@ -1,0 +1,19 @@
+{
+  "key": "f3a13f9f3644b67f21e6ef654effcf6de3b00cc829b22424083beb06390d753b",
+  "caseId": "test-251",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "fiat_currency_support",
+  "predicted": "fiat_currency_support",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 1776.9469810000155,
+  "timing": "measured-live-sequential",
+  "components": [
+    "f3a13f9f3644b67f21e6ef654effcf6de3b00cc829b22424083beb06390d753b__jev",
+    "f3a13f9f3644b67f21e6ef654effcf6de3b00cc829b22424083beb06390d753b__gemini"
+  ],
+  "accountedUsd": 0.000697452
+}

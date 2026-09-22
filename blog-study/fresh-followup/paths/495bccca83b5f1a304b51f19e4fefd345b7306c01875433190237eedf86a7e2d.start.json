@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1932",
+    "text": "The ATM machine stole my card.",
+    "expected": "card_swallowed",
+    "dataset": "banking77",
+    "normalizedSha256": "bc0ac0e63fcf4d8d1b9f7f58c214a4042825980a1d641a797e7906a5c58c344c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "495bccca83b5f1a304b51f19e4fefd345b7306c01875433190237eedf86a7e2d",
+  "at": "2026-09-22T05:42:58.527Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1265",
+    "text": "Where is my PIN number located?",
+    "expected": "get_physical_card",
+    "dataset": "banking77",
+    "normalizedSha256": "c2733260bbcbb2615ce66b6a4111ce234bae2b5deea3901ea4aec992ad8e46ae",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "81046a816aefde99440ecb57f474eb6c1465922e59d446b081573ece057f0133",
+  "at": "2026-09-22T06:03:11.945Z"
+}

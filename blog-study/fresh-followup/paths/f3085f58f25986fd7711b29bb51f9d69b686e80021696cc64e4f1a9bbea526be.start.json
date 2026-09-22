@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-2063",
+    "text": "how long does it take to bake a cake",
+    "expected": null,
+    "sourceCategory": "cook_time",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "91502f8bcba51cdea2c39995df0231043e632658fa162dad5f0c642eae70a81d",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "f3085f58f25986fd7711b29bb51f9d69b686e80021696cc64e4f1a9bbea526be",
+  "at": "2026-09-22T06:10:42.435Z"
+}

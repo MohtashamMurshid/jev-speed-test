@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-4346",
+    "text": "i want a recipe for roasted veggies",
+    "expected": null,
+    "sourceCategory": "recipe",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "b33d921575d892979bf723f6f7c6ab23c200c0da97e9052860916b2b971ff129",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "842eee723d6cec3b76965b71ba05beddba281cb1b0ca115afdfec19004a8feff",
+  "at": "2026-09-22T06:10:28.766Z"
+}

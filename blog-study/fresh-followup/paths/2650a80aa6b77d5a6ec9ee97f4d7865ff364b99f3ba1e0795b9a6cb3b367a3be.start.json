@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1689",
+    "text": "I wasn't charged the correct amount for an item I purchased, how can I fix this?",
+    "expected": "request_refund",
+    "dataset": "banking77",
+    "normalizedSha256": "910c13baa249f2a90218de2998b45526e88d2ceabd4560a887e4ba7741b63490",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "2650a80aa6b77d5a6ec9ee97f4d7865ff364b99f3ba1e0795b9a6cb3b367a3be",
+  "at": "2026-09-22T06:08:53.833Z"
+}

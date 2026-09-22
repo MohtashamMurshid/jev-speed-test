@@ -1,0 +1,18 @@
+{
+  "key": "56cec29972e140869cbe792433bef5c238b493d5176cbb55b2381cde569919ae",
+  "caseId": "test-1393",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "disposable_card_limits",
+  "predicted": "disposable_card_limits",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 2032.0116299999936,
+  "timing": "measured-live-sequential",
+  "components": [
+    "56cec29972e140869cbe792433bef5c238b493d5176cbb55b2381cde569919ae__gemini"
+  ],
+  "accountedUsd": 0.00063
+}

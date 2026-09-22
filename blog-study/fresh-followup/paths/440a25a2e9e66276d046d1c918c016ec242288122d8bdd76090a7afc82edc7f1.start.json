@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-2044",
+    "text": "how many minutes are involved in the preparation of curry",
+    "expected": null,
+    "sourceCategory": "cook_time",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "5ab1df66bdf210df6ffc0193c492f20965aafe22b90118ec0dd1d5bef75f9f51",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "440a25a2e9e66276d046d1c918c016ec242288122d8bdd76090a7afc82edc7f1",
+  "at": "2026-09-22T06:13:55.169Z"
+}

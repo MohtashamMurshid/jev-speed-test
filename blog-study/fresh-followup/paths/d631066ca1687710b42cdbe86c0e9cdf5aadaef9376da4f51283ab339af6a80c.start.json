@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-123",
+    "text": "The exchange rate was wrong when I bought something outside the country.",
+    "expected": "card_payment_wrong_exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "43140f213c9cdd80173fc7be88bad8d01b6a6992b9492284dab20b6a05433fed",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "d631066ca1687710b42cdbe86c0e9cdf5aadaef9376da4f51283ab339af6a80c",
+  "at": "2026-09-22T05:48:15.210Z"
+}

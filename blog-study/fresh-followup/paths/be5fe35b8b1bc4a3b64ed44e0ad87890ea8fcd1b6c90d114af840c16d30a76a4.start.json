@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1860",
+    "text": "Please explain why the transfers shows up as pending?",
+    "expected": "pending_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "ae286ce02da11516eb3cef90f48e5e31c5b3cc8f3595099ab3a664deac2245b2",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "be5fe35b8b1bc4a3b64ed44e0ad87890ea8fcd1b6c90d114af840c16d30a76a4",
+  "at": "2026-09-22T05:47:37.905Z"
+}

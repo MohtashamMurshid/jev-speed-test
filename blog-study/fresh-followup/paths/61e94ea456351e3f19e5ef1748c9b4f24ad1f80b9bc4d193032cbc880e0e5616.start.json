@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-157",
+    "text": "Your exchange rate is totally wrong for my card payment",
+    "expected": "card_payment_wrong_exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "cf16eabc2ff3059ebdf869b49eea608af11fde8026a851a50886b60d28f65dfd",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "61e94ea456351e3f19e5ef1748c9b4f24ad1f80b9bc4d193032cbc880e0e5616",
+  "at": "2026-09-22T05:43:44.519Z"
+}

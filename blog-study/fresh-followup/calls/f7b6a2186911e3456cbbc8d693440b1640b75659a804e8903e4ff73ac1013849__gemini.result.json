@@ -1,0 +1,88 @@
+{
+  "key": "f7b6a2186911e3456cbbc8d693440b1640b75659a804e8903e4ff73ac1013849__gemini",
+  "sequence": 458,
+  "caseId": "test-0",
+  "cohort": "cases",
+  "path": "baseline",
+  "system": "gemini",
+  "expected": "card_arrival",
+  "model": "google/gemini-3.8-flash",
+  "endpoint": "google-ai-studio",
+  "status": "ok",
+  "correct": true,
+  "reservedUsd": 0.25434,
+  "timestamp": "2026-09-22T05:49:41.543Z",
+  "predicted": "card_arrival",
+  "probability": 0.8,
+  "usage": {
+    "inputTokens": 722,
+    "inputTokenDetails": {
+      "noCacheTokens": 722,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0
+    },
+    "outputTokens": 309,
+    "outputTokenDetails": {
+      "textTokens": 22,
+      "reasoningTokens": 287
+    },
+    "totalTokens": 1031
+  },
+  "finishReason": "stop",
+  "latencyMs": 2715.938216999988,
+  "returnedModel": "google/gemini-3.8-flash",
+  "returnedProvider": "Google AI Studio",
+  "response": {
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"intent\": \"I00\",\n  \"probability\": 0.8\n}",
+          "refusal": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "signature": "EsAKCr0KAWkUfRN4CQ51lNKhK44J5qLT5UuQ/+aTUUAHGrDmHcsW1wA8penI2Y2JJn4aTIW3z2MVi/n+TuGvtCYuRvEQPfLvKVVlhQfIWT6UaQ31jRoRFXilxmbtlTbhRlsGZrhdulNmoHoedoyNs6xUFbptJxdTkTnX9BXmY3fKiw+YnyU8eyw8D6J/bgJdqOy2WaKIvSerel3wfH9f7yL3vzvDKnbBuyqoCkOnqMOBchuLEKoa6IiMOfHjGHdukZZwVyEZsx9Fi4xA4vYWEOuC3BH5lN4diYkbnkOlLQkozB/y0/tWKcKHEc60ifapnplg8KyFsK3+PConW8d6/qAZ1NJSzYk92y6Od9UCfh2WSBgrT0Rhv83KGyAfD8oTqlmfUAPxULqXgPedPvghAU2BN/WF1B2t53zD28dpKAeQDMPGQz19/tdZPBv772CLc+qNqRx2nL/H9+/nYdTpKvPCDP2Myu/G+N4VJDvOsY6O+/POcofuERfzZC5/ACFb8dqEcOmlEbr94eT+Ulw2kGDqjVL44Uj5Z+ILc0ddViY8c5ZJdOeDXmyS2AblYK5UR3aNF1UXMulGTSC0P9/iOfP+bTFhOSXv2NB41OIBIaZRCmAQAfM1l/d44qb7/S2SXeCrhUhQ5NTgxJ0cwKwlsN+oFeEYPK0XSEAIpm/mYR/2ghGi5YphNWJDyDAUDPC833q6UfPahaqTKEloKsNioInIh3ZT3jeqOMbDI+Kv1m+dZ9y262bWDjmblS93cLnQdVdnZ19fiV/o5oet94cYAbhjOAZtm0so6JFd4o/xdvABJgXmukuMPVwvgLbZvxPub7INogOM8v32fLcmV4pjIXYACAsZOd28huugr3YqqM1RnkpD+Q/5+vXAI827CFem7EVz2DaANBCT0dmUH9zqTTbbFa79G25oP8YeTI53vy7ADnZ6dvUHypgQKL+t75pFCKMVk4/QNSlbcBBbobgoJhuUi3qmVVcJ7l7t6Uqen2//Xoo1s7Q1jU5whgkGOpOZgZlyO/DjOY2dr9+6yblySXrSs0imtyTz36DulkAtLiba52ndGbxwoPI0wY8nanNxHiHdl+rbr2AYOvFkGVkiMBlM9hlx8FKxAFydFtLt99WABpeYrFfJ/wNbB007i0l8vjhn8IYfInT9Mh2hOvTY6MfpLOah5Ki9DDeSp+K9gfARkM99VKrzO1D5LoIxzH40U7949ZIMfOuOXirX7Q2KBZGkJK060lzs/1jM/JJ/P8ZZZ1hcDpJjj/oZ3S50DLaihd4tkimDYFnSX4DePAU332oggpAhnubTsiFflHy18LR8FFGwjsKpdXCBbv0hjzfPvBZEwxZEahHQWwf/4tmg8Y66g6IKln+BiDht0/qYFNBM/bAihc2FW6Ze8rSh3Q6kBd4EtzDaTmQeo0HJsS8hxCDHfXXMmDi5b+voz//uxSAh36UtFNgEbZO91fr1TvjXQFforNhlPf6o/cqgW3+ZY6VzWLD9X/3/v9qcKLIbvSwulTjDsnWgjwPf/AKcAaD2e05+6yWgzMzeR8PfidrG1AF0umuSTHyjsrD8gNQht19CWrV+J+giDUYhsgKauBzmLW6ivcwtrZOVUNfDEwg2Vt9CuoTv/2hJlgIMDGp3tPoLBrnK3yXDA4HanQon/im6bRns1I7Z+Qbd7iZgjcP3/kxkraOGVjfhGQ1sp5xX9aFLa4z3slDXmW5BmMriOwjMkBCpB6i5Fd4UgcQtFpgiVwNrmxiCO0AoI23fsPCl+PQVIbh0lBtowld3wJBYO6ESeNlY",
+              "format": "google-gemini-v1",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 722,
+      "completion_tokens": 309,
+      "total_tokens": 1031,
+      "cost": 0.00170025,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00170025,
+        "upstream_inference_prompt_cost": 0.0005415,
+        "upstream_inference_completions_cost": 0.00115875
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 287,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "id": "gen-1790056181-AiBwEwUkPl24T6MaABv1",
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "billedCostUsd": 0.00170025,
+  "accountedUsd": 0.00170025
+}

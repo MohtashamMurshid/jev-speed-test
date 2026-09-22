@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1313",
+    "text": "Please give me both a visa and a master card.",
+    "expected": "visa_or_mastercard",
+    "dataset": "banking77",
+    "normalizedSha256": "6eb342e9021d51c3cf21f762ab100ecc6366b179ecc3d69931f17ced316c2bf8",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "969b6b6db5fc3cadcb9e420725b39526f12fcf687180c56820c08d5f90df4b40",
+  "at": "2026-09-22T06:07:14.119Z"
+}

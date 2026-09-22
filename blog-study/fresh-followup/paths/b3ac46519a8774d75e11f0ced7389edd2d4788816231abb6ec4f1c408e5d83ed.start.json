@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2531",
+    "text": "Can I make multiple online transactions with my virtual card?",
+    "expected": "virtual_card_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "4c7c13d41b83c4103f72bdc4156fc7e963e62c480b6a0284fcb1054b8024ab04",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "b3ac46519a8774d75e11f0ced7389edd2d4788816231abb6ec4f1c408e5d83ed",
+  "at": "2026-09-22T05:58:00.112Z"
+}

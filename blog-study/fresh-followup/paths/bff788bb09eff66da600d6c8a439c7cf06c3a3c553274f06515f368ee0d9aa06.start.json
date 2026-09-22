@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-4164",
+    "text": "i want to hear something funny about history",
+    "expected": null,
+    "sourceCategory": "tell_joke",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "27f6bee90173c831b51b6ce99c8413f8fc6a508196126e6dd524a3db5209d2a9",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "bff788bb09eff66da600d6c8a439c7cf06c3a3c553274f06515f368ee0d9aa06",
+  "at": "2026-09-22T06:11:33.245Z"
+}

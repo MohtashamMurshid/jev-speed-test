@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3247",
+    "text": "how is the weather looking in seattle",
+    "expected": null,
+    "sourceCategory": "weather",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "c7b3ff2e068ecef869aa9c404375d41b8168725bd540f328f75713f4cb588ead",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "3aa4f92071f9fc7ae8dc936984790de6b22ff81f8e243b0208565a8c0add9b01",
+  "at": "2026-09-22T06:16:14.757Z"
+}

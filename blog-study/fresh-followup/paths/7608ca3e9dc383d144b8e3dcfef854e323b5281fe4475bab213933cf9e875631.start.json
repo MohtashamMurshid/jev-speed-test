@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2847",
+    "text": "I received my new card, how is it activated?",
+    "expected": "activate_my_card",
+    "dataset": "banking77",
+    "normalizedSha256": "dca3436eda075b31e6ffcf9f7c3eb34ed4c7fb4878e659f521db0831329f95e2",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "7608ca3e9dc383d144b8e3dcfef854e323b5281fe4475bab213933cf9e875631",
+  "at": "2026-09-22T05:44:13.295Z"
+}

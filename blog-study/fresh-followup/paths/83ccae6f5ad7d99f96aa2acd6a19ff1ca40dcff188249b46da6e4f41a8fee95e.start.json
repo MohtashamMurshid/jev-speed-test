@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1174",
+    "text": "What is the purpose for the identity check",
+    "expected": "why_verify_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "a8664df75b897a81d4995f554e2160ec4bb5c6c30f082dcf5a51c70470a7cedc",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "83ccae6f5ad7d99f96aa2acd6a19ff1ca40dcff188249b46da6e4f41a8fee95e",
+  "at": "2026-09-22T05:47:26.865Z"
+}

@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3150",
+    "text": "i would like it if you would turn the bedroom lights on low until i'm finished reading",
+    "expected": null,
+    "sourceCategory": "smart_home",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "71a9d1d12fbe3f414ce52843c2ea73a040724d6ffd358432cef98d6679ec9eec",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "b9e8fc0079a538c39eb80efd93b5be7ff3618838ddb52ea56aab2ac141d45580",
+  "at": "2026-09-22T06:13:29.926Z"
+}

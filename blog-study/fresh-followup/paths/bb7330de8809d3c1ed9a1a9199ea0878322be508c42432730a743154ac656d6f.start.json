@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2133",
+    "text": "I'd like to make a new PIN selection.",
+    "expected": "change_pin",
+    "dataset": "banking77",
+    "normalizedSha256": "c8882841df72b8664317bd7a63ed8d0af43cc2d8ea910108afd455b50d2ba65c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "bb7330de8809d3c1ed9a1a9199ea0878322be508c42432730a743154ac656d6f",
+  "at": "2026-09-22T05:39:58.883Z"
+}

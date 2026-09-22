@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1408",
+    "text": "Someone is using my account to do online shopping! Please freeze it asap",
+    "expected": "compromised_card",
+    "dataset": "banking77",
+    "normalizedSha256": "3a07bbbee5f59073f2c7d169a640700346fd6cb09b30c7bd494c2192dc9d53d6",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "76b2a900e3ec00d7881ffbd131ede73b331c7f2d60d2713a1661d4dd00b35ce4",
+  "at": "2026-09-22T05:53:09.359Z"
+}

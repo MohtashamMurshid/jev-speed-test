@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2569",
+    "text": "A wrong exchange rate was applied to a transaction made abroad.",
+    "expected": "wrong_exchange_rate_for_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "0b55516eae3fcaf797f368296e7e680fa4f56b39a448fa127e9093a452292dfc",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "a7de1ef14f4df328bb9e3d8cd07e695a4fe0984e1eff57f323199cbb11e80990",
+  "at": "2026-09-22T05:43:05.940Z"
+}

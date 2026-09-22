@@ -1,0 +1,88 @@
+{
+  "key": "339352d97e0c7e9f4fc8d573392979e4be26d224e2629028b808344bb55377de__gemini",
+  "sequence": 1361,
+  "caseId": "clinc-test-4140",
+  "cohort": "oos",
+  "path": "cascade",
+  "system": "gemini",
+  "expected": null,
+  "model": "google/gemini-3.8-flash",
+  "endpoint": "google-ai-studio",
+  "status": "ok",
+  "correct": false,
+  "reservedUsd": 0.254349,
+  "timestamp": "2026-09-22T06:09:57.949Z",
+  "predicted": "why_verify_identity",
+  "probability": 0.01,
+  "usage": {
+    "inputTokens": 722,
+    "inputTokenDetails": {
+      "noCacheTokens": 722,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0
+    },
+    "outputTokens": 267,
+    "outputTokenDetails": {
+      "textTokens": 16,
+      "reasoningTokens": 251
+    },
+    "totalTokens": 989
+  },
+  "finishReason": "stop",
+  "latencyMs": 2435.87864000001,
+  "returnedModel": "google/gemini-3.8-flash",
+  "returnedProvider": "Google AI Studio",
+  "response": {
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "{\"intent\": \"I29\", \"probability\": 0.01}",
+          "refusal": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "signature": "EvEJCu4JAWkUfRNzEfMUt+AbktY+1Q+18b4kfA5K5y6WPghg8vOOSmtclF+1ie/oCIeuRuAIyuH0Lznbkz8xYeg3P0vihOVyl3sMatYPQJTQQyaX0ZWJOI3N90Nto9YYjUAuMwtB++BT3zvZ0LC780yhA75gKMUC6Lsc5RQ6UWc4owUKm4QZWbNv5JPQqxsydGI4zFPb9QChZqLnP2TqE/K3DY/ssN0jEqKPv5kYdQu5WhmNlMjv/udjI9Tw5S8wbqfSrwBIvYCbtV5gF6y56GUJbFjkG17T2xE6HmZgxttQQeypy+kGttnZg9egdf8DdbeXO15hch2Dy7YuazoZh+0cQTOUWEiXGs8fCXvw8Oizp8DSrIOVIwdZ4PMIfYINdnLM72aGp1CvnIdondKHynj144mVPs1r2sUc/vMAoMAH00x52JIX/GxZeUBx6zReEUIfoYttQCwKY8awGr/xM2nDXueenwOsAy9Ht3K2Sv8YSgawBdkbOSqOuYd/pM5QTEjO2dFDsll1kJ2W+hxYHa2K6fYKAByyg56aWAwol4pSeKwUdTQfA3TqT9s74+jHeOncv43tQNwggpUIWL0Mq6CBzdup8yo+3NNypdI4CrycEue1klD/smNdKYYMp7b/aXoCzIAAlbL/H5GZw2rGzlodcSXD7kCWRWWokp+iDx3Gv83NvNfv7vvaxE3qFgxIfP/FBB+iKOx0B7wZhmuxxGpjwnt88AZwQAutCLr4QWsSbAQRKF3EWylJrfgzsY12eLLkHK4SITwcn9zohxC6aqh868ZU1nWYWoEG2OFL0hv66vPyuH2Tc/RrVrU+zISPEuqU3hGY6XEPJK6mjA7b5d8taJ8zgELB3crAxozGJfLTLoHqZ5Wnsh0tMVLisHepFX7ykHYkrsx0eYAtNr6EaenJ/bo8mPf8I8FYCFrhGhEyISFrs6ainIzirqowHfDa/Td3R7iFJCDGtTvGSgd5VcdgKZEpKLbEJhzuG5utqbOBtin4gfcqbmZk9pyoiMi//DMWEDkg6QDYpEOZP6B1j3Hj3lEce+L67bJx0OjGDz4U/t/QK27Q3girhD66nUJAhBhmc6PhP9AbTI2iorwHDv2KgEfNi3hancmRAYLZkoLnP4QBppDvYfYo7qPwKOfmp5CgYqvQRw6ZccttBtEbXiD3FA0lIG+4V+rMzVaZF1j7cA5dSZ/D5e5R8WkGNnwyUUjW+Y3iDMYoJCX9zD5KRVBaCRTQoDTBEriUiSXqIsOIbJCzjOQPGeVmTUZ3k+xEo+CtgGg1YsVAC4wWkIFO5SOg/p+naeYxYMY+LP6Cp1mrI1zFZp1owNB34SvLqg+dgw7c6ute6Qjo+kORH89D2BnLOs4TKs8g7SoHfuCKqImCUpEhR/ZQDhhUnMhAA+09hfdc0c5a9EIIRY5mY3umm3VEIhPDthFwotq2IVFKzCgYSXm5Bxkz6t7uVP88wth9nobf5/8+KO2mdtzWZrIEB5O4cSBT3CeknSvP07AKJ4UNqUVyHSuUDtDa5lTzgjJaxc7IJ0hERkzD/ydH8nBJD/JErRP5b9uThDjssKzUnlhYEwMjqDyrMahvvMCOVWFL+KR7DNVid0dUsDhbC1wU6BCD8hhE1CcYbbkxEeT3lkl2REFIN+5A8J1p6ANTNgxebpbCBZEYmpQkaSijXp6kF7Dt4lM=",
+              "format": "google-gemini-v1",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 722,
+      "completion_tokens": 267,
+      "total_tokens": 989,
+      "cost": 0.00154275,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00154275,
+        "upstream_inference_prompt_cost": 0.0005415,
+        "upstream_inference_completions_cost": 0.00100125
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 251,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "id": "gen-1790057397-ZyxlGDot9hasMoHvXZkS",
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "billedCostUsd": 0.00154275,
+  "accountedUsd": 0.00154275
+}

@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-1657",
+    "text": "how healthy is mcdonalds",
+    "expected": null,
+    "sourceCategory": "nutrition_info",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "138f8cbce380ef3af57a971d607cdd8e99e2fd69a79bae5f9f35282e15e24edb",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "84c72190b54edc96d4593b8da8e94bb9ee6cdbc4ae3486343a4711cf063c021d",
+  "at": "2026-09-22T06:12:43.538Z"
+}

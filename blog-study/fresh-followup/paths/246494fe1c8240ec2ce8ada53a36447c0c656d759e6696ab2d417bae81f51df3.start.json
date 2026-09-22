@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1246",
+    "text": "How do I find my card PIN?",
+    "expected": "get_physical_card",
+    "dataset": "banking77",
+    "normalizedSha256": "721f259744319121a1d23ccb878348d6a9b9eaa6432d925bd9c014529832b51b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "246494fe1c8240ec2ce8ada53a36447c0c656d759e6696ab2d417bae81f51df3",
+  "at": "2026-09-22T05:48:52.052Z"
+}

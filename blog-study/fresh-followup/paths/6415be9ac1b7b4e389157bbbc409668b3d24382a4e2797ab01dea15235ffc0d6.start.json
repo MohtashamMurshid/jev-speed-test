@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2092",
+    "text": "My card is being declined for a purchase. I bought items before and the card worked. Do you know what the problem is?",
+    "expected": "reverted_card_payment?",
+    "dataset": "banking77",
+    "normalizedSha256": "cad56eb3ed5228aa51d37243449687a375e862489a79294c8193dcfd7f72c7f5",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "6415be9ac1b7b4e389157bbbc409668b3d24382a4e2797ab01dea15235ffc0d6",
+  "at": "2026-09-22T05:49:52.156Z"
+}

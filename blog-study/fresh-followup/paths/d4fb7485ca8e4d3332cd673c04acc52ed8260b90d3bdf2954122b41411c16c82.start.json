@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-4326",
+    "text": "how do you prepare omelet",
+    "expected": null,
+    "sourceCategory": "recipe",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "f21a0e9fc32b0133caa488078488837b53e7679eff79735efe829f304e8fc35b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "d4fb7485ca8e4d3332cd673c04acc52ed8260b90d3bdf2954122b41411c16c82",
+  "at": "2026-09-22T06:16:13.207Z"
+}

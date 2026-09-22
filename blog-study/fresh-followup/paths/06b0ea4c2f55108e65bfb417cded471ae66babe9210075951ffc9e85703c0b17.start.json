@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2269",
+    "text": "How do I get my salary through this account?",
+    "expected": "receiving_money",
+    "dataset": "banking77",
+    "normalizedSha256": "597980cf6531fd1dd168de79c337899ec11c4058a406fcef9469912a0b0591cb",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "06b0ea4c2f55108e65bfb417cded471ae66babe9210075951ffc9e85703c0b17",
+  "at": "2026-09-22T05:52:11.676Z"
+}

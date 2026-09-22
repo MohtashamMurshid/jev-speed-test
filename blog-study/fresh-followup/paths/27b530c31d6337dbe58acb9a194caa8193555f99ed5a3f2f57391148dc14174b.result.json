@@ -1,0 +1,19 @@
+{
+  "key": "27b530c31d6337dbe58acb9a194caa8193555f99ed5a3f2f57391148dc14174b",
+  "caseId": "test-2515",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "order_physical_card",
+  "predicted": "card_delivery_estimate",
+  "status": "ok",
+  "correct": false,
+  "jevAccepted": false,
+  "safetyAccepted": false,
+  "latencyMs": 1950.4519969997928,
+  "timing": "measured-live-sequential",
+  "components": [
+    "27b530c31d6337dbe58acb9a194caa8193555f99ed5a3f2f57391148dc14174b__jev",
+    "27b530c31d6337dbe58acb9a194caa8193555f99ed5a3f2f57391148dc14174b__gemini"
+  ],
+  "accountedUsd": 0.000690534
+}

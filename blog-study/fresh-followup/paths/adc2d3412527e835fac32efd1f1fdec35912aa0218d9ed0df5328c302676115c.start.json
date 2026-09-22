@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-4340",
+    "text": "can you find me a pork recipe",
+    "expected": null,
+    "sourceCategory": "recipe",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "56a0dd6e77d338f3cfa2047b51996baecc5b2515208a566ca2538472f6e54557",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "adc2d3412527e835fac32efd1f1fdec35912aa0218d9ed0df5328c302676115c",
+  "at": "2026-09-22T06:11:26.378Z"
+}

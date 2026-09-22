@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1092",
+    "text": "There are some strange charges on my card that I didn't make from a few days ago.  Is my card stolen and if so should I cancel it?  Will I get refunded the charges?",
+    "expected": "card_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "a7a56dd902e1b44d6af2ed2db321c9fd09b1df3dc46011d5ff149c1b74ea6292",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "db7199e94903934becd67ff43ac6381dc6930dcbadd3ce5f4d3555bc28f55f5e",
+  "at": "2026-09-22T05:56:15.603Z"
+}

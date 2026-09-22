@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-2048",
+    "text": "look up recipe time for this",
+    "expected": null,
+    "sourceCategory": "cook_time",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "0a0690ce51262a240a73b4594eec47c8d5c394d6acba3860c3c80219c77fdf9c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "fceb3cd1f5e08daafb631d3f8c750326072dab86f210a9fb440cbc7a86ccf22b",
+  "at": "2026-09-22T06:16:48.321Z"
+}

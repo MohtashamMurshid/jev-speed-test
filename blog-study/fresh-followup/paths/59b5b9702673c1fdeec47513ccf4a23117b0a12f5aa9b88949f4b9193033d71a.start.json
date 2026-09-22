@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1547",
+    "text": "I have forgotten my password.",
+    "expected": "passcode_forgotten",
+    "dataset": "banking77",
+    "normalizedSha256": "a95c0624033749fcb441dfb6ce2e72db21087e45066f7681ffab8683a3166328",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "59b5b9702673c1fdeec47513ccf4a23117b0a12f5aa9b88949f4b9193033d71a",
+  "at": "2026-09-22T05:57:54.629Z"
+}

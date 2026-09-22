@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2263",
+    "text": "I received my salary in GBP. How do I change this to my currency?",
+    "expected": "receiving_money",
+    "dataset": "banking77",
+    "normalizedSha256": "9d959106914e5b87ee074fdcd17609f86f4709118aa5d1789bc166e2ffd74046",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "8de3d75e1008df240894054318867e8e0f5211897fa6fa2e2d70095f785b856b",
+  "at": "2026-09-22T05:50:14.037Z"
+}

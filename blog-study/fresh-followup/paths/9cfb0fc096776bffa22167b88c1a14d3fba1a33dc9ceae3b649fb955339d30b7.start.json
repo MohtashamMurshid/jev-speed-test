@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-504",
+    "text": "Can my children have their own account?",
+    "expected": "age_limit",
+    "dataset": "banking77",
+    "normalizedSha256": "c459325f35e4e8d86887eb0419b178e085356fa40f645422080d49f6b8d279b3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "9cfb0fc096776bffa22167b88c1a14d3fba1a33dc9ceae3b649fb955339d30b7",
+  "at": "2026-09-22T05:41:20.839Z"
+}

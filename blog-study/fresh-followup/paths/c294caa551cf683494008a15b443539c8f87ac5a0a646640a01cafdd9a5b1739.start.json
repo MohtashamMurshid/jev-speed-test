@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-517",
+    "text": "How young can someone be in order to open an account?",
+    "expected": "age_limit",
+    "dataset": "banking77",
+    "normalizedSha256": "dae8bf4020ea77c5e89356316faddbc1ca08deea11af5264c01c379474a19916",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "c294caa551cf683494008a15b443539c8f87ac5a0a646640a01cafdd9a5b1739",
+  "at": "2026-09-22T06:00:54.882Z"
+}

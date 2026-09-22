@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2908",
+    "text": "Is there a limit on how much I can withdraw from my account without being charged?",
+    "expected": "cash_withdrawal_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "4be3b7c3f55a218b0b990cc589975aa22c442347bf0588cd74af2f5885b2f1d7",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "2d61ba262723e21de9de494b277cb513eb4bc0125b90d841fc37161a1eac615b",
+  "at": "2026-09-22T05:46:07.322Z"
+}

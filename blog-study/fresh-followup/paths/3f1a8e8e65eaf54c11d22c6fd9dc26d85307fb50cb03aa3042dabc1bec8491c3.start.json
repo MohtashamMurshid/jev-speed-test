@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-3051",
+    "text": "Where do I need to live to get support?",
+    "expected": "country_support",
+    "dataset": "banking77",
+    "normalizedSha256": "75a7687dc3ff3674440059e5c21cdd30c4e49aaf483814a89977802f388c67ce",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "3f1a8e8e65eaf54c11d22c6fd9dc26d85307fb50cb03aa3042dabc1bec8491c3",
+  "at": "2026-09-22T06:01:08.156Z"
+}

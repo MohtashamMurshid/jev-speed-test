@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1387",
+    "text": "How many disposable virtual cards can I have?",
+    "expected": "disposable_card_limits",
+    "dataset": "banking77",
+    "normalizedSha256": "3f331ed562c51e47e241a51b87acc34756638f18d3c67627eb658d111b6ee9d0",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "35060b293ee3f90f92e4e1dbd81a7206d2e0d2b9196afce1c462fdce95f905db",
+  "at": "2026-09-22T05:50:56.830Z"
+}

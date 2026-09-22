@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2788",
+    "text": "How much will I pay to exchange foreign currency?",
+    "expected": "exchange_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "5a2a95eebed108f65d1caaff3ca612f23de54de5b53d83ad43e21bf16fb9ff4f",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "fc37589b53b360e94964bb9fc3347d6771fb0eda4bb61a6241fb3d2d504a985e",
+  "at": "2026-09-22T05:39:56.960Z"
+}

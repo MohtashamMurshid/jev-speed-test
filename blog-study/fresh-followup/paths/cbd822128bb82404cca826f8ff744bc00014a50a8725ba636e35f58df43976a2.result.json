@@ -1,0 +1,18 @@
+{
+  "key": "cbd822128bb82404cca826f8ff744bc00014a50a8725ba636e35f58df43976a2",
+  "caseId": "test-1851",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "pending_transfer",
+  "predicted": "transfer_timing",
+  "status": "ok",
+  "correct": false,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 1413.0829499999527,
+  "timing": "measured-live-sequential",
+  "components": [
+    "cbd822128bb82404cca826f8ff744bc00014a50a8725ba636e35f58df43976a2__gemini"
+  ],
+  "accountedUsd": 0.0006285
+}

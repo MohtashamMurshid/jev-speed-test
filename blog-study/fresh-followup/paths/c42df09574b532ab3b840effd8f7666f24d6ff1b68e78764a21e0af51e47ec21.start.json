@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1819",
+    "text": "Why are you declining my payment? Everything was fine.",
+    "expected": "declined_card_payment",
+    "dataset": "banking77",
+    "normalizedSha256": "f0d11627126b7c841004652b57744ec99c84d4b1f66623d3608801f3afe8933b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "c42df09574b532ab3b840effd8f7666f24d6ff1b68e78764a21e0af51e47ec21",
+  "at": "2026-09-22T05:53:33.196Z"
+}

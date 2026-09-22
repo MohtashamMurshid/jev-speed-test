@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1393",
+    "text": "How many times can I use a disposable card?",
+    "expected": "disposable_card_limits",
+    "dataset": "banking77",
+    "normalizedSha256": "0b4bbf388576375fa3ac3c89fd4999680c30cf0ea3b7cfec0a5d802aeee1a990",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "56cec29972e140869cbe792433bef5c238b493d5176cbb55b2381cde569919ae",
+  "at": "2026-09-22T05:41:08.040Z"
+}

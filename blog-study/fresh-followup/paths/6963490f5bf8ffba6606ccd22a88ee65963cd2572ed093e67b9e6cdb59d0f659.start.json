@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2794",
+    "text": "What is the cost for an exchange fee?",
+    "expected": "exchange_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "7f2b115b1cc096c446ae5b841ea887d497c1881d7c5c71dd640cc25acfcaa667",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "6963490f5bf8ffba6606ccd22a88ee65963cd2572ed093e67b9e6cdb59d0f659",
+  "at": "2026-09-22T05:54:23.972Z"
+}

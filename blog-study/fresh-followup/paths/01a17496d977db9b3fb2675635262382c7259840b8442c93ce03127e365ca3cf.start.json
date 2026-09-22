@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1420",
+    "text": "It seems someone used my card! There are a few transactions from a small town in the middle of nowhere that I definitely have not made! Please prevent them from using it immediately!",
+    "expected": "compromised_card",
+    "dataset": "banking77",
+    "normalizedSha256": "b6fe427c6fae85a29bef57ca17c553be1f5e52c047a54f583eac20d34c62f1d7",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "01a17496d977db9b3fb2675635262382c7259840b8442c93ce03127e365ca3cf",
+  "at": "2026-09-22T06:07:08.901Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2913",
+    "text": "Why did you charge me for a cash withdrawal?",
+    "expected": "cash_withdrawal_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "c0e4eb045c89e84680c9e4096893893325fd04a90eec3a37bae71f2ac30173a7",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "0bfe25224f0c549de664dc29d60a654ab7a8af3e257f80647e07509368c62b35",
+  "at": "2026-09-22T05:59:55.500Z"
+}

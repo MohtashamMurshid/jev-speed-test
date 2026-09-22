@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-297",
+    "text": "When should I expect my card?",
+    "expected": "card_delivery_estimate",
+    "dataset": "banking77",
+    "normalizedSha256": "6002af02e14dc7969e13612d7832b5174c46331044302f371ed23bb71859c6a3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "e8ea6a7bc45dab38914f5e3e7ba9a03d651f3eafc21b77d81c66b24d9c848f6c",
+  "at": "2026-09-22T05:40:46.930Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1734",
+    "text": "How do I contact customer support about a transfer?",
+    "expected": "declined_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "fc149bc91e0c6c5f9d1bf1a013ea8248b3c0c971874309ae3851082e6b2190ca",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "abdffe90a7ac8c9c2adf903f27a70dc291f5274004fab5871625687f46cf74a5",
+  "at": "2026-09-22T05:46:59.874Z"
+}

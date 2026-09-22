@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1502",
+    "text": "This Direct Debit payment may not be right.",
+    "expected": "direct_debit_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "9db062dfddd149eb90f077ddd7d7cd89b65351c0ba4f6b3d6af07775a15f2a9b",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "a6d798b58bd953538b35dd0eb2dc14e81256ba2f2a3d517d1ef63184c2e110ae",
+  "at": "2026-09-22T05:56:26.699Z"
+}

@@ -1,0 +1,18 @@
+{
+  "key": "5272ee81b81cea9b871c02f2b98ea4e0121a75393e864e61a0e261ce051f4d88",
+  "caseId": "test-2578",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "wrong_exchange_rate_for_cash_withdrawal",
+  "predicted": "wrong_exchange_rate_for_cash_withdrawal",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 1502.6074129999615,
+  "timing": "measured-live-sequential",
+  "components": [
+    "5272ee81b81cea9b871c02f2b98ea4e0121a75393e864e61a0e261ce051f4d88__gemini"
+  ],
+  "accountedUsd": 0.000633
+}

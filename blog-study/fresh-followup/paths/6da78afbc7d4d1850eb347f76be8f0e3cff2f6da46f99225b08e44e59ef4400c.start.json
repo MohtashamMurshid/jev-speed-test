@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-4163",
+    "text": "tell me something funny about horses",
+    "expected": null,
+    "sourceCategory": "tell_joke",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "f477f8b9af26b0537637f04d9d7edb833f89fcdef2927e14a7a974b9aed4e346",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "6da78afbc7d4d1850eb347f76be8f0e3cff2f6da46f99225b08e44e59ef4400c",
+  "at": "2026-09-22T06:12:45.396Z"
+}

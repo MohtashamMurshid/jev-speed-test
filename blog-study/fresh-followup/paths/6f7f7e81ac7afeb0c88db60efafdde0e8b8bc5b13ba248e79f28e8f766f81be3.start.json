@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2922",
+    "text": "When my card expires what happens to my account?",
+    "expected": "card_about_to_expire",
+    "dataset": "banking77",
+    "normalizedSha256": "f7859793f4da2faa19cb2ad7cf3122d8bc709193b8b599563fb4af7154272899",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "6f7f7e81ac7afeb0c88db60efafdde0e8b8bc5b13ba248e79f28e8f766f81be3",
+  "at": "2026-09-22T05:56:50.826Z"
+}

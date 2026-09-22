@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-329",
+    "text": "I'm going to be away for awhile, can I have it add money automatically in certain intervals?",
+    "expected": "automatic_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "af8de3810a2a15f60622cd739990c0811468f5daa3cfc63783108fd2a8096a5d",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "61358d2569ef10c3dee71fc3680e7bb30e086d6d59038778da39a6a94295ec20",
+  "at": "2026-09-22T05:54:16.407Z"
+}

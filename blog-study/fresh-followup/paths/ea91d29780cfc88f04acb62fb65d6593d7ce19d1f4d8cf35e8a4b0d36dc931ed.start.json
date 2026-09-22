@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1703",
+    "text": "I would appreciate it if I could get an item refunded",
+    "expected": "request_refund",
+    "dataset": "banking77",
+    "normalizedSha256": "dfa1ab612c7f938dc1bdb4faca3bc80f3a66efb18f7e42a59a1a9a2709ff9a68",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "ea91d29780cfc88f04acb62fb65d6593d7ce19d1f4d8cf35e8a4b0d36dc931ed",
+  "at": "2026-09-22T05:45:35.596Z"
+}

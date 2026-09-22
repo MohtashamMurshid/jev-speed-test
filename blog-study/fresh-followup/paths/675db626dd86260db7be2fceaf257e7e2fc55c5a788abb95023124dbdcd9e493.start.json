@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2668",
+    "text": "What's the deal? My card was just denied for top up. Why is it not going through?",
+    "expected": "top_up_failed",
+    "dataset": "banking77",
+    "normalizedSha256": "eeaabb7d2e141bbb330aeab22ead661651b862e9821e77c9d61d1c2da45f446c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "675db626dd86260db7be2fceaf257e7e2fc55c5a788abb95023124dbdcd9e493",
+  "at": "2026-09-22T06:03:30.797Z"
+}

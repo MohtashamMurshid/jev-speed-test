@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1018",
+    "text": "I topped up but the app reverted it",
+    "expected": "top_up_reverted",
+    "dataset": "banking77",
+    "normalizedSha256": "082bb91d341012f1a0a3c2a8d20544b059061a56484aec94d50b81845e441fef",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "b6b285e3b0ebff1ec6bc60da16d0a9a953e49acad22afb75279a5b9fde9f226c",
+  "at": "2026-09-22T05:48:58.496Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1028",
+    "text": "Was my top up reversed?",
+    "expected": "top_up_reverted",
+    "dataset": "banking77",
+    "normalizedSha256": "aef70a3680b3ae5e50517766fa0138d09e3d5c70c54ffcbbe4730f23eff105a5",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "6eb9613660bd4d108f2a3e110e54586deae7b40259a50206e1d2a74b174d2372",
+  "at": "2026-09-22T06:04:48.747Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2378",
+    "text": "Where's the verification code for the top-up card?",
+    "expected": "verify_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "10864475185d25c9cb76b7131015fa6feeb0f1f4ed503d5fad316a98e1a04ce0",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "77ead187ffd93ad35f6c8d3cca52e7387e5eefd6c48aa05a26a65fdd4ceffff5",
+  "at": "2026-09-22T05:54:02.249Z"
+}

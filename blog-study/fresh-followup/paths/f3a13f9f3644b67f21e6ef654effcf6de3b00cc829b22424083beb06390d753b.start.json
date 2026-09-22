@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-251",
+    "text": "Is it permissible to hold money in multiple currencies?",
+    "expected": "fiat_currency_support",
+    "dataset": "banking77",
+    "normalizedSha256": "b261d887a07af799d6f8acc18131666ec4c842d31199b46abdf13d1aa0c64d84",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "f3a13f9f3644b67f21e6ef654effcf6de3b00cc829b22424083beb06390d753b",
+  "at": "2026-09-22T05:53:23.851Z"
+}

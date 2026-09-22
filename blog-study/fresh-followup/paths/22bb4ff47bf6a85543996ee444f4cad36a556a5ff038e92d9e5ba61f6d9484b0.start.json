@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-26",
+    "text": "I think something went wrong with my card delivery as I haven't received it yet.",
+    "expected": "card_arrival",
+    "dataset": "banking77",
+    "normalizedSha256": "3b2d2c35297ebbcb24a83da141508eff20a7bd546deb854f04b6a19817271313",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "22bb4ff47bf6a85543996ee444f4cad36a556a5ff038e92d9e5ba61f6d9484b0",
+  "at": "2026-09-22T05:58:26.948Z"
+}

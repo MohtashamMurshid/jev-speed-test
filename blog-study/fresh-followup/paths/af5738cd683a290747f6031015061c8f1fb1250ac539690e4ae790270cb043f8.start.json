@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2629",
+    "text": "I need a disposable virtual card, how do I get one?",
+    "expected": "get_disposable_virtual_card",
+    "dataset": "banking77",
+    "normalizedSha256": "365a0aab7707464376163a4b07ba9c9f498b025a883cbe45e2d2b1cf59f6707c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "af5738cd683a290747f6031015061c8f1fb1250ac539690e4ae790270cb043f8",
+  "at": "2026-09-22T06:01:29.979Z"
+}

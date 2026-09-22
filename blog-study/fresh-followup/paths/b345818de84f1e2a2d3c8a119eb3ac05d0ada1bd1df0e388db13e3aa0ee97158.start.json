@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-623",
+    "text": "How much is the fee for a SEPA transfer?",
+    "expected": "top_up_by_bank_transfer_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "1da18c7dd6f24e82e2249a87919509b76a290458ad81c4e9ec33f89e8b032f0c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "b345818de84f1e2a2d3c8a119eb3ac05d0ada1bd1df0e388db13e3aa0ee97158",
+  "at": "2026-09-22T05:50:38.427Z"
+}

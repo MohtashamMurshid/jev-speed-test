@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1007",
+    "text": "I topped up my account and even though it was confirmed at first, the money isn't there anymore! why did this happen, and where did my money go?",
+    "expected": "top_up_reverted",
+    "dataset": "banking77",
+    "normalizedSha256": "272183674e01be364be1b388b5fe8d1e629e9eb1a194725222add9ffd7157af2",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "25db030ced1118deedb4a032fc707e27367dc8bbdd2b1a2e12bb8a6df5f84e7b",
+  "at": "2026-09-22T06:09:00.344Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-659",
+    "text": "I topped up by card a while ago and it's still pending, surely it should be done by now?",
+    "expected": "pending_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "87a9c157cc658dffcc6c406a53f1201b7b3ccd36925871415662ff4517276fb2",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "49c092d75c632f2855ced4288bee0e026cbe12efae51cac1f42b8088fc97e60c",
+  "at": "2026-09-22T06:05:49.118Z"
+}

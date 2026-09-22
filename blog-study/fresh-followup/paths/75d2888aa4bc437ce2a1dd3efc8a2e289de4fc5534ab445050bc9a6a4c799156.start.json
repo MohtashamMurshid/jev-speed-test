@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1953",
+    "text": "I was taking out funds and was unable to regain my card.",
+    "expected": "card_swallowed",
+    "dataset": "banking77",
+    "normalizedSha256": "ab40da9f87a8b8a4bc0feb5a1ac481ab8e262a283e40a45236d168d065587329",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "75d2888aa4bc437ce2a1dd3efc8a2e289de4fc5534ab445050bc9a6a4c799156",
+  "at": "2026-09-22T05:51:55.365Z"
+}

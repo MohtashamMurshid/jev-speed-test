@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1890",
+    "text": "I am highly unsatisfied with this company and want to delete my account!",
+    "expected": "terminate_account",
+    "dataset": "banking77",
+    "normalizedSha256": "276f7946c0088c763dafeffd00c35bb6d852fcc444446a1ce3467d0d90788b8b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "676d0ee657dc313c760f7dca6cbaab8a66f23cc68297dcd17fa44337dbd33c7a",
+  "at": "2026-09-22T06:00:22.511Z"
+}

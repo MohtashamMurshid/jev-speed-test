@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-333",
+    "text": "where is theft-top option?",
+    "expected": "automatic_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "fbdb6a110352a75ad61c68a2527e19099833432866989916e9d6e523b8e5bd5e",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "65c6750fe28749ed49962ccef82471d020ab548f852fbdb56b3ba9d028d5234f",
+  "at": "2026-09-22T05:57:42.104Z"
+}

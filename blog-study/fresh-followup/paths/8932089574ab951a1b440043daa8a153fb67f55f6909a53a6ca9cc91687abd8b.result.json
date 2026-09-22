@@ -1,0 +1,18 @@
+{
+  "key": "8932089574ab951a1b440043daa8a153fb67f55f6909a53a6ca9cc91687abd8b",
+  "caseId": "test-1560",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "declined_cash_withdrawal",
+  "predicted": "declined_cash_withdrawal",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 2352.1040550000034,
+  "timing": "measured-live-sequential",
+  "components": [
+    "8932089574ab951a1b440043daa8a153fb67f55f6909a53a6ca9cc91687abd8b__gemini"
+  ],
+  "accountedUsd": 0.00064425
+}

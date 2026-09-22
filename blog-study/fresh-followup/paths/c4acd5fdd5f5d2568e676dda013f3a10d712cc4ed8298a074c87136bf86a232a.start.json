@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2258",
+    "text": "What do I need to do to transfer my paycheck to my account?",
+    "expected": "receiving_money",
+    "dataset": "banking77",
+    "normalizedSha256": "f86af2c4fc667752f21efab6d369cb385d9a077e6f5b756c3255957cf38cae78",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "c4acd5fdd5f5d2568e676dda013f3a10d712cc4ed8298a074c87136bf86a232a",
+  "at": "2026-09-22T05:51:02.417Z"
+}

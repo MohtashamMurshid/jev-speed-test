@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-2065",
+    "text": "how long should i cook my turkey",
+    "expected": null,
+    "sourceCategory": "cook_time",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "681d98439b9fac94eb26644aac476549c8d483dac1f290e8ddfbbf5ad68389a2",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "566d7f30792bd3ff73ab6ef876a7ade4b4e1f58cd2d158aa145bf9bc0ce31984",
+  "at": "2026-09-22T06:15:38.436Z"
+}

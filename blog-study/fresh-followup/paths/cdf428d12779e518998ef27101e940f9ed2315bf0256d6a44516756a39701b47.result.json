@@ -1,0 +1,18 @@
+{
+  "key": "cdf428d12779e518998ef27101e940f9ed2315bf0256d6a44516756a39701b47",
+  "caseId": "test-2032",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "verify_source_of_funds",
+  "predicted": "verify_source_of_funds",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": false,
+  "latencyMs": 1702.9831980001181,
+  "timing": "measured-live-sequential",
+  "components": [
+    "cdf428d12779e518998ef27101e940f9ed2315bf0256d6a44516756a39701b47__gemini"
+  ],
+  "accountedUsd": 0.0006075
+}

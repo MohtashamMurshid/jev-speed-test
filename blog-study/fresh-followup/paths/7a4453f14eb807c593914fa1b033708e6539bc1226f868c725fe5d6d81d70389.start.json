@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1606",
+    "text": "Please help me to know the status of my card payment as its pending since a while.",
+    "expected": "pending_card_payment",
+    "dataset": "banking77",
+    "normalizedSha256": "082bd4ba04cb36e477eee190125ba2d9acfaa0d3b14490f5b4f80a47e6c5a9b4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "7a4453f14eb807c593914fa1b033708e6539bc1226f868c725fe5d6d81d70389",
+  "at": "2026-09-22T06:07:26.367Z"
+}

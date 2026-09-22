@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2266",
+    "text": "How do I deposit my paycheck to this account?",
+    "expected": "receiving_money",
+    "dataset": "banking77",
+    "normalizedSha256": "908e92f975e18a947b3931e84cb948e0b48090bee6d3df8bbf28931950288568",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "1cf6b6974f6e7d1b48164019cd4af268465c56216e41828336ce7d5fde697c78",
+  "at": "2026-09-22T05:56:35.485Z"
+}

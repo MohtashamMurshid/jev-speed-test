@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-836",
+    "text": "Why do you charge fees on card payments?",
+    "expected": "card_payment_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "d1ee31845c410867623a09c85a97f1dae0528026f4b43a60fabc06821bc38518",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "469b19153a0e87679b0214168771173708bd1e901d3e9219b6bdfb28e0c4fe7f",
+  "at": "2026-09-22T05:51:50.605Z"
+}

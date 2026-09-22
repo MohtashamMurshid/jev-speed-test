@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1145",
+    "text": "I need help changing my last name on my account.",
+    "expected": "edit_personal_details",
+    "dataset": "banking77",
+    "normalizedSha256": "d11284ae94bd02d59c19dd29722df9fcbd3ccdf6d98a82fccda2541cf7cb03ad",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "3c99242db10a1c84a36c0221d41f0e98960109f3261748ff2e6af00564f87ece",
+  "at": "2026-09-22T06:03:54.709Z"
+}

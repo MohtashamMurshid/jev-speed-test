@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-776",
+    "text": "Why did I only get $20 when I tried to get $100",
+    "expected": "wrong_amount_of_cash_received",
+    "dataset": "banking77",
+    "normalizedSha256": "3afb4477b02e10e58a2f85c0f8fc2d713144c7a6fbe8a68958e00e103a7c703b",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "5d38fb76d52cc6029dbbd8afd3fe6454e60f70bea7b8f9c5b938326e7ffd3454",
+  "at": "2026-09-22T05:41:28.453Z"
+}

@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3166",
+    "text": "at ac, what's the temperature like",
+    "expected": null,
+    "sourceCategory": "smart_home",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "074691b7aa2c1cad254cc904d55dc9fe64d9a62a60db83b02409c9d64cbd0765",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "14a8bf86db0f8793e5a23059234a2dc7f7169cba62fdc6aa55e1b1f76107cc8a",
+  "at": "2026-09-22T06:17:17.118Z"
+}

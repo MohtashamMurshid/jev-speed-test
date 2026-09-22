@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-460",
+    "text": "I think my card was stolen.",
+    "expected": "lost_or_stolen_card",
+    "dataset": "banking77",
+    "normalizedSha256": "ff46f5a3cd77650dc59ab71b18133a0ba16a15b73582292e0097abf013e11aec",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "6cda24f58772994b82804f76a402d7bf8f103c3236740b27f3789c57bd8c38ad",
+  "at": "2026-09-22T05:41:40.278Z"
+}

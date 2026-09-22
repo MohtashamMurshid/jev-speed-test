@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1728",
+    "text": "My transfers are being declined. IT has always worked for me but now it's declining my card. I've tried several times.",
+    "expected": "declined_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "df9b08e4398ea480d347291a107dec94215777e5c01f42bb3dc8b9dbee92fa7c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "2daa479a4807970d82176a09edc245119de53a8082dab399172e7b28834c393e",
+  "at": "2026-09-22T05:50:47.455Z"
+}

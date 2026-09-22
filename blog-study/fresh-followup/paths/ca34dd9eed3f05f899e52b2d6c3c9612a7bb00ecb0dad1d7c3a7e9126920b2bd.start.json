@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-978",
+    "text": "Which outlets accept my card?",
+    "expected": "card_acceptance",
+    "dataset": "banking77",
+    "normalizedSha256": "af81b0a2ca6b54f440e2baf3c9325eaae6eed296b47c9580464ea061581f75d0",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "ca34dd9eed3f05f899e52b2d6c3c9612a7bb00ecb0dad1d7c3a7e9126920b2bd",
+  "at": "2026-09-22T06:00:01.443Z"
+}

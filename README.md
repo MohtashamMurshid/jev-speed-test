@@ -4,6 +4,14 @@ A small, reproducible English-only comparison of **Jev 1.13, GPT-OSS-120B/Cerebr
 
 [Read the published article](https://www.mohtasham.dev/blog/jev-vs-a-fast-llm) · [Earlier reading preview](https://postplan.oikina.com/d/ssfry3bhpmpq) · [Results](blog-study/run-v1/analysis/summary.md) · [Protocol](blog-study/PROTOCOL.md) · [Audit corrections](blog-study/ANALYSIS-AUDIT.md)
 
+## Fresh prospective follow-up, September 22
+
+[Read the new report](blog-study/fresh-followup/README.md) · [Fresh banking CSV](blog-study/fresh-followup/data/banking-results.csv) · [All new API responses](blog-study/fresh-followup/data/responses.jsonl.gz) · [Offline reproduction](blog-study/fresh-followup/REPRODUCING.md)
+
+On 500 previously unused cases, the real Jev to Gemini cascade scored **424/500**, versus **425/500** for a separate Gemini baseline and **425/500** for a fixed local TF-IDF classifier. Banking request charges were about **23.3% lower**, even treating the baseline's one unknown failed-call bill as zero. The cascade's median was slower, **1,867 versus 1,638 ms**. A separate safety policy deferred all 100 clearly nonbanking stress cases, but this does not establish universal OOS detection.
+
+The new report includes actual sequential timing, three component failures, licensed OOS data, frozen gates, a cost sensitivity analysis and byte-identical offline replay. The original study and immutable release remain unchanged. The tables and limitations below describe that original study, not this follow-up.
+
 ## What was tested
 
 500 held-out English BANKING77 messages covering 77 intents, plus 50 development messages, 200 separate threshold-selection messages, and 50 timing repeats per model. **3,200 API attempts total.** Repeats do not increase the independent accuracy sample size. No Sol in this comparison.

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2660",
+    "text": "The app denied my top-up",
+    "expected": "top_up_failed",
+    "dataset": "banking77",
+    "normalizedSha256": "e31e4849ccff30d713c532d341681c6e387c16a2ec9bec5cded718164938d3a4",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "cb7ef6816aa1e0ee8c9a96f36992321e724657858bd7ed93c78214259b6ef4a6",
+  "at": "2026-09-22T05:50:32.299Z"
+}

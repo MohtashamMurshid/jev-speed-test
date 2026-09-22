@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-303",
+    "text": "Whats the delivery time to the United States?",
+    "expected": "card_delivery_estimate",
+    "dataset": "banking77",
+    "normalizedSha256": "ccd04926b859aa30edf1763a6720b75cbae979577c440d5cfa10cb849102a9ac",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "d267cc8badbd5d235aee3b1a8476ec5825fe6bdc1af768c69eb2566247119867",
+  "at": "2026-09-22T05:53:11.198Z"
+}

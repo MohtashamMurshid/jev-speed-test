@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-233",
+    "text": "Why does it say pending cash withdrawal on my statement?",
+    "expected": "pending_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "44cf5a76f187c23788453a5612452451cfe7ec83b776d2ac36ba8ad654cef05f",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "73a0ca6e4384e32b421fc73d3ca51b93795a591829819e9dae9b14f66b3d7cc9",
+  "at": "2026-09-22T06:05:44.986Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1663",
+    "text": "I was mugged and everything taken.  What do I do to protect my account?",
+    "expected": "lost_or_stolen_phone",
+    "dataset": "banking77",
+    "normalizedSha256": "21b1bc6eb290f332d3581ee08f66ac37c94347df0796e3e9355b867f552ad958",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "ec3cea0279a4b0d3629c081ff5947b35434521218949e2dfa10181fdcd82e19c",
+  "at": "2026-09-22T05:52:57.080Z"
+}

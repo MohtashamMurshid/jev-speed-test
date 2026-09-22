@@ -1,0 +1,19 @@
+{
+  "key": "4c8621afd04e20c0e7c3dab17f74e27f942944b7d108c43a6f2271f6fd117dc1",
+  "caseId": "test-2825",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "top_up_by_card_charge",
+  "predicted": "top_up_by_card_charge",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 2292.257041999954,
+  "timing": "measured-live-sequential",
+  "components": [
+    "4c8621afd04e20c0e7c3dab17f74e27f942944b7d108c43a6f2271f6fd117dc1__jev",
+    "4c8621afd04e20c0e7c3dab17f74e27f942944b7d108c43a6f2271f6fd117dc1__gemini"
+  ],
+  "accountedUsd": 0.0006741599999999999
+}

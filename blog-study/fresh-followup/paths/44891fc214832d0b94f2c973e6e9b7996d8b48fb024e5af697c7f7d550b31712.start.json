@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-1003",
+    "text": "i dont want to listen to this song",
+    "expected": null,
+    "sourceCategory": "next_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "600a7f9734298d155970568f925c6822b7c991f49e909221304ae0fa5a81d09b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "44891fc214832d0b94f2c973e6e9b7996d8b48fb024e5af697c7f7d550b31712",
+  "at": "2026-09-22T06:14:23.364Z"
+}

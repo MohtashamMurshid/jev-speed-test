@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2586",
+    "text": "My cash withdrawal charged me the wrong exchange rate",
+    "expected": "wrong_exchange_rate_for_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "07bb06d2c8af5bfe6b82d89e7e1e2b6de1352f82a9a45d5d819782e41df6788e",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "6ad2da6528d66bb78da426a683a75ec46492b42e4f2bc4c941e377290a98618d",
+  "at": "2026-09-22T05:56:10.234Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-33",
+    "text": "I'm still waiting on my card to be delivered.",
+    "expected": "card_arrival",
+    "dataset": "banking77",
+    "normalizedSha256": "081721203f3aacea23abb80bac64e777eb206a2d8847c2eb5bbddaac9fb8ca50",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "a2f35a0bcbe68f20f22bac4fc540a44fddf9d92e4401a66db8c520b49dc4d876",
+  "at": "2026-09-22T05:56:28.447Z"
+}

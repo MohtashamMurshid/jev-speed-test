@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-2144",
+    "text": "can i use regular olive oil instead of virgin",
+    "expected": null,
+    "sourceCategory": "ingredient_substitution",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "41cf6b93a85bea2e448caae5ee89abf0c0fc9b0af3912b8a757cff5cb9fe9f1d",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "ec6922993d545da73ae11fd2112773f3e25a7f7ce53e6016289531cd5685b522",
+  "at": "2026-09-22T06:17:25.656Z"
+}

@@ -1,0 +1,18 @@
+{
+  "key": "dccbd07b57f614266a3f235b1cbbea4b56268ba847f5ec32f2ce62cd5d7a6c3b",
+  "caseId": "test-2756",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "cash_withdrawal_not_recognised",
+  "predicted": "compromised_card",
+  "status": "ok",
+  "correct": false,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 1724.9566950000008,
+  "timing": "measured-live-sequential",
+  "components": [
+    "dccbd07b57f614266a3f235b1cbbea4b56268ba847f5ec32f2ce62cd5d7a6c3b__gemini"
+  ],
+  "accountedUsd": 0.00064725
+}

@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3253",
+    "text": "what kind of weather can i expect now",
+    "expected": null,
+    "sourceCategory": "weather",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "5f52d370feb7c4094786e0c37c48e70cbc5973bdb32eb10390da58906e641bb7",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "e30a00597d75905d60953b29ca8cbc50cea312c6d61aefb89ace05ee34307f4b",
+  "at": "2026-09-22T06:13:50.653Z"
+}

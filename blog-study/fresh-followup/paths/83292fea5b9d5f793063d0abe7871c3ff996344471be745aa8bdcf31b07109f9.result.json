@@ -1,0 +1,18 @@
+{
+  "key": "83292fea5b9d5f793063d0abe7871c3ff996344471be745aa8bdcf31b07109f9",
+  "caseId": "test-1600",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "pending_card_payment",
+  "predicted": "pending_card_payment",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": true,
+  "safetyAccepted": true,
+  "latencyMs": 323.44180400000187,
+  "timing": "measured-live-sequential",
+  "components": [
+    "83292fea5b9d5f793063d0abe7871c3ff996344471be745aa8bdcf31b07109f9__jev"
+  ],
+  "accountedUsd": 0.000067578
+}

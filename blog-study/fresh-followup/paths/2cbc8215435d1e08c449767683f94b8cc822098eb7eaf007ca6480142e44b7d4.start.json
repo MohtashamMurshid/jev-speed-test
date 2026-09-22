@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-1670",
+    "text": "please give me the nutritional information for an egg",
+    "expected": null,
+    "sourceCategory": "nutrition_info",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "41631a9e1723075140df85f6d77fcc268ac940dfe3937dd17226875dd8ced17c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "2cbc8215435d1e08c449767683f94b8cc822098eb7eaf007ca6480142e44b7d4",
+  "at": "2026-09-22T06:12:30.192Z"
+}

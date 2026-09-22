@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2059",
+    "text": "How many days does a transfer from the US take?",
+    "expected": "transfer_timing",
+    "dataset": "banking77",
+    "normalizedSha256": "6c08f29d6bb55e4727142ff29f679f17ad4534d6f97db56099c14235592b78b2",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "9525fa895a63d028c8c2cdbc7ad5177dc5091a39abbbaef94502e67582162986",
+  "at": "2026-09-22T05:42:36.678Z"
+}

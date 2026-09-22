@@ -1,0 +1,18 @@
+{
+  "key": "bc88fad5bbbe53a1d5ff17123338e14ffeab6aa26c1488745f6407b9d2e1c55b",
+  "caseId": "test-853",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "transfer_not_received_by_recipient",
+  "predicted": "transfer_not_received_by_recipient",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 2156.8510319999914,
+  "timing": "measured-live-sequential",
+  "components": [
+    "bc88fad5bbbe53a1d5ff17123338e14ffeab6aa26c1488745f6407b9d2e1c55b__gemini"
+  ],
+  "accountedUsd": 0.00063525
+}

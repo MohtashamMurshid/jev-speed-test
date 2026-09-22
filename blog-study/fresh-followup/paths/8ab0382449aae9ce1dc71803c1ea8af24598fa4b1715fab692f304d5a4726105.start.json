@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-787",
+    "text": "I didn't receive the right amount of cash back",
+    "expected": "wrong_amount_of_cash_received",
+    "dataset": "banking77",
+    "normalizedSha256": "d0ae3a9fbc78c5d1330fdac9fbebd87af9185569fed23ddbe976026c0c4a27db",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "8ab0382449aae9ce1dc71803c1ea8af24598fa4b1715fab692f304d5a4726105",
+  "at": "2026-09-22T05:56:07.912Z"
+}

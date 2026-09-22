@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1980",
+    "text": "Hello. I checked my transactions and saw I was double charged on my card for a restaurant visit. I would like to get my money back.",
+    "expected": "transaction_charged_twice",
+    "dataset": "banking77",
+    "normalizedSha256": "bab78c07433c4ea4febd57f29adb1d06f42058c23e46878d2e0025de0f3ecd9c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "75591a89b5ff8f973c7cc1a50e7b7c0a759419ba7ce9c0da2f96bf8c8c091851",
+  "at": "2026-09-22T05:48:40.923Z"
+}

@@ -1,0 +1,19 @@
+{
+  "key": "e9d83e87b4dd7cc5a4204ce3f59acc9db640d13761eee9dd07907f584000a61a",
+  "caseId": "test-1221",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "unable_to_verify_identity",
+  "predicted": "unable_to_verify_identity",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": false,
+  "latencyMs": 3899.1960919999983,
+  "timing": "measured-live-sequential",
+  "components": [
+    "e9d83e87b4dd7cc5a4204ce3f59acc9db640d13761eee9dd07907f584000a61a__jev",
+    "e9d83e87b4dd7cc5a4204ce3f59acc9db640d13761eee9dd07907f584000a61a__gemini"
+  ],
+  "accountedUsd": 0.0006695760000000001
+}

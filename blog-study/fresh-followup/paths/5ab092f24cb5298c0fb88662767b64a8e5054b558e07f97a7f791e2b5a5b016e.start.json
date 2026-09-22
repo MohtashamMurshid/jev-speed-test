@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2992",
+    "text": "How can I top-ff my account using my Apple Watch?",
+    "expected": "apple_pay_or_google_pay",
+    "dataset": "banking77",
+    "normalizedSha256": "2b91a4276d045e181bbc75b46b1bf053b5d0d6a7d2dd3369eeb3ce694778a1b0",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "5ab092f24cb5298c0fb88662767b64a8e5054b558e07f97a7f791e2b5a5b016e",
+  "at": "2026-09-22T05:57:22.471Z"
+}

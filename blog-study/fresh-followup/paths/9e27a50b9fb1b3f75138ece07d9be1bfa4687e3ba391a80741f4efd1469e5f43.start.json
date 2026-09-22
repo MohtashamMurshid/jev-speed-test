@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-832",
+    "text": "What fees apply when using a card?",
+    "expected": "card_payment_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "4d725c540e0a274e58a8127bab74f884d63f205e03f9255f082fb3ba96b45ea0",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "9e27a50b9fb1b3f75138ece07d9be1bfa4687e3ba391a80741f4efd1469e5f43",
+  "at": "2026-09-22T05:48:22.267Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2261",
+    "text": "Can this be used to receive my salary?",
+    "expected": "receiving_money",
+    "dataset": "banking77",
+    "normalizedSha256": "5c3e5534e800491e22261123a37b09e09ec99e027270fcb68bad32f73eace918",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "557f69c5e12dce161411557728643ef43d0be30e0445a2fbf267884525459dc8",
+  "at": "2026-09-22T05:59:04.577Z"
+}

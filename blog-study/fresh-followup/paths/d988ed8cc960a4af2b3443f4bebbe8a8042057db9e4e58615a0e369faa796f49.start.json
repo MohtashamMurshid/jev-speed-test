@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2304",
+    "text": "My transfer appeared not to work.",
+    "expected": "failed_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "0f163abbcf2537f5d535c8e56bb6e822b13a8e7bdfff11a27c687c67c62c9d09",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "d988ed8cc960a4af2b3443f4bebbe8a8042057db9e4e58615a0e369faa796f49",
+  "at": "2026-09-22T06:07:01.094Z"
+}

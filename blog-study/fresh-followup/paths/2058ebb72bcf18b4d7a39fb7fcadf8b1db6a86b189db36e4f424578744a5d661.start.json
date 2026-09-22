@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-220",
+    "text": "Why do I have a pending cash withdrawal?",
+    "expected": "pending_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "fcb0c6a4830ef06c690c1b1fbb5d4ef4cf75758eaebcb16d3c13c3af68b5f240",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "2058ebb72bcf18b4d7a39fb7fcadf8b1db6a86b189db36e4f424578744a5d661",
+  "at": "2026-09-22T05:53:40.157Z"
+}

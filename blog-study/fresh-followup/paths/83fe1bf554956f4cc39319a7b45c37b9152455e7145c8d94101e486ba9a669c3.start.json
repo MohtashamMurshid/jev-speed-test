@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3173",
+    "text": "i want the light less bright please",
+    "expected": null,
+    "sourceCategory": "smart_home",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "1a2b461650993a7dc332f91bb5cdf3b06a07bd45cb922b746009ffa50d2fcfd1",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "83fe1bf554956f4cc39319a7b45c37b9152455e7145c8d94101e486ba9a669c3",
+  "at": "2026-09-22T06:11:47.377Z"
+}

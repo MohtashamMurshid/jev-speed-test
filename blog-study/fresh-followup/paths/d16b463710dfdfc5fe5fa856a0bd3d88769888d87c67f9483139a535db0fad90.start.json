@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-631",
+    "text": "Is there a fee for transfer top-up?",
+    "expected": "top_up_by_bank_transfer_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "52d06293402652d1770ed493126809341f3a18b3b43ce11acfe9283fe817ab51",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "d16b463710dfdfc5fe5fa856a0bd3d88769888d87c67f9483139a535db0fad90",
+  "at": "2026-09-22T06:07:57.050Z"
+}

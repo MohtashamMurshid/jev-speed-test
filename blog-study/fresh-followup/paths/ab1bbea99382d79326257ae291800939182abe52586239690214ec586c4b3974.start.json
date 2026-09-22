@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3179",
+    "text": "turn up the oven temperature to 350",
+    "expected": null,
+    "sourceCategory": "smart_home",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "86b611fd763c00e14ef41353175ef04681273a4ce63f19f6357933cd23de2138",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "ab1bbea99382d79326257ae291800939182abe52586239690214ec586c4b3974",
+  "at": "2026-09-22T06:11:51.480Z"
+}

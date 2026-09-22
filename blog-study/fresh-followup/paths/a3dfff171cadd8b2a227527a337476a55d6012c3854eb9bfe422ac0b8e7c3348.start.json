@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2206",
+    "text": "Why was I charged extra for transferring money?",
+    "expected": "transfer_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "a86b55c0e93b082f07ac2a0dd711bef6266079f85f25cb0b2879613eb5ea2bce",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "a3dfff171cadd8b2a227527a337476a55d6012c3854eb9bfe422ac0b8e7c3348",
+  "at": "2026-09-22T06:06:28.707Z"
+}

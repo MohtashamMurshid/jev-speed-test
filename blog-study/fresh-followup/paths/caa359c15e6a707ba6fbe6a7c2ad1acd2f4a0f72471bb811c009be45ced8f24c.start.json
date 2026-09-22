@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-115",
+    "text": "why do your exchange rates change",
+    "expected": "exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "0c4fa6e76d7db9d8e68f93f6354851b1db864a1794d06e54b3c84e4d753e1d7b",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "caa359c15e6a707ba6fbe6a7c2ad1acd2f4a0f72471bb811c009be45ced8f24c",
+  "at": "2026-09-22T06:08:53.454Z"
+}

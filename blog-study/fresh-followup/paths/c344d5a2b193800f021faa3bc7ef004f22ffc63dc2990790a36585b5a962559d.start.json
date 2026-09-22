@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2498",
+    "text": "What is the charge for a physical card?",
+    "expected": "order_physical_card",
+    "dataset": "banking77",
+    "normalizedSha256": "6756fa39063535d5b3c147b6893b76613010a75e7223f700fdcf5d8ed097ef1c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "c344d5a2b193800f021faa3bc7ef004f22ffc63dc2990790a36585b5a962559d",
+  "at": "2026-09-22T05:56:21.406Z"
+}

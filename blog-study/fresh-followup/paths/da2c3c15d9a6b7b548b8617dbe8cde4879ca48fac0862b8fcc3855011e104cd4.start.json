@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1346",
+    "text": "How can someone add money to my account?",
+    "expected": "topping_up_by_card",
+    "dataset": "banking77",
+    "normalizedSha256": "57516920cea8b4a73afab459d5bd48c5ce8e2dcf5e355ad1a42419a0d32162a0",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "da2c3c15d9a6b7b548b8617dbe8cde4879ca48fac0862b8fcc3855011e104cd4",
+  "at": "2026-09-22T05:50:12.372Z"
+}

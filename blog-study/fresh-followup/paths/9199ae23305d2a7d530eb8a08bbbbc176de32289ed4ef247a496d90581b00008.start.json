@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2077",
+    "text": "There is an important thing from China that I need to transfer. Approximately how long will this take?",
+    "expected": "transfer_timing",
+    "dataset": "banking77",
+    "normalizedSha256": "4a394f8e1861c49e9646365cbd5a583c80a961ef8cabe87d02f91f3577a1fd0a",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "9199ae23305d2a7d530eb8a08bbbbc176de32289ed4ef247a496d90581b00008",
+  "at": "2026-09-22T06:04:40.394Z"
+}

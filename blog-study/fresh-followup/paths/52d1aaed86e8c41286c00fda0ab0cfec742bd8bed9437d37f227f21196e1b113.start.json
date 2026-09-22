@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3265",
+    "text": "give weather update now",
+    "expected": null,
+    "sourceCategory": "weather",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "b0c66bb73fc58485d2e7626f13ddaf72b31012ea5da75384d3adbe9b20239661",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "52d1aaed86e8c41286c00fda0ab0cfec742bd8bed9437d37f227f21196e1b113",
+  "at": "2026-09-22T06:15:57.036Z"
+}

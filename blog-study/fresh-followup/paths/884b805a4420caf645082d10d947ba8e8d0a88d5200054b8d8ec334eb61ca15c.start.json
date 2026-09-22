@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2677",
+    "text": "I'm pretty sure my top up failed. How do I fix this?",
+    "expected": "top_up_failed",
+    "dataset": "banking77",
+    "normalizedSha256": "0d0b1ad4b709373ad4a375ce949592e32287dda69d3b1f4fceebcdc26852ec83",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "884b805a4420caf645082d10d947ba8e8d0a88d5200054b8d8ec334eb61ca15c",
+  "at": "2026-09-22T06:08:32.640Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-719",
+    "text": "Please help me!  I need to cancel a transaction.",
+    "expected": "cancel_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "a01975ffc5f25fd957328fa9cc2849cc84e9e60b6e1138c7ec3ab3e922f5cefe",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "2add0b5c86fa625033e01157fb75f4f254ece469cdbbbdf530c424771db89bb7",
+  "at": "2026-09-22T05:47:30.714Z"
+}

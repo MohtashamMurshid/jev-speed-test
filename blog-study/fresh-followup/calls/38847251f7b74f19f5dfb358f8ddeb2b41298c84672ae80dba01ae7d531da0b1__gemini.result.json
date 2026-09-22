@@ -1,0 +1,88 @@
+{
+  "key": "38847251f7b74f19f5dfb358f8ddeb2b41298c84672ae80dba01ae7d531da0b1__gemini",
+  "sequence": 1268,
+  "caseId": "test-1090",
+  "cohort": "cases",
+  "path": "baseline",
+  "system": "gemini",
+  "expected": "card_payment_not_recognised",
+  "model": "google/gemini-3.8-flash",
+  "endpoint": "google-ai-studio",
+  "status": "ok",
+  "correct": false,
+  "reservedUsd": 0.25450275,
+  "timestamp": "2026-09-22T06:07:41.778Z",
+  "predicted": "compromised_card",
+  "probability": 0.85,
+  "usage": {
+    "inputTokens": 771,
+    "inputTokenDetails": {
+      "noCacheTokens": 771,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0
+    },
+    "outputTokens": 396,
+    "outputTokenDetails": {
+      "textTokens": 17,
+      "reasoningTokens": 379
+    },
+    "totalTokens": 1167
+  },
+  "finishReason": "stop",
+  "latencyMs": 2355.253719000146,
+  "returnedModel": "google/gemini-3.8-flash",
+  "returnedProvider": "Google AI Studio",
+  "response": {
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "{\"intent\": \"I35\", \"probability\": 0.85}",
+          "refusal": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "signature": "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",
+              "format": "google-gemini-v1",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 771,
+      "completion_tokens": 396,
+      "total_tokens": 1167,
+      "cost": 0.00206325,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00206325,
+        "upstream_inference_prompt_cost": 0.00057825,
+        "upstream_inference_completions_cost": 0.001485
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 379,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "id": "gen-1790057261-YIaVThu1zMI6eXObQxLi",
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "billedCostUsd": 0.00206325,
+  "accountedUsd": 0.00206325
+}

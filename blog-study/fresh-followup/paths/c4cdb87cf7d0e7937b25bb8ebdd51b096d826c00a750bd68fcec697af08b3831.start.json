@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-1669",
+    "text": "what are the nutrition facts for carrots",
+    "expected": null,
+    "sourceCategory": "nutrition_info",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "ee30275c6655a6bfabcee1a338b5b00513887839750bf871c118b32ff0843915",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "c4cdb87cf7d0e7937b25bb8ebdd51b096d826c00a750bd68fcec697af08b3831",
+  "at": "2026-09-22T06:16:55.238Z"
+}

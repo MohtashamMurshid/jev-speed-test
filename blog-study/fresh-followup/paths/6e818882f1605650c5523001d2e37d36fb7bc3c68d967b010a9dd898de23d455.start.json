@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2023",
+    "text": "I have to verify the source of my funds",
+    "expected": "verify_source_of_funds",
+    "dataset": "banking77",
+    "normalizedSha256": "cb4991e466c8c368e9cea328d5976dea14af1bbf802f5ca347678d5b0d97d9c3",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "6e818882f1605650c5523001d2e37d36fb7bc3c68d967b010a9dd898de23d455",
+  "at": "2026-09-22T06:00:18.881Z"
+}

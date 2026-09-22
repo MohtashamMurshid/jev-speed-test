@@ -1,0 +1,19 @@
+{
+  "key": "825c4099198db5f49e0b7d3a5ca4c3cb4369029884501ca063de4afb27f4265d",
+  "caseId": "test-2212",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "transfer_fee_charged",
+  "predicted": "transfer_fee_charged",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 2139.3937600000063,
+  "timing": "measured-live-sequential",
+  "components": [
+    "825c4099198db5f49e0b7d3a5ca4c3cb4369029884501ca063de4afb27f4265d__jev",
+    "825c4099198db5f49e0b7d3a5ca4c3cb4369029884501ca063de4afb27f4265d__gemini"
+  ],
+  "accountedUsd": 0.000694284
+}

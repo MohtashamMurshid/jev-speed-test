@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-818",
+    "text": "What is the fee on my card payment?",
+    "expected": "card_payment_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "910d310455b88e512fe06b694da933547791dae424e69ccc3caa2f299f317623",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "b8620f34facacfe4f12d34983377961007c9e18cc8abde04ca598a82224fd78e",
+  "at": "2026-09-22T06:03:52.868Z"
+}

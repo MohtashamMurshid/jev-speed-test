@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-432",
+    "text": "Can I exchange between GBP and USD on the app?",
+    "expected": "exchange_via_app",
+    "dataset": "banking77",
+    "normalizedSha256": "2fa3f429a2264838ae0d09e6a7274cd6b62c379f0b4e1fb2d56aa943bca6de76",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "70aea4cdae637f9bf6985b4d2aac4caa66abf1dbd1ca35799ad36fbe79ea3589",
+  "at": "2026-09-22T05:42:01.068Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-861",
+    "text": "The day before yesterday, I performed a transfer which was within this country. It still hasn't gone through. Can you check on that? The account number is definitely correct, as I've checked and double checked.",
+    "expected": "transfer_not_received_by_recipient",
+    "dataset": "banking77",
+    "normalizedSha256": "cec7626c57b3c3ffd8360c75a941e63210d8027df67925063c0863567d3a800f",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "1d84db8649b8a854e4ae40143d97d0a4ac19235d0d3026b1645150e4b10aa554",
+  "at": "2026-09-22T06:08:58.045Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2207",
+    "text": "im not paying this transfer fee",
+    "expected": "transfer_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "0e41007a157978ee69d9642045219c628df6ded6ca056ab88337c78fc7396e5b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "eb9b87387d823304e7ad97355dd97b794cc3c94c76d920a8966848cc94d597c4",
+  "at": "2026-09-22T05:54:42.166Z"
+}

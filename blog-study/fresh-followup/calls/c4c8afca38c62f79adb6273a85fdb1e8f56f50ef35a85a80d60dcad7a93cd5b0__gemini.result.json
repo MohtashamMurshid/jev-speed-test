@@ -1,0 +1,88 @@
+{
+  "key": "c4c8afca38c62f79adb6273a85fdb1e8f56f50ef35a85a80d60dcad7a93cd5b0__gemini",
+  "sequence": 377,
+  "caseId": "test-1894",
+  "cohort": "cases",
+  "path": "baseline",
+  "system": "gemini",
+  "expected": "terminate_account",
+  "model": "google/gemini-3.8-flash",
+  "endpoint": "google-ai-studio",
+  "status": "ok",
+  "correct": true,
+  "reservedUsd": 0.2543565,
+  "timestamp": "2026-09-22T05:48:06.601Z",
+  "predicted": "terminate_account",
+  "probability": 1,
+  "usage": {
+    "inputTokens": 725,
+    "inputTokenDetails": {
+      "noCacheTokens": 725,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0
+    },
+    "outputTokens": 22,
+    "outputTokenDetails": {
+      "textTokens": 22,
+      "reasoningTokens": 0
+    },
+    "totalTokens": 747
+  },
+  "finishReason": "stop",
+  "latencyMs": 1582.4586370000034,
+  "returnedModel": "google/gemini-3.8-flash",
+  "returnedProvider": "Google AI Studio",
+  "response": {
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"intent\": \"I47\",\n  \"probability\": 1.0\n}",
+          "refusal": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "signature": "EmcKZQFpFH0Tj4rmMJc0jsr9kcERn+zY+C/LM2M9UToTP2dNeNwesqnQ7hALx8ucFmAdOXtJe6FyEWaIy18VGL08oBJ1/CiRWP3pNTDMBigN9QJ2eQ8qiDJIlSQkeeFMik/xgSUfgnKb",
+              "format": "google-gemini-v1",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 725,
+      "completion_tokens": 22,
+      "total_tokens": 747,
+      "cost": 0.00062625,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00062625,
+        "upstream_inference_prompt_cost": 0.00054375,
+        "upstream_inference_completions_cost": 0.0000825
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 0,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "id": "gen-1790056086-4ep60fFWHOgWBAaGIcEP",
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "billedCostUsd": 0.00062625,
+  "accountedUsd": 0.00062625
+}

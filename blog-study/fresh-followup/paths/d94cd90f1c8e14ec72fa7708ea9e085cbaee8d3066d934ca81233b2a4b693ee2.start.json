@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-391",
+    "text": "My card isn't working",
+    "expected": "card_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "afff390fd58c72e375dbffddfad0ad61f5d18cadf5dab95826af53b4654fb4bd",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "d94cd90f1c8e14ec72fa7708ea9e085cbaee8d3066d934ca81233b2a4b693ee2",
+  "at": "2026-09-22T05:39:52.784Z"
+}

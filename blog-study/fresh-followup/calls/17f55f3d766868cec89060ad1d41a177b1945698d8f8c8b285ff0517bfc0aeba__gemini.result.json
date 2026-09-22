@@ -1,0 +1,88 @@
+{
+  "key": "17f55f3d766868cec89060ad1d41a177b1945698d8f8c8b285ff0517bfc0aeba__gemini",
+  "sequence": 460,
+  "caseId": "test-0",
+  "cohort": "cases",
+  "path": "cascade",
+  "system": "gemini",
+  "expected": "card_arrival",
+  "model": "google/gemini-3.8-flash",
+  "endpoint": "google-ai-studio",
+  "status": "ok",
+  "correct": true,
+  "reservedUsd": 0.25434,
+  "timestamp": "2026-09-22T05:49:44.681Z",
+  "predicted": "card_arrival",
+  "probability": 0.8,
+  "usage": {
+    "inputTokens": 722,
+    "inputTokenDetails": {
+      "noCacheTokens": 722,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0
+    },
+    "outputTokens": 334,
+    "outputTokenDetails": {
+      "textTokens": 16,
+      "reasoningTokens": 318
+    },
+    "totalTokens": 1056
+  },
+  "finishReason": "stop",
+  "latencyMs": 2596.515466999961,
+  "returnedModel": "google/gemini-3.8-flash",
+  "returnedProvider": "Google AI Studio",
+  "response": {
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "{\"intent\": \"I00\", \"probability\": 0.8}",
+          "refusal": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "signature": "EvcKCvQKAWkUfRPGVb05Uf8mlptijGPsudY8/GFrMOLLI7RZ2wDvCTWEpmH/bjPqo8ULiUz+y/JxjvYKxNOy5BFB61abWA32wyYt/g9vOO8IFK7GlwAjMo1YkHweeJ3xmroJzVeUAftGWfu0DlaKcuhVt9lTf2Z45vGFmYJftDOqLPT5+DjT1u4g+699X9xq0E/OyqF/pXQ51eBA6/goWte2VXaJupNye+DhpB9PfDzf2Fdk+hXQ4XXyr7RkQC89xFkjZrPtpQKPX49xm+a6BhJj2Tku2FFtyr2BptnB9EGv0ix6QYnmjWaG4W6871qzUVOUq2iZli9KCFkshUPW5/4UPzD6jW62i+QulOQtDZyTiFaPIMf32If77sRuUQjlWA3SpccDegEm8xE7eZrNuhUikzfG6RkD7hwKNuf4x3c7b1VVZLPM0Bqd/xoCpH6m6fAnKf/0UmcpuZY/lkmzqoCeO4hcnkGq3PYwhlMcZxx0d/P5PB72n+PZUyR+a+ljwHYF2pH6jiqXJDP2ENqI7F4/sIqdEeXJcH9bpeCnErAMvF3dlj0NIeJnwkxpK8PFhBouAk/VpdyuXiQYN41E1ILqUp5qTVUXLNZtlZIlZ8A7+womFU2BeUJ0cwqLVyj0WO4Mi9+nPrM+5qICBnRx41FYE5HiQ161a8qz/7UQVDepLWtzycNzOU/Xw6ejEpgf7GgSwNWKhk4HTzMLdwWer2Be1TWszq90oa5qmH0nK7qs9ckzdm/ZbonjjtjtQBw+0LdOWGOoNIXPKo/l4DCUNaVF5mqdTN5zLRLOolB7N9iisU/PBEQy8Y9jEIg01+kUXd6N1gwNcw6AuznSLGBSx2I5PB/lxbV5bJFjtOmmrCaofZrAe3JBVrjd/C3aNYKWs7FM3qfN7S7dgpBFkiVV8sEqXOT8JDHJB7rkDlTN6IA3hwZ9oJgMptlzLFeoFp1ptNA8Ix9BbaavKs4uPyK87uocHRE0EgUfpfDlzZoDShPZi/hwG09IP9NriGb658fCX03EbMyYey8wFQtDlkpiX/rtELITcakyKo9TWmYIpN/lTHccNR0ccD313n+cXS8J8udLYXm59jPlP7g5tEgUOKvWPcnD0xN7XZRoyTbGEqTu6pg2n3sMCeLn2zOTzwehg8JqbucfTDtzEWf/0H8ppvvzYfDcRuORtnkHy0sil/rnCu28VDMGzwpNLpV+twYZSbwyPJNKzx2fVRlkrhNmvMBhhdfGnz6C09qg57Yvpvw9Vuy/HvIHa+Gq5cao4/jbu7IYbStBhi9HeFUsQHOa9Dgquc3m8YWv/BC6w4nuWX5G2HMoBAV7Qo9F/nQMLQnz06JaJ69lI2CEJ9uZKn/Cc6+5xGr2B8Q9JU/shAWKejndgO4rckz+/rVcugYPMH7FW2DSOB76vNj2XKUrFgjPXEByW5r715GCWT3GHu7kmaqOjy3NrxCcm5JsuSI0DomSzt7aqAq4tiw0Q53UIy0KfBuCGmQsYrLCGnz6eSMsXA9lt62OIajHU/cwfjhBamQYWgivAs/p2wDmMhHAgYzinlUEMUU9MjLeKKMqtcOggZwTb0q0KM1ep+mDIckkY/Fds5D1kHWdUjoyv8U7MmQN2VDlTikr9B8Y+GOBmUs873XVKMkeRQxl5h3N1M1rmr9iESGrjGuw+ByhinH9Zr2L6PHqR7iAh0VXTV4UbdJaDt7jssjuwU+IRsshDLQ1a5A1+kfUVAMztW4qU6YlfE9thCJpaxcJsQLSvhclDJk993ncePMM97Gu9JufMjcLgeC3GfqWPUy92bDyfd5/ftc2NN3Rp2cECYroV0ftHgj9syq6dSpQtL7iY8RXAQNoaGl02Iht/nz5jX+sUQ==",
+              "format": "google-gemini-v1",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 722,
+      "completion_tokens": 334,
+      "total_tokens": 1056,
+      "cost": 0.001794,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.001794,
+        "upstream_inference_prompt_cost": 0.0005415,
+        "upstream_inference_completions_cost": 0.0012525
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 318,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "id": "gen-1790056184-VGyC6pWKjE5f7m2IId0q",
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "billedCostUsd": 0.001794,
+  "accountedUsd": 0.001794
+}

@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-4338",
+    "text": "recipes for garlic bread please",
+    "expected": null,
+    "sourceCategory": "recipe",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "d25e4d4089c1f221dbb1e757c43f55912dcbadab462d6974f63cc704e21b64fb",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "a0080e799a38b648511b44887646faac104167c0d667bd24b61eb0530ce029f8",
+  "at": "2026-09-22T06:11:06.106Z"
+}

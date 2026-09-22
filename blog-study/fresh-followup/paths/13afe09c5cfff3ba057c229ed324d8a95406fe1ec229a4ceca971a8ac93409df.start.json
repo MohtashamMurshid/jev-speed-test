@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-295",
+    "text": "May I choose when it's delivered?",
+    "expected": "card_delivery_estimate",
+    "dataset": "banking77",
+    "normalizedSha256": "ab528124760440a0f0ed9a8692c30769da39b3997686c805b4ce98ac1969208d",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "13afe09c5cfff3ba057c229ed324d8a95406fe1ec229a4ceca971a8ac93409df",
+  "at": "2026-09-22T05:42:52.570Z"
+}

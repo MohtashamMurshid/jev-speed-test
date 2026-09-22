@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-3058",
+    "text": "Where can I find your locations?",
+    "expected": "country_support",
+    "dataset": "banking77",
+    "normalizedSha256": "496135bc849fdb0edbb521e536c15b7e1ba548f8cd27f15010c2b8b291fe42ae",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "4ab23c22abd8ca420e581bb3d85f7629d703ab3d9dfbc5f49fc75fff195f2ccd",
+  "at": "2026-09-22T06:05:56.695Z"
+}

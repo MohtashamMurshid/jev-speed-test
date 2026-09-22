@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-2149",
+    "text": "is it okay to use applesauce instead of oil",
+    "expected": null,
+    "sourceCategory": "ingredient_substitution",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "4bdc49ce600715768e529e1f0671c8e578957f82a064c9a528d2f7985609d330",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "af37e25b715f52a4810b3ded69f7800bfe34835190dfcc5e688f5da681491173",
+  "at": "2026-09-22T06:16:36.318Z"
+}

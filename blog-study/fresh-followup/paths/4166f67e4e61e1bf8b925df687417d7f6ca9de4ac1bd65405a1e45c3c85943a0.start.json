@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1167",
+    "text": "Can I use my account without verifying my identity?",
+    "expected": "why_verify_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "944df50acbe2a6c898eb3efc5b5c0e76461b2c8799599214111a8a1201d8ba4e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "4166f67e4e61e1bf8b925df687417d7f6ca9de4ac1bd65405a1e45c3c85943a0",
+  "at": "2026-09-22T05:46:40.588Z"
+}

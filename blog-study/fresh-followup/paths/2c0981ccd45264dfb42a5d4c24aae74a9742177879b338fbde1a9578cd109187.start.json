@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1379",
+    "text": "I have to have several disposable cards per day.",
+    "expected": "disposable_card_limits",
+    "dataset": "banking77",
+    "normalizedSha256": "52f74da6d59e4c0b577606f61e4a62eadd5048ffee030d108d6956851b4a48a9",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "2c0981ccd45264dfb42a5d4c24aae74a9742177879b338fbde1a9578cd109187",
+  "at": "2026-09-22T05:44:19.142Z"
+}

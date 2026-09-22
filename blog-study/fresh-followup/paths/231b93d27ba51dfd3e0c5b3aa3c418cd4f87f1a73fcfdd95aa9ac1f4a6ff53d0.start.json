@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1777",
+    "text": "Why isn't a recent refund on my statement?",
+    "expected": "Refund_not_showing_up",
+    "dataset": "banking77",
+    "normalizedSha256": "7adeb22cb07b51d46756701a25217fc9cc98c625c1af9f6940a8a713f69f4093",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "231b93d27ba51dfd3e0c5b3aa3c418cd4f87f1a73fcfdd95aa9ac1f4a6ff53d0",
+  "at": "2026-09-22T05:43:35.372Z"
+}

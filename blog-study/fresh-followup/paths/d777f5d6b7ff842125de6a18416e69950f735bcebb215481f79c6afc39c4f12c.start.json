@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1972",
+    "text": "It appears that I am being double charged for some items that I have purchased this past week.  Please review and correct.",
+    "expected": "transaction_charged_twice",
+    "dataset": "banking77",
+    "normalizedSha256": "9d9ffec42d258abc30e751e07cafaa7b61ad27ce7e6c599c616c412279136d53",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "d777f5d6b7ff842125de6a18416e69950f735bcebb215481f79c6afc39c4f12c",
+  "at": "2026-09-22T05:54:10.834Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-440",
+    "text": "My entire gym bag, including my wallet, was stolen out of my locker today. Everything in my wallet is gone - how do I block the card to make it can't be used?",
+    "expected": "lost_or_stolen_card",
+    "dataset": "banking77",
+    "normalizedSha256": "bec6b2240d9a38363205eeaaf55aca72f7d7af8f2e39033ac6ed5d098bc467fd",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "d9bdabb76f44bd8300f6f8bd9f4d2d73e96a06b273eb7ee5d4c9b7eeb82ae2dc",
+  "at": "2026-09-22T05:48:47.500Z"
+}

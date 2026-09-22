@@ -1,0 +1,19 @@
+{
+  "key": "87e531096e0e898eacab48dc1712a43aa37db974c7de73c7ea214d08f7c6276a",
+  "caseId": "test-1117",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "card_payment_not_recognised",
+  "predicted": "card_payment_not_recognised",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": false,
+  "latencyMs": 2646.521172000008,
+  "timing": "measured-live-sequential",
+  "components": [
+    "87e531096e0e898eacab48dc1712a43aa37db974c7de73c7ea214d08f7c6276a__jev",
+    "87e531096e0e898eacab48dc1712a43aa37db974c7de73c7ea214d08f7c6276a__gemini"
+  ],
+  "accountedUsd": 0.0011729099999999999
+}

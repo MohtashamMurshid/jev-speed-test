@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2210",
+    "text": "I got 2 transfer fees and I thought transfers were free.",
+    "expected": "transfer_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "7aa3c382f5e4cbe0648fb44e41cbc529f9ffd1cdc5122f74e2c3ce59475c4abc",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "2c6d3c350922a612a9c25c4e0698ee1c5c02f6d12c229220da5abc4e31c3c1b4",
+  "at": "2026-09-22T05:57:58.205Z"
+}

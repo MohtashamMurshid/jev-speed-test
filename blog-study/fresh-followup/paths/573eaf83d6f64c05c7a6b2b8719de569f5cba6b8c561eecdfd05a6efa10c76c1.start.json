@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-2050",
+    "text": "what's the average cooking time for cooking wings",
+    "expected": null,
+    "sourceCategory": "cook_time",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "e010ec8de9f4bc77f9dd1b8af73b7c3414af1a86b504983351416531695a28fe",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "573eaf83d6f64c05c7a6b2b8719de569f5cba6b8c561eecdfd05a6efa10c76c1",
+  "at": "2026-09-22T06:10:17.867Z"
+}

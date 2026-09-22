@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2909",
+    "text": "I thought cash withdrawals were free? Why have I been charged a fee? Also, how much is this fee?",
+    "expected": "cash_withdrawal_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "4b189c7ef4304035fc639dbb97b0680cb640d3d1257dcd9f82534074d9f5ca8d",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "dcf9c6640a276e2c4d68fc0004528367e3b80565f38b76ddf86f4362c9569596",
+  "at": "2026-09-22T06:04:04.760Z"
+}

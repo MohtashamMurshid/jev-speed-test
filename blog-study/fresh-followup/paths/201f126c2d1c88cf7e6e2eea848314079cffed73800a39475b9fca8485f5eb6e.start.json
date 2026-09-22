@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3947",
+    "text": "turn on my tunes",
+    "expected": null,
+    "sourceCategory": "play_music",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "c26e85a5543bfedd5678f302fa64b5973ae43cc2bc1e89545967c6be5d802163",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "201f126c2d1c88cf7e6e2eea848314079cffed73800a39475b9fca8485f5eb6e",
+  "at": "2026-09-22T06:15:08.402Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1439",
+    "text": "Someone else is using my card, freeze it.",
+    "expected": "compromised_card",
+    "dataset": "banking77",
+    "normalizedSha256": "97cf426c111953d52ba61a9f476e96731e0edc7ebca633343c1c3369558be616",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "0b69b5fbeb2370baba107cbf14341636778a51cd32e3fd6fa00fd3e82d04c125",
+  "at": "2026-09-22T06:08:39.940Z"
+}

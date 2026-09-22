@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2431",
+    "text": "How can I get a second card for my daughter?",
+    "expected": "getting_spare_card",
+    "dataset": "banking77",
+    "normalizedSha256": "5a41148d2a09c80dd94e6fbba54fc6fd3951fd189db0b77eecf4b816366d47b1",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "dff73473c01665ef40cd2d66ee73f98937767bcc648427fba899706b00285ee5",
+  "at": "2026-09-22T05:55:46.842Z"
+}

@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-4166",
+    "text": "i want to hear something funny about politicsi",
+    "expected": null,
+    "sourceCategory": "tell_joke",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "4ca7ed9068b0bd1ab4889d775258f1c6469b632e07ebadb17c2538862bf7aa0e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "053d4b33dea0dd0702b5eae27643a896737752d217af777a53484d8590064a32",
+  "at": "2026-09-22T06:09:25.215Z"
+}

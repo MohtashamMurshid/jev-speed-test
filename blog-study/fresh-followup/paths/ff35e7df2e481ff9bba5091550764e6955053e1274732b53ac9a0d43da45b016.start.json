@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-915",
+    "text": "What cards and currencies will suffice?",
+    "expected": "supported_cards_and_currencies",
+    "dataset": "banking77",
+    "normalizedSha256": "09c7bc734295caeaaa4822d2af78a38a9664d8dbecbc0ccbcd87b62318f9ca3d",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "ff35e7df2e481ff9bba5091550764e6955053e1274732b53ac9a0d43da45b016",
+  "at": "2026-09-22T05:55:09.156Z"
+}

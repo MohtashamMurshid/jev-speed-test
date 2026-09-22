@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-4349",
+    "text": "find a recipe for baked ziti",
+    "expected": null,
+    "sourceCategory": "recipe",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "dedd58bdd8b28c2d825ee641705927eda118b9e96fda7e19b69ab0f2b63b9fbb",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "dcc309dada7d834af242c8eda3704fe3638cb1eb4add4f186abcd273a7a7e5ca",
+  "at": "2026-09-22T06:14:37.815Z"
+}

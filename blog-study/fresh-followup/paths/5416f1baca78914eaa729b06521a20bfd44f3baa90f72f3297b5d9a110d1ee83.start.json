@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-438",
+    "text": "Can I exchange currencies with my account?",
+    "expected": "exchange_via_app",
+    "dataset": "banking77",
+    "normalizedSha256": "30b0eecd91cd55adb580a740e426014e262be5dba074c0b3748a6e8cc43d1b4c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "5416f1baca78914eaa729b06521a20bfd44f3baa90f72f3297b5d9a110d1ee83",
+  "at": "2026-09-22T06:04:45.703Z"
+}

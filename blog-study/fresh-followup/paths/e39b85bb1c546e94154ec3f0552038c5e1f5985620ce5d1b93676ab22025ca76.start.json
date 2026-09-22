@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-332",
+    "text": "Is there an auto top-up option?",
+    "expected": "automatic_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "70b238ed39d9fd603f777d69c162937a8614e01d108ee216b0bb3a1b2a324f1d",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "e39b85bb1c546e94154ec3f0552038c5e1f5985620ce5d1b93676ab22025ca76",
+  "at": "2026-09-22T06:03:50.799Z"
+}

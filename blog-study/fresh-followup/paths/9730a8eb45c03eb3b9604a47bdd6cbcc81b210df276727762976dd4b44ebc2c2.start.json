@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2048",
+    "text": "how long dies it take for transfers to reflect on my balance",
+    "expected": "transfer_timing",
+    "dataset": "banking77",
+    "normalizedSha256": "55cb16f311f6ea8868d6ab72afee38ce8e066a589e11acb5bb767584109ce90b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "9730a8eb45c03eb3b9604a47bdd6cbcc81b210df276727762976dd4b44ebc2c2",
+  "at": "2026-09-22T05:53:27.650Z"
+}

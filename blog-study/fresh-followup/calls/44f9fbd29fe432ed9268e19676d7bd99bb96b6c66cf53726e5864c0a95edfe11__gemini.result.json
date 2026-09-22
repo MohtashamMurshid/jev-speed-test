@@ -1,0 +1,88 @@
+{
+  "key": "44f9fbd29fe432ed9268e19676d7bd99bb96b6c66cf53726e5864c0a95edfe11__gemini",
+  "sequence": 193,
+  "caseId": "test-2477",
+  "cohort": "cases",
+  "path": "baseline",
+  "system": "gemini",
+  "expected": "top_up_by_cash_or_cheque",
+  "model": "google/gemini-3.8-flash",
+  "endpoint": "google-ai-studio",
+  "status": "ok",
+  "correct": false,
+  "reservedUsd": 0.25434075,
+  "timestamp": "2026-09-22T05:43:48.411Z",
+  "predicted": "topping_up_by_card",
+  "probability": 0.95,
+  "usage": {
+    "inputTokens": 724,
+    "inputTokenDetails": {
+      "noCacheTokens": 724,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0
+    },
+    "outputTokens": 407,
+    "outputTokenDetails": {
+      "textTokens": 17,
+      "reasoningTokens": 390
+    },
+    "totalTokens": 1131
+  },
+  "finishReason": "stop",
+  "latencyMs": 3414.118261000025,
+  "returnedModel": "google/gemini-3.8-flash",
+  "returnedProvider": "Google AI Studio",
+  "response": {
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "{\"intent\": \"I33\", \"probability\": 0.95}",
+          "refusal": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "signature": "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",
+              "format": "google-gemini-v1",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 724,
+      "completion_tokens": 407,
+      "total_tokens": 1131,
+      "cost": 0.00206925,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00206925,
+        "upstream_inference_prompt_cost": 0.000543,
+        "upstream_inference_completions_cost": 0.00152625
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 390,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "id": "gen-1790055828-2r4cVtPyfuUnhAYTbGiZ",
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "billedCostUsd": 0.00206925,
+  "accountedUsd": 0.00206925
+}

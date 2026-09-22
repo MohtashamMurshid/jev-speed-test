@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-853",
+    "text": "I just finished sending money, but it's not logging on the recipient side.",
+    "expected": "transfer_not_received_by_recipient",
+    "dataset": "banking77",
+    "normalizedSha256": "aa218cd69d9bdd87ebca2da95f108761648fa288b8d44a396d26c35129b851f4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "bc88fad5bbbe53a1d5ff17123338e14ffeab6aa26c1488745f6407b9d2e1c55b",
+  "at": "2026-09-22T05:41:16.657Z"
+}

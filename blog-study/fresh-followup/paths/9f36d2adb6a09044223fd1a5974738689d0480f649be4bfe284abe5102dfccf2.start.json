@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-567",
+    "text": "Do you know why my contactless won't work?",
+    "expected": "contactless_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "2b34ac3e0801e534668268e8392e5bef107a207df356d465ff48c46439c72e9b",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "9f36d2adb6a09044223fd1a5974738689d0480f649be4bfe284abe5102dfccf2",
+  "at": "2026-09-22T06:04:43.446Z"
+}

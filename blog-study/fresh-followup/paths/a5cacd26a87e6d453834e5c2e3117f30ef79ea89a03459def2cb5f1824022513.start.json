@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2349",
+    "text": "Are there ways to transfer money into my account?",
+    "expected": "transfer_into_account",
+    "dataset": "banking77",
+    "normalizedSha256": "1950ba4f9187602d1f4480ab70fbab48cd458a29f5c4e63ecf33d5d7f3a73d2f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "a5cacd26a87e6d453834e5c2e3117f30ef79ea89a03459def2cb5f1824022513",
+  "at": "2026-09-22T06:04:27.443Z"
+}

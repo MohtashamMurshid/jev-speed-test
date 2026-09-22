@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2650",
+    "text": "How can I check to see if my top-up worked?",
+    "expected": "top_up_failed",
+    "dataset": "banking77",
+    "normalizedSha256": "b91b194d35d4d3ff92aa93a4c4eeba4053e81d26ef294fb5b2d2355df0c58f32",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "5f9cda360abd6913de0181d692a5305885c7415facb6d6038eb0d8b0c6bc255f",
+  "at": "2026-09-22T05:54:55.582Z"
+}

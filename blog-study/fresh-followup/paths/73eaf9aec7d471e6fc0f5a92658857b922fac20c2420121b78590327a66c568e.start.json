@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1498",
+    "text": "There is a transaction from my account that I don't recognize can you trace back the information so I can make sure it's something I did or not?",
+    "expected": "direct_debit_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "5fa4420e706eee9ef241291ec8d3eaa277cf077e4fa6e4452afbe698dd456465",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "73eaf9aec7d471e6fc0f5a92658857b922fac20c2420121b78590327a66c568e",
+  "at": "2026-09-22T06:04:56.807Z"
+}

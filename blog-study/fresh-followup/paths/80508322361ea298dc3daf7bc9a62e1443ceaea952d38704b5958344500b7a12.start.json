@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-879",
+    "text": "I transferred some money but the recipient is having trouble withdrawing.",
+    "expected": "transfer_not_received_by_recipient",
+    "dataset": "banking77",
+    "normalizedSha256": "c32f5a17912ed19651b53f575c45b3b905bf9be8f6e70d33620125485197bdf3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "80508322361ea298dc3daf7bc9a62e1443ceaea952d38704b5958344500b7a12",
+  "at": "2026-09-22T05:47:38.252Z"
+}

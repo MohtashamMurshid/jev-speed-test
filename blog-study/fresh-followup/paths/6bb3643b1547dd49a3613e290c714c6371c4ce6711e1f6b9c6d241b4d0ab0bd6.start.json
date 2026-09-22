@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2485",
+    "text": "Please, how do I order a card?",
+    "expected": "order_physical_card",
+    "dataset": "banking77",
+    "normalizedSha256": "151cc2bb66597048f19fc29317a7924a5531fa5e8be32ae4ac7e6fca8f6fc382",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "6bb3643b1547dd49a3613e290c714c6371c4ce6711e1f6b9c6d241b4d0ab0bd6",
+  "at": "2026-09-22T05:51:58.728Z"
+}

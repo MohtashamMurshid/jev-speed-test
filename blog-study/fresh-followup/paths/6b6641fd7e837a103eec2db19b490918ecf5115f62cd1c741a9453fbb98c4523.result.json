@@ -1,0 +1,19 @@
+{
+  "key": "6b6641fd7e837a103eec2db19b490918ecf5115f62cd1c741a9453fbb98c4523",
+  "caseId": "test-133",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "card_payment_wrong_exchange_rate",
+  "predicted": "card_payment_wrong_exchange_rate",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 2131.588094000006,
+  "timing": "measured-live-sequential",
+  "components": [
+    "6b6641fd7e837a103eec2db19b490918ecf5115f62cd1c741a9453fbb98c4523__jev",
+    "6b6641fd7e837a103eec2db19b490918ecf5115f62cd1c741a9453fbb98c4523__gemini"
+  ],
+  "accountedUsd": 0.000699036
+}

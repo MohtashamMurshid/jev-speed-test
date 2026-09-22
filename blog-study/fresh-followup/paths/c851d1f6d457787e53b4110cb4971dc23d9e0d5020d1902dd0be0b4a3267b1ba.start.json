@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2372",
+    "text": "Is it possible to verify a top up?",
+    "expected": "verify_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "9581b2c321ee4bb2b9695521138061543533ffd3013e9645864af756c8967813",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "c851d1f6d457787e53b4110cb4971dc23d9e0d5020d1902dd0be0b4a3267b1ba",
+  "at": "2026-09-22T05:50:05.577Z"
+}

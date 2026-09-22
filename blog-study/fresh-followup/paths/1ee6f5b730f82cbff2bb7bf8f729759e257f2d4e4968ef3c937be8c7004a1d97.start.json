@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-377",
+    "text": "My card was declined today when eating and I need to know what's wrong.",
+    "expected": "card_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "8b67769f1b73b491cffbbcb0fa3c5e7174d2d0f0923e603fd1eef6dc7988ffbe",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "1ee6f5b730f82cbff2bb7bf8f729759e257f2d4e4968ef3c937be8c7004a1d97",
+  "at": "2026-09-22T05:53:38.295Z"
+}

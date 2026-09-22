@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-484",
+    "text": "How old do we have to be?",
+    "expected": "age_limit",
+    "dataset": "banking77",
+    "normalizedSha256": "ae2a4d34832f5c9fd6694cb0858e6b4eb5692181a85224c6f3b16152c93763d3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "422edd27e05822e80d31eacead948339517d082cad0b786bfb503184a25fb8cb",
+  "at": "2026-09-22T05:43:29.861Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1754",
+    "text": "I tried to buy something online yesterday but it kept saying declined. Tried again today but same thing happened. What's broken?",
+    "expected": "declined_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "45b96cb78dfb2a2e350fee3e6350cc45aeb6a8a7220b0c219f89428972472fa0",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "b58222440ee960afafabab6570e0996acfebcccf7b5b57bbd59b0407494f180d",
+  "at": "2026-09-22T05:50:58.518Z"
+}

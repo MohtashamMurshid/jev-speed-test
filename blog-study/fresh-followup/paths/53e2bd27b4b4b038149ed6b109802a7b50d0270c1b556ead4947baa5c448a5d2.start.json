@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1299",
+    "text": "Am I able to choose my card?",
+    "expected": "visa_or_mastercard",
+    "dataset": "banking77",
+    "normalizedSha256": "b76ee3a68e5b16422a295816137cad9211ebaae6619d326dc5c91aebfa88e6cc",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "53e2bd27b4b4b038149ed6b109802a7b50d0270c1b556ead4947baa5c448a5d2",
+  "at": "2026-09-22T06:07:19.949Z"
+}

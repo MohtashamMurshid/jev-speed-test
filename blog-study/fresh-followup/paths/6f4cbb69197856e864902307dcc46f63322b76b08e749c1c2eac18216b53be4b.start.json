@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-15",
+    "text": "I have been waiting longer than expected for my bank card, could you provide information on when it will arrive?",
+    "expected": "card_arrival",
+    "dataset": "banking77",
+    "normalizedSha256": "e888cbaeb7f2ad83790e04797b4f2b4ed22ded2b5c5e417a54475ed449cfb040",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "6f4cbb69197856e864902307dcc46f63322b76b08e749c1c2eac18216b53be4b",
+  "at": "2026-09-22T05:42:45.234Z"
+}

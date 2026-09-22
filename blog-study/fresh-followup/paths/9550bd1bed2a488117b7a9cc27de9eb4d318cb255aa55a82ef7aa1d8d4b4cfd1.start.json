@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2818",
+    "text": "Will there be any extra fees for European bank card for top up?",
+    "expected": "top_up_by_card_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "ddd6c5d77dddfb7a415e66b9093375583d5ec659b912ef71ff70164094a92915",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "9550bd1bed2a488117b7a9cc27de9eb4d318cb255aa55a82ef7aa1d8d4b4cfd1",
+  "at": "2026-09-22T05:58:22.844Z"
+}

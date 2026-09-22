@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1212",
+    "text": "I can't prove my identity.",
+    "expected": "unable_to_verify_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "7f33c0ef9ebaceab1e158dc7d84b14369d95aa8bd4debe156fd72d04d0770490",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "3ce659cac575d01e877a55caeba094eaa8f4724a2a268315fa3e4234600c68f9",
+  "at": "2026-09-22T05:49:20.752Z"
+}

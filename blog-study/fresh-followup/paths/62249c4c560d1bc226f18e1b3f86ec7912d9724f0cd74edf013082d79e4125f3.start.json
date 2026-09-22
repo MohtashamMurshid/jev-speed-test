@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2825",
+    "text": "Does topping up my card have a fee?",
+    "expected": "top_up_by_card_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "308b1fa702a26e705a10ca3748f04311fff514525fe8baf71544b8bec46de07b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "62249c4c560d1bc226f18e1b3f86ec7912d9724f0cd74edf013082d79e4125f3",
+  "at": "2026-09-22T05:51:28.678Z"
+}

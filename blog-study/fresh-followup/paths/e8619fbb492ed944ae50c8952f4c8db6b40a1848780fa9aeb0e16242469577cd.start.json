@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-850",
+    "text": "I transferred some money and it didint arrive",
+    "expected": "transfer_not_received_by_recipient",
+    "dataset": "banking77",
+    "normalizedSha256": "da783038016bb2fc56ce99ba920026a3778ec0adff21ae3a125c2949ce092e38",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "e8619fbb492ed944ae50c8952f4c8db6b40a1848780fa9aeb0e16242469577cd",
+  "at": "2026-09-22T05:52:28.793Z"
+}

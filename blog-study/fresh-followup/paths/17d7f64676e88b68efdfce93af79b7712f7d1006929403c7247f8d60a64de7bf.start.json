@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2967",
+    "text": "Is it possible to top up with Apple Pay?",
+    "expected": "apple_pay_or_google_pay",
+    "dataset": "banking77",
+    "normalizedSha256": "a2232c26e23a5c4519ec1cc33b4902d309101a2bb867c11d7396aab629c79879",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "17d7f64676e88b68efdfce93af79b7712f7d1006929403c7247f8d60a64de7bf",
+  "at": "2026-09-22T05:49:06.363Z"
+}

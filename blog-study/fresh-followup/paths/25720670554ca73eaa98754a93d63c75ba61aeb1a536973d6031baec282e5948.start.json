@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3246",
+    "text": "let's take a look at the weather",
+    "expected": null,
+    "sourceCategory": "weather",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "b59028ceb782d05286cd01903900a7f9918568962ff35d00024246fdc4789210",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "25720670554ca73eaa98754a93d63c75ba61aeb1a536973d6031baec282e5948",
+  "at": "2026-09-22T06:14:31.143Z"
+}

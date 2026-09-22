@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-2952",
+    "text": "can you identify this song that's playing",
+    "expected": null,
+    "sourceCategory": "what_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "18fbe2e1de04cdc8926ddfcb4f89c59e1f94f8d9e96cae57628731229e396c17",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "9b5cf03d3998090c3d030529386f54b7b89186108eb3ebab8e1bbea9794cca8f",
+  "at": "2026-09-22T06:16:04.230Z"
+}

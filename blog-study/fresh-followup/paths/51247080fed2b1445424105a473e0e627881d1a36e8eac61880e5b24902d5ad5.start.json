@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1778",
+    "text": "Where can I see the refund in my account",
+    "expected": "Refund_not_showing_up",
+    "dataset": "banking77",
+    "normalizedSha256": "4bf7b2418b877df55b8494fb5cf85712f70ef432283e5887a597223ddea5e0d4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "51247080fed2b1445424105a473e0e627881d1a36e8eac61880e5b24902d5ad5",
+  "at": "2026-09-22T05:42:40.292Z"
+}

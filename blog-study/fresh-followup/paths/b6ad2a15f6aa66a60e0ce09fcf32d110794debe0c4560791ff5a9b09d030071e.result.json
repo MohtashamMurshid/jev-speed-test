@@ -1,0 +1,18 @@
+{
+  "key": "b6ad2a15f6aa66a60e0ce09fcf32d110794debe0c4560791ff5a9b09d030071e",
+  "caseId": "clinc-test-4157",
+  "cohort": "oos",
+  "path": "baseline",
+  "expected": null,
+  "predicted": "passcode_forgotten",
+  "status": "ok",
+  "correct": false,
+  "jevAccepted": false,
+  "safetyAccepted": false,
+  "latencyMs": 2700.5251400000416,
+  "timing": "measured-live-sequential",
+  "components": [
+    "b6ad2a15f6aa66a60e0ce09fcf32d110794debe0c4560791ff5a9b09d030071e__gemini"
+  ],
+  "accountedUsd": 0.00144525
+}

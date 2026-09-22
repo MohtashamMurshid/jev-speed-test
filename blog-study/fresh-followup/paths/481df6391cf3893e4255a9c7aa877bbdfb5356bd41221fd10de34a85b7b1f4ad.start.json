@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-433",
+    "text": "Is there currency exchange on this app?",
+    "expected": "exchange_via_app",
+    "dataset": "banking77",
+    "normalizedSha256": "fbe9c5cd969e96d8d382b6ac3de45d82c5c17c9ef2066ea8532cdf72d03f379a",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "481df6391cf3893e4255a9c7aa877bbdfb5356bd41221fd10de34a85b7b1f4ad",
+  "at": "2026-09-22T05:56:43.221Z"
+}

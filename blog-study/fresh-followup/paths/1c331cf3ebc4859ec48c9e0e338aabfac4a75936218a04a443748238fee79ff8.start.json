@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2491",
+    "text": "Do you ship cards to where I live?",
+    "expected": "order_physical_card",
+    "dataset": "banking77",
+    "normalizedSha256": "223bbe76305b52b2bcff20cb5935323ed3d40ff9678622309db9097e08550b1c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "1c331cf3ebc4859ec48c9e0e338aabfac4a75936218a04a443748238fee79ff8",
+  "at": "2026-09-22T05:47:54.950Z"
+}

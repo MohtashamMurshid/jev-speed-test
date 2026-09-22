@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-2956",
+    "text": "can you identify this song playing through the speaker right now",
+    "expected": null,
+    "sourceCategory": "what_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "344d7968455b32cc846dfb43828d40f2ea6733c65c5cca9559c6a882c230a08d",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "b367783beb62e0f7bf8022dc8a9b7c14750aa9d9c9c02f9ce49685cac4b2e86c",
+  "at": "2026-09-22T06:12:55.894Z"
+}

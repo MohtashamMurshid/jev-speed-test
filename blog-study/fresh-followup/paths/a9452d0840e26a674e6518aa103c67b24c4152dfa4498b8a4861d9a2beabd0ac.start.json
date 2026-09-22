@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2171",
+    "text": "I am having problems transferring to a beneficiary.",
+    "expected": "beneficiary_not_allowed",
+    "dataset": "banking77",
+    "normalizedSha256": "85312d3cec130dd818450d2696af7688763314b2ebb4216d130f9b2e6bc52e16",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "a9452d0840e26a674e6518aa103c67b24c4152dfa4498b8a4861d9a2beabd0ac",
+  "at": "2026-09-22T05:54:25.781Z"
+}

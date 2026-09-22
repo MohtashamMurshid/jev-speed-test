@@ -1,0 +1,18 @@
+{
+  "key": "f05411baeeefb12d08f54338683d0561ce998f6600ce62f2e0221a8c42abc0cb",
+  "caseId": "test-1009",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "top_up_reverted",
+  "predicted": "top_up_reverted",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": true,
+  "safetyAccepted": true,
+  "latencyMs": 345.6341629999224,
+  "timing": "measured-live-sequential",
+  "components": [
+    "f05411baeeefb12d08f54338683d0561ce998f6600ce62f2e0221a8c42abc0cb__jev"
+  ],
+  "accountedUsd": 0.000067494
+}

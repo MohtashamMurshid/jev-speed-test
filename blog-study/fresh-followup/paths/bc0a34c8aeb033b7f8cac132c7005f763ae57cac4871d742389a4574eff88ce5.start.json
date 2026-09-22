@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1258",
+    "text": "Why can't I see my PIN?",
+    "expected": "get_physical_card",
+    "dataset": "banking77",
+    "normalizedSha256": "649b11cb8729cfc9e10e8bb827d47d797bcd7a65dcf92561cc43e0e1e283d938",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "bc0a34c8aeb033b7f8cac132c7005f763ae57cac4871d742389a4574eff88ce5",
+  "at": "2026-09-22T05:43:09.083Z"
+}

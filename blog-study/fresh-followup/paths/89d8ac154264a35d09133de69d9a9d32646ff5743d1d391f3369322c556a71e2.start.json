@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2303",
+    "text": "Why couldn't I complete a transfer?",
+    "expected": "failed_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "be3717c31a1b343af2a1a039e6ae53c429a15175c94a3ee061e9bf35a4a3d308",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "89d8ac154264a35d09133de69d9a9d32646ff5743d1d391f3369322c556a71e2",
+  "at": "2026-09-22T05:48:56.832Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2893",
+    "text": "Hi, I am calling about a recent transaction that has happened on my account.  I recently went to the ATM, and tried to make a withdrawal on my account.  I just happened to check my transaction slip and noticed a fee for my withdrawal.  How can I resolve this, I didn't know fees were charged for this type of action.",
+    "expected": "cash_withdrawal_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "338224fd7cb462ffd8199ac7afd2955caa2fa183eb0e888aed9ec713515b1b73",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "54bd6212edb152aec215db2a32f077e0156e39d064d8631f6074543681978651",
+  "at": "2026-09-22T06:07:06.836Z"
+}

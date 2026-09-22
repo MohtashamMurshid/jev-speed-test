@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2782",
+    "text": "Would I be charged for exchanging currencies?",
+    "expected": "exchange_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "93bb197ab475d4ba83e73e41abcf68a22f20ffd1d2ff42b07cbf198247b0c65f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "f55f6393f9478d58a8a4d8611f80fdc4a7b88548bac83a30e7eaa063ca6d8175",
+  "at": "2026-09-22T05:40:36.186Z"
+}

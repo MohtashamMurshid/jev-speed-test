@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1952",
+    "text": "My card has been swallowed by an ATM",
+    "expected": "card_swallowed",
+    "dataset": "banking77",
+    "normalizedSha256": "454b2da73950ad7352d3967c371df7fdac70a392e4427e52be0b3ab4fc495c9d",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "70bc4c4c8a03799510b9748bb16e95de6de20b6cc22d72ead7bf6ad12d548eee",
+  "at": "2026-09-22T05:41:24.481Z"
+}

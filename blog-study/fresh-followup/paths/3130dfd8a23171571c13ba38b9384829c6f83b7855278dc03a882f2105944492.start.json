@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-240",
+    "text": "If I request that my funds be held, what currencies do you use?",
+    "expected": "fiat_currency_support",
+    "dataset": "banking77",
+    "normalizedSha256": "722a274aafa500ec4ed489505b84e002d422aabe329ba51bb679fac78ab0f0da",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "3130dfd8a23171571c13ba38b9384829c6f83b7855278dc03a882f2105944492",
+  "at": "2026-09-22T06:04:50.937Z"
+}

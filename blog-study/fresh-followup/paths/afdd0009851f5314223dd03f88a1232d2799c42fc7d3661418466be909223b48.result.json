@@ -1,0 +1,18 @@
+{
+  "key": "afdd0009851f5314223dd03f88a1232d2799c42fc7d3661418466be909223b48",
+  "caseId": "test-781",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "wrong_amount_of_cash_received",
+  "predicted": "wrong_amount_of_cash_received",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": true,
+  "safetyAccepted": true,
+  "latencyMs": 429.4425260000862,
+  "timing": "measured-live-sequential",
+  "components": [
+    "afdd0009851f5314223dd03f88a1232d2799c42fc7d3661418466be909223b48__jev"
+  ],
+  "accountedUsd": 0.000067662
+}

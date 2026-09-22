@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1453",
+    "text": "What kind of ATM's can I use?",
+    "expected": "atm_support",
+    "dataset": "banking77",
+    "normalizedSha256": "072bddc970db7e732c3f469056be6f505d496bf8ebf2fad820332f8664fcde99",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "e2ac874888c8d9bf95b2698ef6d2ef3d463cca212fbaf78f0d9c2496078448ee",
+  "at": "2026-09-22T05:55:24.483Z"
+}

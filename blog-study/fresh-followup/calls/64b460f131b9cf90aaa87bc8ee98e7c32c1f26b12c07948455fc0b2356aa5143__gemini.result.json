@@ -1,0 +1,88 @@
+{
+  "key": "64b460f131b9cf90aaa87bc8ee98e7c32c1f26b12c07948455fc0b2356aa5143__gemini",
+  "sequence": 208,
+  "caseId": "test-2094",
+  "cohort": "cases",
+  "path": "cascade",
+  "system": "gemini",
+  "expected": "reverted_card_payment?",
+  "model": "google/gemini-3.8-flash",
+  "endpoint": "google-ai-studio",
+  "status": "ok",
+  "correct": false,
+  "reservedUsd": 0.2543595,
+  "timestamp": "2026-09-22T05:44:06.882Z",
+  "predicted": "declined_card_payment",
+  "probability": 0.8,
+  "usage": {
+    "inputTokens": 725,
+    "inputTokenDetails": {
+      "noCacheTokens": 725,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0
+    },
+    "outputTokens": 268,
+    "outputTokenDetails": {
+      "textTokens": 16,
+      "reasoningTokens": 252
+    },
+    "totalTokens": 993
+  },
+  "finishReason": "stop",
+  "latencyMs": 2211.4427860000287,
+  "returnedModel": "google/gemini-3.8-flash",
+  "returnedProvider": "Google AI Studio",
+  "response": {
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "{\"intent\": \"I45\", \"probability\": 0.8}",
+          "refusal": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "signature": "EtUJCtIJAWkUfRPagimOJuJ8FVrNQckQd0tk5H0qfdPc+oXUEfJ1wDhYtGjw26CDdkk9Thv+rKULia26akujdDXIgGLKdpzsJkYkOV5d3crWWFtIu+8lWpYb6wsdorHVn/1BpubAcLa04AbsNLZULJ8ZrK4TYmWFxipx9ufORVcHVjkKFWI7jyJkpYs191Hdcpd3sWYsAXzzZGDNcnfRnSBNFVZREbtz6qBUmopD0/FrIJo/3GHH3bl0XNh1tJckc1hUB9EvfkjCtPRxiOz23oFS3EeScrPQYdaPjaUkuf4vgP/AXR4PLUXcGODXOL0z6UlUhwWn6vplarh2tqVMcSm9H59cCXsk12rUXB2QQwd8h+THPtxrJAiPD1z+KR5/hnEd+aIASuxYYTTPMEYVZ2jqlMspBm+pvBI2QnrMWKGDULGa9WkICeXj+jvGB+YV/XlinRAZ9VRmEuw4rE0M6PYe9GWJ7Af3ygaNZDaNszOctrua3BDNG8YnYLL2l+6uerhHrVMSyrbl2v2FVIkwHaBMQp3VagHAa3VBAZwtfPwO83N0D/YYQzEbo1WqhqZB/Y/9DSTGQHEm7CVmmORGMoFdnEu2Hdc3DcYKxM1izAmijSKEF8fy9AqUH6V/fyPQaimeg2d7axWWDgTSe1lNblqdYSv23TRcc22xNAXDMAKY2wyL5bspVa9D1BwWkMmUQFOkD+QSNYnnuRnOOvwwLdd9jJMJ9deyr9ynTuZUuroFWDRxo9khbLqML3w4DV1zLRZycrmhiwG/6lnUcQ+qqawLKCjxfRP1fqGlM+XEjm+58YnmLDYscMHfe4qrIaUakr/muqnMjQYEPRLuQw8no9tlEBALCY9dHwQ/ZM5FrbTiVGq20dDg2+8TMK2UrGY6WhSAH/PMwGC/x+9ibP89pNYyvVMPHpYRXFXGj+Ufya15FRdHMXnwaUwxECNiyZxNciJ+mjDOCVkU21VC5/DB47oFW5VI439WDSaFu+bf+wD/zx08o/DfXuM55mzB9kmYN7k8efqR8b6cZVHAu6MvSTOcwUD9+qBU+i9gtJ5gSV+eYLScyEn3c3sKqX9bH+BmnY9yiwPEduswbApopO4v04uUdY15dNkfVPsNPmMhQkskEhpvjdIjJ15oQyPh4lJNycldC2sHDkXrwOLPVWse16zxXnrR3VlB1jA2dGZ8a84TjAjC10y99NyJG9XU0In1SCpuXa1DTrQ/2VpsfkfFrjr3nIGB23oEWpsE9o76A+YP03PAq0JriUEBfqiKst7bavaG4elrUndCjL2zOQP0VMYkEXcrCRRhN9w6ZIMlYwGTiHSH28RQG6p90LJosY+jgQt01kRRQpHzVpU8mqGy/4RQWJA2mnjz6NNZVPwqR1GgzehYO/RGDr6+SIgFQFcUAPpr0fsFA6kZuIELGOvQCykH5yfoyANGtsELQCMjAM2B7mW/YKcB+LWBjHlINwghgNUEKjX3gLUOShIxQ/XmvLhRAaFv7YW8EVGbrtLekspBtNH1VFucFXBR4T+ZHvYTpWprBnE0MtfWx4A8QIM0TTCC8EWLV1ND24efW20P7g/SsPviiP3NzqbsPadvrDrgh4uCKA/fmOBFXOxrjjibCVMB6mTPkliBYN/9r+EEV44QxC1Emxy41w==",
+              "format": "google-gemini-v1",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 725,
+      "completion_tokens": 268,
+      "total_tokens": 993,
+      "cost": 0.00154875,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00154875,
+        "upstream_inference_prompt_cost": 0.00054375,
+        "upstream_inference_completions_cost": 0.001005
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 252,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "id": "gen-1790055846-EW8e23DZnUFaTsDb8Z7q",
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "billedCostUsd": 0.00154875,
+  "accountedUsd": 0.00154875
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2534",
+    "text": "Why can't I use my virtual card for subscription services?",
+    "expected": "virtual_card_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "5ee1fe058f61a5891ca1514fa490367bc212526c58f13c69c3b02dfc8d03d720",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "fea5526a63e43fee060f0a7a8ae60825e85db1fbb073ee2c2bc7a9d9908a456b",
+  "at": "2026-09-22T06:08:21.993Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2132",
+    "text": "In what ATM can I change my pin?",
+    "expected": "change_pin",
+    "dataset": "banking77",
+    "normalizedSha256": "77ea6c3256c02f029d0c7a17606d283224fe6158b5c0585745b7a8fa80b430ad",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "a51009494ac8fa22bb4daa1797dc8c11fc33511fe0c71912135c50f7b23b4457",
+  "at": "2026-09-22T05:47:47.689Z"
+}

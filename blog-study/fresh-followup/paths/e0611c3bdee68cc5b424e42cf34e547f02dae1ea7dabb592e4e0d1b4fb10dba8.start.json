@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-563",
+    "text": "I don't know what's wrong, my contactless stopped working. Tried it in a few different places today and it didn't work in any of them.",
+    "expected": "contactless_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "0ab1635aed247fc38a6f61879c057c6b107224bb7e9a4d3d3533366518b9c03f",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "e0611c3bdee68cc5b424e42cf34e547f02dae1ea7dabb592e4e0d1b4fb10dba8",
+  "at": "2026-09-22T05:57:20.202Z"
+}

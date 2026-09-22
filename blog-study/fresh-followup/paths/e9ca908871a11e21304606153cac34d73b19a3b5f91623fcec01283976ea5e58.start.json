@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1615",
+    "text": "How long does an item I bought show as pending?",
+    "expected": "pending_card_payment",
+    "dataset": "banking77",
+    "normalizedSha256": "07fc6e3173482fb1ed62a975814979a5ea75c40dcbae356623e055041c07a5c4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "e9ca908871a11e21304606153cac34d73b19a3b5f91623fcec01283976ea5e58",
+  "at": "2026-09-22T05:59:48.154Z"
+}

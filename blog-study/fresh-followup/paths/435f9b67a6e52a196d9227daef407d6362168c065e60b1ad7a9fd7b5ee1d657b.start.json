@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2335",
+    "text": "How can I transfer funds from my bank to my top up account?",
+    "expected": "transfer_into_account",
+    "dataset": "banking77",
+    "normalizedSha256": "55a130b87a266d25ffe9c19400ca38bc8a42971835fa0e8ed8c89009be4a60ff",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "435f9b67a6e52a196d9227daef407d6362168c065e60b1ad7a9fd7b5ee1d657b",
+  "at": "2026-09-22T06:02:50.418Z"
+}

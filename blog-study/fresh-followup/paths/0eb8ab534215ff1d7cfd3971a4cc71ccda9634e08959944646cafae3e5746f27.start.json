@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1201",
+    "text": "I do not have what is required to prove my identity",
+    "expected": "unable_to_verify_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "1d3d69983e4ddc016c790293307cd8ddd4117b6c5299b5078c37000660f78929",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "0eb8ab534215ff1d7cfd3971a4cc71ccda9634e08959944646cafae3e5746f27",
+  "at": "2026-09-22T05:55:12.608Z"
+}

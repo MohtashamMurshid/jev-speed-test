@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-855",
+    "text": "The receipient doesn't see my money transfer.",
+    "expected": "transfer_not_received_by_recipient",
+    "dataset": "banking77",
+    "normalizedSha256": "6ccad07e7de7d16dcb45dd811d0f4b80eceef7a8161de2530d8e468484f83e7c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "639968af4946ef9c3d5e0d3dcf88a96cbb453fee19ea56a6862a7e1100cab9de",
+  "at": "2026-09-22T05:53:55.587Z"
+}

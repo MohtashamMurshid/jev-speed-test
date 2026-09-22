@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2573",
+    "text": "Why was the exchange rate different when I withdrew my cash?",
+    "expected": "wrong_exchange_rate_for_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "57c632f55ce0696e5bcf08f01b2aea61ab61adc12c02b811b1ccb7f953b54b79",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "ab4026c6c5cc3fb4ab6136ec0201dd8126f3b22955c4e1e4a812385ad944c82d",
+  "at": "2026-09-22T06:02:05.298Z"
+}

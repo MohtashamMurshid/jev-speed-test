@@ -1,0 +1,12 @@
+{
+  "capturedAt": "2026-09-22T05:29:54.239655+00:00",
+  "platform": "Linux-6.17.0-1022-gcp-x86_64-with-glibc2.39",
+  "python": "3.11.15",
+  "cpuModels": [
+    "AMD EPYC 7B12"
+  ],
+  "logicalCpus": 8,
+  "node": "v22.22.3",
+  "gitBase": "13c1c43041b39f6d306a75c52bee2b8c353168a9",
+  "originalRunSha256Inventory": "Original run files independently hashed outside public tree; final check reported in audit."
+}

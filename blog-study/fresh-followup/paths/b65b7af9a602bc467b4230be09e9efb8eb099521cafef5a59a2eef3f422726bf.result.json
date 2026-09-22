@@ -1,0 +1,18 @@
+{
+  "key": "b65b7af9a602bc467b4230be09e9efb8eb099521cafef5a59a2eef3f422726bf",
+  "caseId": "test-50",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "card_linking",
+  "predicted": "card_linking",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 2736.3402060000226,
+  "timing": "measured-live-sequential",
+  "components": [
+    "b65b7af9a602bc467b4230be09e9efb8eb099521cafef5a59a2eef3f422726bf__gemini"
+  ],
+  "accountedUsd": 0.00062475
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1666",
+    "text": "Can I still use the app if I switched phones?",
+    "expected": "lost_or_stolen_phone",
+    "dataset": "banking77",
+    "normalizedSha256": "3a142e7f3962c84006a21e029885b7e43b311eee954320793a1599876a6076b9",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "3d00e7b43dd8543ad70c9813bcf02b43c7797b27472835d41939a16547579d5b",
+  "at": "2026-09-22T05:41:46.293Z"
+}

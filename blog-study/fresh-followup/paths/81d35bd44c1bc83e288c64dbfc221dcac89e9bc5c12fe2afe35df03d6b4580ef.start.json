@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2817",
+    "text": "If I use a European bank card for top up, Do I get charged?",
+    "expected": "top_up_by_card_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "b96356d46f39accf51d8292d889535e8f174d4ba25a1cf6b40b492454a893d5a",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "81d35bd44c1bc83e288c64dbfc221dcac89e9bc5c12fe2afe35df03d6b4580ef",
+  "at": "2026-09-22T06:01:41.683Z"
+}

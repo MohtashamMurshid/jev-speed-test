@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1440",
+    "text": "Do all ATMs take this card?",
+    "expected": "atm_support",
+    "dataset": "banking77",
+    "normalizedSha256": "4dfc67b1585d4da6d2ad18ffda37559b341bb8967bbb43ee05abdc47e7a5df16",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "2815f80c1947c2af7a9175fb4e02ca93f6d5f91a22931ea78135006f8ffba03e",
+  "at": "2026-09-22T05:59:39.123Z"
+}

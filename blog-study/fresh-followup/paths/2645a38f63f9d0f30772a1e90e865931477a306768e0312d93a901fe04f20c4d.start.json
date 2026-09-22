@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1556",
+    "text": "I need a new passcode.",
+    "expected": "passcode_forgotten",
+    "dataset": "banking77",
+    "normalizedSha256": "c7459159ec37d7d3c93e02ea5236bfdf0e4534a8366187d8860989c5037b79cd",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "2645a38f63f9d0f30772a1e90e865931477a306768e0312d93a901fe04f20c4d",
+  "at": "2026-09-22T05:41:14.164Z"
+}

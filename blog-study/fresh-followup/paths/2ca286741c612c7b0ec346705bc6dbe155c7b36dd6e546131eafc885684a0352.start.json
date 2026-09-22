@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-2060",
+    "text": "how long should i boil eggs",
+    "expected": null,
+    "sourceCategory": "cook_time",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "a20344d22a12295ec0d747eba5269b3c94ae6a093000c0d2b504691fbdea56c7",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "2ca286741c612c7b0ec346705bc6dbe155c7b36dd6e546131eafc885684a0352",
+  "at": "2026-09-22T06:15:52.379Z"
+}

@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-2143",
+    "text": "can i use pasta sauce instead of tomato paste",
+    "expected": null,
+    "sourceCategory": "ingredient_substitution",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "cc40c14b61998404b856d0ce22c6197d608b155c67500288143a1297fb8cfd93",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "e7772837b6d2857cacc3d6007cf2e6e38af9c1b0b464a1a3b3513e80d7306703",
+  "at": "2026-09-22T06:16:26.139Z"
+}

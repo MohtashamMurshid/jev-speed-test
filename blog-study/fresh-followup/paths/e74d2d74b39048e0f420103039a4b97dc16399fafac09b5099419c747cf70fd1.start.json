@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2914",
+    "text": "I took cash and got charged a fee",
+    "expected": "cash_withdrawal_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "66a5f70f227a822ab30ed6aac7864f66e56196b0309da48710689bde888028d3",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "e74d2d74b39048e0f420103039a4b97dc16399fafac09b5099419c747cf70fd1",
+  "at": "2026-09-22T05:55:31.532Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2051",
+    "text": "When will a transfer reach my account?",
+    "expected": "transfer_timing",
+    "dataset": "banking77",
+    "normalizedSha256": "9b0e05e2ce992a6344922633b5a2df8d1644047959276b65ccde96a0a016e10b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "517f659383fffcbfbba9d727d331aa4074063128653769b1a65e087ba1532568",
+  "at": "2026-09-22T05:44:39.968Z"
+}

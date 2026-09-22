@@ -1,0 +1,18 @@
+{
+  "key": "3d63687d44744543f8c13c8d8edae578548d7074e570cbb7bbf46793be549730",
+  "caseId": "test-701",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "cancel_transfer",
+  "predicted": "cancel_transfer",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": false,
+  "latencyMs": 1912.0202209998388,
+  "timing": "measured-live-sequential",
+  "components": [
+    "3d63687d44744543f8c13c8d8edae578548d7074e570cbb7bbf46793be549730__gemini"
+  ],
+  "accountedUsd": 0.0006105
+}

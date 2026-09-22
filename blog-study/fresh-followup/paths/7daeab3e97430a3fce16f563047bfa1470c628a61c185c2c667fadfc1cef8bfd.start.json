@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-901",
+    "text": "Which forms of currency are accepted?",
+    "expected": "supported_cards_and_currencies",
+    "dataset": "banking77",
+    "normalizedSha256": "15bbde1ac11b5e0a1384a324be4992a94c8c78f546c1ef81a1c3eee495207c65",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "7daeab3e97430a3fce16f563047bfa1470c628a61c185c2c667fadfc1cef8bfd",
+  "at": "2026-09-22T06:02:44.312Z"
+}

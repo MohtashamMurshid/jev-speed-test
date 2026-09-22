@@ -1,0 +1,18 @@
+{
+  "key": "b1517defdc8c2065734c0d49791692407cbb35c2125c7599b98f98a23adceedd",
+  "caseId": "test-1680",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "request_refund",
+  "predicted": "request_refund",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 1436.4409580000065,
+  "timing": "measured-live-sequential",
+  "components": [
+    "b1517defdc8c2065734c0d49791692407cbb35c2125c7599b98f98a23adceedd__gemini"
+  ],
+  "accountedUsd": 0.00064575
+}

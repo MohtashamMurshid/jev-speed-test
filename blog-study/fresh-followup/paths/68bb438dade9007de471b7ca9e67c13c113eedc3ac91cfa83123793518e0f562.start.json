@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-796",
+    "text": "Why did I get less money than I asked for?",
+    "expected": "wrong_amount_of_cash_received",
+    "dataset": "banking77",
+    "normalizedSha256": "18e1a16db019f7265221fe97531a5972ce3226d5b5a7a9ff5b5d9add01886534",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "68bb438dade9007de471b7ca9e67c13c113eedc3ac91cfa83123793518e0f562",
+  "at": "2026-09-22T06:02:01.907Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2592",
+    "text": "The see the rate applied to my transaction was wrong at the atm.",
+    "expected": "wrong_exchange_rate_for_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "9c8ab11f8446c8d5bdc13276c8a37b3dbcb8048f4a6e1f63e1ca13f33638e437",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "39f41bcd534f4b63dcf4c66a5a5165b84f5417628fe8403e2a6425b8faf115c2",
+  "at": "2026-09-22T05:40:32.235Z"
+}

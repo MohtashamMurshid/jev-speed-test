@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1434",
+    "text": "I think my child used my card while I wasn't home.",
+    "expected": "compromised_card",
+    "dataset": "banking77",
+    "normalizedSha256": "b43d481692de7db10ef9067ccf6e85378f2b6e573e02476d541dd44adbe33866",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "b837b764e95737fc794ee8a95ca11bbead6b6c985f62e1258d7b372065fe82ea",
+  "at": "2026-09-22T06:00:13.393Z"
+}

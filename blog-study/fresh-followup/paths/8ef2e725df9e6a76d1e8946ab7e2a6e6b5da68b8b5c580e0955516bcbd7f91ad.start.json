@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2178",
+    "text": "Why wasn't I able to transfer to another account?",
+    "expected": "beneficiary_not_allowed",
+    "dataset": "banking77",
+    "normalizedSha256": "6deb3f67a8276627a99689ab043624892068afc9b5f2e24edc831a20fce55a29",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "8ef2e725df9e6a76d1e8946ab7e2a6e6b5da68b8b5c580e0955516bcbd7f91ad",
+  "at": "2026-09-22T06:02:46.669Z"
+}

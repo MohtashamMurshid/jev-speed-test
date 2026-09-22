@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2168",
+    "text": "Hey I want to buy some crypto but the app doesn't allow me to! What's the issue, I really want to exchange this",
+    "expected": "beneficiary_not_allowed",
+    "dataset": "banking77",
+    "normalizedSha256": "51f3a1f1fc6ab8a7fe0996c4e7dda1bcbadadb08b28285de0cb754a653132c76",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "dbca7ddc914a63bebcf17b054a5ee5b45a19e711ef3ea433215d2fe6bfef9b6a",
+  "at": "2026-09-22T05:44:51.772Z"
+}

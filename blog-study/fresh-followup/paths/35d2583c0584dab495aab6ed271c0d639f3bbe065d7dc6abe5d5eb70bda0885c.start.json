@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-618",
+    "text": "What are the fees for top-ups?",
+    "expected": "top_up_by_bank_transfer_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "eef4a242e4f6f21ca7ee7dbf260a9db5cb9333e849d6d6ead1c48718001a7e5f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "35d2583c0584dab495aab6ed271c0d639f3bbe065d7dc6abe5d5eb70bda0885c",
+  "at": "2026-09-22T06:04:31.053Z"
+}

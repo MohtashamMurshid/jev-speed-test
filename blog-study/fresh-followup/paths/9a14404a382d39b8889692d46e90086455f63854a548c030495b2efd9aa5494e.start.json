@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1546",
+    "text": "I forgot my code to get into the app.",
+    "expected": "passcode_forgotten",
+    "dataset": "banking77",
+    "normalizedSha256": "f083b09aaa9f1759a808619027aec3b461f6fa2bf93be0248e16d27e06c5c150",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "9a14404a382d39b8889692d46e90086455f63854a548c030495b2efd9aa5494e",
+  "at": "2026-09-22T05:44:10.916Z"
+}

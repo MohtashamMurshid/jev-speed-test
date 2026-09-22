@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2865",
+    "text": "When will my card be activated?",
+    "expected": "activate_my_card",
+    "dataset": "banking77",
+    "normalizedSha256": "6ce94163a34db1ac55183fbe47c0166c5d9287c05e82fa2dc47a0a2e4a798d82",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "e621ee4c2a009c8b53a401687cd61befd5efc03140cd09d2bc8abc945f3bd3cc",
+  "at": "2026-09-22T05:42:24.520Z"
+}

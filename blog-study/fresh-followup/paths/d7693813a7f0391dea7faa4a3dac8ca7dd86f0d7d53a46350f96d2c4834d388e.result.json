@@ -1,0 +1,19 @@
+{
+  "key": "d7693813a7f0391dea7faa4a3dac8ca7dd86f0d7d53a46350f96d2c4834d388e",
+  "caseId": "test-1849",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "pending_transfer",
+  "predicted": "pending_transfer",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 1836.914218999911,
+  "timing": "measured-live-sequential",
+  "components": [
+    "d7693813a7f0391dea7faa4a3dac8ca7dd86f0d7d53a46350f96d2c4834d388e__jev",
+    "d7693813a7f0391dea7faa4a3dac8ca7dd86f0d7d53a46350f96d2c4834d388e__gemini"
+  ],
+  "accountedUsd": 0.000711666
+}

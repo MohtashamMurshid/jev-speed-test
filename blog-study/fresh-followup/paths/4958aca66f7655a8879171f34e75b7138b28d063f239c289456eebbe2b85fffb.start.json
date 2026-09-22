@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-181",
+    "text": "I got a extra €1 fee in my statement",
+    "expected": "extra_charge_on_statement",
+    "dataset": "banking77",
+    "normalizedSha256": "46da7d56b5c94ae30ac63ecc0f366b0b15b1f29ea19139fb9750edbc69fc7131",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "4958aca66f7655a8879171f34e75b7138b28d063f239c289456eebbe2b85fffb",
+  "at": "2026-09-22T06:08:04.267Z"
+}

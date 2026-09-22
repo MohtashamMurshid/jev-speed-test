@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1431",
+    "text": "If I feel someone has my card information, can I get a new card?",
+    "expected": "compromised_card",
+    "dataset": "banking77",
+    "normalizedSha256": "0adcf76f1d3b5367fdd05245e07402f8f4b001c8c34a7fe9ba3d661cef51200c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "7b650bdf6867ba2119ff0e06c8b7535f88efd1a71d1ef1af59d906e4a0792d9b",
+  "at": "2026-09-22T05:55:57.008Z"
+}

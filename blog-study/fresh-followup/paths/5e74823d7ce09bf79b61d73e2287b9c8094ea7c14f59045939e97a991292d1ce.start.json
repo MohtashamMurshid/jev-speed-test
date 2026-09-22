@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3931",
+    "text": "play the song called wreckless love",
+    "expected": null,
+    "sourceCategory": "play_music",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "04907429f5c64684f5114cbadcf47cd283de18b84a76b49860b92dd518399d2b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "5e74823d7ce09bf79b61d73e2287b9c8094ea7c14f59045939e97a991292d1ce",
+  "at": "2026-09-22T06:15:22.541Z"
+}

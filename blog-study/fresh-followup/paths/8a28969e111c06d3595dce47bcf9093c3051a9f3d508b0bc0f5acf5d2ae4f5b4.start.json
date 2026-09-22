@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-727",
+    "text": "what is the top up limit",
+    "expected": "top_up_limits",
+    "dataset": "banking77",
+    "normalizedSha256": "92e59db969375fee47a24398dd2878af802a14da1c6cda2bf12b3eb043f8781a",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "8a28969e111c06d3595dce47bcf9093c3051a9f3d508b0bc0f5acf5d2ae4f5b4",
+  "at": "2026-09-22T06:05:04.175Z"
+}

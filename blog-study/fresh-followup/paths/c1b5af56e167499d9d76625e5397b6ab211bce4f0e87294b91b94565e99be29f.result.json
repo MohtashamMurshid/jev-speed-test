@@ -1,0 +1,19 @@
+{
+  "key": "c1b5af56e167499d9d76625e5397b6ab211bce4f0e87294b91b94565e99be29f",
+  "caseId": "test-2955",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "card_about_to_expire",
+  "predicted": "card_about_to_expire",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": false,
+  "latencyMs": 2072.790508999955,
+  "timing": "measured-live-sequential",
+  "components": [
+    "c1b5af56e167499d9d76625e5397b6ab211bce4f0e87294b91b94565e99be29f__jev",
+    "c1b5af56e167499d9d76625e5397b6ab211bce4f0e87294b91b94565e99be29f__gemini"
+  ],
+  "accountedUsd": 0.000706164
+}

@@ -1,0 +1,9 @@
+{
+  "training_n": 9742,
+  "training_overlap_with_official_test_and_original_development_calibration": 0,
+  "independently_selected_cutoff": 0.25,
+  "calibration_accepted": 127,
+  "calibration_accepted_errors": 5,
+  "banking_correct": 425,
+  "banking_n": 500
+}

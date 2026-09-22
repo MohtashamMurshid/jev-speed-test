@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-999",
+    "text": "skip to next track",
+    "expected": null,
+    "sourceCategory": "next_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "e62b35a173eaa25a2877f601b16d2d9191bf3078e3c6ce45ba1b8d91d0172487",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "5f92d3ca54387865bf9519aaa234325cec787a82c9e664d8dc5c3c52e829447b",
+  "at": "2026-09-22T06:10:46.474Z"
+}

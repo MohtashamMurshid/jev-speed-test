@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-4150",
+    "text": "tell me a joke about the subject of sailing",
+    "expected": null,
+    "sourceCategory": "tell_joke",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "541383d799eeee6b89a6e1aa665c4a0bdd7ea25ebb9cecc3bee7675c8569f9c8",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "81c5aaeb822a34e3dcfc7c3dbca05fbec3b426d15a2a025918742d216155e381",
+  "at": "2026-09-22T06:14:44.708Z"
+}

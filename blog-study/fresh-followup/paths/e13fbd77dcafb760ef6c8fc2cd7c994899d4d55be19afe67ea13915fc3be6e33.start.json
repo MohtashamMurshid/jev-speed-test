@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1681",
+    "text": "Can I receive a refund for my item?",
+    "expected": "request_refund",
+    "dataset": "banking77",
+    "normalizedSha256": "b1695e44a8e0387c58e158ace5c26c28928b2e893518bace93876cd20f4a9b64",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "e13fbd77dcafb760ef6c8fc2cd7c994899d4d55be19afe67ea13915fc3be6e33",
+  "at": "2026-09-22T05:54:00.454Z"
+}

@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-4336",
+    "text": "can you get me recipes for eggs please",
+    "expected": null,
+    "sourceCategory": "recipe",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "8fe5c343efc35346ceb0a82dae549112f984ebb0c95132a9d6dd010ecbda7248",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "08c750a78f31ab855b5a3f48fa5dfd3b2f2484ddda2ca099da954210a2ba9142",
+  "at": "2026-09-22T06:10:38.569Z"
+}

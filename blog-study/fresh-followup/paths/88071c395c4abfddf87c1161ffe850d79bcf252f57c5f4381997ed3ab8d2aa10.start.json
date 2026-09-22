@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1977",
+    "text": "I see what looks like duplicate charges on account.",
+    "expected": "transaction_charged_twice",
+    "dataset": "banking77",
+    "normalizedSha256": "fcff787b3f95291635f4de4112fca0c20771dc67a253fbcb6e34617ca3cd05a2",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "88071c395c4abfddf87c1161ffe850d79bcf252f57c5f4381997ed3ab8d2aa10",
+  "at": "2026-09-22T06:01:25.847Z"
+}

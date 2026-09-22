@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2127",
+    "text": "I would like to change my card PIN.",
+    "expected": "change_pin",
+    "dataset": "banking77",
+    "normalizedSha256": "672dc1726549cfb59855edca52ca3bc15a326d8fbfefe4cada52260c15f28b75",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "b959f9f46285d840ec7709aaa512aa360888ba9f4b57c48d59bd5c782769fe4a",
+  "at": "2026-09-22T06:02:32.928Z"
+}

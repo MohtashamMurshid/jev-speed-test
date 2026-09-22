@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2703",
+    "text": "Why don't I have my transfer?",
+    "expected": "balance_not_updated_after_bank_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "fa1d809930daa99369fb9ddcd21ee50f22c3487cb5251569044b4d4a2d35ec1c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "2ede023808988a10c4a10a29d56322ac51e4d3c633d782e2b60e9f158ee27c1c",
+  "at": "2026-09-22T05:40:16.304Z"
+}

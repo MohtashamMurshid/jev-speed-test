@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-94",
+    "text": "What is the exchange rate like on this app?",
+    "expected": "exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "cf6e4ced6d480c3de4368c2bace1f1272ed188232704988fabaab7c6d35b5058",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "f6aa599d24fcba8bbb9abda10d57c69639f1feb37d525b85f8f89ddb5b892a1c",
+  "at": "2026-09-22T05:46:12.031Z"
+}

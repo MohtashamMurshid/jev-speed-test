@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-46",
+    "text": "How do I re-add a card to the app?",
+    "expected": "card_linking",
+    "dataset": "banking77",
+    "normalizedSha256": "377d996f56157718b7109be7e96ef97ee5acfe7cd87f423239657c82e8a57361",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "3b86dae0ed899b72e95212e71d2641ebd72f50794adef19f36daee4adc74ceb1",
+  "at": "2026-09-22T06:06:15.762Z"
+}

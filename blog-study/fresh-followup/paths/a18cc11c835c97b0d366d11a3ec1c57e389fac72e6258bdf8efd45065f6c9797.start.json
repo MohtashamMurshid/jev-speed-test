@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-496",
+    "text": "Can I open a bank account for my newborn baby?",
+    "expected": "age_limit",
+    "dataset": "banking77",
+    "normalizedSha256": "cb0a3992d76a3974fd2d70ec55a4b76a6d340f4207aa7ee04a7ac888c93150c0",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "a18cc11c835c97b0d366d11a3ec1c57e389fac72e6258bdf8efd45065f6c9797",
+  "at": "2026-09-22T05:58:19.525Z"
+}

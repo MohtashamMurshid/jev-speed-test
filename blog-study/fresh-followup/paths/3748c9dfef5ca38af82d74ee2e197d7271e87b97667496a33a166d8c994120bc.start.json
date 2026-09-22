@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-949",
+    "text": "I thought I was going to get a virtual card but I haven't received it yet, how can we resolve this?",
+    "expected": "getting_virtual_card",
+    "dataset": "banking77",
+    "normalizedSha256": "fb28d8e4853410df66fa364ee0176b651557446a36c85d8131e6ccb7163c5f47",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "3748c9dfef5ca38af82d74ee2e197d7271e87b97667496a33a166d8c994120bc",
+  "at": "2026-09-22T05:44:56.889Z"
+}

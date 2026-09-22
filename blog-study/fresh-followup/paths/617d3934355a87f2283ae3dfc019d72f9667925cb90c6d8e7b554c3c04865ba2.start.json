@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2578",
+    "text": "In receiving cash, the wrong exchange rate was used for my transaction.",
+    "expected": "wrong_exchange_rate_for_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "9e857b854630807f9aeff242ab990a927c721f3530168a8a09e31672b50ca88c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "617d3934355a87f2283ae3dfc019d72f9667925cb90c6d8e7b554c3c04865ba2",
+  "at": "2026-09-22T06:05:21.498Z"
+}

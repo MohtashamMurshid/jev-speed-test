@@ -1,0 +1,19 @@
+{
+  "key": "9251721fba9e11996700674bb79bd7e8f7faf7ede02440a50c442629e62f3a5a",
+  "caseId": "test-2713",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "balance_not_updated_after_bank_transfer",
+  "predicted": "transfer_into_account",
+  "status": "ok",
+  "correct": false,
+  "jevAccepted": false,
+  "safetyAccepted": false,
+  "latencyMs": 1800.6227479999652,
+  "timing": "measured-live-sequential",
+  "components": [
+    "9251721fba9e11996700674bb79bd7e8f7faf7ede02440a50c442629e62f3a5a__jev",
+    "9251721fba9e11996700674bb79bd7e8f7faf7ede02440a50c442629e62f3a5a__gemini"
+  ],
+  "accountedUsd": 0.000692118
+}

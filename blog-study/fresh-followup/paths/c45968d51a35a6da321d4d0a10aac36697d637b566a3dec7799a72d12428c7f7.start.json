@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-97",
+    "text": "Will I get a curreng foreign exchange rate?",
+    "expected": "exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "9c1b4feda4951188f7e39c152e0ef85610d6a1437451bc8d682ef96e18713f2b",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "c45968d51a35a6da321d4d0a10aac36697d637b566a3dec7799a72d12428c7f7",
+  "at": "2026-09-22T05:39:49.106Z"
+}

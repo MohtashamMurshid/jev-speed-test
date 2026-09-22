@@ -1,0 +1,18 @@
+{
+  "key": "f00c0250de5de9d2e62cef50d2137b74ba965b8904e505d2d42ba4c9aee43c07",
+  "caseId": "test-2479",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "top_up_by_cash_or_cheque",
+  "predicted": "top_up_by_cash_or_cheque",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 1551.285547999898,
+  "timing": "measured-live-sequential",
+  "components": [
+    "f00c0250de5de9d2e62cef50d2137b74ba965b8904e505d2d42ba4c9aee43c07__gemini"
+  ],
+  "accountedUsd": 0.00060375
+}

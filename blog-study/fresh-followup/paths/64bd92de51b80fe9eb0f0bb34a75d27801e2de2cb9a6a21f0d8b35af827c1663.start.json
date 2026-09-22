@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3940",
+    "text": "the song that goes, \"starships were meant to fly\", play it",
+    "expected": null,
+    "sourceCategory": "play_music",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "6804ebac19dff111118ab9d36b71192527655cd50f975d1377c37ecba9eb0dfa",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "64bd92de51b80fe9eb0f0bb34a75d27801e2de2cb9a6a21f0d8b35af827c1663",
+  "at": "2026-09-22T06:09:30.995Z"
+}

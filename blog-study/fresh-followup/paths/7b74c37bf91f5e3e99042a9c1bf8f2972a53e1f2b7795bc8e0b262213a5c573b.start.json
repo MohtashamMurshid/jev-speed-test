@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1072",
+    "text": "I sent a cheque  a few days ago and nothing has happened to my account yet. Can you please check on this for me?",
+    "expected": "balance_not_updated_after_cheque_or_cash_deposit",
+    "dataset": "banking77",
+    "normalizedSha256": "8c7caf5b508b0aa3f32d0f1a5043eb7571959463fee82dfa2fabbd2d21a10f9e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "7b74c37bf91f5e3e99042a9c1bf8f2972a53e1f2b7795bc8e0b262213a5c573b",
+  "at": "2026-09-22T06:02:08.920Z"
+}

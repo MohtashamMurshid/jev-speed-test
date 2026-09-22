@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2613",
+    "text": "how secure is a disposable virtual card",
+    "expected": "get_disposable_virtual_card",
+    "dataset": "banking77",
+    "normalizedSha256": "34c9b55715c67027d57c6c6713a3c17f30d02f83890e4d97264d4f4478d05651",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "9523f543cc61f8cc1e8877d0606ac126cf5528068129a5dbfea3f277f3deba9f",
+  "at": "2026-09-22T05:43:24.406Z"
+}

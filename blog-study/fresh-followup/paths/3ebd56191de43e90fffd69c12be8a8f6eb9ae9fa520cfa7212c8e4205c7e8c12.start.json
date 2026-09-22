@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1288",
+    "text": "How to decide if I get a Visa or Mastercard?",
+    "expected": "visa_or_mastercard",
+    "dataset": "banking77",
+    "normalizedSha256": "882034e3c06e7d66fc39629730923be114a8eaa54203d8f157c05c791893a12a",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "3ebd56191de43e90fffd69c12be8a8f6eb9ae9fa520cfa7212c8e4205c7e8c12",
+  "at": "2026-09-22T05:50:01.502Z"
+}

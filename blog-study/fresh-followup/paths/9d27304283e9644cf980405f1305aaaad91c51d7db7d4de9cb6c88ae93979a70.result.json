@@ -1,0 +1,18 @@
+{
+  "key": "9d27304283e9644cf980405f1305aaaad91c51d7db7d4de9cb6c88ae93979a70",
+  "caseId": "test-2168",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "beneficiary_not_allowed",
+  "predicted": "exchange_via_app",
+  "status": "ok",
+  "correct": false,
+  "jevAccepted": false,
+  "safetyAccepted": false,
+  "latencyMs": 1533.608688999957,
+  "timing": "measured-live-sequential",
+  "components": [
+    "9d27304283e9644cf980405f1305aaaad91c51d7db7d4de9cb6c88ae93979a70__gemini"
+  ],
+  "accountedUsd": 0.00064425
+}

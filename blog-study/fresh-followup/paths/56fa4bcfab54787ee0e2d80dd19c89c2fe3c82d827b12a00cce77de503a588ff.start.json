@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1354",
+    "text": "Who can top up my accounts?",
+    "expected": "topping_up_by_card",
+    "dataset": "banking77",
+    "normalizedSha256": "08c268dd3873c050d1a188973370b468c5afdfed224d2d3cd038f0b914e24af1",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "56fa4bcfab54787ee0e2d80dd19c89c2fe3c82d827b12a00cce77de503a588ff",
+  "at": "2026-09-22T05:52:37.463Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-781",
+    "text": "I asked for $100 cash but only got $20?",
+    "expected": "wrong_amount_of_cash_received",
+    "dataset": "banking77",
+    "normalizedSha256": "9be44f8acabfeee58920ea8ae354697041d7fd4bbfb68903e0defa061933f7ce",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "afdd0009851f5314223dd03f88a1232d2799c42fc7d3661418466be909223b48",
+  "at": "2026-09-22T05:59:24.033Z"
+}

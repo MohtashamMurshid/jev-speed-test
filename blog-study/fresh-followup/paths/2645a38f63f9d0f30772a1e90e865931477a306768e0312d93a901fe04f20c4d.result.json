@@ -1,0 +1,18 @@
+{
+  "key": "2645a38f63f9d0f30772a1e90e865931477a306768e0312d93a901fe04f20c4d",
+  "caseId": "test-1556",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "passcode_forgotten",
+  "predicted": "passcode_forgotten",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 2177.1042000000016,
+  "timing": "measured-live-sequential",
+  "components": [
+    "2645a38f63f9d0f30772a1e90e865931477a306768e0312d93a901fe04f20c4d__gemini"
+  ],
+  "accountedUsd": 0.001047
+}

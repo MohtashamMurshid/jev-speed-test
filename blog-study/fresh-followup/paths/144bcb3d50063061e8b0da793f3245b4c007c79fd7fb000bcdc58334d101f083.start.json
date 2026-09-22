@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1436",
+    "text": "I think someone copied the numbers on my card and is using them.",
+    "expected": "compromised_card",
+    "dataset": "banking77",
+    "normalizedSha256": "4ef29de4dee0b94a1539016004bb38eea0d5bcac5409863482e74a1bb6567623",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "144bcb3d50063061e8b0da793f3245b4c007c79fd7fb000bcdc58334d101f083",
+  "at": "2026-09-22T05:42:15.443Z"
+}

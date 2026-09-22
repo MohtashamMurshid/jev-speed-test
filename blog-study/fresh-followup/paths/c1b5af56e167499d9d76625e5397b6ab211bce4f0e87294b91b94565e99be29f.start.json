@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2955",
+    "text": "What would the price be for an expired card replacement and how long will it take me to get it?",
+    "expected": "card_about_to_expire",
+    "dataset": "banking77",
+    "normalizedSha256": "ba5f53367e6fb9744e94426907e725db7c81cd02c15c2d973e35a77692af68d9",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "c1b5af56e167499d9d76625e5397b6ab211bce4f0e87294b91b94565e99be29f",
+  "at": "2026-09-22T06:01:04.506Z"
+}

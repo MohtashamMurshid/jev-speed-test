@@ -1,0 +1,18 @@
+{
+  "key": "ef1904f2f9bcefa4aa12f17477cf599a9cba46ff860a111fc0bf9b3e60bca2ea",
+  "caseId": "test-1640",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "lost_or_stolen_phone",
+  "predicted": "lost_or_stolen_phone",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 1387.9692930000601,
+  "timing": "measured-live-sequential",
+  "components": [
+    "ef1904f2f9bcefa4aa12f17477cf599a9cba46ff860a111fc0bf9b3e60bca2ea__gemini"
+  ],
+  "accountedUsd": 0.00062175
+}

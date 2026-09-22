@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1368",
+    "text": "How many disposable cards can I have?",
+    "expected": "disposable_card_limits",
+    "dataset": "banking77",
+    "normalizedSha256": "bbd78a4e2e26a8e6cf2f88559d67a627a0ccec9ed0f570388d78f4ff5838c7ea",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "882ed6e209fe9de353251eeda0da4cf4d1fdfd5ce59a75994f7fb9246871a63f",
+  "at": "2026-09-22T05:54:06.037Z"
+}

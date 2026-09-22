@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1047",
+    "text": "When will I see the cash I deposited this morning as available?",
+    "expected": "balance_not_updated_after_cheque_or_cash_deposit",
+    "dataset": "banking77",
+    "normalizedSha256": "329d673da8c6954b48f98ebe535f2f2d1a644343db9b57d88bee370eefcd65b8",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "9fbeb2924c66a5a21986333ebe5c52f5c64c815bcf35949282d47dc0dc4a2db8",
+  "at": "2026-09-22T05:51:43.223Z"
+}

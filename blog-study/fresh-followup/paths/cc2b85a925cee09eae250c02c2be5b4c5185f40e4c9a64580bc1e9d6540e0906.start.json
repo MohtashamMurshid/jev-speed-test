@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1965",
+    "text": "Why was I chaged twice for the same thing?",
+    "expected": "transaction_charged_twice",
+    "dataset": "banking77",
+    "normalizedSha256": "02e6edf4a474ba4b6cd9e8f509422f4db01b939538e6f77f986cb31232e49299",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "cc2b85a925cee09eae250c02c2be5b4c5185f40e4c9a64580bc1e9d6540e0906",
+  "at": "2026-09-22T05:52:20.298Z"
+}

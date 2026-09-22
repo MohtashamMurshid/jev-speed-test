@@ -1,0 +1,18 @@
+{
+  "key": "356734be4cc2e7fb9705146148629567363e83542e44abd65e1682780a74a403",
+  "caseId": "clinc-test-2061",
+  "cohort": "oos",
+  "path": "baseline",
+  "expected": null,
+  "predicted": "transfer_timing",
+  "status": "ok",
+  "correct": false,
+  "jevAccepted": false,
+  "safetyAccepted": false,
+  "latencyMs": 1977.5427859998308,
+  "timing": "measured-live-sequential",
+  "components": [
+    "356734be4cc2e7fb9705146148629567363e83542e44abd65e1682780a74a403__gemini"
+  ],
+  "accountedUsd": 0.0011565
+}

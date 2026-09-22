@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-634",
+    "text": "Will I be charged a fee if I receive a SEPA transfer",
+    "expected": "top_up_by_bank_transfer_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "071b6fb79577873db729975120299a5226a3295a4cc13b0e3a5a06b0d598a14e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "acf8bd5e6b12f0f4850931fd63c0d4e0753766babc178d363af8aeca9eef46a4",
+  "at": "2026-09-22T05:44:45.677Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-979",
+    "text": "I am traveling to Germany, Will I be able to use my card there?",
+    "expected": "card_acceptance",
+    "dataset": "banking77",
+    "normalizedSha256": "b54b3babd56eadbac7c87f56539dd9b493fab4a68fa74dcbdd29e612bb6e1aa8",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "1212f6e3d46af1212f2330e7dbe0664564613bddebe20af6ddbb0a5818858c6f",
+  "at": "2026-09-22T05:46:46.494Z"
+}

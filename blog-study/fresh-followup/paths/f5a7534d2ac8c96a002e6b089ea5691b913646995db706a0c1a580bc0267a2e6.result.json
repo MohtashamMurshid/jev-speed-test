@@ -1,0 +1,18 @@
+{
+  "key": "f5a7534d2ac8c96a002e6b089ea5691b913646995db706a0c1a580bc0267a2e6",
+  "caseId": "clinc-test-993",
+  "cohort": "oos",
+  "path": "baseline",
+  "expected": null,
+  "predicted": "apple_pay_or_google_pay",
+  "status": "ok",
+  "correct": false,
+  "jevAccepted": false,
+  "safetyAccepted": false,
+  "latencyMs": 3435.909023999702,
+  "timing": "measured-live-sequential",
+  "components": [
+    "f5a7534d2ac8c96a002e6b089ea5691b913646995db706a0c1a580bc0267a2e6__gemini"
+  ],
+  "accountedUsd": 0.0015315
+}

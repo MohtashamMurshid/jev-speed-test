@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-2045",
+    "text": "what's the preparation time for this dish",
+    "expected": null,
+    "sourceCategory": "cook_time",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "f1588939a48b02c07e4cf5785d22eb7dfe33499191b716dee32667fb4e7f71b0",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "6e086690101c2166ab30bcf71ac75906d67281dfc8c43c00c94eaceb86e92593",
+  "at": "2026-09-22T06:15:20.882Z"
+}

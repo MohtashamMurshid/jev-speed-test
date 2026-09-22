@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1578",
+    "text": "What are some reasons that would cause ATM machines to decline my card? It has happened to me multiple times!",
+    "expected": "declined_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "cb4702d74b8df3445669c8371e14811074113ccee6ecc2e2aa5c08fe9b5ead0f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "eb9323d5b0147da537d4d19baab58f09bfda233b22fa6c13ee0827bcf623728b",
+  "at": "2026-09-22T06:03:01.262Z"
+}

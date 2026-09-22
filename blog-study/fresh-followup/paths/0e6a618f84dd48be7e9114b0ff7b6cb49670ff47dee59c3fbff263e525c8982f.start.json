@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2458",
+    "text": "What locations can I top up with cash?",
+    "expected": "top_up_by_cash_or_cheque",
+    "dataset": "banking77",
+    "normalizedSha256": "3d4c26886f0fb355c202c2b0c71c835c5081def3653cb1879b17dd49c11c966c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "0e6a618f84dd48be7e9114b0ff7b6cb49670ff47dee59c3fbff263e525c8982f",
+  "at": "2026-09-22T05:51:30.515Z"
+}

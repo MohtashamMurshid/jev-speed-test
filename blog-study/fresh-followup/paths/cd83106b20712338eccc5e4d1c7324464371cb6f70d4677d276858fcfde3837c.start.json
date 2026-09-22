@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1512",
+    "text": "I am concerned about the security in my account and would like to make a dispute.",
+    "expected": "direct_debit_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "ff5affc54dc65e635579f393977eec83c18ac1ec66dea86ab18457dffccedb1e",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "cd83106b20712338eccc5e4d1c7324464371cb6f70d4677d276858fcfde3837c",
+  "at": "2026-09-22T05:50:23.273Z"
+}

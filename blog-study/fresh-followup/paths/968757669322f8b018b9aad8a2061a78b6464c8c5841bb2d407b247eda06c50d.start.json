@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1492",
+    "text": "Even though it's late, I wanted to see about disputing a charge. I was just looking through my transactions over the past couple of months and noticed a pretty large amount that was not completed by me. Is this possibly something I can still do.",
+    "expected": "direct_debit_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "ca26216e96c8ad156269a00dafef30de2f86b8118891245034df067a7c63be82",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "968757669322f8b018b9aad8a2061a78b6464c8c5841bb2d407b247eda06c50d",
+  "at": "2026-09-22T05:59:14.630Z"
+}

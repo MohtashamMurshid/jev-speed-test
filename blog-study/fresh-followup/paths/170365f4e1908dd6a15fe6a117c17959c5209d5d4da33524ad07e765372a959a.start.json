@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-911",
+    "text": "What cards to do you support to top up.",
+    "expected": "supported_cards_and_currencies",
+    "dataset": "banking77",
+    "normalizedSha256": "ef5d009e7cdca4e48fb5fd0cc0de3768a99716a357a12870d8aea42bcfdff0d4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "170365f4e1908dd6a15fe6a117c17959c5209d5d4da33524ad07e765372a959a",
+  "at": "2026-09-22T05:53:06.224Z"
+}

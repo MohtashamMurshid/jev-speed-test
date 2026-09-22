@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-788",
+    "text": "The ATM gave me less cash than I requested",
+    "expected": "wrong_amount_of_cash_received",
+    "dataset": "banking77",
+    "normalizedSha256": "42ecb1bc2b845c69c8647583710c3f555e15ce18a932a1177aaf8207a4f4936a",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "9b0a677ed6949f02a895dcda582ac55e53467618d01377f100ec10dc33c7b144",
+  "at": "2026-09-22T05:40:40.115Z"
+}

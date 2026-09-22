@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1706",
+    "text": "Hello I changed my mind and really need a refund on one of things I bought recently. Can you please cancel the transaction and get my money back. Please it's urgent.",
+    "expected": "request_refund",
+    "dataset": "banking77",
+    "normalizedSha256": "2bc34cd659785667350c999b3ed85a339da79fbde5c007a5e25ddd9eef78925b",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "acd6da44f843d45f79ef2eff8a6efbf7c956cee315361548cb9dee78402ecfd6",
+  "at": "2026-09-22T05:50:30.431Z"
+}

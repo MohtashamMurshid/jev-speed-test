@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-330",
+    "text": "Where can I find the \"auto-top\" feature?",
+    "expected": "automatic_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "20f711b85e9da80eb966d286111b8f66a1d910ab88a25b9a72cd46f66ffe313c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "1ed8e78710c57906ed2bf3d41ff6299a32929bbb979f97da7c6ddd40a6fd321a",
+  "at": "2026-09-22T05:42:54.726Z"
+}

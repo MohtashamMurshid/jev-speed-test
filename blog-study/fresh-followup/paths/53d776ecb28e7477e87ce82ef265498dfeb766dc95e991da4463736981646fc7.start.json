@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2437",
+    "text": "My daughter needs a card. Can I give her one of mine that's linked to my account?",
+    "expected": "getting_spare_card",
+    "dataset": "banking77",
+    "normalizedSha256": "b7e68e1ea78bdbc1d7b836b9b70bbbc92d99038972b63932fa9c8bfa6c8fdec2",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "53d776ecb28e7477e87ce82ef265498dfeb766dc95e991da4463736981646fc7",
+  "at": "2026-09-22T06:05:24.714Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-519",
+    "text": "How old does one have to be to have an account with the bank?",
+    "expected": "age_limit",
+    "dataset": "banking77",
+    "normalizedSha256": "1ee6ecfa18d229de7398849cc24b9a212db0df8312e51d19ce253f712260eada",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "38d642a16bf017e301203a67bdbb5a6e56b51edf62642f602a2a72b1cf819ae9",
+  "at": "2026-09-22T06:01:47.079Z"
+}

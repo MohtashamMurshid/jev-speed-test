@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1676",
+    "text": "I can't find my phone but it has all my credit card information.",
+    "expected": "lost_or_stolen_phone",
+    "dataset": "banking77",
+    "normalizedSha256": "9b9acb4151d55cf587ce2d4013cf2ca514455652fd4b1531db566f4063aeb8af",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "71f56be19eb24ba188a99eebf46bcb904efc2e9fbdaf0147dc90e4ad1aca77da",
+  "at": "2026-09-22T05:49:07.858Z"
+}

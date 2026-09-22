@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2085",
+    "text": "I made a payment but the app reverted the payment.",
+    "expected": "reverted_card_payment?",
+    "dataset": "banking77",
+    "normalizedSha256": "090740f5b1ca00e2daedcfaaf4c55487f28df47e311adac0e5b3a7ad0909a4b9",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "e5de32e16ee0fdede7dab977db89924b7465cae3b23c64f1b9e658e980afdc54",
+  "at": "2026-09-22T05:43:33.212Z"
+}

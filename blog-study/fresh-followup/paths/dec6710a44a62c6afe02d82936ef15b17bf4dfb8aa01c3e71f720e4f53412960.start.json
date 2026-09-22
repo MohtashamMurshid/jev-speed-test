@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-909",
+    "text": "I just have one other card from the US. Is that okay?",
+    "expected": "supported_cards_and_currencies",
+    "dataset": "banking77",
+    "normalizedSha256": "d4033205e0f41302a1adfe88eb07ba325fff6a715a8f006c7c40f44895a1c35f",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "dec6710a44a62c6afe02d82936ef15b17bf4dfb8aa01c3e71f720e4f53412960",
+  "at": "2026-09-22T05:59:55.838Z"
+}

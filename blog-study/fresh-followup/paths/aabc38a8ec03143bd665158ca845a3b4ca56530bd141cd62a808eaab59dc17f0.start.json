@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-3050",
+    "text": "Can I get a card despite the fact I'm not in the UK?",
+    "expected": "country_support",
+    "dataset": "banking77",
+    "normalizedSha256": "02b680dc9e573eee9df66febbefa4de0d92402618db9c979f16e5576de77e91a",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "aabc38a8ec03143bd665158ca845a3b4ca56530bd141cd62a808eaab59dc17f0",
+  "at": "2026-09-22T05:46:19.128Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2700",
+    "text": "I made a transfer and it doesnt' show up in my account.",
+    "expected": "balance_not_updated_after_bank_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "18e3bfd03b50c0cfae53fa26916470fb186422216e2e5f20752f68af9c3ac8da",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "3d4eea4313e0b8ee157a476159ff474ff707630c611fa47f6ee46cbfb6b41425",
+  "at": "2026-09-22T06:05:32.469Z"
+}

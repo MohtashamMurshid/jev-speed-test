@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2212",
+    "text": "Do charge fees for transfers?",
+    "expected": "transfer_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "497c0ba8d6c4f51e51be3e01c591ec8da9140b8c14bb5fbd77e19e4d23441814",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "825c4099198db5f49e0b7d3a5ca4c3cb4369029884501ca063de4afb27f4265d",
+  "at": "2026-09-22T05:45:23.216Z"
+}

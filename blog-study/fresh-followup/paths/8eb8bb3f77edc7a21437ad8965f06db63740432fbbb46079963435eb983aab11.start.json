@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3955",
+    "text": "turn on metallicas greatest hits",
+    "expected": null,
+    "sourceCategory": "play_music",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "c2eaf8e6aa29406fad2f57fa24fb24d468990c5e0d01d0d41b2297f899d3973e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "8eb8bb3f77edc7a21437ad8965f06db63740432fbbb46079963435eb983aab11",
+  "at": "2026-09-22T06:11:56.365Z"
+}

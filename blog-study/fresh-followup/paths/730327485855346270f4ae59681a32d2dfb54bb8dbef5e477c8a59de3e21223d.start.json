@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1358",
+    "text": "Why can't I see the top-up amount I just added to my account?",
+    "expected": "topping_up_by_card",
+    "dataset": "banking77",
+    "normalizedSha256": "e06ba2344baf6593fa950cae9a0f0fd1472256044fbac1e8fb536bb793c23a67",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "730327485855346270f4ae59681a32d2dfb54bb8dbef5e477c8a59de3e21223d",
+  "at": "2026-09-22T05:50:19.943Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2667",
+    "text": "I tried to top up. Why was it denied?",
+    "expected": "top_up_failed",
+    "dataset": "banking77",
+    "normalizedSha256": "05fa32f3538e1d692d7e5532638e3e7e77f0551f96d1c9de0db6a15d04e0c0b9",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "f45ab57435693a34bf553822117d2624d7183fbed9afcfb999ea1d5aa762885f",
+  "at": "2026-09-22T06:09:03.762Z"
+}

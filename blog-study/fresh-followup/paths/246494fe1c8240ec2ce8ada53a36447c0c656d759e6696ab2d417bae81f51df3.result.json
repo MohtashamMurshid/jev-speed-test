@@ -1,0 +1,19 @@
+{
+  "key": "246494fe1c8240ec2ce8ada53a36447c0c656d759e6696ab2d417bae81f51df3",
+  "caseId": "test-1246",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "get_physical_card",
+  "predicted": "change_pin",
+  "status": "ok",
+  "correct": false,
+  "jevAccepted": false,
+  "safetyAccepted": false,
+  "latencyMs": 1677.970627999981,
+  "timing": "measured-live-sequential",
+  "components": [
+    "246494fe1c8240ec2ce8ada53a36447c0c656d759e6696ab2d417bae81f51df3__jev",
+    "246494fe1c8240ec2ce8ada53a36447c0c656d759e6696ab2d417bae81f51df3__gemini"
+  ],
+  "accountedUsd": 0.0006958680000000001
+}

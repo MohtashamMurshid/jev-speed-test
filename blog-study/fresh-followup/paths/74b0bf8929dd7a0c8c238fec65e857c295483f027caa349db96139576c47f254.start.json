@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1093",
+    "text": "Why would there be a payment on my account I don't recognize?",
+    "expected": "card_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "55887ac19856448460a52ddb0693bc5ddda04dfd7c9c41b6f1f3a8d46435fa2d",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "74b0bf8929dd7a0c8c238fec65e857c295483f027caa349db96139576c47f254",
+  "at": "2026-09-22T05:39:43.057Z"
+}

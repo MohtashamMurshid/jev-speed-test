@@ -1,0 +1,18 @@
+{
+  "key": "941683dc19ceef2a6b47338af65b26a651ca9f84aa6a603370b63206870a446a",
+  "caseId": "test-528",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "pin_blocked",
+  "predicted": "pin_blocked",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": true,
+  "safetyAccepted": true,
+  "latencyMs": 457.26424399999087,
+  "timing": "measured-live-sequential",
+  "components": [
+    "941683dc19ceef2a6b47338af65b26a651ca9f84aa6a603370b63206870a446a__jev"
+  ],
+  "accountedUsd": 0.000067956
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-3067",
+    "text": "What countries will my card be supported in?",
+    "expected": "country_support",
+    "dataset": "banking77",
+    "normalizedSha256": "f874449982da753f44a4468a117ae41f32785a3b3857854a8d30b4aa8081a87f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "f7db0556dd85fac3c1d44f135caff788ff6efd1b2968fb41e7aa4cb6e5e65022",
+  "at": "2026-09-22T05:39:45.362Z"
+}

@@ -1,0 +1,19 @@
+{
+  "key": "9fbeb2924c66a5a21986333ebe5c52f5c64c815bcf35949282d47dc0dc4a2db8",
+  "caseId": "test-1047",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "balance_not_updated_after_cheque_or_cash_deposit",
+  "predicted": "balance_not_updated_after_cheque_or_cash_deposit",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 1860.0878560000565,
+  "timing": "measured-live-sequential",
+  "components": [
+    "9fbeb2924c66a5a21986333ebe5c52f5c64c815bcf35949282d47dc0dc4a2db8__jev",
+    "9fbeb2924c66a5a21986333ebe5c52f5c64c815bcf35949282d47dc0dc4a2db8__gemini"
+  ],
+  "accountedUsd": 0.000699828
+}

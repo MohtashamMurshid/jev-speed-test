@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-393",
+    "text": "I have tried to use my card several times and it does not work.",
+    "expected": "card_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "ccbcf388306738e7a3543f99196838caadde83b42fa090d7f83966040569c659",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "22060a68c7fd763867d0972cdfa87afd879c86d053ed1e60b2251d01b22a1848",
+  "at": "2026-09-22T06:03:57.821Z"
+}

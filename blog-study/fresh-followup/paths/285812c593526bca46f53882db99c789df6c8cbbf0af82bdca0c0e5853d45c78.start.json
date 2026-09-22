@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-288",
+    "text": "When can I expect my card to be delivered to the US?",
+    "expected": "card_delivery_estimate",
+    "dataset": "banking77",
+    "normalizedSha256": "1db1a7f0c6f786146870df6c335f6759dd4c406ff7ce940a31143ee8f3bd6816",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "285812c593526bca46f53882db99c789df6c8cbbf0af82bdca0c0e5853d45c78",
+  "at": "2026-09-22T06:00:48.223Z"
+}

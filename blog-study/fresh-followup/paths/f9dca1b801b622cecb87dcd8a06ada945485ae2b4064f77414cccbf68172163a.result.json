@@ -1,0 +1,18 @@
+{
+  "key": "f9dca1b801b622cecb87dcd8a06ada945485ae2b4064f77414cccbf68172163a",
+  "caseId": "test-2263",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "receiving_money",
+  "predicted": "exchange_via_app",
+  "status": "ok",
+  "correct": false,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 2010.1453929999843,
+  "timing": "measured-live-sequential",
+  "components": [
+    "f9dca1b801b622cecb87dcd8a06ada945485ae2b4064f77414cccbf68172163a__gemini"
+  ],
+  "accountedUsd": 0.000612
+}

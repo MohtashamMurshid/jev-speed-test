@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1040",
+    "text": "I tried making an update to my balance using cheque just yesterday but it doesn't appear to have worked. Should this not be a faster process? I need you to please check over my account because something has went wrong.",
+    "expected": "balance_not_updated_after_cheque_or_cash_deposit",
+    "dataset": "banking77",
+    "normalizedSha256": "c497a6bc6b194c1c40f5b33e28e11b7653b3b9f9910aadd6d460476c1261f49d",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "5d444919e52291db97d16b2ffb5b8e143935eeae061543acaf55af826944a6b6",
+  "at": "2026-09-22T05:52:26.371Z"
+}

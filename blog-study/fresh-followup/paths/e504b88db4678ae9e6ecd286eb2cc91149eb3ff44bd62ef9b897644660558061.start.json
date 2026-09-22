@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2047",
+    "text": "What is the fastest that I can make a transfer?",
+    "expected": "transfer_timing",
+    "dataset": "banking77",
+    "normalizedSha256": "8b835d2c1908ea56b6af516f70e7389a6d29ca54ae7fbafa6d6b836c1b0a113d",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "e504b88db4678ae9e6ecd286eb2cc91149eb3ff44bd62ef9b897644660558061",
+  "at": "2026-09-22T06:01:45.293Z"
+}

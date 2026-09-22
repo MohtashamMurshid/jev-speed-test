@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1938",
+    "text": "What do I do if the ATM ate my card?",
+    "expected": "card_swallowed",
+    "dataset": "banking77",
+    "normalizedSha256": "943dbc5b8f49f5605e713bc8147ae3161ab85a6b92fc2d96151ec492f56ebd2d",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "755add43ed8f858958a35f35959d5fb66e4a6b923f78c7843002410568619dcd",
+  "at": "2026-09-22T06:00:05.976Z"
+}

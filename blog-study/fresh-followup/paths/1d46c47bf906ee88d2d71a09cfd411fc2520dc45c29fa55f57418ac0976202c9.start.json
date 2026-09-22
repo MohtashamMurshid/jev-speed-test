@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1210",
+    "text": "The app failed to verify my identity.",
+    "expected": "unable_to_verify_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "087955a38fc07bf566543fb1feb03b376a20e058973664e3c80d8c038b0d782a",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "1d46c47bf906ee88d2d71a09cfd411fc2520dc45c29fa55f57418ac0976202c9",
+  "at": "2026-09-22T05:53:00.388Z"
+}

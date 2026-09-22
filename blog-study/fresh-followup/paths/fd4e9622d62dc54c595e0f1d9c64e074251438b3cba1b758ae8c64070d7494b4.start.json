@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2805",
+    "text": "Are there charges for topping up US cards?",
+    "expected": "top_up_by_card_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "491fb1ec2062bfc9471c4253b6ab0551292270eabf81fe71efbef1f64e1b289c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "fd4e9622d62dc54c595e0f1d9c64e074251438b3cba1b758ae8c64070d7494b4",
+  "at": "2026-09-22T05:50:40.773Z"
+}

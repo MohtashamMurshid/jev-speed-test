@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-902",
+    "text": "Are US credit cards accepted?",
+    "expected": "supported_cards_and_currencies",
+    "dataset": "banking77",
+    "normalizedSha256": "1d7d2a7b52605adcc46070ea65d09d44433e6f2c558320c8682e9fba6bf46149",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "14bc34dc9832fda4c4a95ce970a220e0f8e0f937732cfc27749e9ddb92ab924e",
+  "at": "2026-09-22T06:03:06.137Z"
+}

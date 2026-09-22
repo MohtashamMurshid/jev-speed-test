@@ -1,0 +1,18 @@
+{
+  "source_sha256_verified": "36923c3705a59e08fe9c3883d8bc2dd966ef93e22cb78ac41171782a698d56e0",
+  "sampled_records_verified": 100,
+  "category_counts": {
+    "play_music": 10,
+    "recipe": 10,
+    "tell_joke": 10,
+    "what_song": 10,
+    "weather": 10,
+    "smart_home": 10,
+    "ingredient_substitution": 10,
+    "cook_time": 10,
+    "next_song": 10,
+    "nutrition_info": 10
+  },
+  "license": "CC-BY-3.0",
+  "native_oos_test_used": false
+}

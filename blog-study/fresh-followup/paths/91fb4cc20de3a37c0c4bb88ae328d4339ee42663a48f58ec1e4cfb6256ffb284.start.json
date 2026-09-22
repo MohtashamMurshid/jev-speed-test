@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-172",
+    "text": "When will the $1 transaction be credited to me?",
+    "expected": "extra_charge_on_statement",
+    "dataset": "banking77",
+    "normalizedSha256": "9230129ef7b10c41969ded89b1652ae32468fad6235363335bb1a6477d424bd4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "91fb4cc20de3a37c0c4bb88ae328d4339ee42663a48f58ec1e4cfb6256ffb284",
+  "at": "2026-09-22T05:39:39.443Z"
+}

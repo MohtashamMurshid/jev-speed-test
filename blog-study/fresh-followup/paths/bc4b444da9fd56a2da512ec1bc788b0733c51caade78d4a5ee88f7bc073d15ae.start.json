@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2161",
+    "text": "I've transferred money before without issue but now I am encountering an error stating that it isn't possible. Why is that?",
+    "expected": "beneficiary_not_allowed",
+    "dataset": "banking77",
+    "normalizedSha256": "6e483132034e10d8102bef46015ec1830322632cfeef0ea64c2cd097699293d4",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "bc4b444da9fd56a2da512ec1bc788b0733c51caade78d4a5ee88f7bc073d15ae",
+  "at": "2026-09-22T05:47:41.650Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-416",
+    "text": "How would I use my money in a different country?",
+    "expected": "exchange_via_app",
+    "dataset": "banking77",
+    "normalizedSha256": "aec429e1ac0fa16216adb5899bba725b33293fdaee3a62a8b37b727a89382362",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "2d4a82535bdd53b1c75e7c8667c3938480e6dc69b14330908ed6d1cba98c5516",
+  "at": "2026-09-22T05:53:50.435Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1090",
+    "text": "There are some payments with my card that I don't know where they are coming from. Just checked today and it's been since a couple days as well! What to I do? Can I revert this retrospectively? My card needs to be frozen immediately as well!",
+    "expected": "card_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "5eaad06848551d54abbd1c151c45bdb332009fe144100a4c45676197007496ec",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "c1411f4b716bcd5e20d15739adb99e40a890fe0dbe09b462d469211cb264f69c",
+  "at": "2026-09-22T06:07:44.147Z"
+}

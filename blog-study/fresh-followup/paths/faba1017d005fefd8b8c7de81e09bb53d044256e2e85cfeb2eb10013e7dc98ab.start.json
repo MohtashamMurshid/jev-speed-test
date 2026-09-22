@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1772",
+    "text": "Still waiting on a refund.",
+    "expected": "Refund_not_showing_up",
+    "dataset": "banking77",
+    "normalizedSha256": "046f8824a74c17ce657fd5c96b17f1998f8f05248db076b0d5db02513c7f5220",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "faba1017d005fefd8b8c7de81e09bb53d044256e2e85cfeb2eb10013e7dc98ab",
+  "at": "2026-09-22T05:56:59.838Z"
+}

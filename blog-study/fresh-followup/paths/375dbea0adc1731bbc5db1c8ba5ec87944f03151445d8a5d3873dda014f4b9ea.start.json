@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-598",
+    "text": "How can I find out where my contactless works?",
+    "expected": "contactless_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "a243f0893ffeb7052f41eef9e41289339a0b2eab0acdef7b95b4c1063f698fcf",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "375dbea0adc1731bbc5db1c8ba5ec87944f03151445d8a5d3873dda014f4b9ea",
+  "at": "2026-09-22T05:48:04.283Z"
+}

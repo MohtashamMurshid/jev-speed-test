@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1030",
+    "text": "Do you know if my top-up has been cancelled?",
+    "expected": "top_up_reverted",
+    "dataset": "banking77",
+    "normalizedSha256": "89af8c2b1435606266e9a6698aba034b952b0b4acc05a5aa0a4087da528e962e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "806f9b5e48bc58cfc533133300f66bc8de08554ae5fa0d558c87b9ae067354d0",
+  "at": "2026-09-22T05:41:33.536Z"
+}

@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-2963",
+    "text": "on the speaker do you know what song is on",
+    "expected": null,
+    "sourceCategory": "what_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "e19c1f79e1b6e03eb0240622b15f90ebbe64626d6a964dd9f793ddcf1ef56e72",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "68c86d441d2c2576529a223839949529545c80838ba6fabde1ccbd9ec9420d36",
+  "at": "2026-09-22T06:11:09.343Z"
+}

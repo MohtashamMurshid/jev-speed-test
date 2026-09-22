@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-528",
+    "text": "When I put the wrong pin too much, I got blocked, so can you help me unblock my pin",
+    "expected": "pin_blocked",
+    "dataset": "banking77",
+    "normalizedSha256": "0ec73ccc71e5bb2a26b8e69dfd36197bb03baff8f89ad523f0f4c000023d2073",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "941683dc19ceef2a6b47338af65b26a651ca9f84aa6a603370b63206870a446a",
+  "at": "2026-09-22T05:41:52.073Z"
+}

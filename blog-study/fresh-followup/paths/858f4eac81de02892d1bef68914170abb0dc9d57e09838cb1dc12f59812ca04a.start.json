@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-4167",
+    "text": "let's hear a joke from you please",
+    "expected": null,
+    "sourceCategory": "tell_joke",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "ba65ba8519179ac9cd2514e901906d7c864ed88741ab790fe4229fe2cb8d53d9",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "858f4eac81de02892d1bef68914170abb0dc9d57e09838cb1dc12f59812ca04a",
+  "at": "2026-09-22T06:09:18.289Z"
+}

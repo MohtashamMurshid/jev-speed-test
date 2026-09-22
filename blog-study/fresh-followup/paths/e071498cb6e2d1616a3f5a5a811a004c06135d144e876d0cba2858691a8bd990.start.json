@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-4345",
+    "text": "i need a pasta recipe",
+    "expected": null,
+    "sourceCategory": "recipe",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "66a5f65e59afc4d0ebff48b3e6cc2ce414a962e4c0fc404f73cf15d15b9cd4e4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "e071498cb6e2d1616a3f5a5a811a004c06135d144e876d0cba2858691a8bd990",
+  "at": "2026-09-22T06:09:37.637Z"
+}

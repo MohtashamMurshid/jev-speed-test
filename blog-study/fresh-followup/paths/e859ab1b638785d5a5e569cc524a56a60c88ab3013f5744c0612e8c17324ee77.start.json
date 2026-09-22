@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1402",
+    "text": "Someone I don't know has used my card without permission.",
+    "expected": "compromised_card",
+    "dataset": "banking77",
+    "normalizedSha256": "d74062102732450bb973c611e95cc02e031fe1fce080ae1d5a098bc5dcf45d18",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "e859ab1b638785d5a5e569cc524a56a60c88ab3013f5744c0612e8c17324ee77",
+  "at": "2026-09-22T05:40:08.122Z"
+}

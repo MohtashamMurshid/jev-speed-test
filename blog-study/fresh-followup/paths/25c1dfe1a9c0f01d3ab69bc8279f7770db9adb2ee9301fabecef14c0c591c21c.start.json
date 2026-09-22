@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-24",
+    "text": "My card has not arrived yet, where is it?",
+    "expected": "card_arrival",
+    "dataset": "banking77",
+    "normalizedSha256": "6a77e4c996d0aa3727f9c6fc4e4e9b31d9b0b040ee755808968a8413c0cd5af6",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "25c1dfe1a9c0f01d3ab69bc8279f7770db9adb2ee9301fabecef14c0c591c21c",
+  "at": "2026-09-22T06:09:09.125Z"
+}

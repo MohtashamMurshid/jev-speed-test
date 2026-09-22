@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1900",
+    "text": "This company isn't good, I would like to delete my account.",
+    "expected": "terminate_account",
+    "dataset": "banking77",
+    "normalizedSha256": "ae2705daaa8baa8a8f482caeac91ccc0e1b5b561f34d1d5bc50fdc3f579c83ed",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "b40c64b66c361072c1a59303ef6d4d0fee6094c20206fe07ceab633d262faf2f",
+  "at": "2026-09-22T05:57:24.783Z"
+}

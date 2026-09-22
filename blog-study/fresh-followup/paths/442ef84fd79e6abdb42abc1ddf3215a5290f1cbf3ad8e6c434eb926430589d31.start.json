@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2466",
+    "text": "What methods can I use to top up my account?",
+    "expected": "top_up_by_cash_or_cheque",
+    "dataset": "banking77",
+    "normalizedSha256": "4da36a419eadf596f2edf3d51eac4f0408aa68a894f15011e86282ba87fc9463",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "442ef84fd79e6abdb42abc1ddf3215a5290f1cbf3ad8e6c434eb926430589d31",
+  "at": "2026-09-22T06:00:15.117Z"
+}

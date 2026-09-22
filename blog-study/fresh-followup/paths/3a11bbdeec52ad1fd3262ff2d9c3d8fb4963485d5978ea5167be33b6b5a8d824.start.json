@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-3000",
+    "text": "What can I use to verify my identify?",
+    "expected": "verify_my_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "dcb91860cf768a369f4bc41ae6f783d52455774803b7a745c5366aa2bd29c69b",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "3a11bbdeec52ad1fd3262ff2d9c3d8fb4963485d5978ea5167be33b6b5a8d824",
+  "at": "2026-09-22T05:57:03.912Z"
+}

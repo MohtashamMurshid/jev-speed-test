@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1617",
+    "text": "I would like to know why my purchases from this morning are still pending.",
+    "expected": "pending_card_payment",
+    "dataset": "banking77",
+    "normalizedSha256": "0dac6eeace221a4694df7421ca3136bf3e67d58117e1ecf34e27f6ef5f636178",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "eedc6a21813cf7730501a273de7ef7b3199277e8f0445e0f81947bf72f4d1762",
+  "at": "2026-09-22T05:42:28.603Z"
+}

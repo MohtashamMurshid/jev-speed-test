@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2719",
+    "text": "When will I see my new balance after making my bank transfer?",
+    "expected": "balance_not_updated_after_bank_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "033d2c0f5efd6e6f661096b0212b965a05272439fb8fee310002b6efdfa51763",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "3c62150b923d19928f320d74be608326d332044f3b46070de2e734fe1ec3602e",
+  "at": "2026-09-22T05:57:40.214Z"
+}

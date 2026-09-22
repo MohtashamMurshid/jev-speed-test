@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-4154",
+    "text": "tell me a joke about the topic of mice",
+    "expected": null,
+    "sourceCategory": "tell_joke",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "da70f181bcbd140c02f2ac03d6f7182879f142988be471c6129fe0df4983f1c4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "7a0fd4f3563445d5f3ff6c5d81c2b81c0bb1a870dde5b0ee83fd8a6a6c7b157b",
+  "at": "2026-09-22T06:17:11.640Z"
+}

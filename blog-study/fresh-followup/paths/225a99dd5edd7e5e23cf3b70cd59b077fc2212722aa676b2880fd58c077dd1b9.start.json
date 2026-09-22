@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1392",
+    "text": "What is the limit to disposable cards you can have?",
+    "expected": "disposable_card_limits",
+    "dataset": "banking77",
+    "normalizedSha256": "4c72843c807e35193d7271667045beba55e16be65f7b3975abd9727eef036e47",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "225a99dd5edd7e5e23cf3b70cd59b077fc2212722aa676b2880fd58c077dd1b9",
+  "at": "2026-09-22T05:51:33.745Z"
+}

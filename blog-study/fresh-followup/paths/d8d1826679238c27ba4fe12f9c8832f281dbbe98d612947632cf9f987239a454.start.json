@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1308",
+    "text": "Do you have Visa or Matercard?",
+    "expected": "visa_or_mastercard",
+    "dataset": "banking77",
+    "normalizedSha256": "2d23b727efa1dfe3a5cc84ea3ee4f75300b0b44888513becdae06110905db483",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "d8d1826679238c27ba4fe12f9c8832f281dbbe98d612947632cf9f987239a454",
+  "at": "2026-09-22T06:06:53.567Z"
+}

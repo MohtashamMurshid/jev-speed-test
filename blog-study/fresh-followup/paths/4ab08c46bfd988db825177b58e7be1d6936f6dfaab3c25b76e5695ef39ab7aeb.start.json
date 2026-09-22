@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1484",
+    "text": "what is this charge on my account",
+    "expected": "direct_debit_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "311a2310f66b7b8e843d076427c36ca299594c25b7b2355dd78ac62ead57f708",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "4ab08c46bfd988db825177b58e7be1d6936f6dfaab3c25b76e5695ef39ab7aeb",
+  "at": "2026-09-22T06:06:57.282Z"
+}

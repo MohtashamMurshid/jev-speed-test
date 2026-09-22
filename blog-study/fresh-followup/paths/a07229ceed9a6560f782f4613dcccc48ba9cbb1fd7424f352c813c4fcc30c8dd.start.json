@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-350",
+    "text": "how do I top up my money automatically",
+    "expected": "automatic_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "b772f7ccfdcd36a9cb64c54cfda8a46ba829750141d1ddce99291d2ccceaa749",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "a07229ceed9a6560f782f4613dcccc48ba9cbb1fd7424f352c813c4fcc30c8dd",
+  "at": "2026-09-22T05:46:32.654Z"
+}

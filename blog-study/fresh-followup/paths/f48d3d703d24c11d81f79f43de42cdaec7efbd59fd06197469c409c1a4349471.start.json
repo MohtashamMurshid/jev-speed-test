@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1154",
+    "text": "I want to change my name.",
+    "expected": "edit_personal_details",
+    "dataset": "banking77",
+    "normalizedSha256": "e01409b5e89d443eecf1ef2aa3ab735935426a65cc752825d7f094bfccb3554f",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "f48d3d703d24c11d81f79f43de42cdaec7efbd59fd06197469c409c1a4349471",
+  "at": "2026-09-22T06:00:50.720Z"
+}

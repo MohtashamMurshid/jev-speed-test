@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-2061",
+    "text": "how long should i bake a cake",
+    "expected": null,
+    "sourceCategory": "cook_time",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "20ea8be77df1c252d289a50e6e6d2f6b9faff0484b77b2619b176fc7e1260e0d",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "0566917414fdc2c508c5387c507afaf26e1c29bbad8ea6b55f8903637a29d303",
+  "at": "2026-09-22T06:10:13.744Z"
+}

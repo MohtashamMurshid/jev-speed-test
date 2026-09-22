@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2946",
+    "text": "I need to order a  new card, mine is about to expire and I need to know how much it will cost and how long until I receive it.",
+    "expected": "card_about_to_expire",
+    "dataset": "banking77",
+    "normalizedSha256": "931e203443b18fbc21c295da636ee02052206c02ac22d234ac73773ebce26e1e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "3e85868f7f31e98744840b3196e0381240d376a419512be5a79fc89b4c49b2bf",
+  "at": "2026-09-22T05:45:04.329Z"
+}

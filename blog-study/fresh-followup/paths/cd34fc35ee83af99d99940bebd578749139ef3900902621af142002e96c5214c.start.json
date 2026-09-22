@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1866",
+    "text": "I would like to know why my payment is still pending, can you help?",
+    "expected": "pending_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "b4a3c4777990d764a42572511dc65a7876aa27239626cdc7cd97f1f07bc3c5cb",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "cd34fc35ee83af99d99940bebd578749139ef3900902621af142002e96c5214c",
+  "at": "2026-09-22T05:46:01.444Z"
+}

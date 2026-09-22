@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-441",
+    "text": "I can't find my card and think it may have been stolen.",
+    "expected": "lost_or_stolen_card",
+    "dataset": "banking77",
+    "normalizedSha256": "6655cce7f80feded7a37d479abeff315f0572b15eb4e3c795f156ad9fd9ae80e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "a077cf6e4d7f0d04c0325988e6e532f9890ba7f9f19ef78afb813082d1ba6c58",
+  "at": "2026-09-22T05:52:03.723Z"
+}

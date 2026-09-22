@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-815",
+    "text": "Why did I have to pay more when I do it with my card?",
+    "expected": "card_payment_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "97d22f705fac9d250acc53b45a6cd8ff392064f7f5932ae302f80de69181685b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "2f0992b529f167d2e26714eed98da75bd79a55e312e8e01aaf56d4d4f4a35b9f",
+  "at": "2026-09-22T05:59:40.773Z"
+}

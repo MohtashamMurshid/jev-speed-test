@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1010",
+    "text": "I put money into my account for the minimum balance but the application didn't accept.",
+    "expected": "top_up_reverted",
+    "dataset": "banking77",
+    "normalizedSha256": "4e9256647e2224cfd1add07a2a1c87839630aeb29c141953c063fd5e5b3c7f75",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "1284b65416b9e2bace3b296310d2956883e774955063ff61069d9c4ad23e0109",
+  "at": "2026-09-22T06:04:21.097Z"
+}

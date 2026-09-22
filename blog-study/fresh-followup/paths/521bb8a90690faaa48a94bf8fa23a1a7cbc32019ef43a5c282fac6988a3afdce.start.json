@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1338",
+    "text": "i know i entered the right info, but my top up isn't in my balance",
+    "expected": "topping_up_by_card",
+    "dataset": "banking77",
+    "normalizedSha256": "d2137e7c3aa6957cdc16fc6fb37cc1460a84e30e27a0f62c4ded62c9dfecc0cb",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "521bb8a90690faaa48a94bf8fa23a1a7cbc32019ef43a5c282fac6988a3afdce",
+  "at": "2026-09-22T05:56:57.884Z"
+}

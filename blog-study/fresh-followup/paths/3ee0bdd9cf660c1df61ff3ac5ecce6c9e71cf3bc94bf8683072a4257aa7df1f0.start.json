@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-362",
+    "text": "My card appears to be broken how can I fix it?",
+    "expected": "card_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "3e1ddc37c29af58b12230f03d5622b43b561551a32c1caa9bdedccf2fde36c3f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "3ee0bdd9cf660c1df61ff3ac5ecce6c9e71cf3bc94bf8683072a4257aa7df1f0",
+  "at": "2026-09-22T06:00:08.326Z"
+}

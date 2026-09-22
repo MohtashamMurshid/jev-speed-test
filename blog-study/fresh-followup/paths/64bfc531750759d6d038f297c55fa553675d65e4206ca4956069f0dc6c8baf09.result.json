@@ -1,0 +1,18 @@
+{
+  "key": "64bfc531750759d6d038f297c55fa553675d65e4206ca4956069f0dc6c8baf09",
+  "caseId": "test-2085",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "reverted_card_payment?",
+  "predicted": "reverted_card_payment?",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 1551.352319000027,
+  "timing": "measured-live-sequential",
+  "components": [
+    "64bfc531750759d6d038f297c55fa553675d65e4206ca4956069f0dc6c8baf09__gemini"
+  ],
+  "accountedUsd": 0.00063075
+}

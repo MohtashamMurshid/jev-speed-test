@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2184",
+    "text": "Explain why I can't do a transfer to a beneficiary.",
+    "expected": "beneficiary_not_allowed",
+    "dataset": "banking77",
+    "normalizedSha256": "c01618b753fb9d50f3542363fbce42c5d9d7f9545aeb0cdb60be8de3a217a90b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "a12a90738e8c35549529c89a2effc5c5cb0ef2e772e99096ace65466d8d5e3f7",
+  "at": "2026-09-22T05:51:24.918Z"
+}

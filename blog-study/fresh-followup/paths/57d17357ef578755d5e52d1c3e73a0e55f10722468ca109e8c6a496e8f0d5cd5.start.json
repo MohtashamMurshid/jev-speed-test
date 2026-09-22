@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3937",
+    "text": "pull up the songs under slow",
+    "expected": null,
+    "sourceCategory": "play_music",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "3759dd360006a7c8e2fef251ee839b802ae05439dfdde513f41e98cd1e3762c9",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "57d17357ef578755d5e52d1c3e73a0e55f10722468ca109e8c6a496e8f0d5cd5",
+  "at": "2026-09-22T06:14:06.152Z"
+}

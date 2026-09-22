@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-486",
+    "text": "Is there an age minimum?",
+    "expected": "age_limit",
+    "dataset": "banking77",
+    "normalizedSha256": "b592524c8cca68a5e6c77d1a6a620e8a79ac63305d8747f152da7910eb1506e3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "481d3d707407e7aef729060dd0c1096d073656dc4350a4b06d10d8513aeee9f8",
+  "at": "2026-09-22T05:58:45.913Z"
+}

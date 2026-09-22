@@ -1,0 +1,18 @@
+{
+  "key": "2ee56c9e899187ff7f1dd9a0100c751f819c035cfa8045e422d087f123fdc790",
+  "caseId": "test-1457",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "atm_support",
+  "predicted": "atm_support",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 1371.4003830000001,
+  "timing": "measured-live-sequential",
+  "components": [
+    "2ee56c9e899187ff7f1dd9a0100c751f819c035cfa8045e422d087f123fdc790__gemini"
+  ],
+  "accountedUsd": 0.00062925
+}

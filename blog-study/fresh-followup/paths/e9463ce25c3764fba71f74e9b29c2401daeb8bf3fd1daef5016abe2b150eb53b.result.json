@@ -1,0 +1,18 @@
+{
+  "key": "e9463ce25c3764fba71f74e9b29c2401daeb8bf3fd1daef5016abe2b150eb53b",
+  "caseId": "test-2315",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "failed_transfer",
+  "predicted": "failed_transfer",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 2360.1746370000765,
+  "timing": "measured-live-sequential",
+  "components": [
+    "e9463ce25c3764fba71f74e9b29c2401daeb8bf3fd1daef5016abe2b150eb53b__gemini"
+  ],
+  "accountedUsd": 0.00062925
+}

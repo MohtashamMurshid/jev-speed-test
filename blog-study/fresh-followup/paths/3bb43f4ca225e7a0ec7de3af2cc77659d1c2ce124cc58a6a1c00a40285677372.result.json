@@ -1,0 +1,19 @@
+{
+  "key": "3bb43f4ca225e7a0ec7de3af2cc77659d1c2ce124cc58a6a1c00a40285677372",
+  "caseId": "test-1813",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "declined_card_payment",
+  "predicted": "declined_card_payment",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 2135.5807839999907,
+  "timing": "measured-live-sequential",
+  "components": [
+    "3bb43f4ca225e7a0ec7de3af2cc77659d1c2ce124cc58a6a1c00a40285677372__jev",
+    "3bb43f4ca225e7a0ec7de3af2cc77659d1c2ce124cc58a6a1c00a40285677372__gemini"
+  ],
+  "accountedUsd": 0.000710082
+}

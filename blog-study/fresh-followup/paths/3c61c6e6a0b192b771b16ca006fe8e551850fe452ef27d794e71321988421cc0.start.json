@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-637",
+    "text": "Do I get charged if i am getting money?",
+    "expected": "top_up_by_bank_transfer_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "dd187f6ef559e12c54e88d3234d4fdd45f7e6b80529492cc33cb4e1848a514dc",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "3c61c6e6a0b192b771b16ca006fe8e551850fe452ef27d794e71321988421cc0",
+  "at": "2026-09-22T05:41:42.055Z"
+}

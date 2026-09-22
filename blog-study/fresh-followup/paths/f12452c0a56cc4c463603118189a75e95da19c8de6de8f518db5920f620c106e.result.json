@@ -1,0 +1,18 @@
+{
+  "key": "f12452c0a56cc4c463603118189a75e95da19c8de6de8f518db5920f620c106e",
+  "caseId": "test-1890",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "terminate_account",
+  "predicted": "terminate_account",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 3064.707991000032,
+  "timing": "measured-live-sequential",
+  "components": [
+    "f12452c0a56cc4c463603118189a75e95da19c8de6de8f518db5920f620c106e__gemini"
+  ],
+  "accountedUsd": 0.00060675
+}

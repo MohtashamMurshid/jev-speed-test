@@ -1,0 +1,18 @@
+{
+  "key": "5e36980b08709af5731d5348488f62f9bc33e6e64f04b67c58fa25a941904e65",
+  "caseId": "test-313",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "card_delivery_estimate",
+  "predicted": "card_delivery_estimate",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": false,
+  "latencyMs": 1386.5861720000394,
+  "timing": "measured-live-sequential",
+  "components": [
+    "5e36980b08709af5731d5348488f62f9bc33e6e64f04b67c58fa25a941904e65__gemini"
+  ],
+  "accountedUsd": 0.00062925
+}

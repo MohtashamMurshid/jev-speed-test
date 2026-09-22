@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3951",
+    "text": "play music by ludacris",
+    "expected": null,
+    "sourceCategory": "play_music",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "4d4efea671c047b466c7032332f4a1cab5222e42949106c3a63df528fda2d794",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "bcc177d426641ca596029bf64bf0d93646f89fe11454429f9af4033d3a43d2d9",
+  "at": "2026-09-22T06:09:12.581Z"
+}

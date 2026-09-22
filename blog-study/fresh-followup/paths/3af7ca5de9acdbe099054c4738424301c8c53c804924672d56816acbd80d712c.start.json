@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2503",
+    "text": "can I have a non virtual card?",
+    "expected": "order_physical_card",
+    "dataset": "banking77",
+    "normalizedSha256": "bc4da223d0f23fc90d5b9255c4c5a031ff18742a6f1d6be9080d912f9a7e15ed",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "3af7ca5de9acdbe099054c4738424301c8c53c804924672d56816acbd80d712c",
+  "at": "2026-09-22T05:40:00.949Z"
+}

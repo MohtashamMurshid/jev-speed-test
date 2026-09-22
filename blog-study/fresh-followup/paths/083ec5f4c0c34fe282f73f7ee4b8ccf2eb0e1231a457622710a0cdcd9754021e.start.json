@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-951",
+    "text": "Can I order a virtual card?",
+    "expected": "getting_virtual_card",
+    "dataset": "banking77",
+    "normalizedSha256": "0fc1d7e4509cc1c7b66cfc9d6dcd7e9523575e6c90316609282182f49f8d3f82",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "083ec5f4c0c34fe282f73f7ee4b8ccf2eb0e1231a457622710a0cdcd9754021e",
+  "at": "2026-09-22T06:02:41.127Z"
+}

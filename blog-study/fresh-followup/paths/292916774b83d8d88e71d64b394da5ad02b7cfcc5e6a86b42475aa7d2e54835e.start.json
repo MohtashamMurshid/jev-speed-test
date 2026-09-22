@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-4347",
+    "text": "what is in a burrito recipe",
+    "expected": null,
+    "sourceCategory": "recipe",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "94bf1485a7044cf7350a75a80a311a86b7daca39072cb6170c133ed58e3aade3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "292916774b83d8d88e71d64b394da5ad02b7cfcc5e6a86b42475aa7d2e54835e",
+  "at": "2026-09-22T06:12:38.839Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2902",
+    "text": "An ATM fee was attached to my recent withdrawal.",
+    "expected": "cash_withdrawal_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "8019a4cdcb41e489794a50d2b4905589abe2c72376f1ab1b2323dc949a6b8f79",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "75e74be31ed2f890761f2e46c0e80002c9e94cd2c441c99f06ef9b31ebe9784e",
+  "at": "2026-09-22T06:01:00.477Z"
+}

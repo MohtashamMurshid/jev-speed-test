@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1098",
+    "text": "I don't recognise a card payment",
+    "expected": "card_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "6ca7a3c68cbee1b9a142263b43b54bb04b703cffe91116fe6474b71c6a3a49a5",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "4504722a58eeda3637eb68bd7352f41a8d9dfccb3d8e4c7f619c9880f46626ae",
+  "at": "2026-09-22T06:01:27.702Z"
+}

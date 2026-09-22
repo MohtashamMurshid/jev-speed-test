@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2081",
+    "text": "My card payment was reverted.  Why?",
+    "expected": "reverted_card_payment?",
+    "dataset": "banking77",
+    "normalizedSha256": "11afe8afb67249330bc69ed38a36c0d2cd468a2a98d5e454e4a2399384bafb8e",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "c081c69ea4c291a0b6e2e6e627263af91314d1797c10e66e57f6d21fa542be61",
+  "at": "2026-09-22T05:52:22.201Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-666",
+    "text": "OMG!  I'm trying to load my card and it wont top up!  I desperately need the money either on my card or in my bank, where is it?",
+    "expected": "pending_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "2275835e98e6951f0d386262824d415616e0b823a0a318c65ffe17c10986942f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "bb103cc63cc4b4e566ea67de8d26d1ff05dd8efe162e94cc8ab9286e49cee40d",
+  "at": "2026-09-22T06:05:36.543Z"
+}

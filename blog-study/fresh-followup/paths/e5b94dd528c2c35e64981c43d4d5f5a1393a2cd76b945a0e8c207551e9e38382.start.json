@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-1676",
+    "text": "tell me the nutrition facts for shepherd's pie",
+    "expected": null,
+    "sourceCategory": "nutrition_info",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "30ae947f52fc8e237bd5d9747e3598fbd75bc0904374f74adb1ad58ac028b1b5",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "e5b94dd528c2c35e64981c43d4d5f5a1393a2cd76b945a0e8c207551e9e38382",
+  "at": "2026-09-22T06:15:48.142Z"
+}

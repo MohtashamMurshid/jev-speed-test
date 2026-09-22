@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-453",
+    "text": "Is a copy of the police report necessary for completing the report process?",
+    "expected": "lost_or_stolen_card",
+    "dataset": "banking77",
+    "normalizedSha256": "e45d2d74f091665a1a3aaa9da46d465bb10fb0f95bff8c638b6e52d2f520a5d6",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "3d3ca4f06f75939b3d229caa29f1882a3014dcec3dc31b3054c74e2ec2b6d73e",
+  "at": "2026-09-22T05:44:04.744Z"
+}

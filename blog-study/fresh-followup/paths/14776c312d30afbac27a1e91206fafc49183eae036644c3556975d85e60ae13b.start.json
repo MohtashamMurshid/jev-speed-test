@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-3009",
+    "text": "Are there any documents needed for the identity check?",
+    "expected": "verify_my_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "7408a540ca181b3653a15ff0779da910e5197cf7b0933780b31fd526c5eaab71",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "14776c312d30afbac27a1e91206fafc49183eae036644c3556975d85e60ae13b",
+  "at": "2026-09-22T05:52:18.235Z"
+}

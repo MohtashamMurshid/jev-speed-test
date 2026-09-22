@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-967",
+    "text": "What stores can I sue my card?",
+    "expected": "card_acceptance",
+    "dataset": "banking77",
+    "normalizedSha256": "22a08792724b3547e0b6c4e898e37685ab665e08c840469c882f768e54e3de03",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "f5a1cebe05d5e0a02f54398746978409ad845554ee5c89f16c8fbcaef7713375",
+  "at": "2026-09-22T05:57:34.135Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-273",
+    "text": "Can I hold money in multiple currencies?",
+    "expected": "fiat_currency_support",
+    "dataset": "banking77",
+    "normalizedSha256": "28cf084683945ab8d68fb565d106a9062f72044aa4c488d91677ce05c974e591",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "8760683c355225308becb3489964156dbe8759c64f7c47efc7ff784838c9e9d4",
+  "at": "2026-09-22T05:45:27.410Z"
+}

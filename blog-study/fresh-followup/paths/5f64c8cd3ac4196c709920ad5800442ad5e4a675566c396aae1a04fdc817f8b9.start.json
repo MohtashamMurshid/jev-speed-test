@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-60",
+    "text": "How do I link to my credit card with you?",
+    "expected": "card_linking",
+    "dataset": "banking77",
+    "normalizedSha256": "497d20530d914afb65d294bf6c14b2059c6d98c015945fd611441dcfdf0638e6",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "5f64c8cd3ac4196c709920ad5800442ad5e4a675566c396aae1a04fdc817f8b9",
+  "at": "2026-09-22T05:41:02.155Z"
+}

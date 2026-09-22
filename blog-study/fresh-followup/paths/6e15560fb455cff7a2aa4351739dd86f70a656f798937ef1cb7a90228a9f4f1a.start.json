@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2732",
+    "text": "I checked the app and saw an extra cash withdrawal that I didn't authorize",
+    "expected": "cash_withdrawal_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "f0b1ac5838a697ac07b31a99643c123e9059fcfac01f35e6434ce50bc910a931",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "6e15560fb455cff7a2aa4351739dd86f70a656f798937ef1cb7a90228a9f4f1a",
+  "at": "2026-09-22T05:41:10.088Z"
+}

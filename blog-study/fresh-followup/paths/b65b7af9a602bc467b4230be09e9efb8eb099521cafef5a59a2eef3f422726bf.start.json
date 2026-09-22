@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-50",
+    "text": "How do I link a new card?",
+    "expected": "card_linking",
+    "dataset": "banking77",
+    "normalizedSha256": "2243c5dc596293ab2e7e55806247b22e8d807b0d2ce687efd5155a70046730de",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "b65b7af9a602bc467b4230be09e9efb8eb099521cafef5a59a2eef3f422726bf",
+  "at": "2026-09-22T05:52:32.782Z"
+}

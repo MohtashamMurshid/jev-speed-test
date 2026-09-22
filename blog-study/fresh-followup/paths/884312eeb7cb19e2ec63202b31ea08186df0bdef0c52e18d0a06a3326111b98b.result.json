@@ -1,0 +1,18 @@
+{
+  "key": "884312eeb7cb19e2ec63202b31ea08186df0bdef0c52e18d0a06a3326111b98b",
+  "caseId": "test-637",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "top_up_by_bank_transfer_charge",
+  "predicted": "receiving_money",
+  "status": "ok",
+  "correct": false,
+  "jevAccepted": false,
+  "safetyAccepted": false,
+  "latencyMs": 1556.4677280000033,
+  "timing": "measured-live-sequential",
+  "components": [
+    "884312eeb7cb19e2ec63202b31ea08186df0bdef0c52e18d0a06a3326111b98b__gemini"
+  ],
+  "accountedUsd": 0.00060375
+}

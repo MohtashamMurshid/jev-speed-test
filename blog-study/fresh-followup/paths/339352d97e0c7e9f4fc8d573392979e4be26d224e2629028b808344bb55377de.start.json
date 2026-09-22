@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-4140",
+    "text": "i would like to hear something funny",
+    "expected": null,
+    "sourceCategory": "tell_joke",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "be9314675bb0953042e65c385e583c7370507e9e0a546b2baccd55b1c2f30fb1",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "339352d97e0c7e9f4fc8d573392979e4be26d224e2629028b808344bb55377de",
+  "at": "2026-09-22T06:09:57.609Z"
+}

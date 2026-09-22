@@ -1,0 +1,18 @@
+{
+  "key": "75e74be31ed2f890761f2e46c0e80002c9e94cd2c441c99f06ef9b31ebe9784e",
+  "caseId": "test-2902",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "cash_withdrawal_charge",
+  "predicted": "cash_withdrawal_charge",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": true,
+  "safetyAccepted": true,
+  "latencyMs": 387.82872999995016,
+  "timing": "measured-live-sequential",
+  "components": [
+    "75e74be31ed2f890761f2e46c0e80002c9e94cd2c441c99f06ef9b31ebe9784e__jev"
+  ],
+  "accountedUsd": 0.000067452
+}

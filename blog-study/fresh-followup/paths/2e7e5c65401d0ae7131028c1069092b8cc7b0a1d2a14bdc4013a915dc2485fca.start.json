@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1607",
+    "text": "I recently made a payment, and it is showing up in my account as \"pending\". What does that mean?",
+    "expected": "pending_card_payment",
+    "dataset": "banking77",
+    "normalizedSha256": "e3f37bf78b27fd391a64bc2079cf854a8bfaf36d6d6101bc1809dc4b585a7075",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "2e7e5c65401d0ae7131028c1069092b8cc7b0a1d2a14bdc4013a915dc2485fca",
+  "at": "2026-09-22T05:48:32.118Z"
+}

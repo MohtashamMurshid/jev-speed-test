@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1576",
+    "text": "I was declined when I tried to get cash.",
+    "expected": "declined_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "a430afe6e6ec065dd3057962fe44febcfee171b58ea8c7745268d46539b22b95",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "202f252c321a644696665bc25bd0c77f0347b32a44a0cfd4dd5646bc2a356d4b",
+  "at": "2026-09-22T05:46:26.041Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2888",
+    "text": "Why is there an extra charge for money that was withdrawn?",
+    "expected": "cash_withdrawal_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "32858a226314ee8ed4414a7b6655aec95a0d50dd10ba1a2e49bc169ba6a4699e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "58aac908d0f41338798f3d12a98011dac65a86a5e1e192e9930cb610d4453b20",
+  "at": "2026-09-22T05:47:23.480Z"
+}

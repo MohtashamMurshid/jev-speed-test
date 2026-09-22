@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-185",
+    "text": "Where did the extra fee on my statement come from?",
+    "expected": "extra_charge_on_statement",
+    "dataset": "banking77",
+    "normalizedSha256": "b0ec80ea5032d910076fab24d072db9d30a212c4abc286d2962dc1f7e8a93209",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "1765f44fa1cd8fc7a013358dfc6c0c922410dfd3febf4572284c39002c688006",
+  "at": "2026-09-22T05:45:15.427Z"
+}

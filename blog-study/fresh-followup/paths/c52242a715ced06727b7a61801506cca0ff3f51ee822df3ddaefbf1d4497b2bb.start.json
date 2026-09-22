@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-2041",
+    "text": "how long does pizza take",
+    "expected": null,
+    "sourceCategory": "cook_time",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "723cfcf5cae1722a172482028b708be4a391554c3539e10dad4b093dc3f61d59",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "c52242a715ced06727b7a61801506cca0ff3f51ee822df3ddaefbf1d4497b2bb",
+  "at": "2026-09-22T06:17:03.465Z"
+}

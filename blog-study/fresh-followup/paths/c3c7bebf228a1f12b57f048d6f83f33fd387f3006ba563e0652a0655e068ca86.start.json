@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-201",
+    "text": "My card was denied at an ATM earlier today but the transaction is pending. Please cancel it as I did not receive my money.",
+    "expected": "pending_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "6129d708a021903b3497ddfae9627c423294631d19ee4e890bb55e75b9547574",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "c3c7bebf228a1f12b57f048d6f83f33fd387f3006ba563e0652a0655e068ca86",
+  "at": "2026-09-22T05:49:00.926Z"
+}

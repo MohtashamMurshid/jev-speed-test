@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-678",
+    "text": "The top-up has a definite problem! I regularly use your service and haven't had a problem before, but now the top-up just shows pending. Please tell my why it continues to show pending.",
+    "expected": "pending_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "fd854be470e478efa04c55f96dd1c0561a14e9a3a5bb8c9ef1916223abbc1cec",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "a85a37faa063daf6f546ea039d8ecb606c1203681c6b3bf997c869d42389d303",
+  "at": "2026-09-22T05:46:28.214Z"
+}

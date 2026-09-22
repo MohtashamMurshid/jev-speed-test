@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-170",
+    "text": "I can see an extra 1£ charge on my app. Why did you charge me extra?",
+    "expected": "extra_charge_on_statement",
+    "dataset": "banking77",
+    "normalizedSha256": "c2d9f1105ab7c30b95657d1c7ad9c8c7b603f317502f38323446ca314edeb619",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "7a184e2d20207509b2b0cd868b13974d7da843f85e86680f750c2a3fd3453f78",
+  "at": "2026-09-22T06:04:34.660Z"
+}

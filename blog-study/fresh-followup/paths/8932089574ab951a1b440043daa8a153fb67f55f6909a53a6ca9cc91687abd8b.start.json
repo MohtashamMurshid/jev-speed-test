@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1560",
+    "text": "Can you tell me why you won't let me get my own money out of the money machine? I know I used the right PIN.",
+    "expected": "declined_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "a516a818fb76caaa7aac617f23424ace925be5236edff2fce34ba47f08aed15e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "8932089574ab951a1b440043daa8a153fb67f55f6909a53a6ca9cc91687abd8b",
+  "at": "2026-09-22T05:44:26.519Z"
+}

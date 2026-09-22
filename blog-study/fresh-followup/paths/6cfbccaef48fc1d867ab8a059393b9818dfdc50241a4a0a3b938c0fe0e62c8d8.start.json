@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-35",
+    "text": "I ordered a card and I still haven't received it. It's been two weeks. What can I do?",
+    "expected": "card_arrival",
+    "dataset": "banking77",
+    "normalizedSha256": "c9b0e4d6abf2a4f55d37fe60dea1608175a807f0d12af5d0fbbdfd61108bcd2a",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "6cfbccaef48fc1d867ab8a059393b9818dfdc50241a4a0a3b938c0fe0e62c8d8",
+  "at": "2026-09-22T05:49:12.657Z"
+}

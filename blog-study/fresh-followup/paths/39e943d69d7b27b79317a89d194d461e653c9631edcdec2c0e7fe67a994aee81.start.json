@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1077",
+    "text": "Balance hasn't been updated following a cheque or cash deposit",
+    "expected": "balance_not_updated_after_cheque_or_cash_deposit",
+    "dataset": "banking77",
+    "normalizedSha256": "2c34d36d4bb27064d5e3c171c02c438dd4a5f1f765cc798bf5336a30d02ba0de",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "39e943d69d7b27b79317a89d194d461e653c9631edcdec2c0e7fe67a994aee81",
+  "at": "2026-09-22T05:56:03.055Z"
+}

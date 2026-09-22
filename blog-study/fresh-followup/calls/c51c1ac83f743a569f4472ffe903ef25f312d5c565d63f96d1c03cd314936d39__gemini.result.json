@@ -1,0 +1,88 @@
+{
+  "key": "c51c1ac83f743a569f4472ffe903ef25f312d5c565d63f96d1c03cd314936d39__gemini",
+  "sequence": 1536,
+  "caseId": "clinc-test-1013",
+  "cohort": "oos",
+  "path": "baseline",
+  "system": "gemini",
+  "expected": null,
+  "model": "google/gemini-3.8-flash",
+  "endpoint": "google-ai-studio",
+  "status": "ok",
+  "correct": false,
+  "reservedUsd": 0.25433325,
+  "timestamp": "2026-09-22T06:14:54.876Z",
+  "predicted": "card_delivery_estimate",
+  "probability": 0.15,
+  "usage": {
+    "inputTokens": 718,
+    "inputTokenDetails": {
+      "noCacheTokens": 718,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0
+    },
+    "outputTokens": 617,
+    "outputTokenDetails": {
+      "textTokens": 14,
+      "reasoningTokens": 603
+    },
+    "totalTokens": 1335
+  },
+  "finishReason": "stop",
+  "latencyMs": 4505.04610399995,
+  "returnedModel": "google/gemini-3.8-flash",
+  "returnedProvider": "Google AI Studio",
+  "response": {
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "{\"intent\":\"I07\",\"probability\":0.15}",
+          "refusal": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "signature": "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",
+              "format": "google-gemini-v1",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 718,
+      "completion_tokens": 617,
+      "total_tokens": 1335,
+      "cost": 0.00285225,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00285225,
+        "upstream_inference_prompt_cost": 0.0005385,
+        "upstream_inference_completions_cost": 0.00231375
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 603,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "id": "gen-1790057694-h3aaUgqrzIw66B2nVAnl",
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "billedCostUsd": 0.00285225,
+  "accountedUsd": 0.00285225
+}

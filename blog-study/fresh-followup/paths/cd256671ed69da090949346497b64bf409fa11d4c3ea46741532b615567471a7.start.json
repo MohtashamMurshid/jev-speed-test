@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1832",
+    "text": "Why has my card payment been declined?",
+    "expected": "declined_card_payment",
+    "dataset": "banking77",
+    "normalizedSha256": "14a74a75c4970f2597fdde9d58751efa0aada01c64a570ba3b4acca5102c4e46",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "cd256671ed69da090949346497b64bf409fa11d4c3ea46741532b615567471a7",
+  "at": "2026-09-22T06:00:56.746Z"
+}

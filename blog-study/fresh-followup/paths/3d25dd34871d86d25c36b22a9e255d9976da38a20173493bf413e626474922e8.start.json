@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2685",
+    "text": "How long does it take for an international transfer into my account?",
+    "expected": "balance_not_updated_after_bank_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "2a3bd50952e33c24e857362ea2c05442fbd7f9032577e5f2b1b9397b1212dc45",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "3d25dd34871d86d25c36b22a9e255d9976da38a20173493bf413e626474922e8",
+  "at": "2026-09-22T05:40:57.207Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-467",
+    "text": "My card was taken from me",
+    "expected": "lost_or_stolen_card",
+    "dataset": "banking77",
+    "normalizedSha256": "67b44bd8f82682d6536132c0ab357c081ce58e0e4040d6c0661de554ea33f900",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "30e0ea12272e71939b45fd9fbf061dc8b8ce3a2ccd645af82d2b8e81f291fab2",
+  "at": "2026-09-22T05:41:55.778Z"
+}

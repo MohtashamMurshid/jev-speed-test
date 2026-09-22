@@ -1,0 +1,18 @@
+{
+  "key": "14bc34dc9832fda4c4a95ce970a220e0f8e0f937732cfc27749e9ddb92ab924e",
+  "caseId": "test-902",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "supported_cards_and_currencies",
+  "predicted": "supported_cards_and_currencies",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": false,
+  "latencyMs": 1970.1005359999835,
+  "timing": "measured-live-sequential",
+  "components": [
+    "14bc34dc9832fda4c4a95ce970a220e0f8e0f937732cfc27749e9ddb92ab924e__gemini"
+  ],
+  "accountedUsd": 0.000627
+}

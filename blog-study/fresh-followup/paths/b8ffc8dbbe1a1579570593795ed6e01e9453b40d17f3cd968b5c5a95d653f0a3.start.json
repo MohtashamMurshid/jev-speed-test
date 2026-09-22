@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-205",
+    "text": "Why is it taking so long for my cash withdrawal to no longer show as pending?",
+    "expected": "pending_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "d19c532c955e6d2beb4b21a2e235a1effe451a9a2efcfcf4d92ad35bed3eff4e",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "b8ffc8dbbe1a1579570593795ed6e01e9453b40d17f3cd968b5c5a95d653f0a3",
+  "at": "2026-09-22T05:58:38.775Z"
+}

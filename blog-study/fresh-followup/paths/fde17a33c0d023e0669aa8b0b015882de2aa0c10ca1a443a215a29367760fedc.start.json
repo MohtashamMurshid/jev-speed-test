@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-4148",
+    "text": "do you know any dad jokes",
+    "expected": null,
+    "sourceCategory": "tell_joke",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "a93b0c507dbbf656338614fd284b1c84d330dfea561e4bd6c6cba29e2d80967d",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "fde17a33c0d023e0669aa8b0b015882de2aa0c10ca1a443a215a29367760fedc",
+  "at": "2026-09-22T06:12:02.652Z"
+}

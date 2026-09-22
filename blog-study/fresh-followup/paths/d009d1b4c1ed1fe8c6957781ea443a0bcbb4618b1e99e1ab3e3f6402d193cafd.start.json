@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-209",
+    "text": "Are you sure when the withdrawal will show?",
+    "expected": "pending_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "551b5a9f6caf121bdf20f782db5ad978f3374c3848734f2b6a587f81ab79546a",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "d009d1b4c1ed1fe8c6957781ea443a0bcbb4618b1e99e1ab3e3f6402d193cafd",
+  "at": "2026-09-22T06:08:02.195Z"
+}

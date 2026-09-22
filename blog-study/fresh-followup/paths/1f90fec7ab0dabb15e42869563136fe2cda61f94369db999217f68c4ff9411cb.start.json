@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1117",
+    "text": "There is a fraudulent charge on my statement.",
+    "expected": "card_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "ec0035b190833511a168384e44a7c864d6dd1379127a9346e93d35312f1d5b4d",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "1f90fec7ab0dabb15e42869563136fe2cda61f94369db999217f68c4ff9411cb",
+  "at": "2026-09-22T05:42:35.113Z"
+}

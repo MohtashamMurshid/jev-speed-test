@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-824",
+    "text": "So what items  actually come  with  extra  fees",
+    "expected": "card_payment_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "ee4f6709c17e33fce4931b6180a2aa69ac77c08f25c8da0508e2d5d946ff7a2c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "16ed5e5c04404881ddfd1c8decdef680754d2fcabab7f664b63163fe3ca97a38",
+  "at": "2026-09-22T05:51:14.431Z"
+}

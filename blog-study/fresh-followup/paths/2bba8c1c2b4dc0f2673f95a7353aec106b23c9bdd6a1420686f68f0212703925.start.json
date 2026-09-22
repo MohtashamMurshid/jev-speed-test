@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2518",
+    "text": "How do I get an actual card?",
+    "expected": "order_physical_card",
+    "dataset": "banking77",
+    "normalizedSha256": "14e6d26ab068816a81bec9365936bb22a793bc422f7bf49b7d8f954f1372193b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "2bba8c1c2b4dc0f2673f95a7353aec106b23c9bdd6a1420686f68f0212703925",
+  "at": "2026-09-22T06:06:19.352Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-537",
+    "text": "I attempted to use my card while I was intoxicated, and I failed to input my PIN, and the machine kept my card. How soon can I have it back?",
+    "expected": "pin_blocked",
+    "dataset": "banking77",
+    "normalizedSha256": "0515e20e3a5508981d4aa6f178a3a5119fa57e557125c5ad06f8b203b496e16f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "b94706d908d51cb80e38c1b454425728f1a7cf0195932a4367e3d2ca455b3285",
+  "at": "2026-09-22T06:06:26.533Z"
+}

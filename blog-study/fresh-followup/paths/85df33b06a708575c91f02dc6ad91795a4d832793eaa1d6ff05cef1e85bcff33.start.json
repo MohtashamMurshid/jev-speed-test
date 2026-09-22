@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1585",
+    "text": "Why was my cash withdrawal declined?",
+    "expected": "declined_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "d5ed826262d0a4b27515afd677b640e742a8b1f01387e844011f0809e3be51ea",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "85df33b06a708575c91f02dc6ad91795a4d832793eaa1d6ff05cef1e85bcff33",
+  "at": "2026-09-22T05:47:35.846Z"
+}

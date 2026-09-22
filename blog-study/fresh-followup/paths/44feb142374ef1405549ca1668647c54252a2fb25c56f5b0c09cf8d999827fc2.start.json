@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2996",
+    "text": "How do I top up with Apple Pay?",
+    "expected": "apple_pay_or_google_pay",
+    "dataset": "banking77",
+    "normalizedSha256": "726eb1644384436d1ebcdf4962f3e8474fdd975e855540c8bf1cafc94244bf37",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "44feb142374ef1405549ca1668647c54252a2fb25c56f5b0c09cf8d999827fc2",
+  "at": "2026-09-22T06:07:38.230Z"
+}

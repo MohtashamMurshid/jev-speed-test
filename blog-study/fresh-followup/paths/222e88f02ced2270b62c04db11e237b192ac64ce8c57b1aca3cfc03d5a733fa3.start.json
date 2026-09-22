@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2748",
+    "text": "Can anyone help me, I lost my wallet and they've started withdrawing from my account.",
+    "expected": "cash_withdrawal_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "d529ef9987ef0ea5648ecc09b2ebd52dc6d2265ca9ed580313b75e4866a3ff2c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "222e88f02ced2270b62c04db11e237b192ac64ce8c57b1aca3cfc03d5a733fa3",
+  "at": "2026-09-22T05:58:12.546Z"
+}

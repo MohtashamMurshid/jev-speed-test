@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2654",
+    "text": "Why caused my top up to not work?",
+    "expected": "top_up_failed",
+    "dataset": "banking77",
+    "normalizedSha256": "7dabbe10cec2c84a75eb25c9577869dc3a75173f4e749f6b824013ab55112c98",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "76ed96a1eca04d9f0d5d4df3ee4af550a7add66e017d9104eced1d5c7c889636",
+  "at": "2026-09-22T05:43:42.316Z"
+}

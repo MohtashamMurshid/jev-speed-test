@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1894",
+    "text": "This company is bad, please delete my account.",
+    "expected": "terminate_account",
+    "dataset": "banking77",
+    "normalizedSha256": "aa383671deecbaf91a66c29aeef5223cc012bbd09fb9bb562f1adc27e8b32b75",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "c4c8afca38c62f79adb6273a85fdb1e8f56f50ef35a85a80d60dcad7a93cd5b0",
+  "at": "2026-09-22T05:48:06.589Z"
+}

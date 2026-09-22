@@ -1,0 +1,18 @@
+{
+  "key": "e39b85bb1c546e94154ec3f0552038c5e1f5985620ce5d1b93676ab22025ca76",
+  "caseId": "test-332",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "automatic_top_up",
+  "predicted": "automatic_top_up",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 1618.9818659999873,
+  "timing": "measured-live-sequential",
+  "components": [
+    "e39b85bb1c546e94154ec3f0552038c5e1f5985620ce5d1b93676ab22025ca76__gemini"
+  ],
+  "accountedUsd": 0.0006255
+}

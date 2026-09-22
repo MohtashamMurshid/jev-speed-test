@@ -1,0 +1,18 @@
+{
+  "key": "51247080fed2b1445424105a473e0e627881d1a36e8eac61880e5b24902d5ad5",
+  "caseId": "test-1778",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "Refund_not_showing_up",
+  "predicted": "Refund_not_showing_up",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 1420.9753879999917,
+  "timing": "measured-live-sequential",
+  "components": [
+    "51247080fed2b1445424105a473e0e627881d1a36e8eac61880e5b24902d5ad5__gemini"
+  ],
+  "accountedUsd": 0.00062925
+}

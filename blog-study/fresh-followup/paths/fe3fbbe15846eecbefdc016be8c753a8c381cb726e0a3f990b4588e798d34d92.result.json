@@ -1,0 +1,18 @@
+{
+  "key": "fe3fbbe15846eecbefdc016be8c753a8c381cb726e0a3f990b4588e798d34d92",
+  "caseId": "test-1933",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "card_swallowed",
+  "predicted": "card_swallowed",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": true,
+  "safetyAccepted": true,
+  "latencyMs": 404.6173880000133,
+  "timing": "measured-live-sequential",
+  "components": [
+    "fe3fbbe15846eecbefdc016be8c753a8c381cb726e0a3f990b4588e798d34d92__jev"
+  ],
+  "accountedUsd": 0.000067914
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1450",
+    "text": "Help me locate the nearest ATM.",
+    "expected": "atm_support",
+    "dataset": "banking77",
+    "normalizedSha256": "1b8c10e05b904b81af93240be827f921fe4c26264420f70aee28d1e93f5879f3",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "a4b35f0cbe6587e21094f77888dc817c2eb968930638fc136937fae546041dae",
+  "at": "2026-09-22T06:03:33.136Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-969",
+    "text": "Is there anywhere my card will not be accepted?",
+    "expected": "card_acceptance",
+    "dataset": "banking77",
+    "normalizedSha256": "47b846219ecbdadb1f4ecbbb44a73807ba5e27af9bd73bbad7f346469e519d9f",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "bd8e9427ab95a3d4832abc781395f220d7c84672c18d02fc283d6f0b6fd8ed1a",
+  "at": "2026-09-22T06:08:17.648Z"
+}

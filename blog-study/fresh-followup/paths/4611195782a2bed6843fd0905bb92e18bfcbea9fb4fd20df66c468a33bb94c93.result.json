@@ -1,0 +1,19 @@
+{
+  "key": "4611195782a2bed6843fd0905bb92e18bfcbea9fb4fd20df66c468a33bb94c93",
+  "caseId": "test-940",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "getting_virtual_card",
+  "predicted": "getting_virtual_card",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 2009.9975040000863,
+  "timing": "measured-live-sequential",
+  "components": [
+    "4611195782a2bed6843fd0905bb92e18bfcbea9fb4fd20df66c468a33bb94c93__jev",
+    "4611195782a2bed6843fd0905bb92e18bfcbea9fb4fd20df66c468a33bb94c93__gemini"
+  ],
+  "accountedUsd": 0.000692118
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-702",
+    "text": "I need to cancel an incorrect transaction.",
+    "expected": "cancel_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "d2d0dd9b8e1b225f8c3b22314f491631e08bcac92110173e0436da10139bb389",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "e0213b93164c1f4e41185a9c14d169e8dc695cb034fafd53af112cfde5d7c14a",
+  "at": "2026-09-22T05:58:31.946Z"
+}

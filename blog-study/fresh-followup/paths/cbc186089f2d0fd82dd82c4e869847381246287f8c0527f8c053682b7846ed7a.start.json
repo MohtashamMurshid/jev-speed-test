@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1756",
+    "text": "My card is being declined online. Could you tell me what might be broken or wrong with the account?",
+    "expected": "declined_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "15e747c8552f6cd1340cfb9b7bffb510322426f99d5fdb50aeb84cec3332674e",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "cbc186089f2d0fd82dd82c4e869847381246287f8c0527f8c053682b7846ed7a",
+  "at": "2026-09-22T05:49:33.300Z"
+}

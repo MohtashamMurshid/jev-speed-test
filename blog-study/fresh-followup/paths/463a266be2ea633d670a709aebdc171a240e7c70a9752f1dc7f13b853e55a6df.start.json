@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-258",
+    "text": "Will you handle EUR?",
+    "expected": "fiat_currency_support",
+    "dataset": "banking77",
+    "normalizedSha256": "15f400c98874277404bf015093dd3d11085beecc9c1741c2ee06fbb6ca3e26a5",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "463a266be2ea633d670a709aebdc171a240e7c70a9752f1dc7f13b853e55a6df",
+  "at": "2026-09-22T05:48:08.196Z"
+}

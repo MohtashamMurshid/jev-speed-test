@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1384",
+    "text": "Is there a limit to how many transactions I can make on one disposable card?",
+    "expected": "disposable_card_limits",
+    "dataset": "banking77",
+    "normalizedSha256": "c8892589fb18d2411ecac25032073306d2465cea48734e64585fae8469fca8ae",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "5f50386dc63524da279794f5b01564c6bf2640a1d33b870969867ae994847d05",
+  "at": "2026-09-22T05:55:53.474Z"
+}

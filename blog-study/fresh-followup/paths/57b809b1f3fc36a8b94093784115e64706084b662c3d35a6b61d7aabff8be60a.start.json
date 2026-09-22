@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1170",
+    "text": "I would like to not have to do the identity verification.",
+    "expected": "why_verify_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "d62f54ee8ab2dc534112199c98dbd371855b5520ed8ba4de147c06ccda468d0e",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "57b809b1f3fc36a8b94093784115e64706084b662c3d35a6b61d7aabff8be60a",
+  "at": "2026-09-22T06:04:02.893Z"
+}

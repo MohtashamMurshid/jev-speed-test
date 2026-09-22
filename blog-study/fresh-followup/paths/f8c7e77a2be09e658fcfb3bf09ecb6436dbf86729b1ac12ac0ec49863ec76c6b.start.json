@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2553",
+    "text": "My disposable virtual card was rejected by the merchant, please help?",
+    "expected": "virtual_card_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "e1bfb5228a703db4194c55ac4002361c2841c075c61acb357f3f7d382dfc39d2",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "f8c7e77a2be09e658fcfb3bf09ecb6436dbf86729b1ac12ac0ec49863ec76c6b",
+  "at": "2026-09-22T05:55:28.088Z"
+}

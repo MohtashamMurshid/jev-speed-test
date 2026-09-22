@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3255",
+    "text": "how is the weather",
+    "expected": null,
+    "sourceCategory": "weather",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "aebeae65eb20573d593ca997a82057b8d5e90c1944df9d3f346a815172da40ce",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "034d20526b5f2cccc62e387303a10382e43e7a5f6d3d631030ef2820bcf5c8b5",
+  "at": "2026-09-22T06:17:22.439Z"
+}

@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-2064",
+    "text": "how long should i cook the cookie dough",
+    "expected": null,
+    "sourceCategory": "cook_time",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "e19628306144700f3b2540b72f1d25fe1893b4cbd1abcf1aded7ac52922026f4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "850a532acf736306cc14a8734da746974cc5a65a0997964071f6faab5ea2eb92",
+  "at": "2026-09-22T06:11:37.779Z"
+}

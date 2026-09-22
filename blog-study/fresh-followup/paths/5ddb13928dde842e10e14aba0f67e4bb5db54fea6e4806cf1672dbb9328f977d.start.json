@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2606",
+    "text": "I would like a temporary virtual card",
+    "expected": "get_disposable_virtual_card",
+    "dataset": "banking77",
+    "normalizedSha256": "c7001a067f8b5abfd715dbbf9049cf0910726389b61698ebc3ed93e45bf9ff02",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "5ddb13928dde842e10e14aba0f67e4bb5db54fea6e4806cf1672dbb9328f977d",
+  "at": "2026-09-22T05:48:25.574Z"
+}

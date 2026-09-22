@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1190",
+    "text": "Why do I have to verify my identity?",
+    "expected": "why_verify_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "1ee7f102411101f459c2274ad39b07abf2c891798d501976f7883ed015804ebb",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "d8b6b8cccbb38026bbd6113534b3e3700fab84d3e35a810bcae8b863a4961ced",
+  "at": "2026-09-22T06:07:53.610Z"
+}

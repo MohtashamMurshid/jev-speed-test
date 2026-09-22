@@ -1,0 +1,89 @@
+{
+  "model": "word unigram/bigram TF-IDF + L2 multinomial logistic regression",
+  "training_n": 9742,
+  "training_wall_seconds": 9.224744212348014,
+  "training_cpu_seconds": 9.163349026999999,
+  "versions": {
+    "python": "3.11.15",
+    "sklearn": "1.9.1",
+    "numpy": "2.4.6",
+    "scipy": "1.17.1"
+  },
+  "platform": "Linux-6.17.0-1022-gcp-x86_64-with-glibc2.39",
+  "thread_limit": 1,
+  "threadpools": [
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "version": "0.3.31.188.0",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell",
+      "library_filename": "libscipy_openblas64_-32a4b2a6.so"
+    },
+    {
+      "user_api": "openmp",
+      "internal_api": "openmp",
+      "num_threads": 1,
+      "prefix": "libgomp",
+      "version": null,
+      "library_filename": "libgomp-e985bcbb.so.1.0.0"
+    },
+    {
+      "user_api": "blas",
+      "internal_api": "openblas",
+      "num_threads": 1,
+      "prefix": "libscipy_openblas",
+      "version": "0.3.30",
+      "threading_layer": "pthreads",
+      "architecture": "Haswell",
+      "library_filename": "libscipy_openblas-6cdc3b4a.so"
+    }
+  ],
+  "threshold": {
+    "threshold": 0.25,
+    "accepted": 127,
+    "errors": 5
+  },
+  "calibration": {
+    "attempted": 200,
+    "correct": 173,
+    "accuracy": 0.865,
+    "accepted": 127,
+    "coverage": 0.635,
+    "accepted_errors": 5,
+    "selective_error": 0.03937007874015748,
+    "cpu_inference_ms_median": 0.7324325,
+    "cpu_inference_ms_p95": 1.0342399999999998,
+    "wall_inference_ms_median": 0.7352799999999999
+  },
+  "banking": {
+    "attempted": 500,
+    "correct": 425,
+    "accuracy": 0.85,
+    "accepted": 303,
+    "coverage": 0.606,
+    "accepted_errors": 19,
+    "selective_error": 0.0627062706270627,
+    "cpu_inference_ms_median": 0.730067,
+    "cpu_inference_ms_p95": 1.2347069999999978,
+    "wall_inference_ms_median": 0.7337899999999999
+  },
+  "oos": {
+    "attempted": 100,
+    "correct": null,
+    "accuracy": null,
+    "accepted": 2,
+    "coverage": 0.02,
+    "accepted_errors": 2,
+    "selective_error": null,
+    "cpu_inference_ms_median": 0.6698415,
+    "cpu_inference_ms_p95": 0.8638020499999999,
+    "wall_inference_ms_median": 0.672215
+  },
+  "api_charge_usd": 0,
+  "compute_cost": "Not priced; zero API charge does not mean zero compute cost.",
+  "timing": "Per-case single-thread vectorization + predict_proba + argmax, process CPU and wall clock; one warmup on training text; training excluded. Not hosted/network latency.",
+  "uncertainty_note": "Empirical 200-example calibration cutoff, not a risk guarantee; no tuning on test."
+}

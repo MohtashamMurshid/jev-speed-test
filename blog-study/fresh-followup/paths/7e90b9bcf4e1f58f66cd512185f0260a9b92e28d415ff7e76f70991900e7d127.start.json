@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2741",
+    "text": "Some cash is showing up in my app that I did not get.",
+    "expected": "cash_withdrawal_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "fc6a6e7b93c8a59297f47f31f423a8fa228551bc28c9f8de178b8428f8f142fb",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "7e90b9bcf4e1f58f66cd512185f0260a9b92e28d415ff7e76f70991900e7d127",
+  "at": "2026-09-22T06:02:26.023Z"
+}

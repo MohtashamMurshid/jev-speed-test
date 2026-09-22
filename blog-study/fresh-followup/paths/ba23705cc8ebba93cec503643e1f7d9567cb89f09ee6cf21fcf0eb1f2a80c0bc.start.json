@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2464",
+    "text": "Will you accept a cheque to top up my account?",
+    "expected": "top_up_by_cash_or_cheque",
+    "dataset": "banking77",
+    "normalizedSha256": "2584ef17e4fcf239e87ec0028683df05beee01bbfa04a2a313b26eb0c67587ec",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "ba23705cc8ebba93cec503643e1f7d9567cb89f09ee6cf21fcf0eb1f2a80c0bc",
+  "at": "2026-09-22T05:58:14.722Z"
+}

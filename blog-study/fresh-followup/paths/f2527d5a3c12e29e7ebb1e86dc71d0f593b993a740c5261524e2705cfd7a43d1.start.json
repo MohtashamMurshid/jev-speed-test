@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2616",
+    "text": "Can you explain disposable cards?",
+    "expected": "get_disposable_virtual_card",
+    "dataset": "banking77",
+    "normalizedSha256": "66360750f188196c458990ce4cf88e44cb10edd12fc25cce71bb5699759b3533",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "f2527d5a3c12e29e7ebb1e86dc71d0f593b993a740c5261524e2705cfd7a43d1",
+  "at": "2026-09-22T06:07:31.838Z"
+}

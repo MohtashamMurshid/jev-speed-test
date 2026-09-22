@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1307",
+    "text": "I'd like more information about choosing a Visa or Mastercard.",
+    "expected": "visa_or_mastercard",
+    "dataset": "banking77",
+    "normalizedSha256": "112613867f13f3bb0b1a171f4f01980889beb14e4525d65df792e8a7a8076697",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "00331597e7b8201905193229c4ff2c5a1fa75ccf588c0e9b1b91c9f629abfba1",
+  "at": "2026-09-22T05:55:08.454Z"
+}

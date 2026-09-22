@@ -1,0 +1,18 @@
+{
+  "key": "cb42592eb43c3c42469ceb86f5caf7d519b61d46f06a3aaf333300fc4fa05f1a",
+  "caseId": "test-1502",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "direct_debit_payment_not_recognised",
+  "predicted": "direct_debit_payment_not_recognised",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": true,
+  "safetyAccepted": true,
+  "latencyMs": 311.74266500002705,
+  "timing": "measured-live-sequential",
+  "components": [
+    "cb42592eb43c3c42469ceb86f5caf7d519b61d46f06a3aaf333300fc4fa05f1a__jev"
+  ],
+  "accountedUsd": 0.000067452
+}

@@ -1,0 +1,18 @@
+{
+  "key": "5416f1baca78914eaa729b06521a20bfd44f3baa90f72f3297b5d9a110d1ee83",
+  "caseId": "test-438",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "exchange_via_app",
+  "predicted": "exchange_via_app",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": false,
+  "latencyMs": 1430.2747470000759,
+  "timing": "measured-live-sequential",
+  "components": [
+    "5416f1baca78914eaa729b06521a20bfd44f3baa90f72f3297b5d9a110d1ee83__gemini"
+  ],
+  "accountedUsd": 0.000606
+}

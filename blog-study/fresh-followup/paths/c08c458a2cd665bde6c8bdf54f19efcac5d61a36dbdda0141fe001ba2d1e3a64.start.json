@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-349",
+    "text": "I've tried looking for the auto-top up option on your website and I can't seem to find it. Can you help me?",
+    "expected": "automatic_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "9c69b33372aaf842181893ac049dcd3f912c1f52d78b711d557152f66c5ff5ed",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "c08c458a2cd665bde6c8bdf54f19efcac5d61a36dbdda0141fe001ba2d1e3a64",
+  "at": "2026-09-22T05:54:47.351Z"
+}

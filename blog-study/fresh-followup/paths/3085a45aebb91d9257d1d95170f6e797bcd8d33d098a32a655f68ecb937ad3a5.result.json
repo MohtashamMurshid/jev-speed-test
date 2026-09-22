@@ -1,0 +1,19 @@
+{
+  "key": "3085a45aebb91d9257d1d95170f6e797bcd8d33d098a32a655f68ecb937ad3a5",
+  "caseId": "test-2407",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "getting_spare_card",
+  "predicted": "getting_spare_card",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 1854.6351150000119,
+  "timing": "measured-live-sequential",
+  "components": [
+    "3085a45aebb91d9257d1d95170f6e797bcd8d33d098a32a655f68ecb937ad3a5__jev",
+    "3085a45aebb91d9257d1d95170f6e797bcd8d33d098a32a655f68ecb937ad3a5__gemini"
+  ],
+  "accountedUsd": 0.0006749519999999999
+}

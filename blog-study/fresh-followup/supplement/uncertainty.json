@@ -1,0 +1,105 @@
+{
+  "gemini_verbalized": {
+    "accepted": 374,
+    "accepted_error_rate": 0.06149732620320856,
+    "accepted_errors": 23,
+    "all_attempt_coverage": 0.748,
+    "all_attempts": 500,
+    "bootstrap_population": "Same valid, finite-score records as the point estimate; iid case resampling, seed 20260922.",
+    "bootstrap_requested": 2000,
+    "bootstrap_two_class_samples": 2000,
+    "eligible_valid_scored": 499,
+    "error_auroc": 0.8245945945945945,
+    "error_auroc_ci95": [
+      0.7740766205367419,
+      0.8699768149994795
+    ],
+    "error_average_precision": 0.4005600046316382,
+    "excluded": 1,
+    "frozen_cutoff": 0.95,
+    "matched_random_deferral": {
+      "expected_accepted_errors": 55.46292585170341,
+      "expected_error_rate": 0.14829659318637275,
+      "population": 499,
+      "population_errors": 74,
+      "randomization_error_count_interval95": [
+        49,
+        62
+      ],
+      "rule": "Uniform sample of exactly accepted-count valid scored responses. All failures deferred in both policies; interval is a randomization interval, not parameter uncertainty.",
+      "sample_size": 374
+    },
+    "score_field": "probability",
+    "scored_failures_excluded": 0,
+    "valid_error_prevalence": 0.14829659318637275
+  },
+  "interpretation": "AUROC ranks observed mistakes; it is not probability calibration. No score fitting or threshold changes on this sample.",
+  "jev_native": {
+    "accepted": 170,
+    "accepted_error_rate": 0.029411764705882353,
+    "accepted_errors": 5,
+    "all_attempt_coverage": 0.34,
+    "all_attempts": 500,
+    "bootstrap_population": "Same valid, finite-score records as the point estimate; iid case resampling, seed 20260922.",
+    "bootstrap_requested": 2000,
+    "bootstrap_two_class_samples": 2000,
+    "eligible_valid_scored": 500,
+    "error_auroc": 0.855021216407355,
+    "error_auroc_ci95": [
+      0.8127671825479931,
+      0.8943322774057078
+    ],
+    "error_average_precision": 0.6055726459463763,
+    "excluded": 0,
+    "frozen_cutoff": 1,
+    "matched_random_deferral": {
+      "expected_accepted_errors": 34.34,
+      "expected_error_rate": 0.202,
+      "population": 500,
+      "population_errors": 101,
+      "randomization_error_count_interval95": [
+        26,
+        43
+      ],
+      "rule": "Uniform sample of exactly accepted-count valid scored responses. All failures deferred in both policies; interval is a randomization interval, not parameter uncertainty.",
+      "sample_size": 170
+    },
+    "score_field": "nativeConfidence",
+    "scored_failures_excluded": 0,
+    "valid_error_prevalence": 0.202
+  },
+  "local_max_class_probability": {
+    "accepted": 303,
+    "accepted_error_rate": 0.0627062706270627,
+    "accepted_errors": 19,
+    "all_attempt_coverage": 0.606,
+    "all_attempts": 500,
+    "bootstrap_population": "Same valid, finite-score records as the point estimate; iid case resampling, seed 20260922.",
+    "bootstrap_requested": 2000,
+    "bootstrap_two_class_samples": 2000,
+    "eligible_valid_scored": 500,
+    "error_auroc": 0.8075921568627451,
+    "error_auroc_ci95": [
+      0.755158652864485,
+      0.8597291503354936
+    ],
+    "error_average_precision": 0.4729061114091491,
+    "excluded": 0,
+    "frozen_cutoff": 0.25,
+    "matched_random_deferral": {
+      "expected_accepted_errors": 45.45,
+      "expected_error_rate": 0.15,
+      "population": 500,
+      "population_errors": 75,
+      "randomization_error_count_interval95": [
+        38,
+        53
+      ],
+      "rule": "Uniform sample of exactly accepted-count valid scored responses. All failures deferred in both policies; interval is a randomization interval, not parameter uncertainty.",
+      "sample_size": 303
+    },
+    "score_field": "score",
+    "scored_failures_excluded": 0,
+    "valid_error_prevalence": 0.15
+  }
+}

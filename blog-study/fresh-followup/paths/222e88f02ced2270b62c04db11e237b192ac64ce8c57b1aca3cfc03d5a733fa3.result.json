@@ -1,0 +1,18 @@
+{
+  "key": "222e88f02ced2270b62c04db11e237b192ac64ce8c57b1aca3cfc03d5a733fa3",
+  "caseId": "test-2748",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "cash_withdrawal_not_recognised",
+  "predicted": "lost_or_stolen_card",
+  "status": "ok",
+  "correct": false,
+  "jevAccepted": false,
+  "safetyAccepted": false,
+  "latencyMs": 1715.5973960000556,
+  "timing": "measured-live-sequential",
+  "components": [
+    "222e88f02ced2270b62c04db11e237b192ac64ce8c57b1aca3cfc03d5a733fa3__gemini"
+  ],
+  "accountedUsd": 0.00063675
+}

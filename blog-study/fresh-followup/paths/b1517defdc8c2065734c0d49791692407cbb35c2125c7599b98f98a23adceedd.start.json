@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1680",
+    "text": "Hello- It is urgent I get a refund on this product. The merchant has not been helpful, what can I do now to get this resolved ASAP?",
+    "expected": "request_refund",
+    "dataset": "banking77",
+    "normalizedSha256": "c1b8bc6e348e5475f7842dadff43ce26cf7057994d69fb3232f961036396ae2e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "b1517defdc8c2065734c0d49791692407cbb35c2125c7599b98f98a23adceedd",
+  "at": "2026-09-22T05:41:24.799Z"
+}

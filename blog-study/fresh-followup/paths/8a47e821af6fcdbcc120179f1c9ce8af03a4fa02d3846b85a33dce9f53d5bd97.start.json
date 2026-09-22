@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3249",
+    "text": "what is the state of the weather in seattle",
+    "expected": null,
+    "sourceCategory": "weather",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "a4eeff5f84e780a1035d1f8612dff096663843f011ef72ccbc42e286a5cfc7cf",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "8a47e821af6fcdbcc120179f1c9ce8af03a4fa02d3846b85a33dce9f53d5bd97",
+  "at": "2026-09-22T06:13:06.688Z"
+}

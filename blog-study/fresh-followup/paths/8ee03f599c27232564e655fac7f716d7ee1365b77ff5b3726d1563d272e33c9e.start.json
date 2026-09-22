@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-158",
+    "text": "The wrong rate was applied to an item I bought in a currency different from mine. Can this be changed?",
+    "expected": "card_payment_wrong_exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "eb82fce9fd7478e6dd4486ddb63edc8c5e45c12fd473069bfa8c805b96fc6eae",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "8ee03f599c27232564e655fac7f716d7ee1365b77ff5b3726d1563d272e33c9e",
+  "at": "2026-09-22T05:45:49.635Z"
+}

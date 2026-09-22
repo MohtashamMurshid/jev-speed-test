@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1637",
+    "text": "I have paid by my card but payment is still its coming as pending. I think there is some issue please check and let me know when the status will complete.",
+    "expected": "pending_card_payment",
+    "dataset": "banking77",
+    "normalizedSha256": "ae18a1e19a0c5772031dd587092042327300d54ade2158a785db3a410db996bb",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "619555fee9e3e454459d9095edc4f2ff9c47c1b1510118c2a41197e0981c7fa5",
+  "at": "2026-09-22T06:00:22.149Z"
+}

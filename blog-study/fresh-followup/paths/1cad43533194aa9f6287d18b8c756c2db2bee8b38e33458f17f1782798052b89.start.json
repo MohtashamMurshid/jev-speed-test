@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1791",
+    "text": "Where is my refund? I have been checking my account all day.",
+    "expected": "Refund_not_showing_up",
+    "dataset": "banking77",
+    "normalizedSha256": "4615e8c98961ed733ac6075bdb093410e643b5981e3386ce22f21f17bf2f5932",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "1cad43533194aa9f6287d18b8c756c2db2bee8b38e33458f17f1782798052b89",
+  "at": "2026-09-22T06:05:17.728Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2348",
+    "text": "How do I do an international transfer?",
+    "expected": "transfer_into_account",
+    "dataset": "banking77",
+    "normalizedSha256": "4979ef7f665fed52a1095c5b638feaab4280e30b8167976d0694ed7f9d6c5a84",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "d0cf1be2398c2225b03d7d1381622bb065649e5f7aa268184b5c6720b9c3c857",
+  "at": "2026-09-22T05:57:30.832Z"
+}

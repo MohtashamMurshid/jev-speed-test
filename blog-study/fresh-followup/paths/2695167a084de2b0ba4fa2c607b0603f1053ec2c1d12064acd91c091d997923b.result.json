@@ -1,0 +1,19 @@
+{
+  "key": "2695167a084de2b0ba4fa2c607b0603f1053ec2c1d12064acd91c091d997923b",
+  "caseId": "clinc-test-4164",
+  "cohort": "oos",
+  "path": "cascade",
+  "expected": null,
+  "predicted": "fiat_currency_support",
+  "status": "ok",
+  "correct": false,
+  "jevAccepted": false,
+  "safetyAccepted": false,
+  "latencyMs": 2981.276068000123,
+  "timing": "measured-live-sequential",
+  "components": [
+    "2695167a084de2b0ba4fa2c607b0603f1053ec2c1d12064acd91c091d997923b__jev",
+    "2695167a084de2b0ba4fa2c607b0603f1053ec2c1d12064acd91c091d997923b__gemini"
+  ],
+  "accountedUsd": 0.000992118
+}

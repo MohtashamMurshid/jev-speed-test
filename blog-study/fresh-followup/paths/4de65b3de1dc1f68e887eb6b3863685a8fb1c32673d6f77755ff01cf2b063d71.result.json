@@ -1,0 +1,18 @@
+{
+  "key": "4de65b3de1dc1f68e887eb6b3863685a8fb1c32673d6f77755ff01cf2b063d71",
+  "caseId": "test-2654",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "top_up_failed",
+  "predicted": "top_up_failed",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 1908.7416209999938,
+  "timing": "measured-live-sequential",
+  "components": [
+    "4de65b3de1dc1f68e887eb6b3863685a8fb1c32673d6f77755ff01cf2b063d71__gemini"
+  ],
+  "accountedUsd": 0.00062925
+}

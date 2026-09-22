@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-821",
+    "text": "Can I check somewhere if there will be a fee on my payment or not? Seems you are charging in some cases, what's the pattern there?",
+    "expected": "card_payment_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "306033243b2376b13f8e9d52f0e111b70b68f72925bab46e31bde2bb8447e662",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "431549477627b34fb1660a5d29aa2d2dbecc8f65d2b19b4f779c1fdbe572b57f",
+  "at": "2026-09-22T05:40:49.374Z"
+}

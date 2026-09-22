@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1895",
+    "text": "please delete my account, your services are not up to par.",
+    "expected": "terminate_account",
+    "dataset": "banking77",
+    "normalizedSha256": "4ee06f8db813bea1e5a45fa72354e77a6f80381a70f02a355efa6eb28e951a8c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "08daefe03bbb3fc5d29414c9c4b02f95278295082d4b519bef02636f56230f55",
+  "at": "2026-09-22T06:06:03.309Z"
+}

@@ -1,0 +1,69 @@
+{
+  "byte_identical_artifacts": [
+    "analysis/README.md",
+    "analysis/accuracy.png",
+    "analysis/accuracy.svg",
+    "analysis/artifact-sha256.json",
+    "analysis/case-results.csv",
+    "analysis/latency.png",
+    "analysis/latency.svg",
+    "analysis/oos.png",
+    "analysis/oos.svg",
+    "analysis/summary.json",
+    "supplement/cost-sensitivity.json",
+    "supplement/cost.pdf",
+    "supplement/cost.png",
+    "supplement/cost.svg",
+    "supplement/gates.pdf",
+    "supplement/gates.png",
+    "supplement/gates.svg",
+    "supplement/oos-all-gates.pdf",
+    "supplement/oos-all-gates.png",
+    "supplement/oos-all-gates.svg",
+    "supplement/uncertainty.json",
+    "data/README.md",
+    "data/banking-results.csv",
+    "data/oos-results.csv",
+    "data/paths.jsonl.gz",
+    "data/responses.jsonl.gz",
+    "data/sha256.json"
+  ],
+  "fresh_temporary_directory": true,
+  "independent_audit": {
+    "accounted_usd": "1.047763026",
+    "banking_correct": {
+      "baseline": 425,
+      "cascade": 424,
+      "jev": 399
+    },
+    "banking_cost_usd": {
+      "baseline": "0.59767350",
+      "cascade": "0.263318940"
+    },
+    "billed_usd": "0.793283526",
+    "cascade_gains_vs_separate_gemini": 3,
+    "cascade_losses_vs_separate_gemini": 4,
+    "failures": {
+      "gemini/error": 1,
+      "jev/error": 2
+    },
+    "independent_raw_reconstruction": true,
+    "paths": 1200,
+    "physical_calls": 1630,
+    "returned_identities": {
+      "None | None": 1,
+      "google/gemini-3.8-flash | Google AI Studio": 1029,
+      "typesafe/jev-1.13-20260917 | TypeSafe": 600
+    },
+    "unknown_bill_reservations_usd": "0.2544795"
+  },
+  "local_refit": {
+    "frozen_threshold_identical": true,
+    "matched_predictions": 800,
+    "max_probability_absolute_difference": 0.0,
+    "timings_compared": false
+  },
+  "network_calls": 0,
+  "network_guard": "Socket connections disabled in all replay subprocesses",
+  "offline_replay_passed": true
+}

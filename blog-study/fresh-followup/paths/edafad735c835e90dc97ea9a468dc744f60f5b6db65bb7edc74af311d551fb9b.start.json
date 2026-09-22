@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-962",
+    "text": "Can I use my card for payment all over the world?",
+    "expected": "card_acceptance",
+    "dataset": "banking77",
+    "normalizedSha256": "c49b59de9c5fc703864a38c1cd67a39f081070b23cbfdecf4f9840fc6fecfe0c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "edafad735c835e90dc97ea9a468dc744f60f5b6db65bb7edc74af311d551fb9b",
+  "at": "2026-09-22T05:52:43.194Z"
+}

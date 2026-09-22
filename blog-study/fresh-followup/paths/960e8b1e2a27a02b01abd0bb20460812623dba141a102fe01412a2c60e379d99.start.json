@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2624",
+    "text": "What does a disposable virtual card do?",
+    "expected": "get_disposable_virtual_card",
+    "dataset": "banking77",
+    "normalizedSha256": "7b6571116f89150129dde752ef57cc5475474dfdf1695b05b4918377e055c9ff",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "960e8b1e2a27a02b01abd0bb20460812623dba141a102fe01412a2c60e379d99",
+  "at": "2026-09-22T06:07:46.995Z"
+}

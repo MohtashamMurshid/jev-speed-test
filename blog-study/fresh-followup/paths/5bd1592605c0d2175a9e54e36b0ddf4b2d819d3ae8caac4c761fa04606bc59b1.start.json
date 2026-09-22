@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-99",
+    "text": "Where do you get your exchange rates from?",
+    "expected": "exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "001c71f32de9ce843c361b3a8c34807c4de7950f6642ca6f440f906a1e35102c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "5bd1592605c0d2175a9e54e36b0ddf4b2d819d3ae8caac4c761fa04606bc59b1",
+  "at": "2026-09-22T05:58:04.342Z"
+}

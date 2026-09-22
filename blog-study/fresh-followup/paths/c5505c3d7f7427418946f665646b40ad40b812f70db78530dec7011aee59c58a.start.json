@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-2150",
+    "text": "if i use applesauce instead of oil, will that mess it up",
+    "expected": null,
+    "sourceCategory": "ingredient_substitution",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "65029f5f2e8d58308b375fff048423339c9709d50cb474434a0ba232d28821c7",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "c5505c3d7f7427418946f665646b40ad40b812f70db78530dec7011aee59c58a",
+  "at": "2026-09-22T06:12:50.401Z"
+}

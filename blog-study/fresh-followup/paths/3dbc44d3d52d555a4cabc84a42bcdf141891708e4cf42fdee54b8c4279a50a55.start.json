@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2019",
+    "text": "What is the source of my money?",
+    "expected": "verify_source_of_funds",
+    "dataset": "banking77",
+    "normalizedSha256": "2ab548ef396e9cd9ab4951ccba3d7fb09b97ff0ba2a7a47f7d56d2442a105df4",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "3dbc44d3d52d555a4cabc84a42bcdf141891708e4cf42fdee54b8c4279a50a55",
+  "at": "2026-09-22T06:01:02.534Z"
+}

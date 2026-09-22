@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2720",
+    "text": "Think someone has took money out with my card. What shall I do?",
+    "expected": "cash_withdrawal_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "4757502c2803352bce435feb726bb708433158cf33cf927d0f35dd0754c1a10a",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "067fb505ee58a29548d458181ccd53fecb6848ff69921354b3d1c38d4ec247d4",
+  "at": "2026-09-22T06:03:08.120Z"
+}

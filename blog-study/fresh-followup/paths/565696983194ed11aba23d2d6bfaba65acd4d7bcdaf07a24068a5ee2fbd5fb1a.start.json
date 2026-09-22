@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1317",
+    "text": "Can you let me know if Visa is among the card scheme assignments?",
+    "expected": "visa_or_mastercard",
+    "dataset": "banking77",
+    "normalizedSha256": "48a2c8ccffa70d3bec67890f3485b0c71083e2ad870a159624636210ed715c7e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "565696983194ed11aba23d2d6bfaba65acd4d7bcdaf07a24068a5ee2fbd5fb1a",
+  "at": "2026-09-22T05:54:16.726Z"
+}

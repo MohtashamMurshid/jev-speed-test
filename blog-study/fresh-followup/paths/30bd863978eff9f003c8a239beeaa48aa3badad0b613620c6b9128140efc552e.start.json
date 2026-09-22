@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-409",
+    "text": "How do I interconvert between AUD and GBP?",
+    "expected": "exchange_via_app",
+    "dataset": "banking77",
+    "normalizedSha256": "97277b4934e64c86cac51e9c48eef1cfc6827eaa138d4ac9a3f7a85ada7f25fd",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "30bd863978eff9f003c8a239beeaa48aa3badad0b613620c6b9128140efc552e",
+  "at": "2026-09-22T05:42:06.053Z"
+}

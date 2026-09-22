@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-499",
+    "text": "If my kids wanted to use your service how old would they have to be?",
+    "expected": "age_limit",
+    "dataset": "banking77",
+    "normalizedSha256": "39f9184816ef3a7a5853fc945633bffeb064191618709aadd652cff505f4352a",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "123c5f3e37717900ae31ba28d7636c42b2f29196391f2e1e96158c080eac936c",
+  "at": "2026-09-22T05:42:32.089Z"
+}

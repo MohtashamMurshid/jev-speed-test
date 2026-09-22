@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2766",
+    "text": "How much more do I have to pay to exchange currencies?",
+    "expected": "exchange_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "1452f962090fb2b37e669cc31bd843ce6a5991e62504ed204f0fc28111c32e60",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "e90fb503f68fc3d075d42c937c88f47c93fa5e4e154a896ee8b95087a9f84d51",
+  "at": "2026-09-22T05:59:20.548Z"
+}

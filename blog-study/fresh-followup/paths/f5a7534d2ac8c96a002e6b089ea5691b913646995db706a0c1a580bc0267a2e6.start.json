@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-993",
+    "text": "can you swipe to the next song",
+    "expected": null,
+    "sourceCategory": "next_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "0620a1e702c37271875ec7b7479b2f42df0c2262cb7dbeaa329aca62560856a8",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "f5a7534d2ac8c96a002e6b089ea5691b913646995db706a0c1a580bc0267a2e6",
+  "at": "2026-09-22T06:15:44.694Z"
+}

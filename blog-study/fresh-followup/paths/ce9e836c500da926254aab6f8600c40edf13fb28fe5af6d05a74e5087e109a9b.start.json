@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-310",
+    "text": "I need my card to come as soon as possible.",
+    "expected": "card_delivery_estimate",
+    "dataset": "banking77",
+    "normalizedSha256": "c959c213211ba89c09f682adab744263b22e1fd8a8dbedb3a4d2e7b93485f29b",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "ce9e836c500da926254aab6f8600c40edf13fb28fe5af6d05a74e5087e109a9b",
+  "at": "2026-09-22T05:58:51.436Z"
+}

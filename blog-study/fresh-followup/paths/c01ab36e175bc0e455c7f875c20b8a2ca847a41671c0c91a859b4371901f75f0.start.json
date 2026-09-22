@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2002",
+    "text": "Where are my funds being sourced from?",
+    "expected": "verify_source_of_funds",
+    "dataset": "banking77",
+    "normalizedSha256": "d700d90de4c49ab0345b08ac3c38695e9dfc55316e4c5be1a2e0221e039d9d4b",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "c01ab36e175bc0e455c7f875c20b8a2ca847a41671c0c91a859b4371901f75f0",
+  "at": "2026-09-22T06:02:34.772Z"
+}

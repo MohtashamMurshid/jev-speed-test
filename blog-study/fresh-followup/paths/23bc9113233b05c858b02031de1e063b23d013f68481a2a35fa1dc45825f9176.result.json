@@ -1,0 +1,19 @@
+{
+  "key": "23bc9113233b05c858b02031de1e063b23d013f68481a2a35fa1dc45825f9176",
+  "caseId": "test-826",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "card_payment_fee_charged",
+  "predicted": "card_payment_fee_charged",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 1744.4392929999158,
+  "timing": "measured-live-sequential",
+  "components": [
+    "23bc9113233b05c858b02031de1e063b23d013f68481a2a35fa1dc45825f9176__jev",
+    "23bc9113233b05c858b02031de1e063b23d013f68481a2a35fa1dc45825f9176__gemini"
+  ],
+  "accountedUsd": 0.000698244
+}

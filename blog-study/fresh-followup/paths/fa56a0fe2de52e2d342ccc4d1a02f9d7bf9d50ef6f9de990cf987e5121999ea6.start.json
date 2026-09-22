@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2239",
+    "text": "Can you explain the transfer fee to me?",
+    "expected": "transfer_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "90913c55340bbf07687b348e11a65889844b4ac1a1bb8254ad086e7e77ed3c7a",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "fa56a0fe2de52e2d342ccc4d1a02f9d7bf9d50ef6f9de990cf987e5121999ea6",
+  "at": "2026-09-22T05:43:55.539Z"
+}

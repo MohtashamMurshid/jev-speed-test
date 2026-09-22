@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2182",
+    "text": "A transfer to an account was not allowed",
+    "expected": "beneficiary_not_allowed",
+    "dataset": "banking77",
+    "normalizedSha256": "cd22467b13cc9805692581ed90d024b6912ff9485511a772bc1cee4bb0105668",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "ea358770820c674d5c2e4656b86887776065aa5e1274ee55d95b9c511f80ebe1",
+  "at": "2026-09-22T06:07:03.184Z"
+}

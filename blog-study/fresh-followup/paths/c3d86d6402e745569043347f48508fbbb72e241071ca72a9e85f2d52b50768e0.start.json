@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2797",
+    "text": "Does it cost anything for exchanges?",
+    "expected": "exchange_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "13f65dc927e6a26cc7d94f8bfe1022741f1e4ba36bb05e192b0e3e51072dbe29",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "c3d86d6402e745569043347f48508fbbb72e241071ca72a9e85f2d52b50768e0",
+  "at": "2026-09-22T05:54:45.479Z"
+}

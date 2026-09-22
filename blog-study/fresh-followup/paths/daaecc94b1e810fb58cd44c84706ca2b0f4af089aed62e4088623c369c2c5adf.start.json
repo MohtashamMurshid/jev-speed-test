@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-547",
+    "text": "My pins seems to be blocked, can you unblock it please",
+    "expected": "pin_blocked",
+    "dataset": "banking77",
+    "normalizedSha256": "c175e1186f0451e11e39add6fc4834e640990dcfb6192acd7833a505899c000c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "daaecc94b1e810fb58cd44c84706ca2b0f4af089aed62e4088623c369c2c5adf",
+  "at": "2026-09-22T05:51:39.987Z"
+}

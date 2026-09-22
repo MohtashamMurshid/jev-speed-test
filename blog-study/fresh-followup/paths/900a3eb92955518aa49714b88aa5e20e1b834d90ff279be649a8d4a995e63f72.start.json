@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-202",
+    "text": "My transaction is still showing that is pending from my cash withdrawal.",
+    "expected": "pending_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "d77f7b1fb22922984a001c3c8e1c44d5525993026ac91150305d190bada152f8",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "900a3eb92955518aa49714b88aa5e20e1b834d90ff279be649a8d4a995e63f72",
+  "at": "2026-09-22T05:40:24.497Z"
+}

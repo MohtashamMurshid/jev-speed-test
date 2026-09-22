@@ -1,0 +1,88 @@
+{
+  "key": "f12ed243df556a273adf26ef3c22b681b721f3d08d1065a82d2779520afbe4a5__gemini",
+  "sequence": 1392,
+  "caseId": "clinc-test-2146",
+  "cohort": "oos",
+  "path": "baseline",
+  "system": "gemini",
+  "expected": null,
+  "model": "google/gemini-3.8-flash",
+  "endpoint": "google-ai-studio",
+  "status": "ok",
+  "correct": false,
+  "reservedUsd": 0.25435575,
+  "timestamp": "2026-09-22T06:10:51.398Z",
+  "predicted": "card_acceptance",
+  "probability": 0.01,
+  "usage": {
+    "inputTokens": 724,
+    "inputTokenDetails": {
+      "noCacheTokens": 724,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0
+    },
+    "outputTokens": 264,
+    "outputTokenDetails": {
+      "textTokens": 17,
+      "reasoningTokens": 247
+    },
+    "totalTokens": 988
+  },
+  "finishReason": "stop",
+  "latencyMs": 2646.161174000008,
+  "returnedModel": "google/gemini-3.8-flash",
+  "returnedProvider": "Google AI Studio",
+  "response": {
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "{\"intent\": \"I24\", \"probability\": 0.01}",
+          "refusal": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "signature": "EuQJCuEJAWkUfROR0h020XfrazzgEQyBJKg/eTNQwA+Hoz0tMf+ZaJyC4AFZTayhOU1tiFouX8ywJzn+aNL9Q6KuENsPd4zExArUpR3CK1CQtWpRi8rQPEDC70x01DE41I7yM2FyrqVPnAOSI8ORSTa/t3PT1uUoy8tqjCSp0zAIJK8DJZlNLVjaTMMygAGFgYy50juXRdHRbgj54oNFYfOpeeIQYUyVu+3v8llqkSpm4hLhykOzADFyu6ZD3zNPxJCHtvMXa+crAACvZQO7wIrlxQ/kzwQlIkEJ1oK1I+0XFDx7q8Bd3tJONi/ihV3Uwy50tAXNBBCLZhJguuu6nBCvGtm6t9TXjD4OgDRIHDe0WpEnCjtreuqu1mcnSvoZFhzfwXUx1HjdtYTUEj7NSR3ekku+YyOAi3LwQiTAHfDMeeA+d1SUzIZJHbE4w5i+ZefRLwZBVW+u+9OemktxAnkfe+GAhI7dxoisoG1II19pkD7SVUAwUexmALyKe7q4GzuvVZit9TSI1pUD7Z1FUIisNlRaaUU6OnISJ2VM+ylqVTxCsXinxIuxZW1fnEXme4F5iD+NzLJtv1b9tiuZp2j6STBc0amrKBV9/i4I14Q+7CKB/LrXMUGAgNEO47YQh5VXrmou+OCNcQ6gM4N3QaibVFyWCVRb5JfCRwC+IuW2awZSkCbPClTsTzGQswTRFbzaPVcTzeA5lNFfgCqnEkN7j56Tz02IfZw4vFqnuBmU+fN99lboeoZDm2xZ3i+Z8puz8hCOd5d8Pa7kSxsuTcGvkWftXvhEAw1sGErKsrKaYuBAPDPoCUgB5L6ZzrZlwtLvEl1IU2LEoAb6hbhw/Y7QXv/woY8IIdkfGUhjv7ngcXkafSEO9/6l5DBZaPL4p1oLZYHGFklfdQEY0iOOG7PtLbfpdG8cIKLNhLRXFmAQ+gmDEMFMaNeb7uv9vZGKrgxqmN4tZhlrT53NhP1klG07KomeWe90YZhirh6/NQ4iWm5IQRaXioPjo0L85uReLcqUojBVhsz8o9/T5rJ1BWS2KpNMp/ZshRCv4ONA6jOpl9b1jmpckxZvlkPRbjNUbJwuYuWYdW/VBjCLwIbCAM0jnqaSmqp5UJntR8TpvCMgIQlL3WOqFAXnpWWWVySNrW9dT34Dz3EFGOUg8hO70TDLx58odu5PjadN18c7PXeVEdzdw31OCPYEONUP3HsGQ31Ij0873Nwvyx8g4fJVPfTZKJO3sO3UGneS8TSpYqfcbXgE0JHPfIThGflDJ46zAx9WuC2a85OBML6PdJChWuUAeEJSIqC9I/2G7rn035bM5Utpi+45TgBL8NqK8V7crk6V5R0mO+ZPgM5xYbyzowP7W3jJC1e2To8xyPX6Ml88cqt+foAj6q8F8koazehx6Fzw8Brlb3iSCFDjUjTPrJZ/nFGwPH378EbcmKzSkZvacx/AV96Pepgt8whpERM0EQ/k+D7gk5trPs+ePjlvo5IV92u3jcIz4Q2+zyQPpGikq4svXdZU28n5O5rBZM7AKX4t/r8ca4Pi7E6a65pkbu70jjdj4T8tR6OCFqPZ2dNkyxAJcJAhVIk5Y5qwz2TdUbCX+q4DotgkNAV33AaznqKuVqg61GlF3bszT0riaRIf9AcoQyFU2ts5dJPrdBIXrfLgaiJV/g==",
+              "format": "google-gemini-v1",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 724,
+      "completion_tokens": 264,
+      "total_tokens": 988,
+      "cost": 0.001533,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.001533,
+        "upstream_inference_prompt_cost": 0.000543,
+        "upstream_inference_completions_cost": 0.00099
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 247,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "id": "gen-1790057451-TrLGCoQIF5RXraoMx011",
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "billedCostUsd": 0.001533,
+  "accountedUsd": 0.001533
+}

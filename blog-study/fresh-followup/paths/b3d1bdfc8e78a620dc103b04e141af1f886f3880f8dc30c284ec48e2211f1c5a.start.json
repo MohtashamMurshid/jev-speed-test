@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-698",
+    "text": "I'd like to cancel a transfer",
+    "expected": "cancel_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "eb757e8c9a0a9bea8fd421d30b6b6aa843fbb63d08aae211c954eebcb3b72396",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "b3d1bdfc8e78a620dc103b04e141af1f886f3880f8dc30c284ec48e2211f1c5a",
+  "at": "2026-09-22T05:51:04.339Z"
+}

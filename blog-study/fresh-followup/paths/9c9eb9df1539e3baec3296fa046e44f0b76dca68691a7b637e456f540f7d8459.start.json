@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-141",
+    "text": "When I made a purchase last Saturday, I was charged extra. Did I receive the right exchange rate?",
+    "expected": "card_payment_wrong_exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "c0c9be052cff3575d24cfcde4e71392cb0f4f57dac23aa701e930598442983b6",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "9c9eb9df1539e3baec3296fa046e44f0b76dca68691a7b637e456f540f7d8459",
+  "at": "2026-09-22T05:53:58.237Z"
+}

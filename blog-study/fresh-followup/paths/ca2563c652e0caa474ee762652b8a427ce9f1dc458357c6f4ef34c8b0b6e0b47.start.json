@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-382",
+    "text": "I broke my card",
+    "expected": "card_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "b84f7e516e46058eea5d60643ad9cbdf067530213c2add1c2e6e23ac7fc79cd7",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "ca2563c652e0caa474ee762652b8a427ce9f1dc458357c6f4ef34c8b0b6e0b47",
+  "at": "2026-09-22T05:45:34.117Z"
+}

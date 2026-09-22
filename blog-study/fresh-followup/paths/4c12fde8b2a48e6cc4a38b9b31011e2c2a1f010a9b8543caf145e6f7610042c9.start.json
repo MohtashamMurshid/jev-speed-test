@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1928",
+    "text": "The ATM didn't give me the card back!",
+    "expected": "card_swallowed",
+    "dataset": "banking77",
+    "normalizedSha256": "81ac6ffbda53f12d8e66d062599cc0a55f9d1bcecda62272eb59ad3566563f97",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "4c12fde8b2a48e6cc4a38b9b31011e2c2a1f010a9b8543caf145e6f7610042c9",
+  "at": "2026-09-22T05:53:40.468Z"
+}

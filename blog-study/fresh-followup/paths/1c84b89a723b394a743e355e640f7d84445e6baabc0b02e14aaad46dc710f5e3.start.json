@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1600",
+    "text": "My card payment is still on hold, why is it so?",
+    "expected": "pending_card_payment",
+    "dataset": "banking77",
+    "normalizedSha256": "60cd0a6ffa15c6c9882c015768c0cf269b18f61846d2edcd1d4bbb13a4410d0a",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "1c84b89a723b394a743e355e640f7d84445e6baabc0b02e14aaad46dc710f5e3",
+  "at": "2026-09-22T05:46:30.567Z"
+}

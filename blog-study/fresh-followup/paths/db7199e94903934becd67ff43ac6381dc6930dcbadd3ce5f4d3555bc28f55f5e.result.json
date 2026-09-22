@@ -1,0 +1,19 @@
+{
+  "key": "db7199e94903934becd67ff43ac6381dc6930dcbadd3ce5f4d3555bc28f55f5e",
+  "caseId": "test-1092",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "card_payment_not_recognised",
+  "predicted": "compromised_card",
+  "status": "ok",
+  "correct": false,
+  "jevAccepted": false,
+  "safetyAccepted": false,
+  "latencyMs": 1783.410011,
+  "timing": "measured-live-sequential",
+  "components": [
+    "db7199e94903934becd67ff43ac6381dc6930dcbadd3ce5f4d3555bc28f55f5e__jev",
+    "db7199e94903934becd67ff43ac6381dc6930dcbadd3ce5f4d3555bc28f55f5e__gemini"
+  ],
+  "accountedUsd": 0.0007219619999999999
+}

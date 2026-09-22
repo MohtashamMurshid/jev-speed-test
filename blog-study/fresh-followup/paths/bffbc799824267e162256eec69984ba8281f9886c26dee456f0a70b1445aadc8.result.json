@@ -1,0 +1,19 @@
+{
+  "key": "bffbc799824267e162256eec69984ba8281f9886c26dee456f0a70b1445aadc8",
+  "caseId": "test-172",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "extra_charge_on_statement",
+  "predicted": "reverted_card_payment?",
+  "status": "ok",
+  "correct": false,
+  "jevAccepted": false,
+  "safetyAccepted": false,
+  "latencyMs": 3769.189824,
+  "timing": "measured-live-sequential",
+  "components": [
+    "bffbc799824267e162256eec69984ba8281f9886c26dee456f0a70b1445aadc8__jev",
+    "bffbc799824267e162256eec69984ba8281f9886c26dee456f0a70b1445aadc8__gemini"
+  ],
+  "accountedUsd": 0.000671994
+}

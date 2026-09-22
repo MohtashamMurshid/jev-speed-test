@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3251",
+    "text": "what are the weather conditions like in seattle",
+    "expected": null,
+    "sourceCategory": "weather",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "ff74377c49ac8c7006e0d429d2a68bd8f86d928f15dcc4da694f950c4eaab64f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "03667801e0d355a4f4c75a48cb22417c3461e5cc16da710778f4d6b6d30a1f7b",
+  "at": "2026-09-22T06:09:47.767Z"
+}

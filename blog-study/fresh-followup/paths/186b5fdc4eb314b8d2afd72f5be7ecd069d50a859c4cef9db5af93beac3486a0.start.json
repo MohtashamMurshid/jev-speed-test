@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-890",
+    "text": "Can I use American Express to add money into my account?",
+    "expected": "supported_cards_and_currencies",
+    "dataset": "banking77",
+    "normalizedSha256": "d377ae60cde8efd0f1a60c33ffb6bc5ed3ad76b4bc87cba28f50398948b70031",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "186b5fdc4eb314b8d2afd72f5be7ecd069d50a859c4cef9db5af93beac3486a0",
+  "at": "2026-09-22T05:51:46.776Z"
+}

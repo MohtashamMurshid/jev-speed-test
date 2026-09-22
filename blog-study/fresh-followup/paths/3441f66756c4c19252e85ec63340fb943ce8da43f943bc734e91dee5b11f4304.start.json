@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1574",
+    "text": "The ATM is declining my card. I tried at two different ATMs. Can you tell me if there's anything wrong with my account?",
+    "expected": "declined_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "c773a009f12d56cd38cd924cddf68a83424f67685482b0bdf46648a6480387a3",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "3441f66756c4c19252e85ec63340fb943ce8da43f943bc734e91dee5b11f4304",
+  "at": "2026-09-22T06:03:23.359Z"
+}

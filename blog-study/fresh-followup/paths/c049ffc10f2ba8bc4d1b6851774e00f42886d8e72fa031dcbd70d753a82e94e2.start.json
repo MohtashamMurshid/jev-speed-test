@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1243",
+    "text": "Are PIN separately?",
+    "expected": "get_physical_card",
+    "dataset": "banking77",
+    "normalizedSha256": "f80bda16f7a7b2f658a190372618964ed05affbad80387715c4fecb4274cb8a3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "c049ffc10f2ba8bc4d1b6851774e00f42886d8e72fa031dcbd70d753a82e94e2",
+  "at": "2026-09-22T05:59:51.572Z"
+}

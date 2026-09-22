@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-543",
+    "text": "Why did I get blocked?",
+    "expected": "pin_blocked",
+    "dataset": "banking77",
+    "normalizedSha256": "00836eee0cf98d5db145c4ac3bb2c674dff596a707a8e7c91ef4abeda6fc2fda",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "57a63f522dc14e148996e5349c7a3bf7a1dcb978251267eef3b096c241a380dc",
+  "at": "2026-09-22T05:52:53.717Z"
+}

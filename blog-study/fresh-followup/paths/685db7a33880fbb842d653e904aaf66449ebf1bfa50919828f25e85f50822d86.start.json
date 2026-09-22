@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2811",
+    "text": "How much does it cost to top up by card?",
+    "expected": "top_up_by_card_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "1ede5d40a0cb6d19a50e34e7043f199cce10b069d853cda99c6037a40478ac78",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "685db7a33880fbb842d653e904aaf66449ebf1bfa50919828f25e85f50822d86",
+  "at": "2026-09-22T05:45:18.119Z"
+}

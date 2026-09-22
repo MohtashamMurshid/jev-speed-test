@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-561",
+    "text": "My contanctless has stopped working",
+    "expected": "contactless_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "3a7eae261f573f0c49c5a1661a724297ed17e0a8ee2abe9e00ce996d21a2d068",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "be1c37fffab4a994c88f465d1be4f8f3a7727dab0c37d65a405746845f2e0e26",
+  "at": "2026-09-22T05:45:54.933Z"
+}

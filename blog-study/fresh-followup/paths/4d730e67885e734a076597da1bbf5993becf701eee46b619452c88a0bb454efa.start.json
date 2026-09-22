@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-3042",
+    "text": "Can I use your app if I am from the EU?",
+    "expected": "country_support",
+    "dataset": "banking77",
+    "normalizedSha256": "49844c33907bfd6611eabb2606bebe295fbbb0e5a7c95839f993ce3f6ccd57cf",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "4d730e67885e734a076597da1bbf5993becf701eee46b619452c88a0bb454efa",
+  "at": "2026-09-22T06:01:12.187Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2736",
+    "text": "I am seeing in the App a some cash withdrawal that its not mine",
+    "expected": "cash_withdrawal_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "c5677fbd01cdc89c0d4604c4739f800bc2491d13ae5ccf9f9b07731b149c259d",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "865ad700e7f15d951490fe8213ba5531399437287db91c197e2a12817c854622",
+  "at": "2026-09-22T05:44:26.179Z"
+}

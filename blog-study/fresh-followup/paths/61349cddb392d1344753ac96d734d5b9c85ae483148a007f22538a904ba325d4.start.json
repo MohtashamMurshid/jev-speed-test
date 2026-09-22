@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-604",
+    "text": "Can I also transfer with SWIFT?",
+    "expected": "top_up_by_bank_transfer_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "15fd25838ae4403082cb8784ec8263f92259d8c62ae188772abddb7e47910c7f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "61349cddb392d1344753ac96d734d5b9c85ae483148a007f22538a904ba325d4",
+  "at": "2026-09-22T05:46:48.882Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1504",
+    "text": "Can I dispute a payment even if I notice it several weeks after it was made?",
+    "expected": "direct_debit_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "4a7243bc77d2055ca388615fed16463b109719bd880e8021bded4a9b42591483",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "e2230eb217445e8d2f0589aaaef752d656b1a8eb4f2a790e2132f04ac5d77a36",
+  "at": "2026-09-22T05:55:01.241Z"
+}

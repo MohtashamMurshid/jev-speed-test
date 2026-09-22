@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1159",
+    "text": "What do I need to do to change the address on my account?",
+    "expected": "edit_personal_details",
+    "dataset": "banking77",
+    "normalizedSha256": "24f6b6375d03573dc8f66d10fe7d26e0767d0a25486004334a3237416ac834fc",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "dab3e574a73025327465aa0ccd96252d21c2280a3d7354107ad31625da3ca4f8",
+  "at": "2026-09-22T06:01:11.821Z"
+}

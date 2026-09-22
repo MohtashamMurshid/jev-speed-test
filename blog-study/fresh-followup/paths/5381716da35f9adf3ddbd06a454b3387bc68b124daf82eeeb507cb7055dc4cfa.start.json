@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1968",
+    "text": "Why would I be charged more than once for the same transaction?",
+    "expected": "transaction_charged_twice",
+    "dataset": "banking77",
+    "normalizedSha256": "182960d0ed3893fd0c11ced8164b61940430b290c5b918d76505b8212bbb4141",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "5381716da35f9adf3ddbd06a454b3387bc68b124daf82eeeb507cb7055dc4cfa",
+  "at": "2026-09-22T06:00:05.603Z"
+}

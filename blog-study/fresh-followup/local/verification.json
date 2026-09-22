@@ -1,0 +1,7 @@
+{
+  "official_banking_rows_match": true,
+  "pinned_clinc_rows_and_source_hash_match": true,
+  "predeclared_nonbanking_source_category_membership_verified": true,
+  "independent_refit_exact_scores_labels_gates": true,
+  "source_and_protocol_hashes_verified": true
+}

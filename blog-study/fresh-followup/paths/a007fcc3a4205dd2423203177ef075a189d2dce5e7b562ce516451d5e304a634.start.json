@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1459",
+    "text": "Can I use my card at any ATMs?",
+    "expected": "atm_support",
+    "dataset": "banking77",
+    "normalizedSha256": "1937f3850de6462157580775bc59450df89c21e09cb09c8dadaafedaf05b5a11",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "a007fcc3a4205dd2423203177ef075a189d2dce5e7b562ce516451d5e304a634",
+  "at": "2026-09-22T05:54:21.664Z"
+}

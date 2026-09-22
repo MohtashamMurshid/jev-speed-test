@@ -1,0 +1,18 @@
+{
+  "key": "b95140b5445593599f7dffec6c68512c7bd73522b318b0af9b7389504d8c8c41",
+  "caseId": "test-2545",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "virtual_card_not_working",
+  "predicted": "virtual_card_not_working",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 1656.6159610000323,
+  "timing": "measured-live-sequential",
+  "components": [
+    "b95140b5445593599f7dffec6c68512c7bd73522b318b0af9b7389504d8c8c41__gemini"
+  ],
+  "accountedUsd": 0.000633
+}

@@ -1,0 +1,88 @@
+{
+  "key": "abdffe90a7ac8c9c2adf903f27a70dc291f5274004fab5871625687f46cf74a5__gemini",
+  "sequence": 327,
+  "caseId": "test-1734",
+  "cohort": "cases",
+  "path": "baseline",
+  "system": "gemini",
+  "expected": "declined_transfer",
+  "model": "google/gemini-3.8-flash",
+  "endpoint": "google-ai-studio",
+  "status": "ok",
+  "correct": false,
+  "reservedUsd": 0.25436025,
+  "timestamp": "2026-09-22T05:46:59.884Z",
+  "predicted": "failed_transfer",
+  "probability": 0.42,
+  "usage": {
+    "inputTokens": 725,
+    "inputTokenDetails": {
+      "noCacheTokens": 725,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0
+    },
+    "outputTokens": 1006,
+    "outputTokenDetails": {
+      "textTokens": 23,
+      "reasoningTokens": 983
+    },
+    "totalTokens": 1731
+  },
+  "finishReason": "stop",
+  "latencyMs": 6170.997777999961,
+  "returnedModel": "google/gemini-3.8-flash",
+  "returnedProvider": "Google AI Studio",
+  "response": {
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"intent\": \"I57\",\n  \"probability\": 0.42\n}",
+          "refusal": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "signature": "EsshCsghAWkUfRM37J7Nw3cjfPkCLnXdEkWY58pdSQbd8SM6d/mZs0nBYz7YbvSDPWXC8b3zlfiTyGCCGYaoVo4wf7Bt3sXga/fu8uC83MsAAANEP4suWbPtbvIDqYeAEM3q210SDl2KHP+vCjfegXVYqMPObzsR2H2wh5nVzyZcqZw+Xx+lOOwZe54dHUKZP9/HWr9xP6aX/KkcLQJbVtpTyoaoqlRquKnUsdHxDN3vX2pOcDPn3c1uSEd36IOXToh4/MuUv7tbhIR/Bw5WRJw6K9M23/WCJ3gMxnKLusRcFjWiL890TeuJTq5JEHz22Oird4emMZ5JdwYHvi73SD62zcwMbLNiNGhpNHZttt6VzbhmFYNyUspp7rnwH1l5NWAQP2EyOuM0iSUBUrvRBf33LQ1SZH9Bj7iA8ee24tk6mqnnSBhYR+ULI2+Xb+RRGeroTkJRLDh6tzBx2KGvXOwUT2i62fSCLkvsxgfEEOG+TbiiTOFuqpwaZvFJBwpAocUFD0pKdpS7FrNBbl7cghMx5Mqh9bqigQOpCSjuxMrIf4CmeAqxZw79NNJTw/2Swa23h9bTEjTOL5VjSqqkXnJxHDW0F47DVyGjFVYoFZu2bV6Gs45SVdUcLKF7jj71BgX4BRz2shlBSIshwN5/uAkcO1RpMyunQZv3tGHkMGf8sk04UP7WxG7AhCnyqOt02T6qtuZWFLO0fF1uokVy6oVJkOdgC4fZHfdH8HHbXr9XNr6q5Iyz1xNYVeHD2IQwajr8iAnOHwPJrV0ndS7yWW5g2wvIidCf3WaczZpBo+ptynL07KX3ZpelcIApVZPChLX1iiNGRJqMdmYVrM6vfEx806ayhEXt3S95yaeSUj0Aytz7wUnWkyjuLiFEqpEj/76Up8ZpX88aeJ+DYuDzAjKR5tn4WE+Eyyt90SUHEQbACSRsYb13AchZM9WY3OzPAICjgT1/XYIUbSkvV5L0JUswAav1cw2x/PQZevHXw+Zfwj1v0/qNFOqYviixQQEL3wuIpLx+bK6AVuRYPHwjrmzzKhV0KKuUJrE2l1qfbCsR2zM5AMbSRJLUI2uYB3v34kVsPNFAAI3mvH5hM5K+X9MFIY94JkxOLhX2uY/yA5b/Db+lnhIRlSeek7qwQOqpx1UpUzisYboTLdAB0nu8hgJ2motXEywUxgydS4gsjGLkPDwKExhjEp/Jv2GdIR/c1AWi19q2CmnHoVu9wVEEyjAJpuB+1ItsjRcsyPGNVyB4G4IUa9w/GammJyakuP1xRJ6/obHhzcMTSFC8+kWjNtvN6ZgXwHKkc9lxXBi0bHicBw1bR+SoeAtJ7CM5hSzK6ySNuce599iG91Wmzx1jKHmNbrZmOMRTWNuXzt45ZjzNuuLDxynaH3l7y317GAF6qbVpURyWkzhIonuwoFhldVvT2Dvy+haKWc4V8qpKE30TPt2797dtZATqXlyIlOIIuW2tjwAyBmIAmTd/PLFSpMhuj/VgnuXWEjPItpUdHGXMqx/dzobMZvj9ntQJ+X6MqdF9yksrVnBTBouYL0U/HK44eiSH8dqN3YwNEOzbe/i1GKYOC6VSUSyNBT7XfAO2yb+/0eUDbKfRyAsEJf5wJFbT1TtRNyJaIGif8va/Qbl6m5jSnTKwz/XH0/a5rzAMDNs93aCpn5jvNe5hpP3yclAgcuObSSaco9j/JoQALs6CydbqXiAtUE1C6wN821TjuzUE0KcvwMphWZ5U47CEqwq7dV35JmQJB18PYCXrqVsJzUK0uXKpPeXi2Ei06ypZ4xtQbmhTsBD5VrfSXcAmppiDopIplBaEqV4RFldwbH5+Pjf9z7OTdgfcYj/RCMt1l7LP91efiwuxb1/I3h0CE1iPVyzwDzQiiHPTDIhptPwLShYNnaceKouLNncQsKxN6GAdIsLULsve5CtcU4XRgyzYCMvqjtHC4uogAU/uDp9IDCalmsO1mJGa60RgVCQyVxHcc8caWz68vi58pPHpnp9YjnjehE3TIytgsjGMvxdTsRCDdafFjrN3gZAI4SOmggv67ktz1qO+Cu9UqLRvwZqy5vQk0TzbDzAFdG6pSBm/vmlugpPuld+C40mtTijTvPrx1Yq4Pokfu1+AiNRuT+wCGuAN2koToK9UG/djAvUNtACqw36AQf1T1A2jTYhfT6v4IVbeVanUI6fJwheORnJ4lnfsTgfC+isJptT973JMMap6ejoQzpH9h0xWJ1FKH0PxazVjwuXxIxiTjaP64RXCkmir9fpLvO2r6yr3NeOxurfJy0rjn0KdWz2rHj4nRCfXJuNts0AK1/zPIPo/8n4RxrtDKH7Iv2cVSNxPklZWMQq3pF/N/DfurIe/HaJ1cCLZDlgzevLeZOyfpx8MY+DgH7XXp/a3oWD5YY69qnMVBgjfQACqbo94J8hiR3Qz59R3X/TfYB7tJ6D12QBWpD84+Gjj13iZQEE9fAk5RSXaz0+QVNSbsGA07Nd06noBshGBJVBsYvCRSOVCdyjsiZHoOc/h4c0Gz5a6VFk0jBdLe+HZu2XbVMbf2PBalpFbyIKLsrFoDbMENYZh3hDonm4H+pyIURfJBL08ucsYJTPLqTlAcv3erPjGy5EExmQAaXg9wA99YdJJcI87S13rOjXyseu4tx1/S3dWZEgRZUcDExl5IOt9CQRXZ37/amQVfsctDXzNXHtwi+Gb4IOMQNRmbQTqDMTmx67KhyfpaCznZTJoOT8M+vS9u4EUPW28OHu+l/hbEvSjs3+E5b3thQl/jyA8coOQwosf+M6KgRTzrwfJFepN+cAC3mElGfnAbjkKGkgWLq6rGBMzIHRwBB3DlzRR3E/6uLSPNUR6XCCLEG+njH4R1UHEumCm6wfmM66f5s50Xn8RNAp/lckQqB4HPCDG8gQ3a/cRh3ANoDzJV7Mn8yyt9bdjlhyfL5iPCnx8Bf0orQXns3H8bK+v3g9VN/NIJmeKnPlO+Q3QcOjEeHmxCwwamoYiWCoic9ZIi9bjl1lA8MDiRQJ7ocLE+3PMbA6rdFtSwt048UPYo6k5XefmiKet6Vw11U/wPfYWrbVchfEsrx+DWcVye/eM94MphawiH2lv+u6OED633VbEZxdCtZ2C/Sgy6F06Wwz/AbGihjzoT/AwhA0Px7I9bHfv+LiOHjmoum938gif3ER/HhP27/1KbV7bKTHY0HCA/qfuXDUb3/IYIWcQRkQyXJX7YJB3J7Jqs2KrdtuI05RWmDm2iIfD7qAvf8coLr7kbRviVg2cBa1FVMWFvfhErV1fNCLy2h9xZ/uP6NntQJ9Gd1h9qnhXalu9MDU55l8tYCUoId9/Kwvz6I2R5vgQJjWwInGDjx3pO/of6igQUxjP2p4h8gCM1cINF6kZRQD4SZgtCLMsTj3LarpqDjhTtuoFkVEqufSDLgnKAEiNdIMNCOGzPRZGxSaf10d+GCxa22pAT2LF5zfTooRxSPwmbcGxaD7maYUmdiL3tYRW3MXM5fWf8u6xJOgck14qXs4rmMURSOhKvLrFm+JOg6LI+QXjN4EdpIfzTcSK+iv6Zhocwa7Zcu9PuKJELriRZ4RF8aESeOWpd75E55/CeS9Ym0MlYPGRSqkaMMuCfJQlMDixDy+bYfG+Qk13YXaCgZIJ49tQaj1Z5I6D1Tjj5f47YkeB/3p35xN6uvVT8aLGFbT+oyICf0R+ZcvfXJMTy5f0JORUg+SPhR2XJVLC7/nsZAD0yHSSk1ZtZgJiXTcqBj7zuWZp9cWB7dLcIU6MiA6o5T+gIQvLN9qy8khkg5u01iGSK7diGetD5jb9yH9VqJ1mJqnYexziK8IzqDB3L88Vnr6874blO9hXrwQ8EOXmL8yFnNEoJkto0EhGkDtfivlQC+vzFJsW3n13Q4KWViyKkGlxZXQKL4g4ZlXemwmfB6jyIDoal+4sChMFAFT+nMllNNiIMbBcd8ThFduyuNAhcPbMKniOHwxNWpELrfKS8lWMQzxcSvbSWhIupXiK0l1Sb4mVNHWFbceTHKP2XizVdTF48JcUQU5XOzkyLy1TcuwufCqz1PEZwefs9AwwG8BtvQpvIPzeb/3pxZqwtlXfod3NjvKv4KWiozq3/mNnvaz7Tq4RE4FcwchMohL0nJNOgqh/W/FIs3Ru82QGBR/8In2+CmHEOoPG4DhwYFn+yujOF09aTAIOuXeJibxjMjngekCSdeGrtPf+KJlziuzWXIM+KRPZFI39vYZnYV/ubdAhPoPwiyqgYiaFtm3VNp2u0cOYURJAthuYunEPaJYXVoIUtfy2lWIJTEfMvlyfazzcNdN+55vvSZPxtSi2EwavyI9y0mOm6pPrV0AQl92ori31VNZCLDzm5IvHGqGfj86D9x/eZA1JAWSGVW+jjKbkzA3g/AdR1q+BKfYrn8AnTyA7zEZZTeV7t3/3hpdY6Ej6XojLiz2Ub0kKoInfVBTQpi/LgxsAV8XcKnOGGnetZjuHveKuw8CfQQBTWFUrToH9JsQnbQFlvuo08NLiGWYACTWfEh4njiyONMnrysAsBOzT9k0BVO8Injv1r+h4/wCQbtbijzbIRUTbhRVwty+Lg32KIKZ6z30MxaFrJEZ4MmqlZ7lfK+mumBsZA28PlSGsCnPxmHXvobO8Eb78wap4N86Zx76AlmRmdHwGMCmCCJW6MINnbGoQ/qtpF8jSXGj82V4dPKnk0DFc5ZXCiKqgM0CUtV+sa3FHuRi5+iFhGoOdi6K0ptauif0w55OiWe/o+Uv10X8urCUzlMYhYj46VS/phITOvW1tfHwNDbgbEtsI0NvwCoXVeOPnilmijmpB7QkQoeRGwVyH4xqmYhTFUvSCOgTno6LY7lKXv4JQOLQ4QfKuSacea4fIqxbsmPWUSBhhVIivlBs0A1Cfy/VUeN1r+y57jwjv3NpPlh9FYoJ+K9vsA+YIPSf60wz+X4A16GAPY0q1QS7xcPci0hAVy1EegZJGbilCRetcvFTRknShdWnJS+eGgjHCXLTjubAs2Sxkj8fkOHQBPmQusIExnvgEr7T38aKtgUtj6lsA5tMyKwoMruWaMWPjg64Un2JPnlMoOmTav/nnYaB17BF0RWJ4Hz5r9LYdXwWfrRJKB0z70GTte8iazPYi6x9hR3i6c+La4qsEll9WN1c/tXaEgx1xl56LiOBWP9gv7gPLTJ8VMciFlzdn1xo8pkkQUT1UChze4dvODA4XoyEVeYYtE93edjYWH/I5HbOWS0wsN8o9QXKTVU6O+GWhoAg0yfwA1nvwxOVjqhIFj2U4F9QFDGVR7F/OnEZ0K1BABwAws9YGbbzqQmyvM4h2Uv/IgTm231MszPkevQJ4sZJJRJSkFUuMq9Hf2n/esL/vVvf7p6UjLEu77vsP0btb7L/dYvaeNQU8qARy5vKCQXcoGoBeiKbqd5p7oFASqK15PkLCDepCBCh+FoF6+d3OfiMNNgu2UGeaDiPPLr+dUAKrGQgXzVqrzlRZQkrfni/WUF3PLQOt/lNwLh5oVQ7zTM77OKywkErnxfifcL1yhCbaYVo34qRe4UoWIAXYELQV6oik6gFBjDUFs1QJvntNAMpOGGVLnSXQ+rdeCbg5+EhdUIX1Vw5KTe7z9i38Oir/WVlqonwB68kvrbQrwSdaaoBxfabRaLoO5uc/3WV21HQUkSy5SQ2yY2+GCCQAQDc6tijaF3Xv0+ATsGh/k5pVwx6pfDiDPRuPibZ/ZIKvUuf+",
+              "format": "google-gemini-v1",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 725,
+      "completion_tokens": 1006,
+      "total_tokens": 1731,
+      "cost": 0.00431625,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00431625,
+        "upstream_inference_prompt_cost": 0.00054375,
+        "upstream_inference_completions_cost": 0.0037725
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 983,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "id": "gen-1790056019-3BIJAEpBsdejKyj5yHVW",
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "billedCostUsd": 0.00431625,
+  "accountedUsd": 0.00431625
+}

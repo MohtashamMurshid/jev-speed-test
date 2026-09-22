@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2831",
+    "text": "Are there any fees for top ups?",
+    "expected": "top_up_by_card_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "ac408e7db0d33caffd3e1062d3a3a7e777c642d0e14ac4f3700abd53aaa6d764",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "657d688291ed843778b3e44cc08d73dfae32ea92af46c406e86203ea1991ccff",
+  "at": "2026-09-22T05:40:40.547Z"
+}

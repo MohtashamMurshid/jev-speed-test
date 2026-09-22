@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-2159",
+    "text": "can i get peppers instead of onions",
+    "expected": null,
+    "sourceCategory": "ingredient_substitution",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "35f93108c71507e4fd499cc57699dcc702b4f06483b00838f2b80aa0e3017ee7",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "aa597175a39a4909d2151d1db87133694e41dbc0657d5e0bae75b7363f38ac05",
+  "at": "2026-09-22T06:10:06.140Z"
+}

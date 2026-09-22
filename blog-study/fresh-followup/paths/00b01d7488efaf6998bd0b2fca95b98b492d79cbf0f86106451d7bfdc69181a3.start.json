@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-1658",
+    "text": "how healthy is a cheeseburger",
+    "expected": null,
+    "sourceCategory": "nutrition_info",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "8cd62a012ccc902aed5d4e30a7e2a6543664f2ad709574ce44db41f43e7d9cb9",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "00b01d7488efaf6998bd0b2fca95b98b492d79cbf0f86106451d7bfdc69181a3",
+  "at": "2026-09-22T06:16:41.694Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2545",
+    "text": "My disposable card seems not to be working am I doing something wrong?",
+    "expected": "virtual_card_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "dea72e028d2cad625be3b35f7da91bac7e4a65ee792c5be819bcd06640f8a975",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "b95140b5445593599f7dffec6c68512c7bd73522b318b0af9b7389504d8c8c41",
+  "at": "2026-09-22T05:44:00.864Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-43",
+    "text": "I have received my card, can you help me put it in the app?",
+    "expected": "card_linking",
+    "dataset": "banking77",
+    "normalizedSha256": "ac8c0b05345b0bf2ead1236fb3487505785627bedb607bf031777b034b07e3de",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "9d002628c2266e629aba602d119975b67ad646f3eb32bc63fd8fe05de1b44ea7",
+  "at": "2026-09-22T05:59:27.906Z"
+}

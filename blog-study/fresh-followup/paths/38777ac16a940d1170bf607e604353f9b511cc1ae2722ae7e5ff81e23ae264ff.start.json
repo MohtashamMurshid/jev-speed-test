@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-1662",
+    "text": "find the nutrition info for ketchup for me",
+    "expected": null,
+    "sourceCategory": "nutrition_info",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "76d13ebc5eb72b11e3a51afb91dd964b602d89a1e63718702fbfcf9e33b82556",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "38777ac16a940d1170bf607e604353f9b511cc1ae2722ae7e5ff81e23ae264ff",
+  "at": "2026-09-22T06:12:19.034Z"
+}

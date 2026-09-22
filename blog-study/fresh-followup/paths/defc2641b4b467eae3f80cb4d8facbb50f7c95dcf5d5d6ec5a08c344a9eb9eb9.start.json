@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-867",
+    "text": "I made a transaction and it is taking a very long time to go through.",
+    "expected": "transfer_not_received_by_recipient",
+    "dataset": "banking77",
+    "normalizedSha256": "939184caae4636f6ff0947f89060fa0ae6db2566ab22851fe2d71d275733372b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "defc2641b4b467eae3f80cb4d8facbb50f7c95dcf5d5d6ec5a08c344a9eb9eb9",
+  "at": "2026-09-22T05:45:44.468Z"
+}

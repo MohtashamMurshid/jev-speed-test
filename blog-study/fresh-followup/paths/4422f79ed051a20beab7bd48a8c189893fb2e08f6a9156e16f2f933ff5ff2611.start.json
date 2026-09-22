@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-81",
+    "text": "What exchange rates do you offer?",
+    "expected": "exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "bdb7926ebaced603f36ca3e47eab33a0835ce7245b524d58937da5281264793f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "4422f79ed051a20beab7bd48a8c189893fb2e08f6a9156e16f2f933ff5ff2611",
+  "at": "2026-09-22T06:00:53.000Z"
+}

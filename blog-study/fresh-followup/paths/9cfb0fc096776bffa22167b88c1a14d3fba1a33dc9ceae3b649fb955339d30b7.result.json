@@ -1,0 +1,18 @@
+{
+  "key": "9cfb0fc096776bffa22167b88c1a14d3fba1a33dc9ceae3b649fb955339d30b7",
+  "caseId": "test-504",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "age_limit",
+  "predicted": "age_limit",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 1506.9267339999933,
+  "timing": "measured-live-sequential",
+  "components": [
+    "9cfb0fc096776bffa22167b88c1a14d3fba1a33dc9ceae3b649fb955339d30b7__gemini"
+  ],
+  "accountedUsd": 0.000606
+}

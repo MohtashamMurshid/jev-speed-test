@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2423",
+    "text": "I was looking to buy another card today.",
+    "expected": "getting_spare_card",
+    "dataset": "banking77",
+    "normalizedSha256": "3a6b7221196419510a4095129a58d5ca510268925a73049ba7babd64ce321a25",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "3d55621798b066a54093a1e1c5506fa4a9570687ab7a0c64d9bc5434b90250d4",
+  "at": "2026-09-22T05:56:51.209Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-912",
+    "text": "Do you accept other currencies besides US Dollars?",
+    "expected": "supported_cards_and_currencies",
+    "dataset": "banking77",
+    "normalizedSha256": "ccd85359a82f349ff761d32c77e385e3c7968a8f9b24cc8d1e06a212539cd872",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "28e08689ebf2534fc5ced7ba5f7854cf882f79a7c499c2519134145898bb2e5a",
+  "at": "2026-09-22T06:06:05.717Z"
+}

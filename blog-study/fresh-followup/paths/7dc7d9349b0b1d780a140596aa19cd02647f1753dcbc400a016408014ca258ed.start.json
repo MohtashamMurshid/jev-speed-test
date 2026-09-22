@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2208",
+    "text": "I am being charged a transfer fee aren't they free?",
+    "expected": "transfer_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "5f080b70bd67bb6f612432282588e698055b74ddcb8111c0c1ff6d24b3416540",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "7dc7d9349b0b1d780a140596aa19cd02647f1753dcbc400a016408014ca258ed",
+  "at": "2026-09-22T05:46:13.825Z"
+}

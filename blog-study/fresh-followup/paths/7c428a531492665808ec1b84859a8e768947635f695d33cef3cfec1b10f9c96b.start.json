@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-733",
+    "text": "Is there any limit to the amount I can add to a card at a time?",
+    "expected": "top_up_limits",
+    "dataset": "banking77",
+    "normalizedSha256": "2409d978e787636eb8aac02b2fc3bc650dca87dd47159f72e2e6b877d6da9ab8",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "7c428a531492665808ec1b84859a8e768947635f695d33cef3cfec1b10f9c96b",
+  "at": "2026-09-22T06:06:17.822Z"
+}

@@ -1,0 +1,18 @@
+{
+  "key": "ee873f4eb7378c0f53e109c08e567965f8e11652f66168f202e6036cd4138c84",
+  "caseId": "test-457",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "lost_or_stolen_card",
+  "predicted": "lost_or_stolen_card",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": true,
+  "safetyAccepted": true,
+  "latencyMs": 312.747755999997,
+  "timing": "measured-live-sequential",
+  "components": [
+    "ee873f4eb7378c0f53e109c08e567965f8e11652f66168f202e6036cd4138c84__jev"
+  ],
+  "accountedUsd": 0.000067452
+}

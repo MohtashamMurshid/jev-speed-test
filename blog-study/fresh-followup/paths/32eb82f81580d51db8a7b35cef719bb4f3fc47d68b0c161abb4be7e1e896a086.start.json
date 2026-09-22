@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1773",
+    "text": "I requested a refund and it is missing.",
+    "expected": "Refund_not_showing_up",
+    "dataset": "banking77",
+    "normalizedSha256": "17d4eac5983bed5cac3a1658db7be32dfa488cc2acd271a14ccc6b25e6dce320",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "32eb82f81580d51db8a7b35cef719bb4f3fc47d68b0c161abb4be7e1e896a086",
+  "at": "2026-09-22T05:47:06.071Z"
+}

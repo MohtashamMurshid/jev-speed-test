@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2402",
+    "text": "I want to order another crad",
+    "expected": "getting_spare_card",
+    "dataset": "banking77",
+    "normalizedSha256": "5cccc3aaf639747c29657a59e2690474098128c0571f6116629e1235e28bd842",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "8db59a6484650126d6be35dc69338ed3eee0047c010aa9cf8db4c99a0badc713",
+  "at": "2026-09-22T05:49:47.292Z"
+}

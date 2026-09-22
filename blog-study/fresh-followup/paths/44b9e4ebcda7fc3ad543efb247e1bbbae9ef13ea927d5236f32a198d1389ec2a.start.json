@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-463",
+    "text": "How can I freeze a stolen card?",
+    "expected": "lost_or_stolen_card",
+    "dataset": "banking77",
+    "normalizedSha256": "cdfe9e9ac712035f5dbf5601683a31b2d6a97b029e14a601849169c85822aefe",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "44b9e4ebcda7fc3ad543efb247e1bbbae9ef13ea927d5236f32a198d1389ec2a",
+  "at": "2026-09-22T05:44:58.959Z"
+}

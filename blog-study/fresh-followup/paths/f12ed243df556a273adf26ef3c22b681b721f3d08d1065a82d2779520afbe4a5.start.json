@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-2146",
+    "text": "is it okay to use butter instead of margarine",
+    "expected": null,
+    "sourceCategory": "ingredient_substitution",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "a2542318b2c8839ee187588e8e0e086ef710a9877335ed1fb70998ff354e8c12",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "f12ed243df556a273adf26ef3c22b681b721f3d08d1065a82d2779520afbe4a5",
+  "at": "2026-09-22T06:10:51.390Z"
+}

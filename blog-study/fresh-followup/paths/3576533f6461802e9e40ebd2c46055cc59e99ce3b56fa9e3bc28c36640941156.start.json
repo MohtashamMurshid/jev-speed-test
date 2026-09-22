@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-3035",
+    "text": "Is there any way to verify who I am?",
+    "expected": "verify_my_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "22294051caf75a17ec67a9a379db420b8039034ab86aaee16284943710b22f4b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "3576533f6461802e9e40ebd2c46055cc59e99ce3b56fa9e3bc28c36640941156",
+  "at": "2026-09-22T06:04:11.970Z"
+}

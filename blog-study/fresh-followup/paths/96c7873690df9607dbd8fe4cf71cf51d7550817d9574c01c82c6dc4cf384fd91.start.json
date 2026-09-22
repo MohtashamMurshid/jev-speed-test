@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-701",
+    "text": "I made a mistake when I did a transfer so now what can I do to fix that?",
+    "expected": "cancel_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "3b1222a51df7f71297d4ed073be4196920684e321e05fa186b5f1213d4f755a7",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "96c7873690df9607dbd8fe4cf71cf51d7550817d9574c01c82c6dc4cf384fd91",
+  "at": "2026-09-22T06:06:43.048Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2987",
+    "text": "I got my American Express in Apple Pay, why is top up not working?",
+    "expected": "apple_pay_or_google_pay",
+    "dataset": "banking77",
+    "normalizedSha256": "19a0ff1fee74a7e0220e36d674ff98ee460ffa96da0a79f79c90d093c422c69c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "edc0ab0debc0a33bb6cfe2810cfb08e3a36d925e8c0b9fa7eaada31f78562aae",
+  "at": "2026-09-22T05:52:05.622Z"
+}

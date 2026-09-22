@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2998",
+    "text": "How do I use the top up app with my apple watch?",
+    "expected": "apple_pay_or_google_pay",
+    "dataset": "banking77",
+    "normalizedSha256": "c04dc44ca4a72816450d00f473b6f7edb5b644d65baa72376ae19f77fc2b56c3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "8c8910599c8ee58116a764bd244b86979b7ab4186dbb434af8509750875a59a9",
+  "at": "2026-09-22T05:57:12.474Z"
+}

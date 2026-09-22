@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2117",
+    "text": "Someone stopped my payment",
+    "expected": "reverted_card_payment?",
+    "dataset": "banking77",
+    "normalizedSha256": "05686cfbad42aac8295b31d880b7aacd499ff3c2508b081a01f3467791ff1343",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "23e289f6d8164146d8f9b3903ffdd8d9d2762d2c730ff817d2730d4be3060b7a",
+  "at": "2026-09-22T06:08:15.327Z"
+}

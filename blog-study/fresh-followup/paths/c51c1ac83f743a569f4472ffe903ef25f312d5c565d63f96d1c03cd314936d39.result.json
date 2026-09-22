@@ -1,0 +1,18 @@
+{
+  "key": "c51c1ac83f743a569f4472ffe903ef25f312d5c565d63f96d1c03cd314936d39",
+  "caseId": "clinc-test-1013",
+  "cohort": "oos",
+  "path": "baseline",
+  "expected": null,
+  "predicted": "card_delivery_estimate",
+  "status": "ok",
+  "correct": false,
+  "jevAccepted": false,
+  "safetyAccepted": false,
+  "latencyMs": 4515.071241999976,
+  "timing": "measured-live-sequential",
+  "components": [
+    "c51c1ac83f743a569f4472ffe903ef25f312d5c565d63f96d1c03cd314936d39__gemini"
+  ],
+  "accountedUsd": 0.00285225
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2072",
+    "text": "How long to I have to wait for a transfer to reach my account?",
+    "expected": "transfer_timing",
+    "dataset": "banking77",
+    "normalizedSha256": "729cf3f16eb2db7dfcbe29687895f0fe49d2ae501fca0e4bc7959987caef630c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "2627f67e9917d87d2a2d70917e525b1216d0525aeadd69636773713d11fefb6e",
+  "at": "2026-09-22T06:06:46.996Z"
+}

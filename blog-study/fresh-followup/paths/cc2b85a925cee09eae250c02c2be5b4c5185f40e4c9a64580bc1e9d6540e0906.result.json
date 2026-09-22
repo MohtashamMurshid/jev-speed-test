@@ -1,0 +1,18 @@
+{
+  "key": "cc2b85a925cee09eae250c02c2be5b4c5185f40e4c9a64580bc1e9d6540e0906",
+  "caseId": "test-1965",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "transaction_charged_twice",
+  "predicted": "transaction_charged_twice",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 1563.373237999971,
+  "timing": "measured-live-sequential",
+  "components": [
+    "cc2b85a925cee09eae250c02c2be5b4c5185f40e4c9a64580bc1e9d6540e0906__gemini"
+  ],
+  "accountedUsd": 0.0006045
+}

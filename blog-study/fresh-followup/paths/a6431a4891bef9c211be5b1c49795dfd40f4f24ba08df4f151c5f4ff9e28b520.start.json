@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1844",
+    "text": "I am waiting for a pending money transfer to process.",
+    "expected": "pending_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "4d7002210da72dbabc9627e868209c55a5bb12ee712bdeed1ad8b17f3dc9004a",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "a6431a4891bef9c211be5b1c49795dfd40f4f24ba08df4f151c5f4ff9e28b520",
+  "at": "2026-09-22T06:08:36.273Z"
+}

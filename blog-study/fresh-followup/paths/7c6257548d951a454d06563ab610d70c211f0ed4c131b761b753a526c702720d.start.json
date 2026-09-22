@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-390",
+    "text": "The card I've got seems to be broken.",
+    "expected": "card_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "370f560fd82791edf7610e6b8c9b42d733bde401169dd9f1a871b252ed4c5abb",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "7c6257548d951a454d06563ab610d70c211f0ed4c131b761b753a526c702720d",
+  "at": "2026-09-22T05:52:41.000Z"
+}

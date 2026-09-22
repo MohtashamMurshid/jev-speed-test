@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2090",
+    "text": "What do I do if it says my card payment has been cancelled?",
+    "expected": "reverted_card_payment?",
+    "dataset": "banking77",
+    "normalizedSha256": "52cc985e4eaf89c1a240b5cf4b4a704df6a42e0a48b264c58fac1981e5be8b7c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "2b3b43b16311445b52f29002619358302f3c1f6eb6b4fdbbf80ac071439f1e09",
+  "at": "2026-09-22T05:58:46.254Z"
+}

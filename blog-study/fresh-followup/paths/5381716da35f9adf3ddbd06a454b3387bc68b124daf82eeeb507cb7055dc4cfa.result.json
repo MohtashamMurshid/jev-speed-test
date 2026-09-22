@@ -1,0 +1,18 @@
+{
+  "key": "5381716da35f9adf3ddbd06a454b3387bc68b124daf82eeeb507cb7055dc4cfa",
+  "caseId": "test-1968",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "transaction_charged_twice",
+  "predicted": "transaction_charged_twice",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": true,
+  "safetyAccepted": true,
+  "latencyMs": 360.74494199990295,
+  "timing": "measured-live-sequential",
+  "components": [
+    "5381716da35f9adf3ddbd06a454b3387bc68b124daf82eeeb507cb7055dc4cfa__jev"
+  ],
+  "accountedUsd": 0.000067578
+}

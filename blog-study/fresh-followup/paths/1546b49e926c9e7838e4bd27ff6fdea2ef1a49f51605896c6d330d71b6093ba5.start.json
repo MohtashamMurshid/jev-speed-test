@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-686",
+    "text": "I need to cancel my recent transfer immediately, I made a mistake there, please help quickly before it goes through",
+    "expected": "cancel_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "3b2d64e0b1b19257eec6e44c47586d1c54c6d36031db5e60f01f5ee3c14d263d",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "1546b49e926c9e7838e4bd27ff6fdea2ef1a49f51605896c6d330d71b6093ba5",
+  "at": "2026-09-22T05:43:40.488Z"
+}

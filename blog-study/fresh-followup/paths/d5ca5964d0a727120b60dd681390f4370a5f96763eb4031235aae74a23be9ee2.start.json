@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2371",
+    "text": "How do I get my top-up verification code?",
+    "expected": "verify_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "cc1b9b791474f944599d8db846db443d10c39a5efc120ac62ea6193dc7afd668",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "d5ca5964d0a727120b60dd681390f4370a5f96763eb4031235aae74a23be9ee2",
+  "at": "2026-09-22T05:52:10.259Z"
+}

@@ -1,0 +1,18 @@
+{
+  "key": "02358daf1d0265356c6b214625268b86bf489bf5a402ea2fd3b57bd88fa4a883",
+  "caseId": "test-2783",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "exchange_charge",
+  "predicted": "exchange_charge",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": true,
+  "safetyAccepted": true,
+  "latencyMs": 309.94637500005774,
+  "timing": "measured-live-sequential",
+  "components": [
+    "02358daf1d0265356c6b214625268b86bf489bf5a402ea2fd3b57bd88fa4a883__jev"
+  ],
+  "accountedUsd": 0.000067284
+}

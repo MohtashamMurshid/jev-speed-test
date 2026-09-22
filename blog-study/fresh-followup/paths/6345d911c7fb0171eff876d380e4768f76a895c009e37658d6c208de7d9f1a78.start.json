@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-420",
+    "text": "What is the best way to exchange currency?",
+    "expected": "exchange_via_app",
+    "dataset": "banking77",
+    "normalizedSha256": "4680db281c3f429d85bd9d972d83c9ddb80a1bedb08d35c5933d47a3fbbf250e",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "6345d911c7fb0171eff876d380e4768f76a895c009e37658d6c208de7d9f1a78",
+  "at": "2026-09-22T05:47:21.911Z"
+}

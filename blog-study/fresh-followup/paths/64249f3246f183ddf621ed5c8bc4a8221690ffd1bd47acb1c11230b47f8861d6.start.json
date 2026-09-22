@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-3049",
+    "text": "Can I get one of your cards in the EU",
+    "expected": "country_support",
+    "dataset": "banking77",
+    "normalizedSha256": "bed59eb62c5672d9c9cbbaea243a509ce27c1cdb53dfb60a6bdd32f0db06c2d5",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "64249f3246f183ddf621ed5c8bc4a8221690ffd1bd47acb1c11230b47f8861d6",
+  "at": "2026-09-22T06:01:38.669Z"
+}

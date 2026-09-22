@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3268",
+    "text": "what is the current weather like",
+    "expected": null,
+    "sourceCategory": "weather",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "4f08b14a50b29be22f4d5b8024b9a84e3057155aaecbd3883649b96e8c005095",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "8d2f507ff40d6f1bef751effdbeac58c61dbd2795cad08c3dd393c62560f7b5d",
+  "at": "2026-09-22T06:16:32.512Z"
+}

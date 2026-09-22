@@ -1,0 +1,88 @@
+{
+  "key": "825251ca5ab8b0d361f7e7a516c4a384c6f7a26cd086e617b52e7c543c4b79b6__gemini",
+  "sequence": 1394,
+  "caseId": "clinc-test-4157",
+  "cohort": "oos",
+  "path": "cascade",
+  "system": "gemini",
+  "expected": null,
+  "model": "google/gemini-3.8-flash",
+  "endpoint": "google-ai-studio",
+  "status": "ok",
+  "correct": false,
+  "reservedUsd": 0.2543355,
+  "timestamp": "2026-09-22T06:10:54.409Z",
+  "predicted": "why_verify_identity",
+  "probability": 0.01,
+  "usage": {
+    "inputTokens": 722,
+    "inputTokenDetails": {
+      "noCacheTokens": 722,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0
+    },
+    "outputTokens": 275,
+    "outputTokenDetails": {
+      "textTokens": 17,
+      "reasoningTokens": 258
+    },
+    "totalTokens": 997
+  },
+  "finishReason": "stop",
+  "latencyMs": 2550.4451619999018,
+  "returnedModel": "google/gemini-3.8-flash",
+  "returnedProvider": "Google AI Studio",
+  "response": {
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "{\"intent\": \"I29\", \"probability\": 0.01}",
+          "refusal": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "signature": "Et8JCtwJAWkUfRM1KPGxyHZ9sAVmUevoHvbc6wv89qfvBz+QXoTYlmAE8XQVbEmEUlfFz0o6aISSxvt/eZ26wj0kOYeRRQ5hCRe9nosekB8NL711oV6uEKc61M6WtTxK5d5KVZ/q+e7x7hjnR31tID+PR22k3QuRSl5+EHMYRQ7QM0I5JwiD8VujdPZG3EDxnuamUCeTQdq/7ECkirU7HfJBTYT+NvkOIHH3WDD4qN0AR3nXWL6oWygGvfrQ7tvbwrwrHmlbbBIBuZObBIGk3SmEcfobJ04raBAxnzTYFhx2SJjSBVX6LrQHF1xWL+cKLD9N8ieKCJBEHtC53ZGsIMkVQ+X3Xlq77nB8+4q8Xk1wUQeIZan1uM1DKHPwGhLDIB237oCH/u1TehvZVxcc+prs2YbXLzdnP6+bIXie1k5Dx9DUtFuZLWjpIcfxaJ3T2OXH3x+PW6APa3r9jZEUeXw3O4x5y8hU/BcdzVyJIDy0MripKKjuXNkdL4IRnB2jipMJVTVPSCBGSCE/kQoxcIheTF0bp0xLLuJ2+sbpeDH6gwdaAMzUaaQa4yNeZ0mjz3T/ilsq+zoxCPKkQZn9HLd/d4u1aesSLGwL6RC3+xffi8Fg5Oq9kHCCZDQ4dVAwEcH1RLHbPNPNHVZgV35eE/mP9FIG3d4SsAe5au2BB8L04JUZiR6oB02Xf6b4rs9eXlXI3Js9NPKLO0xtsquxtfoVt6kK5m8xPX2ucVhw/RzjTI5XKJby+K7Wo5G4ByHAEEQp89cwthjj0HszvCbP6L7oODuQjCjWdM7y2H4H6soU631X7Wy/3nuQnJoG3xt+wWMfrUJB9YUP/GZ+222XNIPTZNuJpAJkSnJit3/FBa1qJDo4SJMnsENBmmLTt7lsEI0eLUEWCJl8eCORCZYDRrZIhzSJ2umDOPO5yuNk47zpDvcunqxCEuI/myImz7Z70BMFtIt3PW0zXyjY+hj29bAxampUl+QCm4OMIxsmeGd/xjwIAv39XXLnpufnZEOb0qp9czRzADhYHJLN0f57NljVW6QRQ2vlyyCKgjDVflvb4obgq+jS3axnD6tPR3X9HZC/c5G7WFlj5S9USo6khwEU5iofNEZLoRne2TDfnw0kmnU5BsZUSp8DPF//uJqjH7Kdr9zM0vAIc8kciHxI7Ats11vbCeBdJiH9xjCZ8cXuCi9IC7Hss21R+S0b1BpJb+Tr3/Mu/yho1ffKC9pvpdf86e+GbnmtSosue54+OU0n9Dodxx0O9kZnQ6+CKF6bcBmR8JLTaMrZBloAcZs+GcpR4mrlOQ7SXT4HA9nQnZx5ux7NQq5Kv7EmO07k7yONdfpfYbC7+AX32WL1iLhW9CC02XaBMStFzbHjcJkMN5LgtRiPBcpAk8wXCLqRz5F+iZ7xkKXc89b9y9vEXigBdrqVhtPkLfNC3SVAzXZBx/BZFshtUbWqFfU0be/ptK0yWdSVdpsbJb7oGEsHA3p7RTwLf8O873U+5ZjkANGbS+R2nUMHXsKrJvCpx8pz+unWematSP43FWS60VDuR1cVnhBO5f2sT5OQwFBVNTm0GLQUqdXczkXTqgIdNy6VoBuGsT3ed51VpeQM3m7e9O+jitz+NWPBV3KtjhqHxAk0su99+VQfamlWJx/TSXOBZsgylx0=",
+              "format": "google-gemini-v1",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 722,
+      "completion_tokens": 275,
+      "total_tokens": 997,
+      "cost": 0.00157275,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.00157275,
+        "upstream_inference_prompt_cost": 0.0005415,
+        "upstream_inference_completions_cost": 0.00103125
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 258,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "id": "gen-1790057454-aIv5rG7NNHt9PiEg7oP8",
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "billedCostUsd": 0.00157275,
+  "accountedUsd": 0.00157275
+}

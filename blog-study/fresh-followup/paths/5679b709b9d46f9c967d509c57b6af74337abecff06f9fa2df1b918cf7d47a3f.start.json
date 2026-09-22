@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-690",
+    "text": "Is there any way to cancel a transfer?",
+    "expected": "cancel_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "92233dd65449dd65c0a1da4e2b95f7674d49ccd1651529d823a5586739245797",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "5679b709b9d46f9c967d509c57b6af74337abecff06f9fa2df1b918cf7d47a3f",
+  "at": "2026-09-22T05:48:36.095Z"
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1795",
+    "text": "I keep checking my bank statements but I don't see a refund that I've requested from a seller. Can you ensure that I receive the refund from the seller?",
+    "expected": "Refund_not_showing_up",
+    "dataset": "banking77",
+    "normalizedSha256": "73c9d00cd4be0fc81d7b15f454f069fe7dc0d0d289ec94f64289c82fab7b83ca",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "cc9b1a23b5993212373807c5e527bb9e14f41d9a998e2475c7ff8e748b864d7b",
+  "at": "2026-09-22T05:49:40.054Z"
+}

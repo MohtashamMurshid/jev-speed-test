@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-662",
+    "text": "So I just put my top-up into the card and it hasn't changed.",
+    "expected": "pending_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "9b6a8545e2928d4fc640b89bad2740ef1332d66a69f3c75f21322dfc24a0a0c2",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "e29e8d5c07623fe3fb6bb05f49db07e85e22dbf8f2776aeb07650e53a51f22f5",
+  "at": "2026-09-22T05:49:27.780Z"
+}

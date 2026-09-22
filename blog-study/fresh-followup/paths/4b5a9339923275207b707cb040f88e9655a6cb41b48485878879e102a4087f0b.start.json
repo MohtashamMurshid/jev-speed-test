@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2330",
+    "text": "I NEED TO KNOW HOW TO TRANSFER MONEY INTO MY BANK ACCOUNT. PLEASE HELP",
+    "expected": "transfer_into_account",
+    "dataset": "banking77",
+    "normalizedSha256": "d4fa7b4cb8fb792f72ddef7b8dae450c36fb4a0f5109884b82481ad6ff7f0435",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "4b5a9339923275207b707cb040f88e9655a6cb41b48485878879e102a4087f0b",
+  "at": "2026-09-22T06:05:31.049Z"
+}

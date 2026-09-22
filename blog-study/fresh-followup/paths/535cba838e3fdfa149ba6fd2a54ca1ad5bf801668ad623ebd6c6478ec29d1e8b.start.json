@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-2960",
+    "text": "what song is currently playing",
+    "expected": null,
+    "sourceCategory": "what_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "b44acc945a872ff6a5b10a9d71912f4e7db7535b64beb9593d9b7dbecf262040",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "535cba838e3fdfa149ba6fd2a54ca1ad5bf801668ad623ebd6c6478ec29d1e8b",
+  "at": "2026-09-22T06:16:06.111Z"
+}

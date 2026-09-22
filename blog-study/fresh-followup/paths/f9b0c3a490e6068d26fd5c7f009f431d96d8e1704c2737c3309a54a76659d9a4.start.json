@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1732",
+    "text": "Why did I get a transfer declined?",
+    "expected": "declined_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "1a298cfef7c82bdce89ecbef96c7f07eb1313887cdb9e7b069a24c9c567a3638",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "f9b0c3a490e6068d26fd5c7f009f431d96d8e1704c2737c3309a54a76659d9a4",
+  "at": "2026-09-22T05:43:02.723Z"
+}

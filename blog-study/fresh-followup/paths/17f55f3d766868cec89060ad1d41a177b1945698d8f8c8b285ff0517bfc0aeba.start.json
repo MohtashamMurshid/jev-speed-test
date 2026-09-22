@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-0",
+    "text": "How do I locate my card?",
+    "expected": "card_arrival",
+    "dataset": "banking77",
+    "normalizedSha256": "1f21633d90fe7165bfc51235c625a23967e82a25dbb0eb89cc158c5ca0df7929",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "17f55f3d766868cec89060ad1d41a177b1945698d8f8c8b285ff0517bfc0aeba",
+  "at": "2026-09-22T05:49:44.273Z"
+}

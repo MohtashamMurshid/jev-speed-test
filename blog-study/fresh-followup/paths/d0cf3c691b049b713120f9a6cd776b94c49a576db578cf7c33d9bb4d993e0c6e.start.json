@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-78",
+    "text": "How do I link my replacement card?",
+    "expected": "card_linking",
+    "dataset": "banking77",
+    "normalizedSha256": "3c6f302a0276cfd20186ae9d050f218b3cd7c5ce1832714524aebe6ea2fb78f3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "d0cf3c691b049b713120f9a6cd776b94c49a576db578cf7c33d9bb4d993e0c6e",
+  "at": "2026-09-22T05:41:03.954Z"
+}

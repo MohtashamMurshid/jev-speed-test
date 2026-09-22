@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-153",
+    "text": "The incorrect rate was used in my foreign purchase",
+    "expected": "card_payment_wrong_exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "914ddd3aaf6763565414fca6f5af9fc5f21e90457f18a36408021841b9228169",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "cc738b45b9bdd9383ac5b82e3e7e61e255e821d63519981021f292b993364f6a",
+  "at": "2026-09-22T05:47:51.702Z"
+}

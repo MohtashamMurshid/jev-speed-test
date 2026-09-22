@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-826",
+    "text": "Is there a fee when you pay with your card?",
+    "expected": "card_payment_fee_charged",
+    "dataset": "banking77",
+    "normalizedSha256": "f2ae4337cc068595123d6b6a48dbc9d9cb48648b3ae565ef2bff947c210847a3",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "abc684dc6c836def3d4bfa94c8252bd4648075fd4ad4b790da84984aff3a6460",
+  "at": "2026-09-22T05:49:59.891Z"
+}

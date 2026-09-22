@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1221",
+    "text": "The app doesn't recognize me.",
+    "expected": "unable_to_verify_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "2ee63f39d1a34d2b35eb95f3b51f5842e5784ed556af1ce73c004e9f40162a60",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "e9d83e87b4dd7cc5a4204ce3f59acc9db640d13761eee9dd07907f584000a61a",
+  "at": "2026-09-22T05:45:09.997Z"
+}

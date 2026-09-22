@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-2957",
+    "text": "tell me what this song is called that's playing",
+    "expected": null,
+    "sourceCategory": "what_song",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "3c5d79155261c09b6f861d030d1426126296227e73fd5d4dfbc8fddc8efa1dcf",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "bb3be96bfb0137091695e73c65bee5dab3f7af90a283f61a462f944a73e254e3",
+  "at": "2026-09-22T06:17:07.621Z"
+}

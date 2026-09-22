@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2094",
+    "text": "why did the app refuse to make an approved payment",
+    "expected": "reverted_card_payment?",
+    "dataset": "banking77",
+    "normalizedSha256": "7362072acaeec320202080f457e1caedd14849403e60792bc43433921aef5afe",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "1091519201e418037958489b0937c87fc61fe6c3feaaab8a0dfebd8024d7bf2b",
+  "at": "2026-09-22T05:44:09.107Z"
+}

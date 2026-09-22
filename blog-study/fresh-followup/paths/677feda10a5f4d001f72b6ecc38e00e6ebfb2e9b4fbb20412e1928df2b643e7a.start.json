@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2492",
+    "text": "For physical cards, do you charge?",
+    "expected": "order_physical_card",
+    "dataset": "banking77",
+    "normalizedSha256": "e513b0ce2e1d1b108849f6a0649f179bf0e4bb12843e7f6907b14437891f9b1b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "677feda10a5f4d001f72b6ecc38e00e6ebfb2e9b4fbb20412e1928df2b643e7a",
+  "at": "2026-09-22T05:52:44.587Z"
+}

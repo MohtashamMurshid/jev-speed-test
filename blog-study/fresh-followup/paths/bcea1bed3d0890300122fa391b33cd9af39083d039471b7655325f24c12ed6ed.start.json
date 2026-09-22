@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2329",
+    "text": "How does tranferring money into my account work?",
+    "expected": "transfer_into_account",
+    "dataset": "banking77",
+    "normalizedSha256": "64e0314e3f2f9101374440cc3fac7bffdbce50ad0ca92d7b4176eac1222bc3f3",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "bcea1bed3d0890300122fa391b33cd9af39083d039471b7655325f24c12ed6ed",
+  "at": "2026-09-22T06:08:26.026Z"
+}

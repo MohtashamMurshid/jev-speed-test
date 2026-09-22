@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1496",
+    "text": "Unknown direct deposit",
+    "expected": "direct_debit_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "e4b679e5b25d36b17a32db3c4b093c93a13b9da29583ed62d4bfc54bf2c8f306",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "036ef1a05b20bc57672c5beced1f8c7271a7469136085821d6861880e123153b",
+  "at": "2026-09-22T05:54:52.274Z"
+}

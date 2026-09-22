@@ -1,0 +1,38 @@
+{
+  "jev": {
+    "sklearn_accuracy": 0.798,
+    "scipy_wilson": [
+      0.7605971137604935,
+      0.8308587793244212
+    ]
+  },
+  "gemini": {
+    "sklearn_accuracy": 0.85,
+    "scipy_wilson": [
+      0.8160389193683015,
+      0.8786240423086118
+    ]
+  },
+  "cascade": {
+    "sklearn_accuracy": 0.848,
+    "scipy_wilson": [
+      0.8138858517125613,
+      0.8768076073261983
+    ]
+  },
+  "local": {
+    "sklearn_accuracy": 0.85,
+    "scipy_wilson": [
+      0.8160389193683015,
+      0.8786240423086118
+    ]
+  },
+  "latency_difference": {
+    "median_difference_ms": 228.68225050001638,
+    "median_difference_percent": 13.960153580495804
+  },
+  "versions": {
+    "sklearn": "1.9.1",
+    "scipy": "1.17.1"
+  }
+}

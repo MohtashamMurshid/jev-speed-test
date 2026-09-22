@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2341",
+    "text": "What methods can I use to add money to my account?",
+    "expected": "transfer_into_account",
+    "dataset": "banking77",
+    "normalizedSha256": "3f7f41afa40ec001e660d4d567226d6129d044613ce746c1f9e8f556180f14c9",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "dfd03fee14d1ed95a966514d44eb4ba1d0b7abc2df7ccdefbe43245843350f0a",
+  "at": "2026-09-22T05:48:28.959Z"
+}

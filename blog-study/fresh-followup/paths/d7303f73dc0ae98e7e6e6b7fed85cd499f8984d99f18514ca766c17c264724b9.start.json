@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-242",
+    "text": "Do you support all fiat currencies?",
+    "expected": "fiat_currency_support",
+    "dataset": "banking77",
+    "normalizedSha256": "4fb9c85fd40dadf7f3b8d5e27659c8ac1bdfe590a33c96b820110cbc7d54dff4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "d7303f73dc0ae98e7e6e6b7fed85cd499f8984d99f18514ca766c17c264724b9",
+  "at": "2026-09-22T05:47:09.712Z"
+}

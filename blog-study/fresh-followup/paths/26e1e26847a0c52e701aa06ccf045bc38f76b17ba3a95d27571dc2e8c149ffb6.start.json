@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1335",
+    "text": "How do I transfer money using a credit card?",
+    "expected": "topping_up_by_card",
+    "dataset": "banking77",
+    "normalizedSha256": "20eda24d45a377a33c22ea914379fa5b28f95d4d2edf9000a6de735320e3e435",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "26e1e26847a0c52e701aa06ccf045bc38f76b17ba3a95d27571dc2e8c149ffb6",
+  "at": "2026-09-22T05:53:45.793Z"
+}

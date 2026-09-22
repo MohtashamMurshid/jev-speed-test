@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1987",
+    "text": "My card has been charged two separate times for a single transaction.",
+    "expected": "transaction_charged_twice",
+    "dataset": "banking77",
+    "normalizedSha256": "635c7c7452b6ca3f3c920af32af0e1822b71dfa7822da6adaaeb36362a997d7f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "daeebeebb9c9f13ea3e0641a345222dbbd7dd2b249fe6d822313bee5a7ee7a3e",
+  "at": "2026-09-22T05:48:49.368Z"
+}

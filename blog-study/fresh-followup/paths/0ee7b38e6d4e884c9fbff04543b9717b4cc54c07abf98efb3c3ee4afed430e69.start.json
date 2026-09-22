@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-232",
+    "text": "I tried to take money from my card, but it didn't work. Later I saw that the transaction is still in progress. What's goign on?",
+    "expected": "pending_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "20c37a744342461f9e49ab165e4549bb4ff5ca6da9f2b39ab9200aae1e7bd1ca",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "0ee7b38e6d4e884c9fbff04543b9717b4cc54c07abf98efb3c3ee4afed430e69",
+  "at": "2026-09-22T06:03:25.176Z"
+}

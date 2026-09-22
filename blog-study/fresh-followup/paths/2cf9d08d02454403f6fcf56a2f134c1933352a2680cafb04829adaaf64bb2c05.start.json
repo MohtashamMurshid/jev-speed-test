@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1109",
+    "text": "I don't know where this transaction came from?",
+    "expected": "card_payment_not_recognised",
+    "dataset": "banking77",
+    "normalizedSha256": "ed394b110fcea0c0944000c7d4e6ed93f5eacb97d6f18ef4030bf7ca12fb1f2c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "2cf9d08d02454403f6fcf56a2f134c1933352a2680cafb04829adaaf64bb2c05",
+  "at": "2026-09-22T05:58:35.214Z"
+}

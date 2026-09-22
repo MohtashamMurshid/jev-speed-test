@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2369",
+    "text": "Why do you need code verification for my top up?",
+    "expected": "verify_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "44576e17bf1b61c3bd58508396ed15112a13f0ff92604cdb616ed9d6d605ce81",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "51aaf2b1723757d5bc39c1d3779f35dadf16bb891247928d38efd7806dbdc9be",
+  "at": "2026-09-22T05:45:51.478Z"
+}

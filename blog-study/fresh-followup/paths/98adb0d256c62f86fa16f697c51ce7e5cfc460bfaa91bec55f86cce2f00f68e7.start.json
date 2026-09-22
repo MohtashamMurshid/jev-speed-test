@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2069",
+    "text": "How long does a funds transfer take from one back to another?",
+    "expected": "transfer_timing",
+    "dataset": "banking77",
+    "normalizedSha256": "6f54d3157750e22b96491fc9ca48469adeac41c773e82bcb1574affed408a531",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "98adb0d256c62f86fa16f697c51ce7e5cfc460bfaa91bec55f86cce2f00f68e7",
+  "at": "2026-09-22T05:42:25.166Z"
+}

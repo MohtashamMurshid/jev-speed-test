@@ -1,0 +1,18 @@
+{
+  "key": "1765f44fa1cd8fc7a013358dfc6c0c922410dfd3febf4572284c39002c688006",
+  "caseId": "test-185",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "extra_charge_on_statement",
+  "predicted": "extra_charge_on_statement",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": true,
+  "safetyAccepted": true,
+  "latencyMs": 360.3782919999794,
+  "timing": "measured-live-sequential",
+  "components": [
+    "1765f44fa1cd8fc7a013358dfc6c0c922410dfd3febf4572284c39002c688006__jev"
+  ],
+  "accountedUsd": 0.000067494
+}

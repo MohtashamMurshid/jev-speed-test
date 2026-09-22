@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2921",
+    "text": "Will you be able to send the new card to China?",
+    "expected": "card_about_to_expire",
+    "dataset": "banking77",
+    "normalizedSha256": "eab230ffe1422f5629fd5e36d6d8ca34a580ce39dfba108385ad1bfa7ec81a10",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "8db6aef49d9ef7b6af56c1e7d62dde1a44acec828f9fac449aa27a0f6818f12d",
+  "at": "2026-09-22T05:48:42.928Z"
+}

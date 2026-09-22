@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1670",
+    "text": "I am not able to use the app since I forgot my phone at the hotel I was staying at.",
+    "expected": "lost_or_stolen_phone",
+    "dataset": "banking77",
+    "normalizedSha256": "4f089b1e19e7ac1449f463801435e347d478125f6c4da118ad5073940e18dcd1",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "0b341340a9879469477d60083286646509e3b6960da02e78e72e86bd9bdb4d2b",
+  "at": "2026-09-22T05:55:05.108Z"
+}

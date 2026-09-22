@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-3061",
+    "text": "I would like to receive and use the card in Europe, is that possible?",
+    "expected": "country_support",
+    "dataset": "banking77",
+    "normalizedSha256": "ed29629c43bf4d85ec9a3626e58e5cbb5be88c206b90ff7e1b3600db465975f5",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "13983ee86234ff7a93431dabd02453cf97b40122144856ac49a8d681a43f03dc",
+  "at": "2026-09-22T05:50:52.493Z"
+}

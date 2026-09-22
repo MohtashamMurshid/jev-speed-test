@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2479",
+    "text": "Do you accept checks?",
+    "expected": "top_up_by_cash_or_cheque",
+    "dataset": "banking77",
+    "normalizedSha256": "a5eeac59de506128b29b58c4d78ec7836d70d0823e252489cda614174a48edee",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "f00c0250de5de9d2e62cef50d2137b74ba965b8904e505d2d42ba4c9aee43c07",
+  "at": "2026-09-22T05:56:37.391Z"
+}

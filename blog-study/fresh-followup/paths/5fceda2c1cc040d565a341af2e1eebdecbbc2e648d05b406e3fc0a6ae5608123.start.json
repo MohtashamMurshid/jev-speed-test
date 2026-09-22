@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2637",
+    "text": "how many transactions can i make with a disposable card",
+    "expected": "get_disposable_virtual_card",
+    "dataset": "banking77",
+    "normalizedSha256": "bec1ed7a45f43204b92d54d63b7a4729e747cc5364335ccbfdf6a1a8951941f5",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "5fceda2c1cc040d565a341af2e1eebdecbbc2e648d05b406e3fc0a6ae5608123",
+  "at": "2026-09-22T05:48:13.411Z"
+}

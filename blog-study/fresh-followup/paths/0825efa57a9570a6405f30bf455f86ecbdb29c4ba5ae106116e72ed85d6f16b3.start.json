@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1457",
+    "text": "Which ATM's will accept my card?",
+    "expected": "atm_support",
+    "dataset": "banking77",
+    "normalizedSha256": "25b0e85c956c96fd5890ce564aae863bae14f786a6c46d31e3879b5e14d14044",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "0825efa57a9570a6405f30bf455f86ecbdb29c4ba5ae106116e72ed85d6f16b3",
+  "at": "2026-09-22T05:42:20.585Z"
+}

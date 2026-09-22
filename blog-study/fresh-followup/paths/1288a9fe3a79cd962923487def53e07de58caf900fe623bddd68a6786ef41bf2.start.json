@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1785",
+    "text": "I still haven't seen a refund on my account",
+    "expected": "Refund_not_showing_up",
+    "dataset": "banking77",
+    "normalizedSha256": "cefef8b3eb220f189211ba7c13ca7b64f884bb254ac6bbafa2286a567cefd767",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "1288a9fe3a79cd962923487def53e07de58caf900fe623bddd68a6786ef41bf2",
+  "at": "2026-09-22T05:49:24.705Z"
+}

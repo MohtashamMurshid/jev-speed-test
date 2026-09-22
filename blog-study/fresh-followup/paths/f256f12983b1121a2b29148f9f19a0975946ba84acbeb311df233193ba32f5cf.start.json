@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2515",
+    "text": "Where can cards be delivered?",
+    "expected": "order_physical_card",
+    "dataset": "banking77",
+    "normalizedSha256": "bdadcf1488e9ffe4d9fa5e34213875a45126351beff50861b5ec9c1bc546784c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "f256f12983b1121a2b29148f9f19a0975946ba84acbeb311df233193ba32f5cf",
+  "at": "2026-09-22T06:03:47.043Z"
+}

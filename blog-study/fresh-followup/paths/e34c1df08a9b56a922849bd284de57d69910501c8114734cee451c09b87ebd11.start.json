@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3168",
+    "text": "turn on the tv",
+    "expected": null,
+    "sourceCategory": "smart_home",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "d51649b7084e64bb14e10dbcfcb2c703f5c7facde60f227bfdae62af34fc153b",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "e34c1df08a9b56a922849bd284de57d69910501c8114734cee451c09b87ebd11",
+  "at": "2026-09-22T06:12:06.485Z"
+}

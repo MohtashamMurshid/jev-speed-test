@@ -1,0 +1,39 @@
+{
+  "cascade": {
+    "calls": 830,
+    "cases": 500,
+    "reported_bills_usd": 0.2633189400000005,
+    "unknown_bill_calls": 0,
+    "unknown_bill_reservations_usd": 0,
+    "unknown_cases": []
+  },
+  "gemini_baseline": {
+    "calls": 500,
+    "cases": 500,
+    "reported_bills_usd": 0.3431940000000003,
+    "unknown_bill_calls": 1,
+    "unknown_bill_reservations_usd": 0.2544795,
+    "unknown_cases": [
+      {
+        "caseId": "test-861",
+        "httpStatus": 503,
+        "reservation_usd": 0.2544795,
+        "status": "error"
+      }
+    ]
+  },
+  "jev_first_stage": {
+    "calls": 500,
+    "cases": 500,
+    "reported_bills_usd": 0.033786690000000064,
+    "unknown_bill_calls": 0,
+    "unknown_bill_reservations_usd": 0,
+    "unknown_cases": []
+  },
+  "sensitivity": {
+    "definition": "Vary every missing bill from zero to its conservative reservation. For the lower saving, assign cascade missing bills their reserves and baseline missing bills zero; reverse for upper saving. These are scenarios, not known invoices or statistical confidence intervals.",
+    "lower_saving_percent": 23.274025769681202,
+    "reported_only_difference_usd": 0.07987505999999978,
+    "upper_saving_percent": 55.942677732909296
+  }
+}

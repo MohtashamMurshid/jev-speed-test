@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-674",
+    "text": "Hi. I'm a new customer to your system and I think something isn't working right - or maybe it is. Maybe you can confirm. I tried to top up today (my first time ever) and it's been stuck at \"pending\" for over an hour now. Is it supposed to do this or is there something wrong in the system?",
+    "expected": "pending_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "0decf23314d2ffbf52bd0e58fa4a7636e4241707bb6329fb8419e4f3433fefab",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "8808205709b2d5bf9fe973ea235312ffc34b7e1d85da5f68afb45dba058cd947",
+  "at": "2026-09-22T06:08:29.917Z"
+}

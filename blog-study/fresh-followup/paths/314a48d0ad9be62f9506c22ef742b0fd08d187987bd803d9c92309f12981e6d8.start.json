@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-1652",
+    "text": "tell me nutritional info for fish",
+    "expected": null,
+    "sourceCategory": "nutrition_info",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "80d95ff07491029209494c4d66cfd9ebde8b6832b053bc1bedc3a40b3fa20db0",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "314a48d0ad9be62f9506c22ef742b0fd08d187987bd803d9c92309f12981e6d8",
+  "at": "2026-09-22T06:11:14.987Z"
+}

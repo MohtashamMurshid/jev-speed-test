@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1195",
+    "text": "Can I use my account if the identity verification is not complete?",
+    "expected": "why_verify_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "d62ee2048d8c2dbcecd866f145637d477a913fb2537333d6dce7738e9b2b9390",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "863deca885c23d245ba8cf6757cbccccc997c607f3746c5d7b4f897634adc4e6",
+  "at": "2026-09-22T06:01:17.963Z"
+}

@@ -1,0 +1,88 @@
+{
+  "key": "ccd7e00bd12abb7df97085f1164d48f7c6f91b9dd1e6e508eabd7deab1178b84__gemini",
+  "sequence": 702,
+  "caseId": "test-1496",
+  "cohort": "cases",
+  "path": "cascade",
+  "system": "gemini",
+  "expected": "direct_debit_payment_not_recognised",
+  "model": "google/gemini-3.8-flash",
+  "endpoint": "google-ai-studio",
+  "status": "ok",
+  "correct": true,
+  "reservedUsd": 0.2543385,
+  "timestamp": "2026-09-22T05:54:49.294Z",
+  "predicted": "direct_debit_payment_not_recognised",
+  "probability": 0.85,
+  "usage": {
+    "inputTokens": 718,
+    "inputTokenDetails": {
+      "noCacheTokens": 718,
+      "cacheReadTokens": 0,
+      "cacheWriteTokens": 0
+    },
+    "outputTokens": 432,
+    "outputTokenDetails": {
+      "textTokens": 23,
+      "reasoningTokens": 409
+    },
+    "totalTokens": 1150
+  },
+  "finishReason": "stop",
+  "latencyMs": 2965.6829979999457,
+  "returnedModel": "google/gemini-3.8-flash",
+  "returnedProvider": "Google AI Studio",
+  "response": {
+    "model": "google/gemini-3.8-flash",
+    "provider": "Google AI Studio",
+    "choices": [
+      {
+        "index": 0,
+        "logprobs": null,
+        "finish_reason": "stop",
+        "native_finish_reason": "STOP",
+        "message": {
+          "role": "assistant",
+          "content": "{\n  \"intent\": \"I37\",\n  \"probability\": 0.85\n}",
+          "refusal": null,
+          "reasoning_details": [
+            {
+              "type": "reasoning.text",
+              "signature": "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",
+              "format": "google-gemini-v1",
+              "index": 0
+            }
+          ]
+        }
+      }
+    ],
+    "usage": {
+      "prompt_tokens": 718,
+      "completion_tokens": 432,
+      "total_tokens": 1150,
+      "cost": 0.0021585,
+      "is_byok": false,
+      "prompt_tokens_details": {
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "audio_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost_details": {
+        "upstream_inference_cost": 0.0021585,
+        "upstream_inference_prompt_cost": 0.0005385,
+        "upstream_inference_completions_cost": 0.00162
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 409,
+        "image_tokens": 0,
+        "audio_tokens": 0
+      }
+    },
+    "id": "gen-1790056489-8nZXwtRaRcjAtBK87svB",
+    "service_tier": "default",
+    "system_fingerprint": null
+  },
+  "billedCostUsd": 0.0021585,
+  "accountedUsd": 0.0021585
+}

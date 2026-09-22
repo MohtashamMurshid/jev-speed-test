@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2274",
+    "text": "can I transfer my salary if it's in a different currency?",
+    "expected": "receiving_money",
+    "dataset": "banking77",
+    "normalizedSha256": "eb419b9bb751999d44ec1513164ff9a4a5d6e7fbd2eb4f75117eea9031eed583",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "0af7c6dab84842865748390ff09d3bceff878dd8dd3dfe58e1b76a2ba96128e8",
+  "at": "2026-09-22T06:01:21.994Z"
+}

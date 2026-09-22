@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1640",
+    "text": "My phone was stolen",
+    "expected": "lost_or_stolen_phone",
+    "dataset": "banking77",
+    "normalizedSha256": "26528778e526191a90d85ab36262aeaaccfb46433c9992e8145ad46b4c837ecd",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "fa89f754940ed554c5f7652dd196509677cd3263c5b6c640ea5184fde805e686",
+  "at": "2026-09-22T05:51:46.492Z"
+}

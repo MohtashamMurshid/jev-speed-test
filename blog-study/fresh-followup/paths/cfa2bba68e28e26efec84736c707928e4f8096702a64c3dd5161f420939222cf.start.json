@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2405",
+    "text": "I need some spare physical cards.",
+    "expected": "getting_spare_card",
+    "dataset": "banking77",
+    "normalizedSha256": "a5caf7e3dd10d0724104dc11db6ceb4fd581150c56bf7218e0f2ca0a87e8a478",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "cfa2bba68e28e26efec84736c707928e4f8096702a64c3dd5161f420939222cf",
+  "at": "2026-09-22T05:56:13.593Z"
+}

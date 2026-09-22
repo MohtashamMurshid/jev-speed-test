@@ -1,0 +1,18 @@
+{
+  "key": "17d7f64676e88b68efdfce93af79b7712f7d1006929403c7247f8d60a64de7bf",
+  "caseId": "test-2967",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "apple_pay_or_google_pay",
+  "predicted": "apple_pay_or_google_pay",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 1482.899894000031,
+  "timing": "measured-live-sequential",
+  "components": [
+    "17d7f64676e88b68efdfce93af79b7712f7d1006929403c7247f8d60a64de7bf__gemini"
+  ],
+  "accountedUsd": 0.00063
+}

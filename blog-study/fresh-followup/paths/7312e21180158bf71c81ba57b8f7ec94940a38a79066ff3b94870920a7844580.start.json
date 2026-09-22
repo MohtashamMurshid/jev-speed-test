@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1740",
+    "text": "I could not do a transfer because it was declined",
+    "expected": "declined_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "114183eeafce853a37ae3d98c6664b8d4bad2877ed325c4dff4e7b71628dd3ea",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "7312e21180158bf71c81ba57b8f7ec94940a38a79066ff3b94870920a7844580",
+  "at": "2026-09-22T05:53:20.841Z"
+}

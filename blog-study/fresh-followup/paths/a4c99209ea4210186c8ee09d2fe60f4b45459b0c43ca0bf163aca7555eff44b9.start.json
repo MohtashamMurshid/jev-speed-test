@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-274",
+    "text": "How man currencies can I hold?",
+    "expected": "fiat_currency_support",
+    "dataset": "banking77",
+    "normalizedSha256": "4c3e37718a3c2b9fcebd8970bb132d88c1b51a8b9d9f5363b08049c0ab7b12b3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "a4c99209ea4210186c8ee09d2fe60f4b45459b0c43ca0bf163aca7555eff44b9",
+  "at": "2026-09-22T06:06:30.250Z"
+}

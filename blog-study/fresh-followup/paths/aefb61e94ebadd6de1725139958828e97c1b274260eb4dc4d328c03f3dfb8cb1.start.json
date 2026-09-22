@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1853",
+    "text": "I'm trying to transfer money to another country. It's just pending and not sending. My account details are correct. Please help me.",
+    "expected": "pending_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "a0dfc58372d564d38c0b694150002e5ca87b6682dd14699ea72888509060a129",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "aefb61e94ebadd6de1725139958828e97c1b274260eb4dc4d328c03f3dfb8cb1",
+  "at": "2026-09-22T06:05:13.838Z"
+}

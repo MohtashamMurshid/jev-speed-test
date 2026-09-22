@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-2137",
+    "text": "is it possible to use baking soda instead of flour",
+    "expected": null,
+    "sourceCategory": "ingredient_substitution",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "5b97be058780f8f4144a8706dc1ac829ba42a3e04272075f826519f845635ea8",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "92971b5286de0769c3fc4073549a3bdf43eade9bf08280560f06aae2dd3a4ebe",
+  "at": "2026-09-22T06:14:42.467Z"
+}

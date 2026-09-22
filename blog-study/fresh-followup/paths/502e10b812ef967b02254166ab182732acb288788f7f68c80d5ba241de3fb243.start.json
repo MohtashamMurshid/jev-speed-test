@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2936",
+    "text": "It appears my card expires next month, can I order a new one?",
+    "expected": "card_about_to_expire",
+    "dataset": "banking77",
+    "normalizedSha256": "695e12c813e1acf3e2686d0afec6d262ee75c91b97902c80a6eb5a5252ab0d96",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "502e10b812ef967b02254166ab182732acb288788f7f68c80d5ba241de3fb243",
+  "at": "2026-09-22T06:02:56.423Z"
+}

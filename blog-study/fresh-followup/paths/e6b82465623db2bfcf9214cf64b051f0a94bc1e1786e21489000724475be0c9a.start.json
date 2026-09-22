@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-955",
+    "text": "When should I receive my virtual card?",
+    "expected": "getting_virtual_card",
+    "dataset": "banking77",
+    "normalizedSha256": "0d671b479060b630d37fe5a16f1f5ebab58ea676d3b307132e2446d6fca0a1e1",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "e6b82465623db2bfcf9214cf64b051f0a94bc1e1786e21489000724475be0c9a",
+  "at": "2026-09-22T05:44:42.153Z"
+}

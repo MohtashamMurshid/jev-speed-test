@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1267",
+    "text": "So what about the card PIN?",
+    "expected": "get_physical_card",
+    "dataset": "banking77",
+    "normalizedSha256": "9162fcef14ba0c4275ba4468fc3494c869cf0679bd0e4a78c69fdba3539b62e0",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "4e4c2f1d3190d85b3f73de0d24b074c7e0b6b50bd34797f3bed2c124cc0ebd22",
+  "at": "2026-09-22T05:56:47.057Z"
+}

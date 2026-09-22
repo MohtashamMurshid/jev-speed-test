@@ -1,0 +1,18 @@
+{
+  "key": "af6d020f0d4a9655dc107d887e26e0473b26b3f36fc82694a599546c9fa15e73",
+  "caseId": "test-1504",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "direct_debit_payment_not_recognised",
+  "predicted": "card_payment_not_recognised",
+  "status": "ok",
+  "correct": false,
+  "jevAccepted": false,
+  "safetyAccepted": false,
+  "latencyMs": 3311.043010000023,
+  "timing": "measured-live-sequential",
+  "components": [
+    "af6d020f0d4a9655dc107d887e26e0473b26b3f36fc82694a599546c9fa15e73__gemini"
+  ],
+  "accountedUsd": 0.00063525
+}

@@ -1,0 +1,18 @@
+{
+  "key": "2a594b1275f40ee9d69f1fd61b11cc1ebd388da462569d4512d5b438563167c2",
+  "caseId": "test-2133",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "change_pin",
+  "predicted": "change_pin",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": true,
+  "safetyAccepted": true,
+  "latencyMs": 436.7991239999974,
+  "timing": "measured-live-sequential",
+  "components": [
+    "2a594b1275f40ee9d69f1fd61b11cc1ebd388da462569d4512d5b438563167c2__jev"
+  ],
+  "accountedUsd": 0.000067452
+}

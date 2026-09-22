@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1667",
+    "text": "I was mugged yesterday and they took everything.  I can't access my app.  What are my next steps?",
+    "expected": "lost_or_stolen_phone",
+    "dataset": "banking77",
+    "normalizedSha256": "0167272ab7136629a9d0aa809d664a263943159723a6628ad71473bb426c7895",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "a2f18f362f90144f62146ff98c0a9e1544d2c162c986287f5c4c87997fabe980",
+  "at": "2026-09-22T05:40:53.457Z"
+}

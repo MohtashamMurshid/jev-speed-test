@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3932",
+    "text": "play the song called i want it that way",
+    "expected": null,
+    "sourceCategory": "play_music",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "37cc8b1f959dc6d733082114d8467ecb04391cdfbb953b300f41f1e9155c5101",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "b86828c3ce43f99ed2bbf5b5042c64434556bb1207b44172df5c8094f18723c3",
+  "at": "2026-09-22T06:13:58.256Z"
+}

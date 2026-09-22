@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2698",
+    "text": "I can't see my latest bank transfer",
+    "expected": "balance_not_updated_after_bank_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "a4b45fd0222bc32dafdff9adff9f50491eba36fc9a472eff24791c4f1b990a88",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "ba3272cfc8db15fdcd7cbd606f6cde5a93d86371f72f36facc914b98dc2b4bd0",
+  "at": "2026-09-22T05:43:16.204Z"
+}

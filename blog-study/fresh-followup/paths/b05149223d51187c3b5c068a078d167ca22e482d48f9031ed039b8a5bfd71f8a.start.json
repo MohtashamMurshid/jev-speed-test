@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-4335",
+    "text": "show me ideas for hamburger",
+    "expected": null,
+    "sourceCategory": "recipe",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "ccd3bd346a08f75b2ae4de3a2509f45c71d282353c97be62ab7d7d1f90b99cf5",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "b05149223d51187c3b5c068a078d167ca22e482d48f9031ed039b8a5bfd71f8a",
+  "at": "2026-09-22T06:09:16.558Z"
+}

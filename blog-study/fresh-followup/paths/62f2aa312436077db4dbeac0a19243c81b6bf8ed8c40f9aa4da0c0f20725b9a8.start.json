@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-924",
+    "text": "If I don't want a physical card can i get a virtual version?",
+    "expected": "getting_virtual_card",
+    "dataset": "banking77",
+    "normalizedSha256": "cd3b400994c3ab266f360cdc6d40b448ea5132be43b6cb897c2dfe471cedc2af",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "62f2aa312436077db4dbeac0a19243c81b6bf8ed8c40f9aa4da0c0f20725b9a8",
+  "at": "2026-09-22T06:02:14.928Z"
+}

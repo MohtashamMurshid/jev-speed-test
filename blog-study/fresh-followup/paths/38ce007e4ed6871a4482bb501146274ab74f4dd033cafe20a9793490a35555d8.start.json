@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2375",
+    "text": "Why does top-up need verifying?",
+    "expected": "verify_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "4ef90dccf3b38ee8a7c01eb004cd8fd8101d0d1fa6ce8b885362353aefd1ea40",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "38ce007e4ed6871a4482bb501146274ab74f4dd033cafe20a9793490a35555d8",
+  "at": "2026-09-22T05:42:10.238Z"
+}

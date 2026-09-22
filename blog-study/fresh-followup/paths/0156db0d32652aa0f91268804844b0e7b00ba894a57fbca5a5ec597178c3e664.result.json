@@ -1,0 +1,19 @@
+{
+  "key": "0156db0d32652aa0f91268804844b0e7b00ba894a57fbca5a5ec597178c3e664",
+  "caseId": "test-382",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "card_not_working",
+  "predicted": "card_not_working",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": false,
+  "latencyMs": 2791.552498999983,
+  "timing": "measured-live-sequential",
+  "components": [
+    "0156db0d32652aa0f91268804844b0e7b00ba894a57fbca5a5ec597178c3e664__jev",
+    "0156db0d32652aa0f91268804844b0e7b00ba894a57fbca5a5ec597178c3e664__gemini"
+  ],
+  "accountedUsd": 0.0016527
+}

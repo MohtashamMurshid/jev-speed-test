@@ -1,0 +1,19 @@
+{
+  "key": "56fa4bcfab54787ee0e2d80dd19c89c2fe3c82d827b12a00cce77de503a588ff",
+  "caseId": "test-1354",
+  "cohort": "cases",
+  "path": "cascade",
+  "expected": "topping_up_by_card",
+  "predicted": "receiving_money",
+  "status": "ok",
+  "correct": false,
+  "jevAccepted": false,
+  "safetyAccepted": false,
+  "latencyMs": 1990.6731950000394,
+  "timing": "measured-live-sequential",
+  "components": [
+    "56fa4bcfab54787ee0e2d80dd19c89c2fe3c82d827b12a00cce77de503a588ff__jev",
+    "56fa4bcfab54787ee0e2d80dd19c89c2fe3c82d827b12a00cce77de503a588ff__gemini"
+  ],
+  "accountedUsd": 0.000672576
+}

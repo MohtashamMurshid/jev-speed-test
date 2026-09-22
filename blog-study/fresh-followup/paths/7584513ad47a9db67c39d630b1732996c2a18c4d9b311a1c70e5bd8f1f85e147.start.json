@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1597",
+    "text": "Is there a reason that the ATM declined my transaction?",
+    "expected": "declined_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "48418322b587df4b29c702c079ab7f2fe5cde66967c01478164dfb2bafb5609c",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "7584513ad47a9db67c39d630b1732996c2a18c4d9b311a1c70e5bd8f1f85e147",
+  "at": "2026-09-22T05:50:07.730Z"
+}

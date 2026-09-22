@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1330",
+    "text": "I followed the instructions to transfer money using my card, but then the money disappeared and I don't know what happened.",
+    "expected": "topping_up_by_card",
+    "dataset": "banking77",
+    "normalizedSha256": "c4c9d8eaddf88272da997da88308b968c52c02b9fd05c8635770aa91394be49d",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "70f71d942274445159f2feff7ed5be5efe6130eea17f3586bd4c985f7684a9f1",
+  "at": "2026-09-22T05:59:01.938Z"
+}

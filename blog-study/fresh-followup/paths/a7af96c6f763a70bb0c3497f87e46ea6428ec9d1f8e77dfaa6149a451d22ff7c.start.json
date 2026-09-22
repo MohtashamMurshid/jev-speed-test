@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3175",
+    "text": "please set the oven to 350 f",
+    "expected": null,
+    "sourceCategory": "smart_home",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "a5633ba09ab70803bc65e116c9237e10a128386a732be46a842a5105487d2cc6",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "a7af96c6f763a70bb0c3497f87e46ea6428ec9d1f8e77dfaa6149a451d22ff7c",
+  "at": "2026-09-22T06:14:59.393Z"
+}

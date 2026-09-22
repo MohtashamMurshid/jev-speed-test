@@ -1,0 +1,20 @@
+{
+  "networkCalls": 0,
+  "source": "Saved provider response injected as SDK mock transport; original records unchanged",
+  "results": [
+    {
+      "caseId": "clinc-test-1658",
+      "reproduced": true,
+      "mockedCalls": 1,
+      "errorName": "AI_InvalidResponseDataError",
+      "errorMessage": "Question \"intent\" did not select a highest-probability option."
+    },
+    {
+      "caseId": "clinc-test-2146",
+      "reproduced": true,
+      "mockedCalls": 1,
+      "errorName": "AI_InvalidResponseDataError",
+      "errorMessage": "Question \"intent\" did not select a highest-probability option."
+    }
+  ]
+}

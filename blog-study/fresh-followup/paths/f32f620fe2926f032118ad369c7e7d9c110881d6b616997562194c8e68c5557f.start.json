@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-991",
+    "text": "Can I make online purchases with my card?",
+    "expected": "card_acceptance",
+    "dataset": "banking77",
+    "normalizedSha256": "04458f4eda1f8bf1d8b9214b2ad3402dcaeff87d487552c0ae334dad2b76a3c7",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "f32f620fe2926f032118ad369c7e7d9c110881d6b616997562194c8e68c5557f",
+  "at": "2026-09-22T05:53:29.224Z"
+}

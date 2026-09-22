@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2149",
+    "text": "Which cash machines will allow me to change my PIN?",
+    "expected": "change_pin",
+    "dataset": "banking77",
+    "normalizedSha256": "63e218aa0850510d23de271f4314b124f6288a7b5a3fe8caa42d58619edef3af",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "d80cd3ff4a15723767e52ee521608c00cdbbb0324915338c8ca9bb411877e46a",
+  "at": "2026-09-22T06:08:44.642Z"
+}

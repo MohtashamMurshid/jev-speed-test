@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-752",
+    "text": "Is there a limit to how high I can top-up?",
+    "expected": "top_up_limits",
+    "dataset": "banking77",
+    "normalizedSha256": "998ce6366fa9b1a049c2d279ad3b93081d04e402e2d56599d27da71d1bb8428f",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "7a862741e1b1f18eed554b017ddc67601fa70dcb4d57d2c8208d653d58b7dd0a",
+  "at": "2026-09-22T05:42:49.480Z"
+}

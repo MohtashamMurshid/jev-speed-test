@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-1668",
+    "text": "find the nutrition info for cucumbers for me",
+    "expected": null,
+    "sourceCategory": "nutrition_info",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "6853ed04963fed66a456e3166d137dc0cedc7126ebf79cb5b9555335fb64fd88",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "eb6f5dba0f6598724cce64f2612e1dbf0674ee9f58f3b3a69f9c42383b4ef884",
+  "at": "2026-09-22T06:13:21.077Z"
+}

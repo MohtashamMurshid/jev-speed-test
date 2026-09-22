@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-3028",
+    "text": "which kind of documentation do I need for identity check?",
+    "expected": "verify_my_identity",
+    "dataset": "banking77",
+    "normalizedSha256": "efa1ea050464d6c7deb876bb6d51d62024987129621cfc0f30ea11c11778082e",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "01efab2e405f2452ff231d9142c817fab9943fa22eb7ce837d0c7b65cf1b1b56",
+  "at": "2026-09-22T06:05:50.894Z"
+}

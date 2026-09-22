@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2364",
+    "text": "Can you give me information about verification code?",
+    "expected": "verify_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "397eec8d0efd68d5334a9f3e2e35211bb607ea1e9eea484faaf7f34dda44e5da",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "08f45299361ecbe543d4eb758981ccfe587e0dd184e7e355c4e0f55d6a832f2a",
+  "at": "2026-09-22T05:51:10.864Z"
+}

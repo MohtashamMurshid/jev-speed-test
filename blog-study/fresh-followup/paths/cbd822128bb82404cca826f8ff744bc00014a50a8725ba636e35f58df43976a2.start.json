@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1851",
+    "text": "How long can an EU transfer take?",
+    "expected": "pending_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "c1cbb25e0642e91a8d359b55c751a7e5d416a39e356e91a643f273b4709ba8b3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "cbd822128bb82404cca826f8ff744bc00014a50a8725ba636e35f58df43976a2",
+  "at": "2026-09-22T05:58:16.202Z"
+}

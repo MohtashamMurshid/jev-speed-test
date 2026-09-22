@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1897",
+    "text": "The service of this company sucks, I need to terminate my account.",
+    "expected": "terminate_account",
+    "dataset": "banking77",
+    "normalizedSha256": "7008ff2c518903d6e8c95303d66c209da34edc830b2339049ab4c4fb8cc7d81e",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "a9b17a0116e67d4a1b950f8ddaf329f2538890f4a1d55e727f9dc69ef3fcd736",
+  "at": "2026-09-22T06:01:55.445Z"
+}

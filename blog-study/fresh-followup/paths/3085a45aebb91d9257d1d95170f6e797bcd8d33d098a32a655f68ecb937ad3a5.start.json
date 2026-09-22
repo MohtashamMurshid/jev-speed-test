@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2407",
+    "text": "Can I have a card after my first one?",
+    "expected": "getting_spare_card",
+    "dataset": "banking77",
+    "normalizedSha256": "45eb4ed6caa986b229fa71cf0a83ed5503feab5689267fe674f00164e6f04dc4",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "3085a45aebb91d9257d1d95170f6e797bcd8d33d098a32a655f68ecb937ad3a5",
+  "at": "2026-09-22T05:48:17.328Z"
+}

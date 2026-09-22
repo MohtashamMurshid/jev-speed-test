@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1057",
+    "text": "I deposited a check but my balance is still the same.",
+    "expected": "balance_not_updated_after_cheque_or_cash_deposit",
+    "dataset": "banking77",
+    "normalizedSha256": "5f2ee2863d25e76c1d29ab678d4e99cf2c41668651567f606c96dbb289ae1b33",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "50d2a4177b9155bb91a05ba47378bc5dc49521ae1a3e4250e8dbd37ed58494fa",
+  "at": "2026-09-22T05:48:37.627Z"
+}

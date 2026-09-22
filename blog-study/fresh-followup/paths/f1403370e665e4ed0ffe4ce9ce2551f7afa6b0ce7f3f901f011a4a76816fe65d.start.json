@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3178",
+    "text": "i need the temperature set at 70 f",
+    "expected": null,
+    "sourceCategory": "smart_home",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "08a255b2278257311de30188b871aa78fa1c2174d0e28c1e823411475edd16a3",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "f1403370e665e4ed0ffe4ce9ce2551f7afa6b0ce7f3f901f011a4a76816fe65d",
+  "at": "2026-09-22T06:15:09.910Z"
+}

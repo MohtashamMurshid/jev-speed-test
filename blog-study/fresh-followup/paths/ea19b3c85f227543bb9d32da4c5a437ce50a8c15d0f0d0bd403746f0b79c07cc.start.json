@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-613",
+    "text": "Will there be any charges for money received?",
+    "expected": "top_up_by_bank_transfer_charge",
+    "dataset": "banking77",
+    "normalizedSha256": "5ac412023f392aff931faf552ea741636cdfc573ff2b89d4d12000b45d80cfaf",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "ea19b3c85f227543bb9d32da4c5a437ce50a8c15d0f0d0bd403746f0b79c07cc",
+  "at": "2026-09-22T05:42:43.282Z"
+}

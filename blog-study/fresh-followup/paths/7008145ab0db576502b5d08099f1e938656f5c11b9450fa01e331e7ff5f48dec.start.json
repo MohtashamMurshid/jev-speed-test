@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-83",
+    "text": "Where do you guys acquire your exchange rate?",
+    "expected": "exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "db30c23ecbc5819ab6330347ca9136215ea46dfca64d92a06fa3f65cf48fd587",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "7008145ab0db576502b5d08099f1e938656f5c11b9450fa01e331e7ff5f48dec",
+  "at": "2026-09-22T05:51:38.173Z"
+}

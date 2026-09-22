@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1917",
+    "text": "I want to delete my account. I'm unhappy with the service you're providing.",
+    "expected": "terminate_account",
+    "dataset": "banking77",
+    "normalizedSha256": "c977cfae612a08f2da40be44c2d1de6dbead172f557b31413abd52e4081a0642",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "ec24341719ff2b59ebe4ad46d4cea776fa9a8125deaa73febad6bd4817da2937",
+  "at": "2026-09-22T05:53:48.744Z"
+}

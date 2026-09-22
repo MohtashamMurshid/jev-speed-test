@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-3170",
+    "text": "to 350, set the oven",
+    "expected": null,
+    "sourceCategory": "smart_home",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "a688ae2bb4cb285f4689960ee86ede32772831634b33550d89e0c9d5c5e3b9e1",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "a950d1454de5271f0204f87413f0045585eb608e172b65e186cc96d3347b4d3f",
+  "at": "2026-09-22T06:15:33.969Z"
+}

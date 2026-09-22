@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2926",
+    "text": "My card is about to expire. What do I need to do?",
+    "expected": "card_about_to_expire",
+    "dataset": "banking77",
+    "normalizedSha256": "7fbc620f2b39279eec7bb0b1dc83ca9e7e779f8d77ea85aa9074539ea27d0911",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "b901f5ce1b1e6ebdab0a29353f2e2fafbd7035731d01956b41ca5098a3182b75",
+  "at": "2026-09-22T05:43:53.728Z"
+}

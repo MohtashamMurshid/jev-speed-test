@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-655",
+    "text": "What's going on with the top-up? All it says is pending, pending, pending! I use your service several times a week and have never had a problem before! What's going on here?",
+    "expected": "pending_top_up",
+    "dataset": "banking77",
+    "normalizedSha256": "02b52b8ce581212056a8005d4b8626276d30636219dc9059e7f7eb6f09c21787",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "150aa38c6af29b7b51fb0fe736f1af6634107e1c6896988149576ce83dee65ee",
+  "at": "2026-09-22T06:00:38.146Z"
+}

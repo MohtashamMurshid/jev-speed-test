@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-878",
+    "text": "I am still awaiting the completion of the transaction.",
+    "expected": "transfer_not_received_by_recipient",
+    "dataset": "banking77",
+    "normalizedSha256": "d2a6ecae0d924723ac1f5644ef1194c71e5c475e6a725e0b89e72e6fa0d7b0ac",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "549387ea64906d3d7240801846f990a285ab0a42e341fa5667033209590cdba2",
+  "at": "2026-09-22T05:58:30.478Z"
+}

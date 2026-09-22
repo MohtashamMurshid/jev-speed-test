@@ -1,0 +1,18 @@
+{
+  "key": "a4568cb7fea2d7cb9de12034c65ccfefb81639d4399ef0edaee00443169c5c56",
+  "caseId": "test-587",
+  "cohort": "cases",
+  "path": "baseline",
+  "expected": "contactless_not_working",
+  "predicted": "contactless_not_working",
+  "status": "ok",
+  "correct": true,
+  "jevAccepted": false,
+  "safetyAccepted": true,
+  "latencyMs": 1537.1844699999783,
+  "timing": "measured-live-sequential",
+  "components": [
+    "a4568cb7fea2d7cb9de12034c65ccfefb81639d4399ef0edaee00443169c5c56__gemini"
+  ],
+  "accountedUsd": 0.0006255
+}

@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2694",
+    "text": "I made an out of country transfer and it hasn't went through yet.",
+    "expected": "balance_not_updated_after_bank_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "44f068527c86766624b48a20231b0c1e5a0435cca40e5be4b3ac03e3e49a6bda",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "baseline",
+  "key": "9aec672b8e5f1db31eca79c7608cdecdd19b3c1c77dc65f1958cef2fd1820802",
+  "at": "2026-09-22T05:57:26.326Z"
+}

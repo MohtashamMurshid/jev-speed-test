@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1591",
+    "text": "The ATM isn't giving out any money.",
+    "expected": "declined_cash_withdrawal",
+    "dataset": "banking77",
+    "normalizedSha256": "6b1d342b4177cb3044a5768a9d87b5be7e53181984058114b3928be327394255",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "4d15a177f18f487fa5a0cc21267915623c47ae510bd743ea66266ff8ffdeebf9",
+  "at": "2026-09-22T05:44:20.632Z"
+}

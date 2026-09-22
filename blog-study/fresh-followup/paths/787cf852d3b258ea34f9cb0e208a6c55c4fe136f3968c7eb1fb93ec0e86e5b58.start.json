@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-568",
+    "text": "My contactless payments have not been completed successfully.",
+    "expected": "contactless_not_working",
+    "dataset": "banking77",
+    "normalizedSha256": "f4d4ace6e70c81fa67e23ef36bfa323dcdc96caa8b156c33e4f0851b36ec000d",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "787cf852d3b258ea34f9cb0e208a6c55c4fe136f3968c7eb1fb93ec0e86e5b58",
+  "at": "2026-09-22T05:55:44.152Z"
+}

@@ -1,0 +1,19 @@
+{
+  "cohort": "oos",
+  "item": {
+    "id": "clinc-test-2136",
+    "text": "will peas work instead of carrots",
+    "expected": null,
+    "sourceCategory": "ingredient_substitution",
+    "dataset": "clinc150",
+    "inScope": false,
+    "normalizedSha256": "b63133adba793db887fe2e258ce4bc134eea287eb9959a07eb2ef2557739df9c",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "fdfe006a674d3892a0cb943588c20cfede8ce2149e61ad87cbe1a8766a46802b",
+  "at": "2026-09-22T06:16:19.949Z"
+}

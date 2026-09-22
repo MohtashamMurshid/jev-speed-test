@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2477",
+    "text": "How can I top-up my card?",
+    "expected": "top_up_by_cash_or_cheque",
+    "dataset": "banking77",
+    "normalizedSha256": "f2e65f682d62bbfe9fb9c3b0cba87f7de4ed381545bf7ad6264864aa19181c63",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "cdc2cd1d8da2603b98f54ad8ccf700bb16d484535d1b994304f047526710c1ea",
+  "at": "2026-09-22T05:43:46.511Z"
+}

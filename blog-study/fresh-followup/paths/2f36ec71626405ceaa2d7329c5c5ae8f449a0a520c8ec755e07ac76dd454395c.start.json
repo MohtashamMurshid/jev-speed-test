@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-156",
+    "text": "How can I check the exchange rate applied to my transaction?",
+    "expected": "card_payment_wrong_exchange_rate",
+    "dataset": "banking77",
+    "normalizedSha256": "e536fe923786edc7553b0a4bbacda57dbb83fba39cc46df87aa30cbd8beb374e",
+    "pathOrder": [
+      "gemini",
+      "cascade"
+    ]
+  },
+  "path": "cascade",
+  "key": "2f36ec71626405ceaa2d7329c5c5ae8f449a0a520c8ec755e07ac76dd454395c",
+  "at": "2026-09-22T06:01:59.989Z"
+}

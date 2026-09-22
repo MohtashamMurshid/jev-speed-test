@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-2713",
+    "text": "Where is my transfer from [country]?",
+    "expected": "balance_not_updated_after_bank_transfer",
+    "dataset": "banking77",
+    "normalizedSha256": "194674595777e61f86624a6c0c4810dc8ca13f8c54bce58af5dee6a83edd83a2",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "baseline",
+  "key": "cd52f068d4a919102cbb2be1b9deb572c2b4f8f5c0fb5f78502a6fe978021a3a",
+  "at": "2026-09-22T05:54:36.633Z"
+}

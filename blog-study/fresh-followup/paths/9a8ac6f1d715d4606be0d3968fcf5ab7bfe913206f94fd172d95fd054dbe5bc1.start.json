@@ -1,0 +1,17 @@
+{
+  "cohort": "cases",
+  "item": {
+    "id": "test-1451",
+    "text": "What ATMs is the card okay to use at?",
+    "expected": "atm_support",
+    "dataset": "banking77",
+    "normalizedSha256": "1f2d51e100871fb122c8a33b76cb790576c838fe43bd0f7a2954d9af48cdaf7b",
+    "pathOrder": [
+      "cascade",
+      "gemini"
+    ]
+  },
+  "path": "cascade",
+  "key": "9a8ac6f1d715d4606be0d3968fcf5ab7bfe913206f94fd172d95fd054dbe5bc1",
+  "at": "2026-09-22T05:55:38.144Z"
+}
