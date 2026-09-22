@@ -19,7 +19,7 @@ Accuracy includes all 500 chosen cases. An API or contract failure counts as inc
 | Real Jev to Gemini cascade | 424/500 | 84.8%, CI 81.4% to 87.7% | 1,867 ms | 3,303 ms | 0 chosen-response failures |
 | Local TF-IDF + logistic regression | 425/500 | 85.0%, CI 81.6% to 87.9% | 0.730 CPU ms | 1.281 CPU ms | 0 |
 
-The hosted timing denominator is 500 valid cases for Jev and the cascade, and 499 for Gemini. Local CPU prediction timing includes vectorization and prediction, but excludes model fitting. It is not a hosted/network latency comparison. Percentiles use the higher observed quantile in the core analysis.
+The hosted timing denominator is 500 valid cases for Jev and the cascade, and 499 for Gemini. Local CPU prediction timing includes vectorization and prediction, but excludes model fitting. It is not a hosted/network latency comparison. The median uses NumPy's standard median calculation; p95 uses the higher observed quantile in the core analysis.
 
 ![Fresh accuracy with intervals](analysis/accuracy.png)
 
